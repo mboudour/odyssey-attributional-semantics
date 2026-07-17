@@ -50,13 +50,16 @@ def _git_commit(root: Path) -> str | None:
 
 def _write_validation_sample(events: pd.DataFrame, path: Path, per_stratum: int = 3) -> None:
     frame = events.copy()
-    sample = (
-        frame.groupby(["translation_id", "category", "relation"], group_keys=False)
-        .apply(lambda group: group.sample(n=min(per_stratum, len(group)), random_state=SEED), include_groups=False)
-        .reset_index(drop=True)
-    )
+    grouping_columns = ["translation_id", "category", "relation"]
+    sampled_indices: list[int] = []
+    for _, group in frame.groupby(grouping_columns, sort=True, dropna=False):
+        sampled_indices.extend(
+            group.sample(n=min(per_stratum, len(group)), random_state=SEED).index.tolist()
+        )
+    sample = frame.loc[sampled_indices].reset_index(drop=True)
     if len(sample) > 360:
-        sample = sample.sample(n=360, random_state=SEED).sort_values(["translation_id", "book", "passage"])
+        sample = sample.sample(n=360, random_state=SEED)
+    sample = sample.sort_values(["translation_id", "book", "passage", "sentence_index"])
     sample["gold_target_correct"] = ""
     sample["gold_attribute_correct"] = ""
     sample["gold_relation_correct"] = ""
@@ -81,21 +84,43 @@ Report precision with Wilson 95% intervals overall and separately by translation
 
 
 def _manifest(root: Path, start: datetime, end: datetime, counts: dict) -> dict:
-    include_roots = [root / "config", root / "data" / "raw", root / "data" / "processed", root / "src", root / "scripts", root / "tests", root / "models", root / "outputs"]
+    include_paths = [
+        root / "config",
+        root / "data" / "raw",
+        root / "data" / "processed",
+        root / "docs",
+        root / "src",
+        root / "scripts",
+        root / "tests",
+        root / "models",
+        root / "outputs",
+        root / "README.md",
+        root / "Makefile",
+        root / "pyproject.toml",
+        root / "requirements-lock.txt",
+        root / "environment.freeze.txt",
+        root / "data" / "raw_checksums.sha256",
+    ]
+    candidate_files: set[Path] = set()
+    for include_path in include_paths:
+        if include_path.is_file():
+            candidate_files.add(include_path)
+        elif include_path.is_dir():
+            candidate_files.update(item for item in include_path.rglob("*") if item.is_file())
     files = []
-    for include_root in include_roots:
-        if not include_root.exists():
+    for path in sorted(candidate_files):
+        relative = path.relative_to(root)
+        if "__pycache__" in relative.parts or path.suffix in {".pyc", ".pyo"}:
             continue
-        for path in sorted(item for item in include_root.rglob("*") if item.is_file()):
-            files.append(
-                {
-                    "path": str(path.relative_to(root)),
-                    "bytes": path.stat().st_size,
-                    "sha256": _sha256(path),
-                }
-            )
+        files.append(
+            {
+                "path": str(relative),
+                "bytes": path.stat().st_size,
+                "sha256": _sha256(path),
+            }
+        )
     packages = {}
-    for name in ["numpy", "pandas", "scipy", "scikit-learn", "networkx", "matplotlib", "seaborn", "statsmodels"]:
+    for name in ["numpy", "pandas", "scipy", "scikit-learn", "networkx", "matplotlib", "seaborn", "tabulate", "pytest"]:
         try:
             packages[name] = importlib.metadata.version(name)
         except importlib.metadata.PackageNotFoundError:
