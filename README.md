@@ -17,7 +17,7 @@ The distributable corpus contains six complete English translations whose source
 | `butler_1900` | Samuel Butler | 1900 | Prose | Public domain in the United States |
 | `murray_1919` | A. T. Murray | 1919 | Prose | Public domain in the United States |
 
-The package also preserves a documented audiovisual extension for *L’Odissea* (1911), including English subtitle files distributed under **CC BY-SA 4.0**. The film material is retained as an auditable extension and is not pooled with the six-translation estimands in the main pipeline.
+The project intends to extend its audiovisual component to include a transcript of Christopher Nolan’s The Odyssey if an official transcript becomes publicly available under terms that permit scholarly reuse and repository distribution. Until then, the documented audiovisual component consists of the English subtitle files for L’Odissea (1911), distributed under CC BY-SA 4.0, which serve as an auditable placeholder. This material is retained as a placeholder and is not pooled with the six-translation estimands in the main pipeline.
 
 ## Methods
 
