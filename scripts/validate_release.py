@@ -93,9 +93,16 @@ def validate(root: Path) -> dict[str, int | str]:
     head = subprocess.check_output(
         ["git", "-C", str(root), "rev-parse", "HEAD"], text=True
     ).strip()
-    if manifest.get("git_commit") != head:
+    source_commit = manifest.get("git_commit")
+    if not source_commit:
+        raise ValueError("Manifest does not record a source Git commit")
+    ancestry = subprocess.run(
+        ["git", "-C", str(root), "merge-base", "--is-ancestor", source_commit, head],
+        check=False,
+    )
+    if ancestry.returncode != 0:
         raise ValueError(
-            f"Manifest source commit {manifest.get('git_commit')} does not match HEAD {head}"
+            f"Manifest source commit {source_commit} is not an ancestor of HEAD {head}"
         )
 
     return {
@@ -105,7 +112,8 @@ def validate(root: Path) -> dict[str, int | str]:
         "hypergraphs_checked": len(hypergraph_json),
         "graphml_files_checked": len(graphml_files),
         "embedding_rows_checked": int(embeddings.shape[0]),
-        "source_commit": head,
+        "source_commit": source_commit,
+        "repository_head": head,
     }
 
 
