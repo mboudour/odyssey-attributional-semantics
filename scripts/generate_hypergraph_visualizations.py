@@ -173,17 +173,25 @@ def set_matplotlib_style(config: dict[str, Any]) -> None:
     )
 
 
+def _normalize_svg_whitespace(path: Path) -> None:
+    """Remove exporter-introduced trailing whitespace for clean, reproducible SVG diffs."""
+    normalized = "\n".join(line.rstrip() for line in path.read_text(encoding="utf-8").splitlines()) + "\n"
+    path.write_text(normalized, encoding="utf-8")
+
+
 def save_figure(figure: plt.Figure, output_base: Path, config: dict[str, Any], dpi: int) -> None:
     formats = config["output_formats"]
     if formats.get("png", True):
         figure.savefig(output_base.with_suffix(".png"), dpi=dpi, facecolor=figure.get_facecolor(), bbox_inches="tight")
     if formats.get("svg", True):
+        svg_path = output_base.with_suffix(".svg")
         figure.savefig(
-            output_base.with_suffix(".svg"),
+            svg_path,
             facecolor=figure.get_facecolor(),
             bbox_inches="tight",
             metadata={"Date": None},
         )
+        _normalize_svg_whitespace(svg_path)
 
 
 def draw_projection_static(
@@ -662,7 +670,7 @@ def write_gallery(output_root: Path, labels: dict[str, str], rows: list[dict[str
     (output_root / "README.md").write_text("\n".join(lines), encoding="utf-8")
     fieldnames = sorted({key for row in rows for key in row})
     with (output_root / "visualization_inventory.csv").open("w", encoding="utf-8", newline="") as handle:
-        writer = csv.DictWriter(handle, fieldnames=fieldnames)
+        writer = csv.DictWriter(handle, fieldnames=fieldnames, lineterminator="\n")
         writer.writeheader()
         writer.writerows(rows)
 

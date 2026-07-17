@@ -163,7 +163,7 @@ def main(paths: list[str], out_csv: Path, out_json: Path) -> None:
     fieldnames = sorted({key for row in rows for key in row})
     out_csv.parent.mkdir(parents=True, exist_ok=True)
     with out_csv.open("w", encoding="utf-8", newline="") as f:
-        writer = csv.DictWriter(f, fieldnames=fieldnames)
+        writer = csv.DictWriter(f, fieldnames=fieldnames, lineterminator="\n")
         writer.writeheader()
         writer.writerows(rows)
     out_json.write_text(json.dumps(rows, ensure_ascii=False, indent=2), encoding="utf-8")

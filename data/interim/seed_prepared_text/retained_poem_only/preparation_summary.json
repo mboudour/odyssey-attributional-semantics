@@ -1,0 +1,18 @@
+{
+  "butler": {
+    "epub": "Homer_Odyssey_Butler_1900_ProjectGutenberg.epub",
+    "books": 24,
+    "word_tokens": 117653,
+    "text": "butler_1900_poem_only_books_1_24.txt",
+    "provenance": "butler_1900_poem_only_book_provenance.json"
+  },
+  "murray": {
+    "books": 24,
+    "word_tokens": 133448,
+    "text": "murray_1919_books_1_24.txt",
+    "provenance": "murray_1919_book_provenance.json"
+  },
+  "murray_vol1_kept_pages": 249,
+  "murray_vol2_kept_pages": 230,
+  "native_book_anchor_count_per_translation": 24
+}

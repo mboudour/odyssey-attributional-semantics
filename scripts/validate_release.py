@@ -34,10 +34,11 @@ def validate(root: Path) -> dict[str, int | str]:
 
     expected_rows = {
         "data/processed/books.csv": counts["books"],
-        "data/processed/passages.csv": counts["passage_records"],
+        "data/processed/book_anchors.csv": counts["book_anchor_records"],
         "data/processed/attribution_events.csv": counts["attribution_events"],
         "data/processed/validation_sample.csv": 360,
-        "outputs/tables/alignment_anchors.csv": counts["matched_passage_anchors"],
+        "data/processed/alignment_book_anchors.csv": counts["native_book_anchors"],
+        "outputs/tables/alignment_anchors.csv": counts["native_book_anchors"],
         "outputs/tables/translation_summary.csv": counts["translations"],
         "outputs/tables/category_summary.csv": counts["translations"] * counts["categories"],
         "models/event_context_metadata.csv": counts["attribution_events"],

@@ -3,7 +3,7 @@ from __future__ import annotations
 import json
 from pathlib import Path
 
-from odyssey_attr.corpus import books_to_passages, load_all_books
+from odyssey_attr.corpus import books_to_anchors, load_all_books
 from odyssey_attr.extract import extract_events
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -34,19 +34,20 @@ def test_all_translations_segment_to_twenty_four_books() -> None:
     assert all(numbers == set(range(1, 25)) for numbers in per_translation.values())
 
 
-def test_common_passage_grid_and_event_schema() -> None:
+def test_native_book_anchors_and_event_schema() -> None:
     books = load_all_books(ROOT, ROOT / "config" / "corpus.json")
-    passages = books_to_passages(books, bins_per_book=20)
-    assert len(passages) == 6 * 24 * 20
-    assert len({passage.passage_id for passage in passages}) == 24 * 20
+    anchors = books_to_anchors(books)
+    assert len(anchors) == 6 * 24
+    assert {anchor.anchor_id for anchor in anchors} == {f"book_{book:02d}" for book in range(1, 25)}
+    assert all(anchor.anchor_id == f"book_{anchor.book:02d}" for anchor in anchors)
     events = extract_events(
-        passages[:120],
+        anchors,
         ROOT / "config" / "ontology.json",
         ROOT / "config" / "entities.json",
     )
     assert events
     assert all(0 < event.extraction_confidence <= 1 for event in events)
-    assert all(event.target and event.attribute and event.category for event in events)
+    assert all(event.target and event.attribute and event.category and event.anchor_id for event in events)
     assert {event.relation for event in events} <= {
         "prepositive_modifier",
         "copular_predicate",

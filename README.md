@@ -2,7 +2,7 @@
 Moses Boudourides<br>
 Project in Progress
 
-This repository provides a **rights-safe, reproducible computational research package** for comparing color-related and evaluative adjective–noun attributions across six public-domain English translations of Homer’s *Odyssey*. The pipeline combines rule-based attribution extraction, structurally aligned passage comparison, confidence-weighted statistics, memory-bounded contextual semantics, and weighted multilayer hypergraphs.
+This repository provides a **rights-safe, reproducible computational research package** for comparing color-related and evaluative adjective–noun attributions across six public-domain English translations of Homer’s *Odyssey*. The pipeline uses poem-only prepared text, native Book I–XXIV comparison anchors, rule-based attribution extraction, confidence-weighted statistics, memory-bounded contextual semantics, and weighted multilayer hypergraphs.
 
 ## Corpus
 
@@ -21,9 +21,9 @@ The project intends to extend its audiovisual component to include a transcript 
 
 ## Methods
 
-The workflow segments each translation into 24 books and 20 relative passage bins per book, producing a common grid of **480 anchors per translation**. It extracts canonical target–attribute events using explicit syntactic templates, records segmentation and extraction confidence, and retains sentence context for manual auditing.
+The workflow retains poem text only: it excludes contents pages, translator prefaces, introductions, editorial notes, appendices, glosses, publisher advertisements, and other paratext. Each translation is anchored to its **24 native Homeric books** (`book_01` through `book_24`); it does not subdivide books into artificial proportional bins. Butler’s and the four Gutenberg editions are extracted from book-level source markup. Murray is extracted from original Loeb scan pages with page-level provenance and audited native starts, including the OCR-obscured Books III, V, IX, and XI.
 
-The analysis reports confidence-weighted event rates, pairwise Jensen–Shannon divergence, exploratory lexical distinctiveness, exact chronological permutation tests, matched-passage bootstrap intervals, and a sparse contextual baseline based on TF–IDF unigrams/bigrams followed by Truncated SVD. Each translation is also represented as a weighted hypergraph in which canonical targets are hyperedges and normalized attributes are vertices.
+The analysis reports confidence-weighted event rates, pairwise Jensen–Shannon divergence, exploratory lexical distinctiveness, exact chronological permutation tests, matched-book bootstrap intervals, and a sparse contextual baseline based on TF–IDF unigrams/bigrams followed by Truncated SVD. Each translation is also represented as a weighted hypergraph in which canonical targets are hyperedges and normalized attributes are vertices.
 
 > The automatic extraction results are a research baseline, not a substitute for human annotation. Substantive interpretation should follow review of `data/processed/validation_sample.csv` under the supplied protocol.
 
@@ -33,8 +33,9 @@ Python 3.12 is required. From the repository root, create an isolated environmen
 
 ```bash
 python3 -m venv .venv
-.venv/bin/pip install --upgrade pip
-.venv/bin/pip install -r requirements-lock.txt
+. .venv/bin/activate
+pip install --upgrade pip
+pip install -r requirements-lock.txt
 make reproduce
 ```
 
@@ -72,13 +73,16 @@ Thread counts are capped by the `Makefile` to keep numerical work memory-bounded
 | [`outputs/hypergraph_visualizations/projection_static/`](outputs/hypergraph_visualizations/projection_static/) | Twelve configurable static projection figures in PNG and SVG |
 | [`outputs/hypergraph_visualizations/xgi_native/`](outputs/hypergraph_visualizations/xgi_native/) | Six configurable native XGI hull and bipartite-incidence figures in PNG and SVG |
 | [`config/visualizations.json`](config/visualizations.json) | User-editable colors, fonts, sizes, labels, layouts, selection limits, PyVis physics, and output formats |
+| `data/processed/book_anchors.csv` | One complete native Book I–XXIV anchor per translation and book |
+| `data/processed/alignment_book_anchors.csv` | Pairwise and aggregate diagnostics for the 24 native book anchors |
 | `data/processed/attribution_events.csv` | Complete machine-readable attribution event table |
 | `data/processed/validation_sample.csv` | Stratified 360-event annotation sample |
 | `models/` | TF–IDF/SVD vocabulary, components, event vectors, centroids, and metadata |
 | `run_manifest.json` | Run counts, environment details, Git revision, and file checksums |
+| [`docs/NATIVE_BOOK_ANCHOR_METHOD.md`](docs/NATIVE_BOOK_ANCHOR_METHOD.md) | Poem-only source policy, audited book boundaries, and native-anchor design |
 | `docs/Odyssey_Computational_Protocol_v2.md` | Formal research protocol and estimands |
 
-The successful reference run contains **762,798 corpus words**, **12,176 extracted attribution events**, **96 canonical targets**, **179 normalized attributes**, and **12 ontology categories**.
+The successful native-book reference run contains **735,316 corpus words**, **13,226 extracted attribution events**, **96 canonical targets**, **181 normalized attributes**, and **12 ontology categories**.
 
 ## Validation and interpretation
 
@@ -88,7 +92,7 @@ Chronological estimates are descriptive. Publication year is confounded with tra
 
 ## Rights and provenance
 
-The authoritative registry in `config/corpus.json`, the decision log in `docs/corpus_decision_log.csv`, the manifest in `docs/corpus_manifest.json`, and `data/raw_checksums.sha256` document provenance and rights metadata. Modern copyrighted translations are intentionally excluded from the distributable package. Researchers may add lawfully obtained restricted texts locally under ignored private directories, but must not redistribute them through this repository.
+The authoritative registry in `config/corpus.json`, the decision log in `docs/corpus_decision_log.csv`, the manifest in `docs/corpus_manifest.json`, the per-book provenance sidecars in `data/interim/seed_prepared_text/`, and `data/raw_checksums.sha256` document provenance and rights metadata. Modern copyrighted translations are intentionally excluded from the distributable package. Researchers may add lawfully obtained restricted texts locally under ignored private directories, but must not redistribute them through this repository.
 
 ## Repository status
 

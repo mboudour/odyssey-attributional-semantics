@@ -20,9 +20,9 @@ def _weighted_events(events: pd.DataFrame) -> pd.Series:
     return events["extraction_confidence"].astype(float) * sign
 
 
-def translation_summaries(passages: pd.DataFrame, events: pd.DataFrame) -> dict[str, pd.DataFrame]:
+def translation_summaries(anchors: pd.DataFrame, events: pd.DataFrame) -> dict[str, pd.DataFrame]:
     words = (
-        passages.groupby(["translation_id", "translator", "year", "form"], as_index=False)["word_count"]
+        anchors.groupby(["translation_id", "translator", "year", "form"], as_index=False)["word_count"]
         .sum()
         .rename(columns={"word_count": "corpus_words"})
     )
@@ -135,7 +135,7 @@ def chronological_tests(category: pd.DataFrame, translation_meta: pd.DataFrame) 
 
 
 def bootstrap_chronology(
-    passages: pd.DataFrame,
+    anchors: pd.DataFrame,
     events: pd.DataFrame,
     translation_meta: pd.DataFrame,
     iterations: int = 500,
@@ -145,17 +145,17 @@ def bootstrap_chronology(
     translations = translation_meta.sort_values("year")["translation_id"].tolist()
     years = translation_meta.set_index("translation_id").loc[translations, "year"].to_numpy(dtype=float)
     categories = sorted(events["category"].unique())
-    anchors = sorted(passages["passage_id"].unique())
-    word_grid = passages.pivot_table(index="passage_id", columns="translation_id", values="word_count", aggfunc="sum").reindex(index=anchors, columns=translations, fill_value=0)
+    anchor_ids = sorted(anchors["anchor_id"].unique())
+    word_grid = anchors.pivot_table(index="anchor_id", columns="translation_id", values="word_count", aggfunc="sum").reindex(index=anchor_ids, columns=translations, fill_value=0)
     enriched = events.copy()
     enriched["weighted_event"] = _weighted_events(enriched)
     event_grid = (
-        enriched.pivot_table(index="passage_id", columns=["translation_id", "category"], values="weighted_event", aggfunc="sum", fill_value=0)
-        .reindex(index=anchors, fill_value=0)
+        enriched.pivot_table(index="anchor_id", columns=["translation_id", "category"], values="weighted_event", aggfunc="sum", fill_value=0)
+        .reindex(index=anchor_ids, fill_value=0)
     )
     slopes = {category: [] for category in categories}
     for _ in range(iterations):
-        sample_indices = rng.integers(0, len(anchors), len(anchors))
+        sample_indices = rng.integers(0, len(anchor_ids), len(anchor_ids))
         sampled_words = word_grid.to_numpy()[sample_indices].sum(axis=0)
         for category in categories:
             values = []
@@ -250,7 +250,7 @@ def contextual_embeddings(events: pd.DataFrame, model_dir: Path, dimensions: int
         encoding="utf-8",
     )
     metadata = events[["event_id", "translation_id", "year", "target", "attribute", "category", "extraction_confidence"]].reset_index(drop=True)
-    metadata.to_csv(model_dir / "event_context_metadata.csv", index=False)
+    metadata.to_csv(model_dir / "event_context_metadata.csv", index=False, lineterminator="\n")
 
     centroids: list[dict] = []
     for (translation, target, category), index_values in metadata.groupby(["translation_id", "target", "category"]).groups.items():
@@ -295,4 +295,4 @@ def contextual_embeddings(events: pd.DataFrame, model_dir: Path, dimensions: int
 def save_tables(tables: dict[str, pd.DataFrame], output_dir: Path) -> None:
     output_dir.mkdir(parents=True, exist_ok=True)
     for name, table in tables.items():
-        table.to_csv(output_dir / f"{name}.csv", index=False)
+        table.to_csv(output_dir / f"{name}.csv", index=False, lineterminator="\n")

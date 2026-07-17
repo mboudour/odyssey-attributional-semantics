@@ -25,7 +25,7 @@ from .analysis import (
     save_tables,
     translation_summaries,
 )
-from .corpus import books_to_passages, load_all_books, write_books, write_passages
+from .corpus import books_to_anchors, load_all_books, write_book_anchors, write_books
 from .extract import extract_events, write_events
 from .hypergraph import construct_hypergraphs, null_similarity_tests
 from .reporting import make_figures, write_report
@@ -59,7 +59,7 @@ def _write_validation_sample(events: pd.DataFrame, path: Path, per_stratum: int 
     sample = frame.loc[sampled_indices].reset_index(drop=True)
     if len(sample) > 360:
         sample = sample.sample(n=360, random_state=SEED)
-    sample = sample.sort_values(["translation_id", "book", "passage", "sentence_index"])
+    sample = sample.sort_values(["translation_id", "book", "anchor_id", "sentence_index"])
     sample["gold_target_correct"] = ""
     sample["gold_attribute_correct"] = ""
     sample["gold_relation_correct"] = ""
@@ -70,7 +70,7 @@ def _write_validation_sample(events: pd.DataFrame, path: Path, per_stratum: int 
     sample["annotator"] = ""
     sample["notes"] = ""
     path.parent.mkdir(parents=True, exist_ok=True)
-    sample.to_csv(path, index=False)
+    sample.to_csv(path, index=False, lineterminator="\n")
 
 
 def _write_validation_instructions(path: Path) -> None:
@@ -154,27 +154,27 @@ def run(root: Path) -> dict:
         directory.mkdir(parents=True, exist_ok=True)
 
     books = load_all_books(root, config_dir / "corpus.json")
-    passages = books_to_passages(books, bins_per_book=20)
+    anchors = books_to_anchors(books)
     write_books(processed_dir / "books.csv", books)
-    write_passages(processed_dir / "passages.csv", passages)
+    write_book_anchors(processed_dir / "book_anchors.csv", anchors)
 
-    events = extract_events(passages, config_dir / "ontology.json", config_dir / "entities.json")
+    events = extract_events(anchors, config_dir / "ontology.json", config_dir / "entities.json")
     write_events(processed_dir / "attribution_events.csv", processed_dir / "attribution_events.jsonl", events)
 
     books_frame = pd.DataFrame([asdict(item) for item in books])
-    passages_frame = pd.DataFrame([asdict(item) for item in passages])
+    anchors_frame = pd.DataFrame([asdict(item) for item in anchors])
     events_frame = pd.DataFrame([asdict(item) for item in events])
 
-    pairwise_alignment, anchor_alignment = compute_alignment(passages)
-    write_alignment(processed_dir / "alignment_pairwise.csv", processed_dir / "alignment_anchors.csv", pairwise_alignment, anchor_alignment)
+    pairwise_alignment, anchor_alignment = compute_alignment(anchors)
+    write_alignment(processed_dir / "alignment_pairwise.csv", processed_dir / "alignment_book_anchors.csv", pairwise_alignment, anchor_alignment)
     pairwise_frame = pd.DataFrame(pairwise_alignment)
     anchor_frame = pd.DataFrame(anchor_alignment)
 
-    summaries = translation_summaries(passages_frame, events_frame)
+    summaries = translation_summaries(anchors_frame, events_frame)
     translation_meta = summaries["translation"][["translation_id", "translator", "year", "form"]]
     divergence = category_divergence(summaries["category"], translation_meta)
     chronology = chronological_tests(summaries["category"], translation_meta)
-    bootstrap = bootstrap_chronology(passages_frame, events_frame, translation_meta, iterations=500, seed=SEED)
+    bootstrap = bootstrap_chronology(anchors_frame, events_frame, translation_meta, iterations=500, seed=SEED)
     distinctiveness = lexical_distinctiveness(summaries["attribute"])
     centroid_table, context_comparisons = contextual_embeddings(events_frame, model_dir, dimensions=40)
 
@@ -207,11 +207,11 @@ def run(root: Path) -> dict:
 
     completed = datetime.now(timezone.utc)
     counts = {
-        "translations": int(passages_frame["translation_id"].nunique()),
+        "translations": int(anchors_frame["translation_id"].nunique()),
         "books": len(books_frame),
-        "matched_passage_anchors": int(passages_frame["passage_id"].nunique()),
-        "passage_records": len(passages_frame),
-        "corpus_words": int(passages_frame["word_count"].sum()),
+        "native_book_anchors": int(anchors_frame["anchor_id"].nunique()),
+        "book_anchor_records": len(anchors_frame),
+        "corpus_words": int(anchors_frame["word_count"].sum()),
         "attribution_events": len(events_frame),
         "targets": int(events_frame["target"].nunique()),
         "attributes": int(events_frame["attribute"].nunique()),

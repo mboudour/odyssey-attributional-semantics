@@ -3,144 +3,192 @@
     "book": 1,
     "epub_member": "OEBPS/5342924942723835123_48895-h-3.htm.xhtml",
     "heading": "THE FIRST BOOK OF HOMER’S ODYSSEYS",
-    "word_tokens": 6509
+    "extraction_method": "edition_specific_poem_only_html_selectors",
+    "selector_rule": "poem begins at p.noindent; argument and footnote paragraphs excluded",
+    "word_tokens": 5378
   },
   {
     "book": 2,
     "epub_member": "OEBPS/5342924942723835123_48895-h-4.htm.xhtml",
     "heading": "THE SECOND BOOK OF HOMER’S ODYSSEYS",
-    "word_tokens": 5270
+    "extraction_method": "edition_specific_poem_only_html_selectors",
+    "selector_rule": "poem begins at p.noindent; argument and footnote paragraphs excluded",
+    "word_tokens": 4979
   },
   {
     "book": 3,
     "epub_member": "OEBPS/5342924942723835123_48895-h-5.htm.xhtml",
     "heading": "THE THIRD BOOK OF HOMER’S ODYSSEYS",
-    "word_tokens": 5777
+    "extraction_method": "edition_specific_poem_only_html_selectors",
+    "selector_rule": "poem begins at p.noindent; argument and footnote paragraphs excluded",
+    "word_tokens": 5345
   },
   {
     "book": 4,
     "epub_member": "OEBPS/5342924942723835123_48895-h-6.htm.xhtml",
     "heading": "THE FOURTH BOOK OF HOMER’S ODYSSEYS",
-    "word_tokens": 9809
+    "extraction_method": "edition_specific_poem_only_html_selectors",
+    "selector_rule": "poem begins at p.noindent; argument and footnote paragraphs excluded",
+    "word_tokens": 9150
   },
   {
     "book": 5,
     "epub_member": "OEBPS/5342924942723835123_48895-h-7.htm.xhtml",
     "heading": "THE FIFTH BOOK OF HOMER’S ODYSSEYS",
-    "word_tokens": 6021
+    "extraction_method": "edition_specific_poem_only_html_selectors",
+    "selector_rule": "poem begins at p.noindent; argument and footnote paragraphs excluded",
+    "word_tokens": 5446
   },
   {
     "book": 6,
     "epub_member": "OEBPS/5342924942723835123_48895-h-8.htm.xhtml",
     "heading": "THE SIXTH BOOK OF HOMER’S ODYSSEYS",
-    "word_tokens": 4932
+    "extraction_method": "edition_specific_poem_only_html_selectors",
+    "selector_rule": "poem begins at p.noindent; argument and footnote paragraphs excluded",
+    "word_tokens": 4204
   },
   {
     "book": 7,
     "epub_member": "OEBPS/5342924942723835123_48895-h-9.htm.xhtml",
     "heading": "THE SEVENTH BOOK OF HOMER’S ODYSSEYS",
-    "word_tokens": 4419
+    "extraction_method": "edition_specific_poem_only_html_selectors",
+    "selector_rule": "poem begins at p.noindent; argument and footnote paragraphs excluded",
+    "word_tokens": 3862
   },
   {
     "book": 8,
     "epub_member": "OEBPS/5342924942723835123_48895-h-10.htm.xhtml",
     "heading": "THE EIGHTH BOOK OF HOMER’S ODYSSEYS",
-    "word_tokens": 7258
+    "extraction_method": "edition_specific_poem_only_html_selectors",
+    "selector_rule": "poem begins at p.noindent; argument and footnote paragraphs excluded",
+    "word_tokens": 6529
   },
   {
     "book": 9,
     "epub_member": "OEBPS/5342924942723835123_48895-h-11.htm.xhtml",
     "heading": "THE NINTH BOOK OF HOMER’S ODYSSEYS",
-    "word_tokens": 6880
+    "extraction_method": "edition_specific_poem_only_html_selectors",
+    "selector_rule": "poem begins at p.noindent; argument and footnote paragraphs excluded",
+    "word_tokens": 6272
   },
   {
     "book": 10,
     "epub_member": "OEBPS/5342924942723835123_48895-h-12.htm.xhtml",
     "heading": "THE TENTH BOOK OF HOMER’S ODYSSEYS",
-    "word_tokens": 6680
+    "extraction_method": "edition_specific_poem_only_html_selectors",
+    "selector_rule": "poem begins at p.noindent; argument and footnote paragraphs excluded",
+    "word_tokens": 5941
   },
   {
     "book": 11,
     "epub_member": "OEBPS/5342924942723835123_48895-h-13.htm.xhtml",
     "heading": "THE ELEVENTH BOOK OF HOMER’S ODYSSEYS",
-    "word_tokens": 7404
+    "extraction_method": "edition_specific_poem_only_html_selectors",
+    "selector_rule": "poem begins at p.noindent; argument and footnote paragraphs excluded",
+    "word_tokens": 6853
   },
   {
     "book": 12,
     "epub_member": "OEBPS/5342924942723835123_48895-h-14.htm.xhtml",
     "heading": "THE TWELFTH BOOK OF HOMER’S ODYSSEYS",
-    "word_tokens": 6328
+    "extraction_method": "edition_specific_poem_only_html_selectors",
+    "selector_rule": "poem begins at p.noindent; argument and footnote paragraphs excluded",
+    "word_tokens": 5249
   },
   {
     "book": 13,
     "epub_member": "OEBPS/5342924942723835123_48895-h-15.htm.xhtml",
     "heading": "THE THIRTEENTH BOOK OF HOMER’S ODYSSEYS",
-    "word_tokens": 5530
+    "extraction_method": "edition_specific_poem_only_html_selectors",
+    "selector_rule": "poem begins at p.noindent; argument and footnote paragraphs excluded",
+    "word_tokens": 5153
   },
   {
     "book": 14,
     "epub_member": "OEBPS/5342924942723835123_48895-h-16.htm.xhtml",
     "heading": "THE FOURTEENTH BOOK OF HOMER’S ODYSSEYS",
-    "word_tokens": 6549
+    "extraction_method": "edition_specific_poem_only_html_selectors",
+    "selector_rule": "poem begins at p.noindent; argument and footnote paragraphs excluded",
+    "word_tokens": 6220
   },
   {
     "book": 15,
     "epub_member": "OEBPS/5342924942723835123_48895-h-17.htm.xhtml",
     "heading": "THE FIFTEENTH BOOK OF HOMER’S ODYSSEYS",
-    "word_tokens": 6250
+    "extraction_method": "edition_specific_poem_only_html_selectors",
+    "selector_rule": "poem begins at p.noindent; argument and footnote paragraphs excluded",
+    "word_tokens": 5879
   },
   {
     "book": 16,
     "epub_member": "OEBPS/5342924942723835123_48895-h-18.htm.xhtml",
     "heading": "THE SIXTEENTH BOOK OF HOMER’S ODYSSEYS",
-    "word_tokens": 5547
+    "extraction_method": "edition_specific_poem_only_html_selectors",
+    "selector_rule": "poem begins at p.noindent; argument and footnote paragraphs excluded",
+    "word_tokens": 5264
   },
   {
     "book": 17,
     "epub_member": "OEBPS/5342924942723835123_48895-h-19.htm.xhtml",
     "heading": "THE SEVENTEENTH BOOK OF HOMER’S ODYSSEYS",
-    "word_tokens": 6850
+    "extraction_method": "edition_specific_poem_only_html_selectors",
+    "selector_rule": "poem begins at p.noindent; argument and footnote paragraphs excluded",
+    "word_tokens": 6518
   },
   {
     "book": 18,
     "epub_member": "OEBPS/5342924942723835123_48895-h-20.htm.xhtml",
     "heading": "THE EIGHTEENTH BOOK OF HOMER’S ODYSSEYS",
-    "word_tokens": 5293
+    "extraction_method": "edition_specific_poem_only_html_selectors",
+    "selector_rule": "poem begins at p.noindent; argument and footnote paragraphs excluded",
+    "word_tokens": 4998
   },
   {
     "book": 19,
     "epub_member": "OEBPS/5342924942723835123_48895-h-21.htm.xhtml",
     "heading": "THE NINETEENTH BOOK OF HOMER’S ODYSSEYS",
-    "word_tokens": 6961
+    "extraction_method": "edition_specific_poem_only_html_selectors",
+    "selector_rule": "poem begins at p.noindent; argument and footnote paragraphs excluded",
+    "word_tokens": 6629
   },
   {
     "book": 20,
     "epub_member": "OEBPS/5342924942723835123_48895-h-22.htm.xhtml",
     "heading": "THE TWENTIETH BOOK OF HOMER’S ODYSSEYS",
-    "word_tokens": 4960
+    "extraction_method": "edition_specific_poem_only_html_selectors",
+    "selector_rule": "poem begins at p.noindent; argument and footnote paragraphs excluded",
+    "word_tokens": 4736
   },
   {
     "book": 21,
     "epub_member": "OEBPS/5342924942723835123_48895-h-23.htm.xhtml",
     "heading": "THE TWENTY-FIRST BOOK OF HOMER’S ODYSSEYS",
-    "word_tokens": 4965
+    "extraction_method": "edition_specific_poem_only_html_selectors",
+    "selector_rule": "poem begins at p.noindent; argument and footnote paragraphs excluded",
+    "word_tokens": 4736
   },
   {
     "book": 22,
     "epub_member": "OEBPS/5342924942723835123_48895-h-24.htm.xhtml",
     "heading": "THE TWENTY-SECOND BOOK OF HOMER’S ODYSSEYS",
-    "word_tokens": 5466
+    "extraction_method": "edition_specific_poem_only_html_selectors",
+    "selector_rule": "poem begins at p.noindent; argument and footnote paragraphs excluded",
+    "word_tokens": 5196
   },
   {
     "book": 23,
     "epub_member": "OEBPS/5342924942723835123_48895-h-25.htm.xhtml",
     "heading": "THE TWENTY-THIRD BOOK OF HOMER’S ODYSSEYS",
-    "word_tokens": 4566
+    "extraction_method": "edition_specific_poem_only_html_selectors",
+    "selector_rule": "poem begins at p.noindent; argument and footnote paragraphs excluded",
+    "word_tokens": 4306
   },
   {
     "book": 24,
     "epub_member": "OEBPS/5342924942723835123_48895-h-26.htm.xhtml",
     "heading": "THE TWENTY-FOURTH BOOK OF HOMER’S ODYSSEYS",
-    "word_tokens": 6051
+    "extraction_method": "edition_specific_poem_only_html_selectors",
+    "selector_rule": "poem begins at p.noindent; argument and footnote paragraphs excluded",
+    "word_tokens": 5720
   }
 ]

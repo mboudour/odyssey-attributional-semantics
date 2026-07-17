@@ -19,7 +19,7 @@ def test_validation_sample_preserves_grouping_columns(tmp_path: Path) -> None:
                 "category": category,
                 "relation": relation,
                 "book": 1,
-                "passage": index + 1,
+                "anchor_id": "book_01",
                 "sentence_index": 1,
             }
             for index, (translation, category, relation) in enumerate(
@@ -37,7 +37,7 @@ def test_validation_sample_preserves_grouping_columns(tmp_path: Path) -> None:
     _write_validation_sample(events, destination, per_stratum=1)
 
     sample = pd.read_csv(destination)
-    assert {"translation_id", "category", "relation", "book", "passage"} <= set(sample.columns)
+    assert {"translation_id", "category", "relation", "book", "anchor_id"} <= set(sample.columns)
     assert len(sample) == 2
     assert sample.groupby(["translation_id", "category", "relation"]).size().max() == 1
 

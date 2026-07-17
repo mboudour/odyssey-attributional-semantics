@@ -119,7 +119,7 @@ A production implementation should generate these immutable tables:
 | Table | Primary key | Required fields |
 |---|---|---|
 | `editions.parquet` | `edition_id` | translator, translation year, edition year, form, source URL, checksum, rights class |
-| `passages.parquet` | `translation_id, passage_id` | book, Greek line start/end, English text, source page, character offsets |
+| `book_anchors.parquet` | `translation_id, book` | native Book I–XXIV text, source boundaries, source page or EPUB document, character offsets |
 | `alignments.parquet` | `alignment_id` | source span, translation span, alignment type, model score, manual status |
 | `mentions.parquet` | `mention_id` | target ID, surface form, lemma, sentence ID, coreference chain |
 | `attribution_events.parquet` | `event_id` | target, attribute, dependency relation, semantic labels, source anchor, confidence |
@@ -364,7 +364,7 @@ The final study should combine quantitative estimates with close reading of pass
 
 ## Conclusion
 
-The project is feasible and potentially original if it is built around a source-aligned event database, not a bag of adjective–noun pairs. The strict public-domain package now supplies six distinct translations spanning 1616–1919, which is a substantially stronger foundation for engineering, historical-language validation, prose/verse robustness testing, and pre-1920 comparison. It still cannot answer the intended 1900–2017 ideological question, because only Butler and Murray fall within that interval and both are early observations. That question requires a legally governed restricted layer and a design with within-period replication. The computational core should consist of deterministic extraction, Greek-anchored many-to-many alignment, ensemble dependency parsing, controlled entity/coreference resolution, multi-label semantic annotation, hierarchical matched-passage inference, and uncertainty-aware hypergraph comparison. Embeddings and deep learning are useful secondary components, not substitutes for identification, validation, or philological interpretation.
+The project is feasible and potentially original if it is built around a source-aligned event database, not a bag of adjective–noun pairs. The strict public-domain package now supplies six distinct translations spanning 1616–1919, which is a substantially stronger foundation for engineering, historical-language validation, prose/verse robustness testing, and pre-1920 comparison. It still cannot answer the intended 1900–2017 ideological question, because only Butler and Murray fall within that interval and both are early observations. That question requires a legally governed restricted layer and a design with within-period replication. The computational core should consist of deterministic extraction, Greek-anchored many-to-many alignment, ensemble dependency parsing, controlled entity/coreference resolution, multi-label semantic annotation, hierarchical matched-book inference using the native Book I–XXIV anchors, and uncertainty-aware hypergraph comparison. Embeddings and deep learning are useful secondary components, not substitutes for identification, validation, or philological interpretation.
 
 ## References
 

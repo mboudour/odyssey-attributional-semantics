@@ -1,9 +1,9 @@
 {
   "method": "TF-IDF unigrams+bigrams followed by TruncatedSVD and L2 normalization",
   "dimensions": 40,
-  "documents": 12176,
+  "documents": 13226,
   "vocabulary_size": 12000,
-  "explained_variance_ratio_sum": 0.07521970570087433,
+  "explained_variance_ratio_sum": 0.07461638748645782,
   "random_state": 20260717,
   "scope": "memory-bounded contextual distributional baseline; not a transformer embedding"
 }

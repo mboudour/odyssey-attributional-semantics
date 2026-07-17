@@ -54,7 +54,8 @@
       "translator": "Samuel Butler",
       "year": 1900,
       "form": "prose",
-      "prepared_text": "data/interim/seed_prepared_text/butler_1900_raw_spine.txt",
+      "prepared_text": "data/interim/seed_prepared_text/retained_poem_only/butler_1900_poem_only_books_1_24.txt",
+      "book_provenance": "data/interim/seed_prepared_text/retained_poem_only/butler_1900_poem_only_book_provenance.json",
       "source_file": "data/raw/translations/Homer_Odyssey_Butler_1900_ProjectGutenberg.epub",
       "source_url": "https://www.gutenberg.org/ebooks/1727",
       "rights_status": "public_domain_us",
@@ -65,15 +66,16 @@
       "translator": "A. T. Murray",
       "year": 1919,
       "form": "prose",
-      "prepared_text": "data/interim/seed_prepared_text/murray_1919_english_pages.txt",
+      "prepared_text": "data/interim/seed_prepared_text/retained_poem_only/murray_1919_books_1_24.txt",
+      "book_provenance": "data/interim/seed_prepared_text/retained_poem_only/murray_1919_book_provenance.json",
       "source_files": [
         "data/raw/translations/Homer_Odyssey_Murray_1919_Vol1.pdf",
         "data/raw/translations/Homer_Odyssey_Murray_1919_Vol2.pdf"
       ],
       "source_url": "https://archive.org/details/odysseywithengli01homeuoft",
       "rights_status": "public_domain_us",
-      "rights": "Public-domain 1919 Loeb edition; OCR-derived English-page text",
-      "quality_note": "OCR noise is explicitly measured and propagated through confidence scores."
+      "rights": "Public-domain 1919 Loeb edition; poem-only English OCR derivative with page-level provenance",
+      "quality_note": "OCR noise is explicitly measured and propagated through confidence scores; native book starts are audited against the original scans."
     }
   ],
   "audiovisual_extension": {

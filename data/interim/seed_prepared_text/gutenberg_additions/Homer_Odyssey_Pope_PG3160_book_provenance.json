@@ -3,144 +3,192 @@
     "book": 1,
     "epub_member": "OEBPS/4593021939858767763_3160-h-2.htm.xhtml",
     "heading": "BOOK I.",
-    "word_tokens": 4404
+    "extraction_method": "edition_specific_poem_only_html_selectors",
+    "selector_rule": "poem begins at p.noindent; argument and synopsis paragraphs excluded",
+    "word_tokens": 4113
   },
   {
     "book": 2,
     "epub_member": "OEBPS/4593021939858767763_3160-h-3.htm.xhtml",
     "heading": "BOOK II.",
-    "word_tokens": 4021
+    "extraction_method": "edition_specific_poem_only_html_selectors",
+    "selector_rule": "poem begins at p.noindent; argument and synopsis paragraphs excluded",
+    "word_tokens": 3763
   },
   {
     "book": 3,
     "epub_member": "OEBPS/4593021939858767763_3160-h-4.htm.xhtml",
     "heading": "BOOK III.",
-    "word_tokens": 5112
+    "extraction_method": "edition_specific_poem_only_html_selectors",
+    "selector_rule": "poem begins at p.noindent; argument and synopsis paragraphs excluded",
+    "word_tokens": 4794
   },
   {
     "book": 4,
     "epub_member": "OEBPS/4593021939858767763_3160-h-5.htm.xhtml",
     "heading": "BOOK IV.",
-    "word_tokens": 8601
+    "extraction_method": "edition_specific_poem_only_html_selectors",
+    "selector_rule": "poem begins at p.noindent; argument and synopsis paragraphs excluded",
+    "word_tokens": 8217
   },
   {
     "book": 5,
     "epub_member": "OEBPS/4593021939858767763_3160-h-6.htm.xhtml",
     "heading": "BOOK V.",
-    "word_tokens": 5280
+    "extraction_method": "edition_specific_poem_only_html_selectors",
+    "selector_rule": "poem begins at p.noindent; argument and synopsis paragraphs excluded",
+    "word_tokens": 4997
   },
   {
     "book": 6,
     "epub_member": "OEBPS/4593021939858767763_3160-h-7.htm.xhtml",
     "heading": "BOOK VI.",
-    "word_tokens": 3208
+    "extraction_method": "edition_specific_poem_only_html_selectors",
+    "selector_rule": "poem begins at p.noindent; argument and synopsis paragraphs excluded",
+    "word_tokens": 3049
   },
   {
     "book": 7,
     "epub_member": "OEBPS/4593021939858767763_3160-h-8.htm.xhtml",
     "heading": "BOOK VII.",
-    "word_tokens": 3552
+    "extraction_method": "edition_specific_poem_only_html_selectors",
+    "selector_rule": "poem begins at p.noindent; argument and synopsis paragraphs excluded",
+    "word_tokens": 3321
   },
   {
     "book": 8,
     "epub_member": "OEBPS/4593021939858767763_3160-h-9.htm.xhtml",
     "heading": "BOOK VIII.",
-    "word_tokens": 5164
+    "extraction_method": "edition_specific_poem_only_html_selectors",
+    "selector_rule": "poem begins at p.noindent; argument and synopsis paragraphs excluded",
+    "word_tokens": 4939
   },
   {
     "book": 9,
     "epub_member": "OEBPS/4593021939858767763_3160-h-10.htm.xhtml",
     "heading": "BOOK IX.",
-    "word_tokens": 5494
+    "extraction_method": "edition_specific_poem_only_html_selectors",
+    "selector_rule": "poem begins at p.noindent; argument and synopsis paragraphs excluded",
+    "word_tokens": 5203
   },
   {
     "book": 10,
     "epub_member": "OEBPS/4593021939858767763_3160-h-11.htm.xhtml",
     "heading": "BOOK X.",
-    "word_tokens": 5695
+    "extraction_method": "edition_specific_poem_only_html_selectors",
+    "selector_rule": "poem begins at p.noindent; argument and synopsis paragraphs excluded",
+    "word_tokens": 5389
   },
   {
     "book": 11,
     "epub_member": "OEBPS/4593021939858767763_3160-h-12.htm.xhtml",
     "heading": "BOOK XI.",
-    "word_tokens": 6600
+    "extraction_method": "edition_specific_poem_only_html_selectors",
+    "selector_rule": "poem begins at p.noindent; argument and synopsis paragraphs excluded",
+    "word_tokens": 6249
   },
   {
     "book": 12,
     "epub_member": "OEBPS/4593021939858767763_3160-h-13.htm.xhtml",
     "heading": "BOOK XII.",
-    "word_tokens": 4570
+    "extraction_method": "edition_specific_poem_only_html_selectors",
+    "selector_rule": "poem begins at p.noindent; argument and synopsis paragraphs excluded",
+    "word_tokens": 4338
   },
   {
     "book": 13,
     "epub_member": "OEBPS/4593021939858767763_3160-h-14.htm.xhtml",
     "heading": "BOOK XIII.",
-    "word_tokens": 4217
+    "extraction_method": "edition_specific_poem_only_html_selectors",
+    "selector_rule": "poem begins at p.noindent; argument and synopsis paragraphs excluded",
+    "word_tokens": 3935
   },
   {
     "book": 14,
     "epub_member": "OEBPS/4593021939858767763_3160-h-15.htm.xhtml",
     "heading": "BOOK XIV.",
-    "word_tokens": 4925
+    "extraction_method": "edition_specific_poem_only_html_selectors",
+    "selector_rule": "poem begins at p.noindent; argument and synopsis paragraphs excluded",
+    "word_tokens": 4696
   },
   {
     "book": 15,
     "epub_member": "OEBPS/4593021939858767763_3160-h-16.htm.xhtml",
     "heading": "BOOK XV.",
-    "word_tokens": 4784
+    "extraction_method": "edition_specific_poem_only_html_selectors",
+    "selector_rule": "poem begins at p.noindent; argument and synopsis paragraphs excluded",
+    "word_tokens": 4545
   },
   {
     "book": 16,
     "epub_member": "OEBPS/4593021939858767763_3160-h-17.htm.xhtml",
     "heading": "BOOK XVI.",
-    "word_tokens": 4083
+    "extraction_method": "edition_specific_poem_only_html_selectors",
+    "selector_rule": "poem begins at p.noindent; argument and synopsis paragraphs excluded",
+    "word_tokens": 3910
   },
   {
     "book": 17,
     "epub_member": "OEBPS/4593021939858767763_3160-h-18.htm.xhtml",
     "heading": "BOOK XVII.",
-    "word_tokens": 5506
+    "extraction_method": "edition_specific_poem_only_html_selectors",
+    "selector_rule": "poem begins at p.noindent; argument and synopsis paragraphs excluded",
+    "word_tokens": 5277
   },
   {
     "book": 18,
     "epub_member": "OEBPS/4593021939858767763_3160-h-19.htm.xhtml",
     "heading": "BOOK XVIII.",
-    "word_tokens": 3811
+    "extraction_method": "edition_specific_poem_only_html_selectors",
+    "selector_rule": "poem begins at p.noindent; argument and synopsis paragraphs excluded",
+    "word_tokens": 3678
   },
   {
     "book": 19,
     "epub_member": "OEBPS/4593021939858767763_3160-h-20.htm.xhtml",
     "heading": "BOOK XIX.",
-    "word_tokens": 5512
+    "extraction_method": "edition_specific_poem_only_html_selectors",
+    "selector_rule": "poem begins at p.noindent; argument and synopsis paragraphs excluded",
+    "word_tokens": 5195
   },
   {
     "book": 20,
     "epub_member": "OEBPS/4593021939858767763_3160-h-21.htm.xhtml",
     "heading": "BOOK XX.",
-    "word_tokens": 3690
+    "extraction_method": "edition_specific_poem_only_html_selectors",
+    "selector_rule": "poem begins at p.noindent; argument and synopsis paragraphs excluded",
+    "word_tokens": 3482
   },
   {
     "book": 21,
     "epub_member": "OEBPS/4593021939858767763_3160-h-22.htm.xhtml",
     "heading": "BOOK XXI.",
-    "word_tokens": 3960
+    "extraction_method": "edition_specific_poem_only_html_selectors",
+    "selector_rule": "poem begins at p.noindent; argument and synopsis paragraphs excluded",
+    "word_tokens": 3747
   },
   {
     "book": 22,
     "epub_member": "OEBPS/4593021939858767763_3160-h-23.htm.xhtml",
     "heading": "BOOK XXII.",
-    "word_tokens": 4371
+    "extraction_method": "edition_specific_poem_only_html_selectors",
+    "selector_rule": "poem begins at p.noindent; argument and synopsis paragraphs excluded",
+    "word_tokens": 4153
   },
   {
     "book": 23,
     "epub_member": "OEBPS/4593021939858767763_3160-h-24.htm.xhtml",
     "heading": "BOOK XXIII.",
-    "word_tokens": 3304
+    "extraction_method": "edition_specific_poem_only_html_selectors",
+    "selector_rule": "poem begins at p.noindent; argument and synopsis paragraphs excluded",
+    "word_tokens": 3118
   },
   {
     "book": 24,
     "epub_member": "OEBPS/4593021939858767763_3160-h-25.htm.xhtml",
     "heading": "BOOK XXIV.",
-    "word_tokens": 5155
+    "extraction_method": "edition_specific_poem_only_html_selectors",
+    "selector_rule": "poem begins at p.noindent; argument and synopsis paragraphs excluded",
+    "word_tokens": 4886
   }
 ]

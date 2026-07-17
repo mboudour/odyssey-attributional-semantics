@@ -4,35 +4,35 @@
 
 ### Executive statement
 
-This report documents a fully reproducible, rights-safe baseline analysis of **six complete English translations** published from 1616 to 1919. The processed corpus contains **762,798 words** and the explicit extraction grammar identified **12,176 target–attribute events**. Results quantify translation-specific attribution patterns; they do **not** establish a causal ideological evolution because translator, period, verse/prose form, and historical language are confounded.
+This report documents a fully reproducible, rights-safe baseline analysis of **six complete English translations** published from 1616 to 1919. The processed corpus contains **735,316 words** and the explicit extraction grammar identified **13,226 target–attribute events**. Results quantify translation-specific attribution patterns; they do **not** establish a causal ideological evolution because translator, period, verse/prose form, and historical language are confounded.
 
 ### Corpus-level diagnostics
 
 | translation_id    | translator                    |   year | form   |   corpus_words |   event_count |   events_per_10k_words |   mean_extraction_confidence |
 |:------------------|:------------------------------|-------:|:-------|---------------:|--------------:|-----------------------:|-----------------------------:|
-| chapman_1616      | George Chapman                |   1616 | verse  |         138361 |          1952 |                141.08  |                       0.7818 |
-| pope_1726         | Alexander Pope                |   1726 | verse  |         111063 |          2080 |                187.281 |                       0.7861 |
-| cowper_1791       | William Cowper                |   1791 | verse  |         113783 |          1736 |                152.571 |                       0.7758 |
-| butcher_lang_1879 | S. H. Butcher and Andrew Lang |   1879 | prose  |         136111 |          2612 |                191.902 |                       0.8097 |
-| butler_1900       | Samuel Butler                 |   1900 | prose  |         126812 |          1424 |                112.292 |                       0.7753 |
-| murray_1919       | A. T. Murray                  |   1919 | prose  |         136668 |          2372 |                173.559 |                       0.7131 |
+| chapman_1616      | George Chapman                |   1616 | verse  |         133440 |          2175 |                162.995 |                       0.7566 |
+| pope_1726         | Alexander Pope                |   1726 | verse  |         108596 |          2305 |                212.255 |                       0.7658 |
+| cowper_1791       | William Cowper                |   1791 | verse  |         109201 |          1880 |                172.16  |                       0.7608 |
+| butcher_lang_1879 | S. H. Butcher and Andrew Lang |   1879 | prose  |         134673 |          2789 |                207.094 |                       0.7957 |
+| butler_1900       | Samuel Butler                 |   1900 | prose  |         117320 |          1523 |                129.816 |                       0.7699 |
+| murray_1919       | A. T. Murray                  |   1919 | prose  |         132086 |          2554 |                193.359 |                       0.7479 |
 
-The common alignment coordinate is `(book, relative passage bin)`, yielding 480 matched anchors per translation. It is a deterministic structural alignment, not Greek-line alignment. Murray’s OCR-damaged missing headings are reconstructed between observed anchors using a documented proportional allocation and receive reduced confidence.
+The common alignment coordinate is the complete native Homeric **Book I–XXIV** unit, yielding 24 matched anchors per translation. It is a transparent book-level structural alignment, not Greek-line alignment. Murray’s OCR-obscured Book III, V, IX, and XI starts are audited against original scan pages; no book is inferred by proportional allocation. OCR-derived text retains a reduced segmentation-confidence value.
 
 The ten weakest anchors are:
 
-| passage_id   |   mean_pairwise_cosine |   mean_length_ratio |   anchor_confidence |
-|:-------------|-----------------------:|--------------------:|--------------------:|
-| b24_p18      |                 0.0514 |              0.6713 |              0.2994 |
-| b24_p14      |                 0.0549 |              0.6713 |              0.3015 |
-| b24_p16      |                 0.0616 |              0.671  |              0.3054 |
-| b24_p17      |                 0.0639 |              0.672  |              0.3071 |
-| b24_p19      |                 0.0642 |              0.6718 |              0.3072 |
-| b24_p12      |                 0.0678 |              0.6713 |              0.3092 |
-| b24_p20      |                 0.0694 |              0.6713 |              0.3101 |
-| b24_p13      |                 0.0697 |              0.6718 |              0.3105 |
-| b24_p06      |                 0.0721 |              0.672  |              0.3121 |
-| b24_p05      |                 0.0742 |              0.671  |              0.3129 |
+| anchor_id   |   mean_pairwise_cosine |   mean_length_ratio |   anchor_confidence |
+|:------------|-----------------------:|--------------------:|--------------------:|
+| book_20     |                 0.2667 |              0.8597 |              0.5039 |
+| book_23     |                 0.2683 |              0.86   |              0.505  |
+| book_01     |                 0.2861 |              0.8761 |              0.5221 |
+| book_02     |                 0.2895 |              0.8728 |              0.5228 |
+| book_06     |                 0.2938 |              0.8668 |              0.523  |
+| book_16     |                 0.3115 |              0.8566 |              0.5296 |
+| book_19     |                 0.3036 |              0.8798 |              0.5341 |
+| book_13     |                 0.3151 |              0.8735 |              0.5384 |
+| book_14     |                 0.3169 |              0.8724 |              0.5391 |
+| book_17     |                 0.3132 |              0.8863 |              0.5425 |
 
 ### Primary distributional comparisons
 
@@ -40,16 +40,16 @@ The largest category-profile divergences are:
 
 | translation_a     | translation_b   |   year_distance |   jensen_shannon_divergence |   category_cosine_similarity |
 |:------------------|:----------------|----------------:|----------------------------:|-----------------------------:|
-| butler_1900       | pope_1726       |             174 |                      0.0555 |                       0.9375 |
-| butcher_lang_1879 | pope_1726       |             153 |                      0.0494 |                       0.9395 |
-| murray_1919       | pope_1726       |             193 |                      0.0417 |                       0.9421 |
-| butler_1900       | cowper_1791     |             109 |                      0.0404 |                       0.9551 |
-| butcher_lang_1879 | butler_1900     |              21 |                      0.04   |                       0.9569 |
-| butler_1900       | murray_1919     |              19 |                      0.031  |                       0.969  |
-| butcher_lang_1879 | chapman_1616    |             263 |                      0.0266 |                       0.9762 |
-| chapman_1616      | pope_1726       |             110 |                      0.0263 |                       0.9686 |
-| butcher_lang_1879 | cowper_1791     |              88 |                      0.0262 |                       0.9692 |
-| butler_1900       | chapman_1616    |             284 |                      0.0253 |                       0.9812 |
+| butler_1900       | pope_1726       |             174 |                      0.0547 |                       0.9414 |
+| butcher_lang_1879 | pope_1726       |             153 |                      0.0485 |                       0.9404 |
+| murray_1919       | pope_1726       |             193 |                      0.041  |                       0.9437 |
+| butler_1900       | cowper_1791     |             109 |                      0.0407 |                       0.9575 |
+| butcher_lang_1879 | butler_1900     |              21 |                      0.0388 |                       0.9609 |
+| butler_1900       | murray_1919     |              19 |                      0.03   |                       0.9713 |
+| chapman_1616      | pope_1726       |             110 |                      0.0262 |                       0.9685 |
+| butcher_lang_1879 | cowper_1791     |              88 |                      0.0257 |                       0.9696 |
+| butcher_lang_1879 | chapman_1616    |             263 |                      0.0251 |                       0.9795 |
+| butler_1900       | chapman_1616    |             284 |                      0.0247 |                       0.9827 |
 
 The analysis uses weighted event counts, where each event is weighted by extraction confidence. Negated predicates receive a 0.5 magnitude multiplier and remain explicitly marked in the event table.
 
@@ -59,35 +59,35 @@ For every ontology category, the pipeline estimates the descriptive slope in wei
 
 | category             |   slope_events_per_10k_per_century |   pearson_r_year |   exact_permutation_p |   holm_adjusted_p |
 |:---------------------|-----------------------------------:|-----------------:|----------------------:|------------------:|
-| social_status        |                            -1.3425 |          -0.8488 |                0.0402 |            0.4827 |
-| color_complex        |                             0.8625 |           0.524  |                0.2663 |            1      |
-| color_material       |                             0.5841 |           0.5494 |                0.2691 |            1      |
-| moral_evaluation     |                            -1.6478 |          -0.4884 |                0.3356 |            1      |
-| appearance_age       |                             1.4421 |           0.4465 |                0.3897 |            1      |
-| affect_state         |                            -0.7589 |          -0.4319 |                0.3939 |            1      |
-| behavior_disposition |                            -1.1903 |          -0.3395 |                0.5479 |            1      |
-| cognitive_evaluation |                             0.9234 |           0.2791 |                0.5784 |            1      |
-| color_hue            |                             0.5486 |           0.2356 |                0.638  |            1      |
-| luminosity           |                            -0.4474 |          -0.225  |                0.6533 |            1      |
-| scale_intensity      |                            -0.6275 |          -0.1235 |                0.7822 |            1      |
-| agency_capacity      |                            -0.0828 |          -0.1042 |                0.8682 |            1      |
+| social_status        |                            -1.5488 |          -0.8438 |                0.0347 |            0.4161 |
+| color_material       |                             0.5795 |           0.6084 |                0.2205 |            1      |
+| color_complex        |                             0.9097 |           0.556  |                0.2524 |            1      |
+| appearance_age       |                             1.6874 |           0.4689 |                0.3454 |            1      |
+| moral_evaluation     |                            -1.5234 |          -0.4482 |                0.3675 |            1      |
+| affect_state         |                            -0.6578 |          -0.3498 |                0.5201 |            1      |
+| behavior_disposition |                            -1.3224 |          -0.3444 |                0.5562 |            1      |
+| cognitive_evaluation |                             0.9735 |           0.2843 |                0.57   |            1      |
+| color_hue            |                             0.6015 |           0.261  |                0.613  |            1      |
+| luminosity           |                            -0.4852 |          -0.2163 |                0.6741 |            1      |
+| agency_capacity      |                            -0.0933 |          -0.1039 |                0.8544 |            1      |
+| scale_intensity      |                            -0.4126 |          -0.0839 |                0.8585 |            1      |
 
-Matched-passage bootstrap intervals resample the 480 common anchors, preserving within-anchor cross-translation dependence:
+Matched-book bootstrap intervals resample the 24 common native-book anchors, preserving within-anchor cross-translation dependence:
 
 | category             |   slope_mean |   slope_ci_2_5 |   slope_ci_97_5 |   probability_positive |
 |:---------------------|-------------:|---------------:|----------------:|-----------------------:|
-| moral_evaluation     |      -1.627  |        -2.518  |         -0.7146 |                  0.002 |
-| social_status        |      -1.35   |        -1.739  |         -0.9681 |                  0     |
-| behavior_disposition |      -1.1948 |        -1.6461 |         -0.7501 |                  0     |
-| affect_state         |      -0.777  |        -1.3481 |         -0.2827 |                  0     |
-| scale_intensity      |      -0.6129 |        -1.5777 |          0.3213 |                  0.096 |
-| luminosity           |      -0.4464 |        -0.7742 |         -0.1229 |                  0     |
-| agency_capacity      |      -0.0855 |        -0.4317 |          0.2567 |                  0.31  |
-| color_hue            |       0.5433 |         0.0084 |          1.0972 |                  0.976 |
-| color_material       |       0.5941 |         0.1842 |          1.0202 |                  0.998 |
-| color_complex        |       0.8663 |         0.6251 |          1.1208 |                  1     |
-| cognitive_evaluation |       0.9322 |         0.4128 |          1.4444 |                  1     |
-| appearance_age       |       1.4327 |         0.4928 |          2.2636 |                  0.998 |
+| moral_evaluation     |      -1.5651 |        -2.8031 |         -0.0946 |                  0.01  |
+| social_status        |      -1.5455 |        -2.0751 |         -0.9854 |                  0     |
+| behavior_disposition |      -1.33   |        -1.7686 |         -0.913  |                  0     |
+| affect_state         |      -0.6899 |        -1.3838 |         -0.0033 |                  0.026 |
+| luminosity           |      -0.4618 |        -0.8204 |         -0.065  |                  0.016 |
+| scale_intensity      |      -0.3849 |        -1.34   |          0.7303 |                  0.236 |
+| agency_capacity      |      -0.0832 |        -0.4448 |          0.2965 |                  0.3   |
+| color_material       |       0.5934 |         0.1985 |          0.9931 |                  1     |
+| color_hue            |       0.5944 |         0.0363 |          1.2274 |                  0.976 |
+| color_complex        |       0.9137 |         0.6182 |          1.2123 |                  1     |
+| cognitive_evaluation |       0.9751 |         0.2753 |          1.6888 |                  0.996 |
+| appearance_age       |       1.6816 |         0.6456 |          2.6021 |                  1     |
 
 ### Hypergraph comparisons
 
@@ -95,21 +95,21 @@ Each translation is represented as a weighted hypergraph in which canonical **ta
 
 | translation_a     | translation_b   |   weighted_jaccard |   incidence_cosine |   unweighted_jaccard |   mean_target_edge_jaccard |
 |:------------------|:----------------|-------------------:|-------------------:|---------------------:|---------------------------:|
-| butcher_lang_1879 | murray_1919     |             0.4078 |             0.7986 |               0.3825 |                     0.3234 |
-| chapman_1616      | pope_1726       |             0.1883 |             0.4832 |               0.2018 |                     0.1335 |
-| chapman_1616      | murray_1919     |             0.1882 |             0.482  |               0.2074 |                     0.1482 |
-| butler_1900       | murray_1919     |             0.186  |             0.4685 |               0.2039 |                     0.1451 |
-| butcher_lang_1879 | chapman_1616    |             0.1796 |             0.4672 |               0.2076 |                     0.1555 |
-| cowper_1791       | pope_1726       |             0.1734 |             0.7011 |               0.1782 |                     0.1262 |
-| butcher_lang_1879 | butler_1900     |             0.1716 |             0.453  |               0.2083 |                     0.1568 |
-| butler_1900       | chapman_1616    |             0.1709 |             0.4392 |               0.1779 |                     0.1228 |
-| chapman_1616      | cowper_1791     |             0.1614 |             0.4171 |               0.1874 |                     0.1286 |
-| butcher_lang_1879 | cowper_1791     |             0.155  |             0.5001 |               0.1795 |                     0.1202 |
-| cowper_1791       | murray_1919     |             0.1506 |             0.3988 |               0.1832 |                     0.1312 |
-| butler_1900       | cowper_1791     |             0.1372 |             0.3695 |               0.1603 |                     0.1088 |
-| butcher_lang_1879 | pope_1726       |             0.1309 |             0.4657 |               0.1486 |                     0.1011 |
-| murray_1919       | pope_1726       |             0.1294 |             0.3853 |               0.1443 |                     0.0969 |
-| butler_1900       | pope_1726       |             0.1157 |             0.3851 |               0.1328 |                     0.1021 |
+| butcher_lang_1879 | murray_1919     |             0.4267 |             0.8028 |               0.3927 |                     0.3363 |
+| chapman_1616      | pope_1726       |             0.1995 |             0.5113 |               0.2105 |                     0.1426 |
+| chapman_1616      | murray_1919     |             0.1966 |             0.4912 |               0.2167 |                     0.1588 |
+| butler_1900       | murray_1919     |             0.1928 |             0.4842 |               0.216  |                     0.1542 |
+| butcher_lang_1879 | chapman_1616    |             0.1916 |             0.483  |               0.2206 |                     0.1682 |
+| butler_1900       | chapman_1616    |             0.1832 |             0.4673 |               0.1898 |                     0.1328 |
+| cowper_1791       | pope_1726       |             0.1796 |             0.6912 |               0.1881 |                     0.126  |
+| butcher_lang_1879 | butler_1900     |             0.1793 |             0.4597 |               0.218  |                     0.1636 |
+| chapman_1616      | cowper_1791     |             0.1705 |             0.4197 |               0.1976 |                     0.1346 |
+| butcher_lang_1879 | cowper_1791     |             0.1612 |             0.5054 |               0.1874 |                     0.1253 |
+| cowper_1791       | murray_1919     |             0.158  |             0.4099 |               0.193  |                     0.1375 |
+| butler_1900       | cowper_1791     |             0.1407 |             0.3784 |               0.1633 |                     0.1119 |
+| butcher_lang_1879 | pope_1726       |             0.1372 |             0.4719 |               0.1524 |                     0.102  |
+| murray_1919       | pope_1726       |             0.1358 |             0.3949 |               0.1519 |                     0.1011 |
+| butler_1900       | pope_1726       |             0.1208 |             0.3916 |               0.1382 |                     0.1027 |
 
 The associated null model permutes attribute labels within each translation, preserving target degrees, attribute frequencies, and event weights. JSON hypergraphs and GraphML target/attribute projections are included under `outputs/hypergraphs/`.
 
@@ -123,36 +123,36 @@ Weighted log-odds-style z scores identify attributes that are comparatively dist
 
 | translation_id    | attribute   |   local_count |   log_odds_ratio |   z_score |
 |:------------------|:------------|--------------:|-----------------:|----------:|
-| butcher_lang_1879 | evil        |           108 |           1.1291 |    8.7204 |
-| butcher_lang_1879 | gray-eyed   |            56 |           3.3208 |    8.5975 |
-| butcher_lang_1879 | steadfast   |            52 |           2.111  |    8.5239 |
-| butcher_lang_1879 | wise        |           195 |           0.5718 |    6.6095 |
-| butcher_lang_1879 | fair        |           186 |           0.5363 |    6.0861 |
-| butler_1900       | good        |           129 |           0.8938 |    8.9166 |
-| butler_1900       | wicked      |            24 |           2.9697 |    7.7883 |
-| butler_1900       | just        |            51 |           1.257  |    7.4871 |
-| butler_1900       | old         |           121 |           0.7187 |    7.0771 |
-| butler_1900       | young       |            59 |           1.042  |    6.8884 |
-| chapman_1616      | free        |            64 |           1.8621 |   10.0865 |
-| chapman_1616      | sacred      |            60 |           1.0408 |    6.5513 |
-| chapman_1616      | good        |           134 |           0.5564 |    5.6223 |
-| chapman_1616      | divine      |            76 |           0.7544 |    5.5905 |
-| chapman_1616      | sad         |            36 |           1.1083 |    5.3459 |
-| cowper_1791       | deep        |           159 |           1.1221 |   11.6629 |
-| cowper_1791       | noble       |            79 |           1.1606 |    8.4162 |
-| cowper_1791       | prudent     |            23 |           2.0347 |    6.5571 |
-| cowper_1791       | splendid    |            22 |           1.9908 |    6.3536 |
-| cowper_1791       | sable       |            25 |           1.7583 |    6.3487 |
-| murray_1919       | evil        |           105 |           1.2021 |    9.2587 |
-| murray_1919       | beautiful   |            57 |           1.9721 |    9.0901 |
-| murray_1919       | wise        |           202 |           0.7572 |    8.8325 |
-| murray_1919       | enduring    |            25 |           2.4062 |    6.3457 |
-| murray_1919       | bronze      |            47 |           1.1213 |    5.8746 |
-| pope_1726         | royal       |            77 |           1.8674 |   10.8522 |
-| pope_1726         | faithful    |            41 |           2.5095 |    8.6428 |
-| pope_1726         | fierce      |            38 |           1.6133 |    7.0428 |
-| pope_1726         | friendly    |            25 |           2.0167 |    6.3942 |
-| pope_1726         | bold        |            35 |           1.4295 |    6.2631 |
+| butcher_lang_1879 | evil        |           118 |           1.146  |    9.2609 |
+| butcher_lang_1879 | gray-eyed   |            56 |           3.2185 |    8.7927 |
+| butcher_lang_1879 | steadfast   |            54 |           2.1286 |    8.7686 |
+| butcher_lang_1879 | wise        |           199 |           0.5678 |    6.6544 |
+| butcher_lang_1879 | fair        |           205 |           0.5438 |    6.4927 |
+| butler_1900       | good        |           134 |           0.8648 |    8.8365 |
+| butler_1900       | wicked      |            24 |           2.7968 |    7.8391 |
+| butler_1900       | just        |            53 |           1.2437 |    7.5854 |
+| butler_1900       | angry       |            35 |           1.4981 |    7.1198 |
+| butler_1900       | young       |            62 |           1.0141 |    6.9109 |
+| chapman_1616      | free        |            71 |           1.8291 |   10.4395 |
+| chapman_1616      | sacred      |            64 |           1.0141 |    6.5852 |
+| chapman_1616      | good        |           149 |           0.5717 |    6.0554 |
+| chapman_1616      | sad         |            36 |           0.9867 |    4.8358 |
+| chapman_1616      | divine      |            75 |           0.6368 |    4.7428 |
+| cowper_1791       | deep        |           160 |           1.1279 |   11.7462 |
+| cowper_1791       | noble       |            82 |           1.1187 |    8.3245 |
+| cowper_1791       | prudent     |            27 |           2.1444 |    7.2547 |
+| cowper_1791       | sable       |            28 |           1.8371 |    6.883  |
+| cowper_1791       | ancient     |            30 |           1.6505 |    6.6952 |
+| murray_1919       | evil        |           116 |           1.2282 |    9.9096 |
+| murray_1919       | wise        |           215 |           0.8078 |    9.6565 |
+| murray_1919       | beautiful   |            61 |           2.0213 |    9.5192 |
+| murray_1919       | enduring    |            26 |           2.3561 |    6.4749 |
+| murray_1919       | bronze      |            52 |           1.1731 |    6.4051 |
+| pope_1726         | royal       |            88 |           1.9449 |   11.7343 |
+| pope_1726         | faithful    |            41 |           2.2204 |    8.3714 |
+| pope_1726         | fierce      |            45 |           1.7316 |    7.9197 |
+| pope_1726         | friendly    |            28 |           2.1669 |    6.878  |
+| pope_1726         | bold        |            40 |           1.3618 |    6.4371 |
 
 ### Validation and interpretation boundaries
 

@@ -5,7 +5,6 @@
     "able",
     "afraid",
     "aged",
-    "ancient",
     "angry",
     "anxious",
     "ashen",
@@ -26,10 +25,12 @@
     "comely",
     "copper",
     "crafty",
+    "crimson",
     "cruel",
     "cunning",
     "dark",
     "deep",
+    "despairing",
     "dim",
     "distressed",
     "divine",
@@ -90,6 +91,7 @@
     "purple",
     "raging",
     "red",
+    "righteous",
     "rosy-fingered",
     "royal",
     "sacred",
@@ -97,6 +99,7 @@
     "savage",
     "shameless",
     "shining",
+    "shrewd",
     "silver",
     "small",
     "sorrowful",
@@ -123,4103 +126,4283 @@
       {
         "attribute": "brave",
         "category": "agency_capacity",
-        "weight": 2.5166
+        "weight": 2.5552
       },
       {
         "attribute": "good",
         "category": "moral_evaluation",
-        "weight": 0.7252
+        "weight": 0.7363
       },
       {
         "attribute": "great",
         "category": "scale_intensity",
-        "weight": 1.666
+        "weight": 1.6915
       },
       {
         "attribute": "long",
         "category": "scale_intensity",
-        "weight": 1.666
+        "weight": 1.6915
       },
       {
         "attribute": "noble",
         "category": "moral_evaluation",
-        "weight": 0.7252
+        "weight": 0.7363
       },
       {
         "attribute": "young",
         "category": "appearance_age",
-        "weight": 0.9408
+        "weight": 0.9552
       }
     ],
     "ACHILLES": [
       {
+        "attribute": "great",
+        "category": "scale_intensity",
+        "weight": 0.5771
+      },
+      {
         "attribute": "happy",
         "category": "affect_state",
-        "weight": 0.9408
+        "weight": 0.9552
       },
       {
         "attribute": "long",
         "category": "scale_intensity",
-        "weight": 0.5684
+        "weight": 0.5771
+      },
+      {
+        "attribute": "old",
+        "category": "appearance_age",
+        "weight": 0.5771
       },
       {
         "attribute": "valiant",
         "category": "agency_capacity",
-        "weight": 0.8467
+        "weight": 0.8597
       }
     ],
     "AEGISTHUS": [
       {
         "attribute": "false",
         "category": "moral_evaluation",
-        "weight": 2.6342
+        "weight": 2.6746
       },
       {
         "attribute": "fearful",
         "category": "affect_state",
-        "weight": 0.8467
+        "weight": 0.8597
       },
       {
         "attribute": "gold",
         "category": "color_material",
-        "weight": 0.5684
+        "weight": 0.5771
       },
       {
         "attribute": "good",
         "category": "moral_evaluation",
-        "weight": 0.5684
+        "weight": 0.5771
       },
       {
         "attribute": "wicked",
         "category": "moral_evaluation",
-        "weight": 0.5684
+        "weight": 0.5771
       }
     ],
     "AGAMEMNON": [
       {
         "attribute": "friendly",
         "category": "behavior_disposition",
-        "weight": 0.4851
+        "weight": 0.4925
       },
       {
         "attribute": "glad",
         "category": "affect_state",
-        "weight": 0.9702
+        "weight": 0.985
       },
       {
         "attribute": "good",
         "category": "moral_evaluation",
-        "weight": 0.8232
+        "weight": 0.8358
       },
       {
         "attribute": "great",
         "category": "scale_intensity",
-        "weight": 0.5684
+        "weight": 0.5771
       },
       {
         "attribute": "noble",
         "category": "moral_evaluation",
-        "weight": 0.7409
+        "weight": 0.7522
       },
       {
         "attribute": "old",
         "category": "appearance_age",
-        "weight": 0.5684
+        "weight": 0.5771
       },
       {
         "attribute": "young",
         "category": "appearance_age",
-        "weight": 1.4416
+        "weight": 1.4636
       }
     ],
     "AJAX": [
       {
         "attribute": "great",
         "category": "scale_intensity",
-        "weight": 0.9702
+        "weight": 0.985
       },
       {
         "attribute": "just",
         "category": "moral_evaluation",
-        "weight": 0.5684
+        "weight": 0.5771
       },
       {
         "attribute": "kind",
         "category": "moral_evaluation",
-        "weight": 0.2842
+        "weight": 0.28855
       },
       {
         "attribute": "melancholy",
         "category": "affect_state",
-        "weight": 0.5684
+        "weight": 0.5771
       }
     ],
     "ALCINOUS": [
       {
         "attribute": "angry",
         "category": "affect_state",
-        "weight": 0.4366
+        "weight": 0.44325
+      },
+      {
+        "attribute": "gold",
+        "category": "color_material",
+        "weight": 0.5771
       },
       {
         "attribute": "good",
         "category": "moral_evaluation",
-        "weight": 1.814
+        "weight": 2.4188
       },
       {
         "attribute": "great",
         "category": "scale_intensity",
-        "weight": 1.9835
+        "weight": 2.0139
+      },
+      {
+        "attribute": "just",
+        "category": "moral_evaluation",
+        "weight": 0.5771
       },
       {
         "attribute": "kind",
         "category": "moral_evaluation",
-        "weight": 0.4366
+        "weight": 0.44325
+      },
+      {
+        "attribute": "long",
+        "category": "scale_intensity",
+        "weight": 0.5771
       },
       {
         "attribute": "old",
         "category": "appearance_age",
-        "weight": 1.6616
+        "weight": 1.687
       },
       {
         "attribute": "purple",
         "category": "color_hue",
-        "weight": 0.5684
+        "weight": 0.5771
       },
       {
         "attribute": "red",
         "category": "color_hue",
-        "weight": 0.5684
+        "weight": 0.5771
+      },
+      {
+        "attribute": "silver",
+        "category": "color_material",
+        "weight": 0.5771
       },
       {
         "attribute": "young",
         "category": "appearance_age",
-        "weight": 0.9408
+        "weight": 1.5323
       }
     ],
     "AMPHINOMUS": [
       {
         "attribute": "afraid",
         "category": "affect_state",
-        "weight": 0.9702
+        "weight": 0.985
       },
       {
         "attribute": "evil",
         "category": "moral_evaluation",
-        "weight": 0.5684
+        "weight": 0.5771
       },
       {
         "attribute": "gold",
         "category": "color_material",
-        "weight": 0.5684
+        "weight": 0.5771
       },
       {
         "attribute": "good",
         "category": "moral_evaluation",
-        "weight": 1.4416
+        "weight": 1.4636
       }
     ],
     "ANGER": [
       {
         "attribute": "evil",
         "category": "moral_evaluation",
-        "weight": 0.7252
+        "weight": 0.7363
       },
       {
         "attribute": "fierce",
         "category": "behavior_disposition",
-        "weight": 0.8467
+        "weight": 0.8597
       },
       {
         "attribute": "great",
         "category": "scale_intensity",
-        "weight": 1.814
+        "weight": 1.8417
       }
     ],
     "ANTINOUS": [
       {
         "attribute": "angry",
         "category": "affect_state",
-        "weight": 1.764
+        "weight": 1.791
       },
       {
         "attribute": "evil",
         "category": "moral_evaluation",
-        "weight": 1.4416
+        "weight": 1.4636
       },
       {
         "attribute": "free",
         "category": "social_status",
-        "weight": 1.1368
+        "weight": 1.1542
+      },
+      {
+        "attribute": "furious",
+        "category": "affect_state",
+        "weight": 0.28855
       },
       {
         "attribute": "gold",
         "category": "color_material",
-        "weight": 0.9702
+        "weight": 0.985
       },
       {
         "attribute": "good",
         "category": "moral_evaluation",
-        "weight": 1.814
+        "weight": 1.8417
       },
       {
         "attribute": "great",
         "category": "scale_intensity",
-        "weight": 0.7252
+        "weight": 1.3134
       },
       {
         "attribute": "insolent",
         "category": "behavior_disposition",
-        "weight": 0.7409
+        "weight": 0.7522
       },
       {
         "attribute": "old",
         "category": "appearance_age",
-        "weight": 0.2842
+        "weight": 0.28855
+      },
+      {
+        "attribute": "shrewd",
+        "category": "cognitive_evaluation",
+        "weight": 0.5771
       },
       {
         "attribute": "white",
         "category": "color_hue",
-        "weight": 0.5684
+        "weight": 0.5771
       },
       {
         "attribute": "wicked",
         "category": "moral_evaluation",
-        "weight": 0.7409
+        "weight": 0.7522
       },
       {
         "attribute": "young",
         "category": "appearance_age",
-        "weight": 0.2842
+        "weight": 0.28855
       }
     ],
     "ARETE": [
       {
+        "attribute": "beautiful",
+        "category": "appearance_age",
+        "weight": 0.5771
+      },
+      {
         "attribute": "clever",
         "category": "cognitive_evaluation",
-        "weight": 0.2842
+        "weight": 0.28855
+      },
+      {
+        "attribute": "gold",
+        "category": "color_material",
+        "weight": 0.5771
       },
       {
         "attribute": "good",
         "category": "moral_evaluation",
-        "weight": 0.2842
+        "weight": 0.28855
       },
       {
         "attribute": "great",
         "category": "scale_intensity",
-        "weight": 0.7409
+        "weight": 0.7522
       },
       {
         "attribute": "strong",
         "category": "agency_capacity",
-        "weight": 0.5684
+        "weight": 0.5771
       },
       {
         "attribute": "tall",
         "category": "appearance_age",
-        "weight": 0.2842
+        "weight": 0.28855
       }
     ],
     "ATHENA": [
       {
         "attribute": "able",
         "category": "agency_capacity",
-        "weight": 1.7464
+        "weight": 1.773
       },
       {
         "attribute": "brave",
         "category": "agency_capacity",
-        "weight": 0.5684
+        "weight": 0.5771
+      },
+      {
+        "attribute": "bronze",
+        "category": "color_material",
+        "weight": 0.5771
       },
       {
         "attribute": "clever",
         "category": "cognitive_evaluation",
-        "weight": 0.9702
+        "weight": 0.985
       },
       {
         "attribute": "comely",
         "category": "appearance_age",
-        "weight": 0.5684
+        "weight": 0.5771
       },
       {
         "attribute": "dark",
         "category": "color_hue",
-        "weight": 0.9408
+        "weight": 0.9552
       },
       {
         "attribute": "divine",
         "category": "moral_evaluation",
-        "weight": 1.1368
+        "weight": 1.1542
       },
       {
         "attribute": "fair",
         "category": "appearance_age",
-        "weight": 0.2842
+        "weight": 0.28855
       },
       {
         "attribute": "gold",
         "category": "color_material",
-        "weight": 1.5092
+        "weight": 2.1094
       },
       {
         "attribute": "golden",
         "category": "color_material",
-        "weight": 0.5684
+        "weight": 1.1542
       },
       {
         "attribute": "good",
         "category": "moral_evaluation",
-        "weight": 3.9396
+        "weight": 5.1541
       },
       {
         "attribute": "great",
         "category": "scale_intensity",
-        "weight": 2.6636
+        "weight": 2.7044
       },
       {
         "attribute": "handsome",
         "category": "appearance_age",
-        "weight": 0.5684
+        "weight": 1.1542
       },
       {
         "attribute": "intelligent",
         "category": "cognitive_evaluation",
-        "weight": 0.5684
+        "weight": 0.5771
       },
       {
         "attribute": "just",
         "category": "moral_evaluation",
-        "weight": 1.4151
+        "weight": 2.0139
       },
       {
         "attribute": "little",
         "category": "scale_intensity",
-        "weight": 0.5684
+        "weight": 1.1542
       },
       {
         "attribute": "long",
         "category": "scale_intensity",
-        "weight": 0.5684
+        "weight": 0.5771
       },
       {
         "attribute": "low",
         "category": "scale_intensity",
-        "weight": 0.8467
+        "weight": 0.8597
       },
       {
         "attribute": "mighty",
         "category": "scale_intensity",
-        "weight": 0.9408
+        "weight": 0.9552
       },
       {
         "attribute": "old",
         "category": "appearance_age",
-        "weight": 1.7052
+        "weight": 1.7313
       },
       {
         "attribute": "silver",
         "category": "color_material",
-        "weight": 0.5684
+        "weight": 1.1542
+      },
+      {
+        "attribute": "strong",
+        "category": "agency_capacity",
+        "weight": 0.5771
       },
       {
         "attribute": "unhappy",
         "category": "affect_state",
-        "weight": 0.42335
+        "weight": 0.42985
       },
       {
         "attribute": "white",
         "category": "color_hue",
-        "weight": 0.5684
-      },
-      {
-        "attribute": "wide",
-        "category": "scale_intensity",
-        "weight": 0.5684
+        "weight": 0.5771
       },
       {
         "attribute": "yellow",
         "category": "color_hue",
-        "weight": 0.5684
+        "weight": 0.5771
       },
       {
         "attribute": "young",
         "category": "appearance_age",
-        "weight": 0.5684
+        "weight": 1.1542
       }
     ],
     "BLOOD": [
       {
         "attribute": "black",
         "category": "color_hue",
-        "weight": 0.9408
+        "weight": 0.9552
       },
       {
         "attribute": "brave",
         "category": "agency_capacity",
-        "weight": 0.9702
+        "weight": 0.985
       },
       {
         "attribute": "just",
         "category": "moral_evaluation",
-        "weight": 0.8232
+        "weight": 0.8358
       },
       {
         "attribute": "noble",
         "category": "moral_evaluation",
-        "weight": 0.9408
+        "weight": 0.9552
       }
     ],
     "BOW": [
       {
         "attribute": "able",
         "category": "agency_capacity",
-        "weight": 1.3774
+        "weight": 1.39845
       },
       {
         "attribute": "brave",
         "category": "agency_capacity",
-        "weight": 0.8467
+        "weight": 0.8597
       },
       {
         "attribute": "long",
         "category": "scale_intensity",
-        "weight": 0.4704
+        "weight": 0.4776
       },
       {
         "attribute": "mighty",
         "category": "scale_intensity",
-        "weight": 2.4186
+        "weight": 2.4557
       },
       {
         "attribute": "old",
         "category": "appearance_age",
-        "weight": 0.9408
+        "weight": 0.9552
       },
       {
         "attribute": "weak",
         "category": "agency_capacity",
-        "weight": 0.4851
+        "weight": 0.4925
       }
     ],
     "CALYPSO": [
       {
         "attribute": "afraid",
         "category": "affect_state",
-        "weight": 0.9408
+        "weight": 0.9552
       },
       {
         "attribute": "bitter",
         "category": "affect_state",
-        "weight": 0.5684
+        "weight": 0.5771
       },
       {
         "attribute": "brave",
         "category": "agency_capacity",
-        "weight": 0.5684
+        "weight": 0.5771
       },
       {
         "attribute": "cunning",
         "category": "cognitive_evaluation",
-        "weight": 0.8467
+        "weight": 0.8597
       },
       {
         "attribute": "glad",
         "category": "affect_state",
-        "weight": 0.5684
+        "weight": 0.5771
       },
       {
         "attribute": "gold",
         "category": "color_material",
-        "weight": 0.5684
+        "weight": 0.5771
       },
       {
         "attribute": "golden",
         "category": "color_material",
-        "weight": 0.5684
+        "weight": 0.5771
       },
       {
         "attribute": "good",
         "category": "moral_evaluation",
-        "weight": 2.2736
+        "weight": 2.3084
       },
       {
         "attribute": "great",
         "category": "scale_intensity",
-        "weight": 2.8302
+        "weight": 2.8736
       },
       {
         "attribute": "kind",
         "category": "moral_evaluation",
-        "weight": 0.5684
+        "weight": 0.5771
       },
       {
         "attribute": "long",
         "category": "scale_intensity",
-        "weight": 0.7409
+        "weight": 0.7522
       },
       {
         "attribute": "old",
         "category": "appearance_age",
-        "weight": 0.2842
+        "weight": 0.28855
       },
       {
         "attribute": "powerful",
         "category": "agency_capacity",
-        "weight": 1.6934
+        "weight": 1.7194
+      },
+      {
+        "attribute": "tall",
+        "category": "appearance_age",
+        "weight": 0.28855
       }
     ],
     "CIRCE": [
       {
         "attribute": "able",
         "category": "agency_capacity",
-        "weight": 0.8526
+        "weight": 0.86565
       },
       {
         "attribute": "cunning",
         "category": "cognitive_evaluation",
-        "weight": 2.6342
+        "weight": 2.6746
+      },
+      {
+        "attribute": "despairing",
+        "category": "affect_state",
+        "weight": 0.5771
       },
       {
         "attribute": "evil",
         "category": "moral_evaluation",
-        "weight": 0.2842
+        "weight": 0.28855
+      },
+      {
+        "attribute": "fair",
+        "category": "appearance_age",
+        "weight": 0.5771
       },
       {
         "attribute": "free",
         "category": "social_status",
-        "weight": 1.421
+        "weight": 1.44275
       },
       {
         "attribute": "friendly",
         "category": "behavior_disposition",
-        "weight": 0.9702
+        "weight": 0.985
       },
       {
         "attribute": "glad",
         "category": "affect_state",
-        "weight": 0.5684
+        "weight": 0.5771
+      },
+      {
+        "attribute": "gold",
+        "category": "color_material",
+        "weight": 0.5771
       },
       {
         "attribute": "golden",
         "category": "color_material",
-        "weight": 1.3093
+        "weight": 1.3293
       },
       {
         "attribute": "good",
         "category": "moral_evaluation",
-        "weight": 1.1368
+        "weight": 1.7313
       },
       {
         "attribute": "great",
         "category": "scale_intensity",
-        "weight": 1.4151
+        "weight": 1.4368
       },
       {
         "attribute": "green",
         "category": "color_hue",
-        "weight": 0.5684
+        "weight": 0.5771
+      },
+      {
+        "attribute": "high",
+        "category": "scale_intensity",
+        "weight": 0.5771
       },
       {
         "attribute": "just",
         "category": "moral_evaluation",
-        "weight": 0.5684
+        "weight": 1.7313
+      },
+      {
+        "attribute": "little",
+        "category": "scale_intensity",
+        "weight": 0.5771
       },
       {
         "attribute": "long",
         "category": "scale_intensity",
-        "weight": 0.5684
+        "weight": 1.7313
       },
       {
         "attribute": "noble",
         "category": "moral_evaluation",
-        "weight": 0.5684
+        "weight": 0.5771
+      },
+      {
+        "attribute": "purple",
+        "category": "color_hue",
+        "weight": 0.5771
+      },
+      {
+        "attribute": "silver",
+        "category": "color_material",
+        "weight": 0.5771
       },
       {
         "attribute": "wicked",
         "category": "moral_evaluation",
-        "weight": 0.9408
+        "weight": 0.9552
       }
     ],
     "CLYTEMNESTRA": [
       {
         "attribute": "cruel",
         "category": "moral_evaluation",
-        "weight": 0.5684
+        "weight": 0.5771
       }
     ],
     "CYCLOPES": [
       {
         "attribute": "brave",
         "category": "agency_capacity",
-        "weight": 0.7252
+        "weight": 0.7363
       },
       {
         "attribute": "clever",
         "category": "cognitive_evaluation",
-        "weight": 0.9408
+        "weight": 0.9552
       },
       {
         "attribute": "great",
         "category": "scale_intensity",
-        "weight": 1.5984
-      },
-      {
-        "attribute": "knowing",
-        "category": "cognitive_evaluation",
-        "weight": 0.8467
+        "weight": 1.6228
       },
       {
         "attribute": "lawless",
         "category": "moral_evaluation",
-        "weight": 1.7875
-      },
-      {
-        "attribute": "old",
-        "category": "appearance_age",
-        "weight": 0.8732
+        "weight": 1.8149
       },
       {
         "attribute": "savage",
         "category": "behavior_disposition",
-        "weight": 0.8467
+        "weight": 1.596
       }
     ],
     "DAWN": [
       {
-        "attribute": "brave",
-        "category": "agency_capacity",
-        "weight": 0.8732
-      },
-      {
         "attribute": "bright",
         "category": "luminosity",
-        "weight": 0.8467
+        "weight": 0.8597
       },
       {
         "attribute": "dark",
         "category": "color_hue",
-        "weight": 1.5719
+        "weight": 1.596
       },
       {
         "attribute": "gold",
         "category": "color_material",
-        "weight": 1.5719
+        "weight": 1.596
       },
       {
         "attribute": "long",
         "category": "scale_intensity",
-        "weight": 0.8232
+        "weight": 0.8358
       },
       {
         "attribute": "rosy-fingered",
         "category": "color_complex",
-        "weight": 17.0281
+        "weight": 17.2895
       }
     ],
     "DEATH": [
       {
         "attribute": "cruel",
         "category": "moral_evaluation",
-        "weight": 0.9408
+        "weight": 0.9552
       },
       {
         "attribute": "dark",
         "category": "color_hue",
-        "weight": 1.8816
+        "weight": 1.9104
       },
       {
         "attribute": "glad",
         "category": "affect_state",
-        "weight": 2.6342
+        "weight": 2.6746
       },
       {
         "attribute": "good",
         "category": "moral_evaluation",
-        "weight": 0.8232
+        "weight": 0.8358
       },
       {
         "attribute": "great",
         "category": "scale_intensity",
-        "weight": 0.7252
+        "weight": 0.7363
       },
       {
         "attribute": "insolent",
         "category": "behavior_disposition",
-        "weight": 0.9702
+        "weight": 0.985
       },
       {
         "attribute": "mighty",
         "category": "scale_intensity",
-        "weight": 0.8467
+        "weight": 0.8597
       },
       {
         "attribute": "wicked",
         "category": "moral_evaluation",
-        "weight": 0.8467
+        "weight": 0.8597
       }
     ],
     "DEMODOCUS": [
       {
         "attribute": "divine",
         "category": "moral_evaluation",
-        "weight": 0.5684
+        "weight": 0.5771
       },
       {
         "attribute": "evil",
         "category": "moral_evaluation",
-        "weight": 0.5684
+        "weight": 0.5771
       },
       {
         "attribute": "fair",
         "category": "appearance_age",
-        "weight": 0.5684
+        "weight": 0.5771
       },
       {
         "attribute": "good",
         "category": "moral_evaluation",
-        "weight": 1.1368
+        "weight": 1.1542
       },
       {
         "attribute": "great",
         "category": "scale_intensity",
-        "weight": 0.5684
+        "weight": 0.5771
       },
       {
         "attribute": "wide",
         "category": "scale_intensity",
-        "weight": 0.5684
+        "weight": 0.5771
       }
     ],
     "EARTH": [
       {
-        "attribute": "good",
-        "category": "moral_evaluation",
-        "weight": 0.9408
-      },
-      {
         "attribute": "great",
         "category": "scale_intensity",
-        "weight": 0.8732
+        "weight": 0.8865
       },
       {
         "attribute": "happy",
         "category": "affect_state",
-        "weight": 0.8732
+        "weight": 0.8865
       },
       {
         "attribute": "high",
         "category": "scale_intensity",
-        "weight": 0.9408
+        "weight": 0.9552
       },
       {
         "attribute": "little",
         "category": "scale_intensity",
-        "weight": 0.8467
-      },
-      {
-        "attribute": "long",
-        "category": "scale_intensity",
-        "weight": 0.9702
+        "weight": 0.8597
       },
       {
         "attribute": "narrow",
         "category": "scale_intensity",
-        "weight": 0.8232
+        "weight": 0.8358
       },
       {
         "attribute": "noble",
         "category": "moral_evaluation",
-        "weight": 0.7252
-      },
-      {
-        "attribute": "old",
-        "category": "appearance_age",
-        "weight": 0.9702
+        "weight": 0.7363
       },
       {
         "attribute": "sad",
         "category": "affect_state",
-        "weight": 0.9408
+        "weight": 0.9552
       },
       {
         "attribute": "valiant",
         "category": "agency_capacity",
-        "weight": 0.9408
+        "weight": 0.9552
       }
     ],
     "EUMAEUS": [
       {
         "attribute": "afraid",
         "category": "affect_state",
-        "weight": 0.5684
+        "weight": 0.5771
       },
       {
         "attribute": "beautiful",
         "category": "appearance_age",
-        "weight": 0.5684
+        "weight": 0.5771
       },
       {
-        "attribute": "bronze",
-        "category": "color_material",
-        "weight": 0.5684
+        "attribute": "cunning",
+        "category": "cognitive_evaluation",
+        "weight": 0.5771
       },
       {
         "attribute": "good",
         "category": "moral_evaluation",
-        "weight": 1.3916
+        "weight": 1.99
       },
       {
         "attribute": "great",
         "category": "scale_intensity",
-        "weight": 1.1368
+        "weight": 2.3084
       },
       {
         "attribute": "green",
         "category": "color_hue",
-        "weight": 0.7252
+        "weight": 0.7363
       },
       {
         "attribute": "high",
         "category": "scale_intensity",
-        "weight": 0.5684
+        "weight": 0.5771
+      },
+      {
+        "attribute": "kind",
+        "category": "moral_evaluation",
+        "weight": 0.28855
       },
       {
         "attribute": "long",
         "category": "scale_intensity",
-        "weight": 0.9369
+        "weight": 0.6627
       },
       {
         "attribute": "noble",
         "category": "moral_evaluation",
-        "weight": 0.8232
+        "weight": 0.8358
       },
       {
         "attribute": "old",
         "category": "appearance_age",
-        "weight": 2.5519
+        "weight": 3.7452
+      },
+      {
+        "attribute": "small",
+        "category": "appearance_age",
+        "weight": 0.5771
       },
       {
         "attribute": "splendid",
         "category": "luminosity",
-        "weight": 0.5684
+        "weight": 0.5771
       },
       {
         "attribute": "young",
         "category": "appearance_age",
-        "weight": 0.5684
+        "weight": 0.5771
       }
     ],
     "EURYCLEIA": [
       {
         "attribute": "aged",
         "category": "appearance_age",
-        "weight": 0.5684
+        "weight": 0.5771
       },
       {
         "attribute": "bronze",
         "category": "color_material",
-        "weight": 0.5684
+        "weight": 0.5771
+      },
+      {
+        "attribute": "comely",
+        "category": "appearance_age",
+        "weight": 0.5771
       },
       {
         "attribute": "good",
         "category": "moral_evaluation",
-        "weight": 0.8467
+        "weight": 0.8597
       },
       {
         "attribute": "long",
         "category": "scale_intensity",
-        "weight": 0.7252
+        "weight": 0.7363
       },
       {
         "attribute": "old",
         "category": "appearance_age",
-        "weight": 2.7283
+        "weight": 2.7701
       },
       {
         "attribute": "young",
         "category": "appearance_age",
-        "weight": 0.5684
+        "weight": 0.5771
       }
     ],
     "EURYMACHUS": [
       {
         "attribute": "angry",
         "category": "affect_state",
-        "weight": 0.8732
+        "weight": 0.8865
       },
       {
         "attribute": "beautiful",
         "category": "appearance_age",
-        "weight": 0.5684
+        "weight": 0.5771
       },
       {
         "attribute": "dark",
         "category": "color_hue",
-        "weight": 1.1368
+        "weight": 1.1542
       },
       {
         "attribute": "furious",
         "category": "affect_state",
-        "weight": 0.9702
+        "weight": 0.985
       },
       {
         "attribute": "gold",
         "category": "color_material",
-        "weight": 0.5684
+        "weight": 0.5771
       },
       {
         "attribute": "just",
         "category": "moral_evaluation",
-        "weight": 0.7409
+        "weight": 0.7522
       },
       {
         "attribute": "kind",
         "category": "moral_evaluation",
-        "weight": 0.5684
+        "weight": 0.5771
       },
       {
         "attribute": "old",
         "category": "appearance_age",
-        "weight": 0.5684
+        "weight": 0.5771
       }
     ],
     "FATE": [
       {
         "attribute": "free",
         "category": "social_status",
-        "weight": 0.9702
+        "weight": 0.985
       },
       {
         "attribute": "old",
         "category": "appearance_age",
-        "weight": 0.8467
+        "weight": 0.8597
       },
       {
         "attribute": "sad",
         "category": "affect_state",
-        "weight": 0.9408
+        "weight": 0.9552
       }
     ],
     "FIRE": [
       {
         "attribute": "copper",
         "category": "color_material",
-        "weight": 0.9408
+        "weight": 0.9552
       },
       {
         "attribute": "glowing",
         "category": "luminosity",
-        "weight": 0.7252
+        "weight": 0.7363
       },
       {
         "attribute": "good",
         "category": "moral_evaluation",
-        "weight": 0.9408
+        "weight": 0.9552
       },
       {
         "attribute": "great",
         "category": "scale_intensity",
-        "weight": 1.8816
+        "weight": 1.9104
       },
       {
         "attribute": "long",
         "category": "scale_intensity",
-        "weight": 0.8232
+        "weight": 0.8358
       }
     ],
     "GENERIC_CAVE": [
       {
         "attribute": "great",
         "category": "scale_intensity",
-        "weight": 1.6013
+        "weight": 1.6258
       },
       {
         "attribute": "huge",
         "category": "scale_intensity",
-        "weight": 0.6272
+        "weight": 0.6368
       },
       {
         "attribute": "sacred",
         "category": "moral_evaluation",
-        "weight": 0.6272
+        "weight": 0.6368
       },
       {
         "attribute": "wise",
         "category": "cognitive_evaluation",
-        "weight": 0.7252
+        "weight": 0.7363
       }
     ],
     "GENERIC_CITY": [
       {
         "attribute": "fair",
         "category": "appearance_age",
-        "weight": 0.8428
+        "weight": 0.8557
       },
       {
         "attribute": "good",
         "category": "moral_evaluation",
-        "weight": 0.785
+        "weight": 0.797
       },
       {
         "attribute": "great",
         "category": "scale_intensity",
-        "weight": 1.6013
+        "weight": 1.6258
       },
       {
         "attribute": "holy",
         "category": "moral_evaluation",
-        "weight": 0.8428
+        "weight": 0.8557
       },
       {
         "attribute": "low",
         "category": "scale_intensity",
-        "weight": 0.8428
+        "weight": 0.8557
       },
       {
         "attribute": "narrow",
         "category": "scale_intensity",
-        "weight": 0.8428
-      },
-      {
-        "attribute": "old",
-        "category": "appearance_age",
-        "weight": 0.8428
+        "weight": 0.8557
       }
     ],
     "GENERIC_DAUGHTER": [
       {
         "attribute": "captain",
         "category": "social_status",
-        "weight": 0.7585
+        "weight": 0.7701
       },
       {
         "attribute": "fair",
         "category": "appearance_age",
-        "weight": 1.715
+        "weight": 1.7413
       },
       {
         "attribute": "good",
         "category": "moral_evaluation",
-        "weight": 0.8428
+        "weight": 0.8557
       },
       {
         "attribute": "honest",
         "category": "moral_evaluation",
-        "weight": 0.4361
+        "weight": 0.4428
       },
       {
         "attribute": "just",
         "category": "moral_evaluation",
-        "weight": 1.4122
+        "weight": 1.4338
       }
     ],
     "GENERIC_FATHER": [
       {
         "attribute": "brave",
         "category": "agency_capacity",
-        "weight": 0.8428
+        "weight": 0.8557
       },
       {
         "attribute": "gold",
         "category": "color_material",
-        "weight": 0.6272
+        "weight": 0.6368
       },
       {
         "attribute": "good",
         "category": "moral_evaluation",
-        "weight": 2.3265
+        "weight": 2.3621
       },
       {
         "attribute": "great",
         "category": "scale_intensity",
-        "weight": 0.7252
+        "weight": 0.7363
       },
       {
         "attribute": "happy",
         "category": "affect_state",
-        "weight": 0.7585
+        "weight": 0.7701
       },
       {
         "attribute": "just",
         "category": "moral_evaluation",
-        "weight": 0.6272
+        "weight": 0.6368
       },
       {
         "attribute": "long",
         "category": "scale_intensity",
-        "weight": 0.7585
+        "weight": 0.7701
       },
       {
         "attribute": "melancholy",
         "category": "affect_state",
-        "weight": 0.6272
+        "weight": 0.6368
       },
       {
         "attribute": "noble",
         "category": "moral_evaluation",
-        "weight": 1.6856
+        "weight": 1.7114
       },
       {
         "attribute": "old",
         "category": "appearance_age",
-        "weight": 4.2223
+        "weight": 4.2869
       },
       {
         "attribute": "unhappy",
         "category": "affect_state",
-        "weight": 1.6856
+        "weight": 1.7114
       },
       {
         "attribute": "wise",
         "category": "cognitive_evaluation",
-        "weight": 0.6272
+        "weight": 0.6368
       },
       {
         "attribute": "young",
         "category": "appearance_age",
-        "weight": 0.8428
+        "weight": 0.8557
       }
     ],
     "GENERIC_FRIEND": [
       {
         "attribute": "good",
         "category": "moral_evaluation",
-        "weight": 0.8428
+        "weight": 0.8557
       },
       {
         "attribute": "old",
         "category": "appearance_age",
-        "weight": 4.0454
+        "weight": 4.1073
       },
       {
         "attribute": "young",
         "category": "appearance_age",
-        "weight": 2.5284
+        "weight": 2.5671
       }
     ],
     "GENERIC_GOD": [
       {
         "attribute": "captain",
         "category": "social_status",
-        "weight": 0.8428
+        "weight": 0.8557
       },
       {
         "attribute": "divine",
         "category": "moral_evaluation",
-        "weight": 0.8722
+        "weight": 0.8856
       },
       {
         "attribute": "good",
         "category": "moral_evaluation",
-        "weight": 0.7252
+        "weight": 0.7363
       },
       {
         "attribute": "great",
         "category": "scale_intensity",
-        "weight": 0.785
+        "weight": 0.797
       },
       {
         "attribute": "handsome",
         "category": "appearance_age",
-        "weight": 0.8428
+        "weight": 0.8557
       },
       {
         "attribute": "high",
         "category": "scale_intensity",
-        "weight": 0.6272
+        "weight": 0.6368
       },
       {
         "attribute": "just",
         "category": "moral_evaluation",
-        "weight": 0.7252
+        "weight": 0.7363
       },
       {
         "attribute": "old",
         "category": "appearance_age",
-        "weight": 0.8428
+        "weight": 0.8557
       }
     ],
     "GENERIC_GODDESS": [
       {
         "attribute": "cunning",
         "category": "cognitive_evaluation",
-        "weight": 1.6013
+        "weight": 1.6258
       },
       {
         "attribute": "good",
         "category": "moral_evaluation",
-        "weight": 0.7585
+        "weight": 0.7701
       },
       {
         "attribute": "great",
         "category": "scale_intensity",
-        "weight": 2.9282
+        "weight": 2.973
       }
     ],
     "GENERIC_GUEST": [
       {
         "attribute": "long",
         "category": "scale_intensity",
-        "weight": 0.6272
+        "weight": 0.6368
       }
     ],
     "GENERIC_HERO": [
       {
         "attribute": "aged",
         "category": "appearance_age",
-        "weight": 0.8428
+        "weight": 0.8557
       },
       {
         "attribute": "captain",
         "category": "social_status",
-        "weight": 0.8722
+        "weight": 0.8856
       },
       {
         "attribute": "great",
         "category": "scale_intensity",
-        "weight": 0.8428
+        "weight": 0.8557
       },
       {
         "attribute": "old",
         "category": "appearance_age",
-        "weight": 0.8428
+        "weight": 0.8557
       },
       {
         "attribute": "valiant",
         "category": "agency_capacity",
-        "weight": 0.7585
+        "weight": 0.7701
       }
     ],
     "GENERIC_HUSBAND": [
       {
         "attribute": "brave",
         "category": "agency_capacity",
-        "weight": 1.6856
+        "weight": 1.7114
       },
       {
         "attribute": "bronze",
         "category": "color_material",
-        "weight": 1.568
+        "weight": 1.592
       },
       {
         "attribute": "gold",
         "category": "color_material",
-        "weight": 0.6272
+        "weight": 0.6368
       },
       {
         "attribute": "good",
         "category": "moral_evaluation",
-        "weight": 0.7252
+        "weight": 0.7363
       },
       {
         "attribute": "just",
         "category": "moral_evaluation",
-        "weight": 0.8722
+        "weight": 0.8856
       },
       {
         "attribute": "kind",
         "category": "moral_evaluation",
-        "weight": 0.7252
+        "weight": 0.7363
       },
       {
         "attribute": "unhappy",
         "category": "affect_state",
-        "weight": 0.8428
+        "weight": 0.8557
       }
     ],
     "GENERIC_ISLAND": [
       {
         "attribute": "able",
         "category": "agency_capacity",
-        "weight": 0.4361
-      },
-      {
-        "attribute": "ancient",
-        "category": "appearance_age",
-        "weight": 0.8428
+        "weight": 0.4428
       },
       {
         "attribute": "fair",
         "category": "appearance_age",
-        "weight": 0.8428
+        "weight": 0.8557
       },
       {
         "attribute": "good",
         "category": "moral_evaluation",
-        "weight": 1.2936
-      },
-      {
-        "attribute": "great",
-        "category": "scale_intensity",
-        "weight": 0.6272
+        "weight": 1.31345
       },
       {
         "attribute": "high",
         "category": "scale_intensity",
-        "weight": 0.7252
+        "weight": 0.7363
       },
       {
         "attribute": "long",
         "category": "scale_intensity",
-        "weight": 1.715
+        "weight": 1.7413
       }
     ],
     "GENERIC_KING": [
       {
         "attribute": "powerful",
         "category": "agency_capacity",
-        "weight": 0.8428
+        "weight": 0.8557
       }
     ],
     "GENERIC_MAN": [
       {
         "attribute": "able",
         "category": "agency_capacity",
-        "weight": 0.3136
+        "weight": 0.3184
       },
       {
         "attribute": "angry",
         "category": "affect_state",
-        "weight": 0.785
+        "weight": 0.797
       },
       {
         "attribute": "beautiful",
         "category": "appearance_age",
-        "weight": 0.37925
+        "weight": 0.38505
       },
       {
         "attribute": "brave",
         "category": "agency_capacity",
-        "weight": 5.2665
+        "weight": 5.3471
       },
       {
         "attribute": "glad",
         "category": "affect_state",
-        "weight": 0.8722
+        "weight": 0.8856
       },
       {
         "attribute": "good",
         "category": "moral_evaluation",
-        "weight": 4.4198
+        "weight": 3.63175
       },
       {
         "attribute": "great",
         "category": "scale_intensity",
-        "weight": 2.2932
+        "weight": 2.3283
       },
       {
         "attribute": "guiltless",
         "category": "moral_evaluation",
-        "weight": 0.8722
+        "weight": 0.8856
       },
       {
         "attribute": "high",
         "category": "scale_intensity",
-        "weight": 0.8428
+        "weight": 0.8557
       },
       {
         "attribute": "just",
         "category": "moral_evaluation",
-        "weight": 0.6272
+        "weight": 0.6368
       },
       {
         "attribute": "kind",
         "category": "moral_evaluation",
-        "weight": 2.5578
+        "weight": 2.597
       },
       {
         "attribute": "old",
         "category": "appearance_age",
-        "weight": 12.1362
+        "weight": 12.3219
       },
       {
         "attribute": "strong",
         "category": "agency_capacity",
-        "weight": 0.7252
+        "weight": 0.7363
       },
       {
         "attribute": "unhappy",
         "category": "affect_state",
-        "weight": 1.6856
+        "weight": 1.7114
       },
       {
         "attribute": "valiant",
         "category": "agency_capacity",
-        "weight": 0.4214
-      },
-      {
-        "attribute": "wicked",
-        "category": "moral_evaluation",
-        "weight": 0.8428
+        "weight": 0.42785
       },
       {
         "attribute": "wily",
         "category": "cognitive_evaluation",
-        "weight": 0.4361
+        "weight": 0.4428
       },
       {
         "attribute": "wise",
         "category": "cognitive_evaluation",
-        "weight": 0.8428
+        "weight": 0.8557
       },
       {
         "attribute": "young",
         "category": "appearance_age",
-        "weight": 2.5284
+        "weight": 1.7114
       }
     ],
     "GENERIC_MONSTER": [
       {
         "attribute": "huge",
         "category": "scale_intensity",
-        "weight": 0.8428
+        "weight": 0.8557
       },
       {
         "attribute": "wicked",
         "category": "moral_evaluation",
-        "weight": 0.8428
+        "weight": 0.8557
       }
     ],
     "GENERIC_MOTHER": [
       {
         "attribute": "fair",
         "category": "appearance_age",
-        "weight": 0.7585
+        "weight": 0.7701
       },
       {
         "attribute": "kind",
         "category": "moral_evaluation",
-        "weight": 0.7252
+        "weight": 0.7363
       },
       {
         "attribute": "purple",
         "category": "color_hue",
-        "weight": 0.8722
+        "weight": 0.8856
       }
     ],
     "GENERIC_MOUNTAIN": [
       {
         "attribute": "high",
         "category": "scale_intensity",
-        "weight": 3.58185
+        "weight": 3.63665
       },
       {
         "attribute": "huge",
         "category": "scale_intensity",
-        "weight": 0.7585
+        "weight": 0.7701
       },
       {
         "attribute": "just",
         "category": "moral_evaluation",
-        "weight": 0.7252
+        "weight": 0.7363
       },
       {
         "attribute": "knowing",
         "category": "cognitive_evaluation",
-        "weight": 0.7252
+        "weight": 0.7363
       },
       {
         "attribute": "low",
         "category": "scale_intensity",
-        "weight": 0.8428
+        "weight": 0.42785
       }
     ],
     "GENERIC_QUEEN": [
       {
         "attribute": "holy",
         "category": "moral_evaluation",
-        "weight": 0.8428
+        "weight": 0.8557
       },
       {
         "attribute": "just",
         "category": "moral_evaluation",
-        "weight": 0.6272
+        "weight": 0.6368
       }
     ],
     "GENERIC_RIVER": [
       {
         "attribute": "beautiful",
         "category": "appearance_age",
-        "weight": 0.785
+        "weight": 0.797
       }
     ],
     "GENERIC_SERVANT": [
       {
         "attribute": "comely",
         "category": "appearance_age",
-        "weight": 0.7585
+        "weight": 0.7701
       },
       {
         "attribute": "little",
         "category": "scale_intensity",
-        "weight": 0.7252
+        "weight": 0.7363
       },
       {
         "attribute": "old",
         "category": "appearance_age",
-        "weight": 0.8428
+        "weight": 0.8557
       }
     ],
     "GENERIC_SHORE": [
       {
         "attribute": "splendid",
         "category": "luminosity",
-        "weight": 0.8722
+        "weight": 0.8856
       }
     ],
     "GENERIC_SON": [
       {
         "attribute": "brave",
         "category": "agency_capacity",
-        "weight": 1.6856
+        "weight": 1.7114
       },
       {
         "attribute": "foolish",
         "category": "cognitive_evaluation",
-        "weight": 0.4361
+        "weight": 0.4428
       },
       {
         "attribute": "good",
         "category": "moral_evaluation",
-        "weight": 0.8722
+        "weight": 0.8856
       },
       {
         "attribute": "great",
         "category": "scale_intensity",
-        "weight": 2.353
+        "weight": 2.389
       },
       {
         "attribute": "just",
         "category": "moral_evaluation",
-        "weight": 1.0986
+        "weight": 1.1154
       },
       {
         "attribute": "long",
         "category": "scale_intensity",
-        "weight": 0.8428
+        "weight": 0.8557
       },
       {
         "attribute": "old",
         "category": "appearance_age",
-        "weight": 1.568
+        "weight": 1.592
       },
       {
         "attribute": "unhappy",
         "category": "affect_state",
-        "weight": 0.7585
+        "weight": 0.7701
       },
       {
         "attribute": "valiant",
         "category": "agency_capacity",
-        "weight": 0.7585
+        "weight": 0.7701
       },
       {
         "attribute": "young",
         "category": "appearance_age",
-        "weight": 2.3824
+        "weight": 2.4189
       }
     ],
     "GENERIC_STRANGER": [
       {
         "attribute": "just",
         "category": "moral_evaluation",
-        "weight": 0.6272
+        "weight": 0.6368
       },
       {
         "attribute": "strong",
         "category": "agency_capacity",
-        "weight": 1.4994
+        "weight": 1.5224
       },
       {
         "attribute": "unhappy",
         "category": "affect_state",
-        "weight": 0.7585
+        "weight": 0.7701
       }
     ],
     "GENERIC_WARRIOR": [
       {
         "attribute": "mighty",
         "category": "scale_intensity",
-        "weight": 0.8428
+        "weight": 0.8557
       }
     ],
     "GENERIC_WIFE": [
       {
         "attribute": "aged",
         "category": "appearance_age",
-        "weight": 0.7252
+        "weight": 0.7363
       },
       {
         "attribute": "brave",
         "category": "agency_capacity",
-        "weight": 1.6856
+        "weight": 1.7114
       },
       {
         "attribute": "chieftain",
         "category": "social_status",
-        "weight": 0.6272
+        "weight": 0.6368
       },
       {
         "attribute": "faithful",
         "category": "moral_evaluation",
-        "weight": 0.8428
+        "weight": 0.8557
       },
       {
         "attribute": "good",
         "category": "moral_evaluation",
-        "weight": 1.6013
+        "weight": 1.6258
       },
       {
         "attribute": "huge",
         "category": "scale_intensity",
-        "weight": 0.785
+        "weight": 0.797
       },
       {
         "attribute": "just",
         "category": "moral_evaluation",
-        "weight": 0.8722
+        "weight": 0.8856
       },
       {
         "attribute": "lovely",
         "category": "appearance_age",
-        "weight": 0.7585
+        "weight": 0.7701
       },
       {
         "attribute": "noble",
         "category": "moral_evaluation",
-        "weight": 1.2936
+        "weight": 1.31345
       },
       {
         "attribute": "silver",
         "category": "color_material",
-        "weight": 0.8428
+        "weight": 0.8557
       },
       {
         "attribute": "wicked",
         "category": "moral_evaluation",
-        "weight": 2.5284
+        "weight": 2.5671
       }
     ],
     "GENERIC_WOMAN": [
       {
         "attribute": "angry",
         "category": "affect_state",
-        "weight": 0.8722
+        "weight": 0.8856
       },
       {
         "attribute": "fair",
         "category": "appearance_age",
-        "weight": 1.3524
+        "weight": 1.3731
       },
       {
         "attribute": "good",
         "category": "moral_evaluation",
-        "weight": 3.5917
+        "weight": 3.64665
       },
       {
         "attribute": "great",
         "category": "scale_intensity",
-        "weight": 1.4994
-      },
-      {
-        "attribute": "knowing",
-        "category": "cognitive_evaluation",
-        "weight": 0.3626
+        "weight": 1.5224
       },
       {
         "attribute": "lovely",
         "category": "appearance_age",
-        "weight": 0.8428
+        "weight": 0.8557
       },
       {
         "attribute": "old",
         "category": "appearance_age",
-        "weight": 9.8607
+        "weight": 10.0116
       },
       {
         "attribute": "shameless",
         "category": "moral_evaluation",
-        "weight": 0.8428
+        "weight": 0.8557
       },
       {
         "attribute": "wicked",
         "category": "moral_evaluation",
-        "weight": 0.7585
+        "weight": 0.7701
       },
       {
         "attribute": "wise",
         "category": "cognitive_evaluation",
-        "weight": 1.4504
+        "weight": 1.4726
       },
       {
         "attribute": "young",
         "category": "appearance_age",
-        "weight": 1.6856
+        "weight": 0.8557
       }
     ],
     "GODS": [
       {
         "attribute": "able",
         "category": "agency_capacity",
-        "weight": 0.8732
+        "weight": 0.8865
       },
       {
         "attribute": "angry",
         "category": "affect_state",
-        "weight": 0.9702
+        "weight": 0.985
       },
       {
         "attribute": "comely",
         "category": "appearance_age",
-        "weight": 0.9408
+        "weight": 0.9552
       },
       {
         "attribute": "cruel",
         "category": "moral_evaluation",
-        "weight": 0.8732
+        "weight": 0.8865
       },
       {
         "attribute": "furious",
         "category": "affect_state",
-        "weight": 0.9702
+        "weight": 0.985
       },
       {
         "attribute": "good",
         "category": "moral_evaluation",
-        "weight": 0.4366
+        "weight": 0.44325
       },
       {
         "attribute": "gray-eyed",
         "category": "color_complex",
-        "weight": 0.8732
+        "weight": 0.8865
       },
       {
         "attribute": "great",
         "category": "scale_intensity",
-        "weight": 0.8467
+        "weight": 0.8597
       },
       {
         "attribute": "long",
         "category": "scale_intensity",
-        "weight": 0.7252
+        "weight": 0.7363
       },
       {
         "attribute": "shining",
         "category": "luminosity",
-        "weight": 0.8467
+        "weight": 0.8597
       },
       {
         "attribute": "tall",
         "category": "appearance_age",
-        "weight": 0.8732
+        "weight": 0.8865
       },
       {
         "attribute": "white",
         "category": "color_hue",
-        "weight": 0.9408
+        "weight": 0.9552
       },
       {
         "attribute": "young",
         "category": "appearance_age",
-        "weight": 0.9702
+        "weight": 0.985
       }
     ],
     "HELEN": [
       {
         "attribute": "beautiful",
         "category": "appearance_age",
-        "weight": 0.7252
+        "weight": 0.7363
       },
       {
         "attribute": "fair",
         "category": "appearance_age",
-        "weight": 0.5684
+        "weight": 0.5771
       },
       {
         "attribute": "gold",
         "category": "color_material",
-        "weight": 0.5684
+        "weight": 0.5771
       },
       {
         "attribute": "golden",
         "category": "color_material",
-        "weight": 0.5684
+        "weight": 0.5771
       },
       {
         "attribute": "good",
         "category": "moral_evaluation",
-        "weight": 0.5684
+        "weight": 0.5771
       },
       {
         "attribute": "great",
         "category": "scale_intensity",
-        "weight": 0.5684
+        "weight": 0.5771
       },
       {
         "attribute": "high",
         "category": "scale_intensity",
-        "weight": 0.5684
+        "weight": 0.5771
       },
       {
         "attribute": "lovely",
         "category": "appearance_age",
-        "weight": 2.45
+        "weight": 3.0646
       },
       {
         "attribute": "noble",
         "category": "moral_evaluation",
-        "weight": 0.8467
+        "weight": 0.8597
       },
       {
         "attribute": "old",
         "category": "appearance_age",
-        "weight": 0.5684
+        "weight": 0.5771
       },
       {
         "attribute": "red",
         "category": "color_hue",
-        "weight": 0.5684
+        "weight": 0.5771
       },
       {
         "attribute": "silver",
         "category": "color_material",
-        "weight": 0.5684
+        "weight": 0.5771
       }
     ],
     "HERA": [
       {
+        "attribute": "able",
+        "category": "agency_capacity",
+        "weight": 0.28855
+      },
+      {
         "attribute": "golden",
         "category": "color_material",
-        "weight": 0.5684
+        "weight": 0.5771
       },
       {
         "attribute": "great",
         "category": "scale_intensity",
-        "weight": 0.9408
+        "weight": 0.9552
       },
       {
         "attribute": "high",
         "category": "scale_intensity",
-        "weight": 0.5684
+        "weight": 0.5771
       },
       {
         "attribute": "just",
         "category": "moral_evaluation",
-        "weight": 0.8732
+        "weight": 0.8865
       },
       {
         "attribute": "kind",
         "category": "moral_evaluation",
-        "weight": 0.5684
-      },
-      {
-        "attribute": "lovely",
-        "category": "appearance_age",
-        "weight": 0.5684
+        "weight": 0.5771
       },
       {
         "attribute": "mighty",
         "category": "scale_intensity",
-        "weight": 2.2618
+        "weight": 2.2965
       }
     ],
     "HERMES": [
       {
+        "attribute": "cunning",
+        "category": "cognitive_evaluation",
+        "weight": 0.5771
+      },
+      {
         "attribute": "fair",
         "category": "appearance_age",
-        "weight": 0.5684
+        "weight": 0.5771
       },
       {
         "attribute": "glittering",
         "category": "luminosity",
-        "weight": 0.5684
+        "weight": 0.5771
       },
       {
         "attribute": "golden",
         "category": "color_material",
-        "weight": 1.1368
+        "weight": 1.1542
       },
       {
         "attribute": "good",
         "category": "moral_evaluation",
-        "weight": 1.3093
+        "weight": 1.3293
       },
       {
         "attribute": "just",
         "category": "moral_evaluation",
-        "weight": 1.862
+        "weight": 1.8905
       },
       {
         "attribute": "lovely",
         "category": "appearance_age",
-        "weight": 0.9408
+        "weight": 0.42985
       },
       {
         "attribute": "red",
         "category": "color_hue",
-        "weight": 0.9408
+        "weight": 0.9552
       }
     ],
     "HOME": [
       {
         "attribute": "able",
         "category": "agency_capacity",
-        "weight": 1.7464
+        "weight": 1.773
       },
       {
         "attribute": "anxious",
         "category": "affect_state",
-        "weight": 0.8467
+        "weight": 0.8597
       },
       {
         "attribute": "bronze",
         "category": "color_material",
-        "weight": 1.6464
+        "weight": 1.6716
       },
       {
         "attribute": "evil",
         "category": "moral_evaluation",
-        "weight": 0.7252
+        "weight": 0.7363
       },
       {
         "attribute": "fair",
         "category": "appearance_age",
-        "weight": 0.7409
+        "weight": 0.7522
       },
       {
         "attribute": "glad",
         "category": "affect_state",
-        "weight": 0.42335
+        "weight": 0.42985
       },
       {
         "attribute": "good",
         "category": "moral_evaluation",
-        "weight": 1.911
+        "weight": 1.9402
       },
       {
         "attribute": "great",
         "category": "scale_intensity",
-        "weight": 0.9408
+        "weight": 0.9552
       },
       {
         "attribute": "grieving",
         "category": "affect_state",
-        "weight": 0.6527
+        "weight": 0.6627
       },
       {
         "attribute": "happy",
         "category": "affect_state",
-        "weight": 0.8467
+        "weight": 0.8597
       },
       {
         "attribute": "high",
         "category": "scale_intensity",
-        "weight": 0.8232
+        "weight": 0.8358
       },
       {
         "attribute": "just",
         "category": "moral_evaluation",
-        "weight": 0.9702
+        "weight": 0.985
       },
       {
         "attribute": "kind",
         "category": "moral_evaluation",
-        "weight": 0.8732
+        "weight": 0.8865
       },
       {
         "attribute": "long",
         "category": "scale_intensity",
-        "weight": 5.2626
+        "weight": 5.78625
       },
       {
         "attribute": "old",
         "category": "appearance_age",
-        "weight": 1.7875
+        "weight": 1.8149
       },
       {
         "attribute": "peaceful",
         "category": "behavior_disposition",
-        "weight": 0.8467
+        "weight": 0.8597
       },
       {
         "attribute": "splendid",
         "category": "luminosity",
-        "weight": 0.8467
+        "weight": 0.8597
       },
       {
         "attribute": "unhappy",
         "category": "affect_state",
-        "weight": 0.9702
+        "weight": 0.985
       }
     ],
     "ITHACA": [
       {
         "attribute": "able",
         "category": "agency_capacity",
-        "weight": 0.4366
+        "weight": 0.44325
       },
       {
         "attribute": "great",
         "category": "scale_intensity",
-        "weight": 0.42335
+        "weight": 0.42985
       },
       {
         "attribute": "high",
         "category": "scale_intensity",
-        "weight": 0.8732
+        "weight": 0.8865
       },
       {
         "attribute": "kind",
         "category": "moral_evaluation",
-        "weight": 0.9702
+        "weight": 0.985
       },
       {
         "attribute": "old",
         "category": "appearance_age",
-        "weight": 1.4504
+        "weight": 1.4726
       },
       {
         "attribute": "royal",
         "category": "social_status",
-        "weight": 0.3626
+        "weight": 0.36815
       }
     ],
     "JOURNEY": [
       {
         "attribute": "good",
         "category": "moral_evaluation",
-        "weight": 0.9702
+        "weight": 0.985
       },
       {
         "attribute": "handsome",
         "category": "appearance_age",
-        "weight": 0.9408
+        "weight": 0.9552
       },
       {
         "attribute": "high",
         "category": "scale_intensity",
-        "weight": 0.4116
+        "weight": 0.4179
       },
       {
         "attribute": "kind",
         "category": "moral_evaluation",
-        "weight": 0.7252
+        "weight": 0.7363
       },
       {
         "attribute": "little",
         "category": "scale_intensity",
-        "weight": 0.8232
+        "weight": 0.8358
       },
       {
         "attribute": "long",
         "category": "scale_intensity",
-        "weight": 9.4947
+        "weight": 8.78035
       },
       {
         "attribute": "sad",
         "category": "affect_state",
-        "weight": 0.9408
+        "weight": 0.9552
       },
       {
         "attribute": "wise",
         "category": "cognitive_evaluation",
-        "weight": 0.4851
+        "weight": 0.4925
       }
     ],
     "LAERTES": [
       {
         "attribute": "able",
         "category": "agency_capacity",
-        "weight": 0.9702
+        "weight": 1.5621
+      },
+      {
+        "attribute": "angry",
+        "category": "affect_state",
+        "weight": 0.5771
       },
       {
         "attribute": "fair",
         "category": "appearance_age",
-        "weight": 1.1368
+        "weight": 1.1542
       },
       {
         "attribute": "fierce",
         "category": "behavior_disposition",
-        "weight": 0.5684
+        "weight": 0.5771
       },
       {
         "attribute": "free",
         "category": "social_status",
-        "weight": 0.5684
+        "weight": 0.5771
       },
       {
         "attribute": "gold",
         "category": "color_material",
-        "weight": 0.5684
+        "weight": 0.5771
       },
       {
         "attribute": "good",
         "category": "moral_evaluation",
-        "weight": 0.5684
+        "weight": 0.5771
       },
       {
         "attribute": "gray",
         "category": "color_hue",
-        "weight": 1.1368
+        "weight": 1.1542
       },
       {
         "attribute": "great",
         "category": "scale_intensity",
-        "weight": 1.1368
+        "weight": 1.1542
       },
       {
         "attribute": "grieving",
         "category": "affect_state",
-        "weight": 0.5684
+        "weight": 0.5771
       },
       {
         "attribute": "little",
         "category": "scale_intensity",
-        "weight": 0.5684
+        "weight": 0.5771
       },
       {
         "attribute": "long",
         "category": "scale_intensity",
-        "weight": 1.5386
+        "weight": 1.5621
       },
       {
         "attribute": "old",
         "category": "appearance_age",
-        "weight": 3.9817
+        "weight": 4.1382
       },
       {
         "attribute": "splendid",
         "category": "luminosity",
-        "weight": 0.5684
+        "weight": 0.5771
       },
       {
         "attribute": "strong",
         "category": "agency_capacity",
-        "weight": 0.5684
+        "weight": 0.5771
       },
       {
         "attribute": "unhappy",
         "category": "affect_state",
-        "weight": 0.5684
+        "weight": 0.5771
       },
       {
         "attribute": "young",
         "category": "appearance_age",
-        "weight": 1.5386
+        "weight": 1.5621
       }
     ],
     "MELANTHIUS": [
       {
-        "attribute": "able",
-        "category": "agency_capacity",
-        "weight": 0.2842
-      },
-      {
         "attribute": "good",
         "category": "moral_evaluation",
-        "weight": 0.5684
+        "weight": 0.5771
       },
       {
         "attribute": "great",
         "category": "scale_intensity",
-        "weight": 0.5684
+        "weight": 0.5771
       },
       {
         "attribute": "narrow",
         "category": "scale_intensity",
-        "weight": 0.8232
+        "weight": 0.8358
       },
       {
         "attribute": "noble",
         "category": "moral_evaluation",
-        "weight": 0.7409
+        "weight": 0.7522
       },
       {
         "attribute": "strong",
         "category": "agency_capacity",
-        "weight": 0.5684
+        "weight": 0.5771
       }
     ],
     "MENELAUS": [
       {
         "attribute": "angry",
         "category": "affect_state",
-        "weight": 1.4416
+        "weight": 1.4636
       },
       {
         "attribute": "anxious",
         "category": "affect_state",
-        "weight": 0.8232
+        "weight": 0.8358
       },
       {
         "attribute": "glad",
         "category": "affect_state",
-        "weight": 0.5684
+        "weight": 0.5771
       },
       {
         "attribute": "gold",
         "category": "color_material",
-        "weight": 0.5684
+        "weight": 1.3134
       },
       {
         "attribute": "golden",
         "category": "color_material",
-        "weight": 1.1368
+        "weight": 1.1542
       },
       {
         "attribute": "good",
         "category": "moral_evaluation",
-        "weight": 2.2736
+        "weight": 2.3084
       },
       {
         "attribute": "great",
         "category": "scale_intensity",
-        "weight": 0.5684
+        "weight": 0.5771
       },
       {
         "attribute": "just",
         "category": "moral_evaluation",
-        "weight": 1.764
+        "weight": 1.791
       },
       {
         "attribute": "kind",
         "category": "moral_evaluation",
-        "weight": 0.9702
+        "weight": 0.985
       },
       {
         "attribute": "long",
         "category": "scale_intensity",
-        "weight": 0.5684
+        "weight": 0.5771
       },
       {
         "attribute": "silver",
         "category": "color_material",
-        "weight": 1.96
+        "weight": 1.99
       },
       {
         "attribute": "vast",
         "category": "scale_intensity",
-        "weight": 0.5684
+        "weight": 0.5771
       },
       {
         "attribute": "young",
         "category": "appearance_age",
-        "weight": 0.5684
+        "weight": 0.5771
       }
     ],
     "MIND": [
       {
+        "attribute": "afraid",
+        "category": "affect_state",
+        "weight": 0.4925
+      },
+      {
         "attribute": "angry",
         "category": "affect_state",
-        "weight": 0.8467
+        "weight": 0.8597
       },
       {
         "attribute": "black",
         "category": "color_hue",
-        "weight": 0.8732
+        "weight": 0.8865
       },
       {
         "attribute": "bronze",
         "category": "color_material",
-        "weight": 1.764
+        "weight": 1.791
       },
       {
         "attribute": "evil",
         "category": "moral_evaluation",
-        "weight": 0.9408
+        "weight": 0.9552
       },
       {
         "attribute": "fair",
         "category": "appearance_age",
-        "weight": 0.8232
+        "weight": 0.8358
       },
       {
         "attribute": "glad",
         "category": "affect_state",
-        "weight": 0.9408
+        "weight": 0.9552
       },
       {
         "attribute": "good",
         "category": "moral_evaluation",
-        "weight": 1.8816
+        "weight": 1.9104
       },
       {
         "attribute": "great",
         "category": "scale_intensity",
-        "weight": 3.7632
+        "weight": 3.8208
       },
       {
         "attribute": "grieving",
         "category": "affect_state",
-        "weight": 0.8467
+        "weight": 0.8597
       },
       {
         "attribute": "high",
         "category": "scale_intensity",
-        "weight": 0.7252
+        "weight": 0.7363
       },
       {
         "attribute": "old",
         "category": "appearance_age",
-        "weight": 0.8467
+        "weight": 0.8597
       },
       {
         "attribute": "sorrowful",
         "category": "affect_state",
-        "weight": 0.9408
+        "weight": 0.9552
       }
     ],
     "MORTALS": [
       {
         "attribute": "brave",
         "category": "agency_capacity",
-        "weight": 1.7875
+        "weight": 2.6746
       },
       {
         "attribute": "cruel",
         "category": "moral_evaluation",
-        "weight": 0.8232
+        "weight": 0.8358
       },
       {
         "attribute": "dark",
         "category": "color_hue",
-        "weight": 1.8816
+        "weight": 1.9104
       },
       {
         "attribute": "evil",
         "category": "moral_evaluation",
-        "weight": 0.9408
+        "weight": 0.9552
       },
       {
         "attribute": "fair-haired",
         "category": "color_complex",
-        "weight": 0.9408
+        "weight": 0.9552
       },
       {
         "attribute": "free",
         "category": "social_status",
-        "weight": 0.9408
+        "weight": 0.9552
       },
       {
         "attribute": "golden",
         "category": "color_material",
-        "weight": 0.9408
+        "weight": 0.9552
       },
       {
         "attribute": "good",
         "category": "moral_evaluation",
-        "weight": 1.764
+        "weight": 1.791
       },
       {
         "attribute": "great",
         "category": "scale_intensity",
-        "weight": 1.1368
+        "weight": 2.1094
       },
       {
         "attribute": "kind",
         "category": "moral_evaluation",
-        "weight": 0.4704
+        "weight": 0.4776
       },
       {
         "attribute": "lawless",
         "category": "moral_evaluation",
-        "weight": 0.9408
+        "weight": 0.9552
       },
       {
         "attribute": "long",
         "category": "scale_intensity",
-        "weight": 0.9702
+        "weight": 0.985
       },
       {
         "attribute": "old",
         "category": "appearance_age",
-        "weight": 1.7875
-      },
-      {
-        "attribute": "strong",
-        "category": "agency_capacity",
-        "weight": 0.9408
+        "weight": 1.8149
       },
       {
         "attribute": "unhappy",
         "category": "affect_state",
-        "weight": 0.9408
+        "weight": 0.9552
       },
       {
         "attribute": "young",
         "category": "appearance_age",
-        "weight": 15.5231
+        "weight": 14.8057
       }
     ],
     "NAUSICAA": [
       {
+        "attribute": "golden",
+        "category": "color_material",
+        "weight": 0.5771
+      },
+      {
         "attribute": "good",
         "category": "moral_evaluation",
-        "weight": 0.5684
-      },
-      {
-        "attribute": "great",
-        "category": "scale_intensity",
-        "weight": 0.8467
-      },
-      {
-        "attribute": "just",
-        "category": "moral_evaluation",
-        "weight": 0.5684
+        "weight": 0.5771
       },
       {
         "attribute": "lovely",
         "category": "appearance_age",
-        "weight": 1.7875
+        "weight": 1.8149
       },
       {
         "attribute": "low",
         "category": "scale_intensity",
-        "weight": 0.5684
-      },
-      {
-        "attribute": "strong",
-        "category": "agency_capacity",
-        "weight": 0.5684
+        "weight": 0.5771
       }
     ],
     "NESTOR": [
       {
         "attribute": "base",
         "category": "moral_evaluation",
-        "weight": 0.5684
+        "weight": 0.5771
       },
       {
         "attribute": "fair",
         "category": "appearance_age",
-        "weight": 0.5684
+        "weight": 0.5771
       },
       {
         "attribute": "gold",
         "category": "color_material",
-        "weight": 0.5684
+        "weight": 0.5771
+      },
+      {
+        "attribute": "golden",
+        "category": "color_material",
+        "weight": 0.5771
       },
       {
         "attribute": "good",
         "category": "moral_evaluation",
-        "weight": 0.5684
+        "weight": 0.5771
       },
       {
         "attribute": "green",
         "category": "color_hue",
-        "weight": 0.5684
+        "weight": 0.5771
+      },
+      {
+        "attribute": "handsome",
+        "category": "appearance_age",
+        "weight": 0.5771
       },
       {
         "attribute": "just",
         "category": "moral_evaluation",
-        "weight": 0.5684
+        "weight": 0.5771
       },
       {
         "attribute": "kind",
         "category": "moral_evaluation",
-        "weight": 0.9702
+        "weight": 0.985
       },
       {
         "attribute": "long",
         "category": "scale_intensity",
-        "weight": 0.5684
+        "weight": 0.5771
       },
       {
         "attribute": "lovely",
         "category": "appearance_age",
-        "weight": 0.8467
+        "weight": 0.8597
       },
       {
         "attribute": "old",
         "category": "appearance_age",
-        "weight": 1.0388
+        "weight": 1.0547
       },
       {
         "attribute": "small",
         "category": "appearance_age",
-        "weight": 0.5684
+        "weight": 0.5771
       },
       {
         "attribute": "valiant",
         "category": "agency_capacity",
-        "weight": 0.5684
+        "weight": 0.5771
       },
       {
         "attribute": "white",
         "category": "color_hue",
-        "weight": 0.5684
+        "weight": 1.1542
       },
       {
         "attribute": "wise",
         "category": "cognitive_evaluation",
-        "weight": 0.42335
+        "weight": 0.42985
       }
     ],
     "NIGHT": [
       {
         "attribute": "able",
         "category": "agency_capacity",
-        "weight": 0.9702
+        "weight": 0.985
       },
       {
         "attribute": "bitter",
         "category": "affect_state",
-        "weight": 0.9702
+        "weight": 0.985
       },
       {
         "attribute": "black",
         "category": "color_hue",
-        "weight": 0.9408
+        "weight": 0.9552
       },
       {
         "attribute": "dark",
         "category": "color_hue",
-        "weight": 2.8518
+        "weight": 1.9104
       },
       {
         "attribute": "deep",
         "category": "scale_intensity",
-        "weight": 0.8732
+        "weight": 0.8865
       },
       {
         "attribute": "glad",
         "category": "affect_state",
-        "weight": 0.9408
+        "weight": 0.9552
       },
       {
         "attribute": "good",
         "category": "moral_evaluation",
-        "weight": 0.9408
+        "weight": 0.9552
       },
       {
         "attribute": "long",
         "category": "scale_intensity",
-        "weight": 5.6742
+        "weight": 5.761
       },
       {
         "attribute": "melancholy",
         "category": "affect_state",
-        "weight": 0.9408
+        "weight": 0.9552
       },
       {
         "attribute": "savage",
         "category": "behavior_disposition",
-        "weight": 0.8232
+        "weight": 0.8358
       }
     ],
     "ODYSSEUS": [
       {
         "attribute": "able",
         "category": "agency_capacity",
-        "weight": 0.8732
+        "weight": 0.8865
       },
       {
         "attribute": "afraid",
         "category": "affect_state",
-        "weight": 0.5684
+        "weight": 0.5771
       },
       {
         "attribute": "angry",
         "category": "affect_state",
-        "weight": 4.9358
+        "weight": 6.16545
       },
       {
         "attribute": "beautiful",
         "category": "appearance_age",
-        "weight": 1.1368
+        "weight": 1.7313
       },
       {
         "attribute": "bitter",
         "category": "affect_state",
-        "weight": 1.9404
+        "weight": 1.97
       },
       {
         "attribute": "bold",
         "category": "behavior_disposition",
-        "weight": 0.8467
+        "weight": 0.8597
       },
       {
         "attribute": "brave",
         "category": "agency_capacity",
-        "weight": 3.1085
+        "weight": 3.1562
       },
       {
         "attribute": "bronze",
         "category": "color_material",
-        "weight": 0.5684
+        "weight": 1.7313
       },
       {
         "attribute": "comely",
         "category": "appearance_age",
-        "weight": 0.5684
+        "weight": 0.5771
       },
       {
         "attribute": "crafty",
         "category": "cognitive_evaluation",
-        "weight": 1.5386
+        "weight": 1.5621
       },
       {
         "attribute": "cruel",
         "category": "moral_evaluation",
-        "weight": 2.6754
+        "weight": 2.7163
       },
       {
         "attribute": "cunning",
         "category": "cognitive_evaluation",
-        "weight": 2.107
+        "weight": 1.5621
       },
       {
         "attribute": "dark",
         "category": "color_hue",
-        "weight": 0.8526
+        "weight": 2.01985
       },
       {
         "attribute": "deep",
         "category": "scale_intensity",
-        "weight": 0.8732
+        "weight": 0.8865
       },
       {
         "attribute": "divine",
         "category": "moral_evaluation",
-        "weight": 0.5684
+        "weight": 0.5771
       },
       {
         "attribute": "evil",
         "category": "moral_evaluation",
-        "weight": 2.0776
+        "weight": 2.1094
       },
       {
         "attribute": "fair",
         "category": "appearance_age",
-        "weight": 1.7052
+        "weight": 1.1542
       },
       {
         "attribute": "faithful",
         "category": "moral_evaluation",
-        "weight": 0.5684
+        "weight": 0.5771
       },
       {
         "attribute": "fearful",
         "category": "affect_state",
-        "weight": 0.5684
+        "weight": 0.5771
       },
       {
         "attribute": "free",
         "category": "social_status",
-        "weight": 0.5684
+        "weight": 0.5771
       },
       {
         "attribute": "furious",
         "category": "affect_state",
-        "weight": 1.4151
+        "weight": 1.4368
       },
       {
         "attribute": "glad",
         "category": "affect_state",
-        "weight": 9.8686
+        "weight": 10.7555
       },
       {
         "attribute": "glittering",
         "category": "luminosity",
-        "weight": 0.5684
+        "weight": 0.5771
       },
       {
         "attribute": "gold",
         "category": "color_material",
-        "weight": 1.7052
+        "weight": 2.3084
       },
       {
         "attribute": "golden",
         "category": "color_material",
-        "weight": 2.842
+        "weight": 2.8855
       },
       {
         "attribute": "good",
         "category": "moral_evaluation",
-        "weight": 11.2837
+        "weight": 11.45645
       },
       {
         "attribute": "great",
         "category": "scale_intensity",
-        "weight": 10.781
+        "weight": 11.2345
       },
       {
         "attribute": "happy",
         "category": "affect_state",
-        "weight": 0.8467
+        "weight": 0.8597
       },
       {
         "attribute": "high",
         "category": "scale_intensity",
-        "weight": 1.0535
+        "weight": 1.0696
       },
       {
         "attribute": "hospitable",
         "category": "behavior_disposition",
-        "weight": 0.5684
+        "weight": 0.5771
       },
       {
         "attribute": "insolent",
         "category": "behavior_disposition",
-        "weight": 0.9702
+        "weight": 0.985
       },
       {
         "attribute": "joyful",
         "category": "affect_state",
-        "weight": 0.5684
+        "weight": 0.5771
       },
       {
         "attribute": "just",
         "category": "moral_evaluation",
-        "weight": 6.2005
+        "weight": 6.2952
       },
       {
         "attribute": "kind",
         "category": "moral_evaluation",
-        "weight": 5.6056
+        "weight": 6.2684
       },
       {
         "attribute": "little",
         "category": "scale_intensity",
-        "weight": 3.7152
+        "weight": 4.3491
       },
       {
         "attribute": "long",
         "category": "scale_intensity",
-        "weight": 13.0732
+        "weight": 15.0043
+      },
+      {
+        "attribute": "low",
+        "category": "scale_intensity",
+        "weight": 0.5771
       },
       {
         "attribute": "melancholy",
         "category": "affect_state",
-        "weight": 0.5684
+        "weight": 0.5771
       },
       {
         "attribute": "mighty",
         "category": "scale_intensity",
-        "weight": 0.5684
+        "weight": 0.5771
       },
       {
         "attribute": "noble",
         "category": "moral_evaluation",
-        "weight": 11.4962
+        "weight": 11.6725
       },
       {
         "attribute": "old",
         "category": "appearance_age",
-        "weight": 5.68985
+        "weight": 6.9312
       },
       {
         "attribute": "purple",
         "category": "color_hue",
-        "weight": 0.7252
+        "weight": 1.3134
       },
       {
         "attribute": "raging",
         "category": "affect_state",
-        "weight": 0.7252
-      },
-      {
-        "attribute": "sacred",
-        "category": "moral_evaluation",
-        "weight": 0.5684
+        "weight": 0.7363
       },
       {
         "attribute": "sad",
         "category": "affect_state",
-        "weight": 0.5684
+        "weight": 0.5771
       },
       {
         "attribute": "savage",
         "category": "behavior_disposition",
-        "weight": 1.4151
+        "weight": 0.5771
       },
       {
         "attribute": "silver",
         "category": "color_material",
-        "weight": 1.7052
+        "weight": 1.1542
       },
       {
         "attribute": "small",
         "category": "appearance_age",
-        "weight": 0.5684
+        "weight": 0.5771
       },
       {
         "attribute": "splendid",
         "category": "luminosity",
-        "weight": 0.8232
+        "weight": 0.8358
       },
       {
         "attribute": "strong",
         "category": "agency_capacity",
-        "weight": 2.2638
+        "weight": 2.8755
       },
       {
         "attribute": "subtle",
         "category": "cognitive_evaluation",
-        "weight": 0.2842
+        "weight": 0.28855
       },
       {
         "attribute": "unhappy",
         "category": "affect_state",
-        "weight": 1.7875
+        "weight": 1.8149
       },
       {
         "attribute": "unjust",
         "category": "moral_evaluation",
-        "weight": 0.5684
+        "weight": 0.5771
       },
       {
         "attribute": "valiant",
         "category": "agency_capacity",
-        "weight": 2.3853
+        "weight": 2.4218
+      },
+      {
+        "attribute": "vast",
+        "category": "scale_intensity",
+        "weight": 0.5771
       },
       {
         "attribute": "white",
         "category": "color_hue",
-        "weight": 0.5684
+        "weight": 0.5771
       },
       {
         "attribute": "wise",
         "category": "cognitive_evaluation",
-        "weight": 1.1574
+        "weight": 1.17505
       },
       {
         "attribute": "young",
         "category": "appearance_age",
-        "weight": 5.7722
+        "weight": 5.8605
       }
     ],
     "PALACE": [
       {
         "attribute": "able",
         "category": "agency_capacity",
-        "weight": 3.2487
+        "weight": 3.2983
       },
       {
         "attribute": "chieftain",
         "category": "social_status",
-        "weight": 0.9408
+        "weight": 0.9552
       },
       {
         "attribute": "distressed",
         "category": "affect_state",
-        "weight": 0.9702
+        "weight": 0.985
       },
       {
         "attribute": "fair",
         "category": "appearance_age",
-        "weight": 1.6954
+        "weight": 0.7363
       },
       {
         "attribute": "faithful",
         "category": "moral_evaluation",
-        "weight": 0.8467
+        "weight": 0.8597
       },
       {
         "attribute": "gold",
         "category": "color_material",
-        "weight": 0.7409
+        "weight": 0.7522
       },
       {
         "attribute": "good",
         "category": "moral_evaluation",
-        "weight": 2.5127
+        "weight": 2.5512
       },
       {
         "attribute": "great",
         "category": "scale_intensity",
-        "weight": 4.5306
+        "weight": 4.5997
       },
       {
         "attribute": "grieving",
         "category": "affect_state",
-        "weight": 0.4851
+        "weight": 0.4925
       },
       {
         "attribute": "guiltless",
         "category": "moral_evaluation",
-        "weight": 0.9702
+        "weight": 0.985
       },
       {
         "attribute": "happy",
         "category": "affect_state",
-        "weight": 0.9408
+        "weight": 0.9552
       },
       {
         "attribute": "high",
         "category": "scale_intensity",
-        "weight": 0.9702
+        "weight": 0.985
       },
       {
         "attribute": "just",
         "category": "moral_evaluation",
-        "weight": 0.8232
+        "weight": 0.8358
       },
       {
         "attribute": "kind",
         "category": "moral_evaluation",
-        "weight": 0.9702
+        "weight": 0.985
       },
       {
         "attribute": "little",
         "category": "scale_intensity",
-        "weight": 1.226
+        "weight": 0.7522
       },
       {
         "attribute": "long",
         "category": "scale_intensity",
-        "weight": 0.9702
+        "weight": 0.985
+      },
+      {
+        "attribute": "narrow",
+        "category": "scale_intensity",
+        "weight": 0.985
       },
       {
         "attribute": "old",
         "category": "appearance_age",
-        "weight": 5.1803
+        "weight": 5.2595
       },
       {
         "attribute": "tall",
         "category": "appearance_age",
-        "weight": 0.7409
+        "weight": 0.7522
       },
       {
         "attribute": "wide",
         "category": "scale_intensity",
-        "weight": 0.9702
+        "weight": 0.985
       },
       {
         "attribute": "yellow",
         "category": "color_hue",
-        "weight": 0.9702
+        "weight": 0.985
       },
       {
         "attribute": "young",
         "category": "appearance_age",
-        "weight": 1.2936
+        "weight": 1.3134
       }
     ],
     "PENELOPE": [
       {
         "attribute": "afraid",
         "category": "affect_state",
-        "weight": 0.5684
+        "weight": 0.5771
       },
       {
         "attribute": "anxious",
         "category": "affect_state",
-        "weight": 0.5684
+        "weight": 0.5771
       },
       {
         "attribute": "beautiful",
         "category": "appearance_age",
-        "weight": 1.4416
+        "weight": 1.4636
       },
       {
         "attribute": "feeble",
         "category": "agency_capacity",
-        "weight": 0.5684
+        "weight": 0.5771
       },
       {
         "attribute": "foolish",
         "category": "cognitive_evaluation",
-        "weight": 0.5684
+        "weight": 0.5771
       },
       {
         "attribute": "good",
         "category": "moral_evaluation",
-        "weight": 2.0776
+        "weight": 2.1094
       },
       {
         "attribute": "great",
         "category": "scale_intensity",
-        "weight": 0.5684
+        "weight": 1.1542
       },
       {
         "attribute": "long",
         "category": "scale_intensity",
-        "weight": 3.4339
+        "weight": 2.7502
       },
       {
         "attribute": "noble",
         "category": "moral_evaluation",
-        "weight": 0.5684
+        "weight": 0.5771
       },
       {
         "attribute": "patient",
         "category": "affect_state",
-        "weight": 0.9702
+        "weight": 0.985
       },
       {
         "attribute": "silver",
         "category": "color_material",
-        "weight": 0.5684
+        "weight": 0.5771
       },
       {
         "attribute": "tall",
         "category": "appearance_age",
-        "weight": 0.8732
+        "weight": 0.8865
       },
       {
         "attribute": "unhappy",
         "category": "affect_state",
-        "weight": 1.1368
+        "weight": 1.1542
       },
       {
         "attribute": "wise",
         "category": "cognitive_evaluation",
-        "weight": 1.6699
+        "weight": 1.6955
       },
       {
         "attribute": "young",
         "category": "appearance_age",
-        "weight": 0.5684
+        "weight": 0.5771
       }
     ],
     "PHAEACIANS": [
       {
         "attribute": "afraid",
         "category": "affect_state",
-        "weight": 0.9408
+        "weight": 0.9552
       },
       {
         "attribute": "good",
         "category": "moral_evaluation",
-        "weight": 0.9408
+        "weight": 0.9552
       },
       {
         "attribute": "great",
         "category": "scale_intensity",
-        "weight": 0.7252
+        "weight": 0.7363
       },
       {
         "attribute": "noble",
         "category": "moral_evaluation",
-        "weight": 0.9408
+        "weight": 0.9552
       },
       {
         "attribute": "small",
         "category": "appearance_age",
-        "weight": 0.8732
+        "weight": 0.8865
       },
       {
         "attribute": "young",
         "category": "appearance_age",
-        "weight": 0.4704
+        "weight": 0.4776
       }
     ],
     "POLYPHEMUS": [
       {
+        "attribute": "captain",
+        "category": "social_status",
+        "weight": 0.5771
+      },
+      {
         "attribute": "crafty",
         "category": "cognitive_evaluation",
-        "weight": 0.9408
+        "weight": 0.9552
       },
       {
         "attribute": "savage",
         "category": "behavior_disposition",
-        "weight": 0.9408
+        "weight": 0.9552
+      },
+      {
+        "attribute": "wicked",
+        "category": "moral_evaluation",
+        "weight": 0.5771
       }
     ],
     "POSEIDON": [
       {
         "attribute": "afraid",
         "category": "affect_state",
-        "weight": 1.0388
+        "weight": 1.0547
       },
       {
         "attribute": "angry",
         "category": "affect_state",
-        "weight": 2.8136
+        "weight": 2.8565
       },
       {
         "attribute": "anxious",
         "category": "affect_state",
-        "weight": 0.4851
+        "weight": 0.4925
       },
       {
         "attribute": "bitter",
         "category": "affect_state",
-        "weight": 0.8232
+        "weight": 0.8358
       },
       {
         "attribute": "black",
         "category": "color_hue",
-        "weight": 0.9408
+        "weight": 0.9552
+      },
+      {
+        "attribute": "cruel",
+        "category": "moral_evaluation",
+        "weight": 0.5771
+      },
+      {
+        "attribute": "fair",
+        "category": "appearance_age",
+        "weight": 0.28855
+      },
+      {
+        "attribute": "free",
+        "category": "social_status",
+        "weight": 0.5771
       },
       {
         "attribute": "furious",
         "category": "affect_state",
-        "weight": 1.8434
+        "weight": 1.8715
       },
       {
         "attribute": "good",
         "category": "moral_evaluation",
-        "weight": 0.5684
+        "weight": 0.5771
       },
       {
         "attribute": "great",
         "category": "scale_intensity",
-        "weight": 1.9835
+        "weight": 3.7452
+      },
+      {
+        "attribute": "green",
+        "category": "color_hue",
+        "weight": 0.5771
       },
       {
         "attribute": "high",
         "category": "scale_intensity",
-        "weight": 0.5684
+        "weight": 0.5771
       },
       {
-        "attribute": "knowing",
-        "category": "cognitive_evaluation",
-        "weight": 0.5684
+        "attribute": "huge",
+        "category": "scale_intensity",
+        "weight": 0.5771
+      },
+      {
+        "attribute": "kind",
+        "category": "moral_evaluation",
+        "weight": 1.1542
       },
       {
         "attribute": "little",
         "category": "scale_intensity",
-        "weight": 0.5684
+        "weight": 0.5771
+      },
+      {
+        "attribute": "long",
+        "category": "scale_intensity",
+        "weight": 0.5771
       },
       {
         "attribute": "old",
         "category": "appearance_age",
-        "weight": 0.5684
+        "weight": 0.5771
+      },
+      {
+        "attribute": "red",
+        "category": "color_hue",
+        "weight": 0.5771
       },
       {
         "attribute": "savage",
         "category": "behavior_disposition",
-        "weight": 0.5684
+        "weight": 0.86565
+      },
+      {
+        "attribute": "strong",
+        "category": "agency_capacity",
+        "weight": 0.5771
+      },
+      {
+        "attribute": "young",
+        "category": "appearance_age",
+        "weight": 1.1542
       }
     ],
     "SEA": [
       {
         "attribute": "afraid",
         "category": "affect_state",
-        "weight": 0.9408
+        "weight": 0.9552
       },
       {
         "attribute": "angry",
         "category": "affect_state",
-        "weight": 0.8232
+        "weight": 0.8358
       },
       {
         "attribute": "beautiful",
         "category": "appearance_age",
-        "weight": 4.3512
+        "weight": 4.4178
       },
       {
         "attribute": "blue",
         "category": "color_hue",
-        "weight": 5.1743
+        "weight": 5.2537
       },
       {
         "attribute": "cunning",
         "category": "cognitive_evaluation",
-        "weight": 0.8732
+        "weight": 0.8865
       },
       {
         "attribute": "dark",
         "category": "color_hue",
-        "weight": 2.5127
+        "weight": 2.5512
       },
       {
         "attribute": "deep",
         "category": "scale_intensity",
-        "weight": 15.1792
+        "weight": 15.4117
       },
       {
         "attribute": "dim",
         "category": "luminosity",
-        "weight": 0.8232
+        "weight": 0.8358
       },
       {
         "attribute": "fair",
         "category": "appearance_age",
-        "weight": 0.9408
+        "weight": 0.9552
       },
       {
         "attribute": "gray",
         "category": "color_hue",
-        "weight": 7.5264
+        "weight": 7.6416
       },
       {
         "attribute": "great",
         "category": "scale_intensity",
-        "weight": 8.8905
+        "weight": 9.0267
       },
       {
         "attribute": "high",
         "category": "scale_intensity",
-        "weight": 2.3236
+        "weight": 2.3591
       },
       {
         "attribute": "holy",
         "category": "moral_evaluation",
-        "weight": 0.9408
+        "weight": 0.9552
       },
       {
         "attribute": "huge",
         "category": "scale_intensity",
-        "weight": 0.8467
+        "weight": 0.8597
       },
       {
         "attribute": "just",
         "category": "moral_evaluation",
-        "weight": 2.2736
+        "weight": 2.3084
       },
       {
         "attribute": "little",
         "category": "scale_intensity",
-        "weight": 0.9408
+        "weight": 0.9552
       },
       {
         "attribute": "long",
         "category": "scale_intensity",
-        "weight": 1.6934
+        "weight": 1.7194
       },
       {
         "attribute": "low",
         "category": "scale_intensity",
-        "weight": 0.9408
+        "weight": 0.9552
       },
       {
         "attribute": "old",
         "category": "appearance_age",
-        "weight": 5.50355
+        "weight": 5.58805
       },
       {
         "attribute": "purple",
         "category": "color_hue",
-        "weight": 0.7252
+        "weight": 0.7363
       },
       {
         "attribute": "silver",
         "category": "color_material",
-        "weight": 0.7252
+        "weight": 0.7363
+      },
+      {
+        "attribute": "weak",
+        "category": "agency_capacity",
+        "weight": 0.985
       },
       {
         "attribute": "weary",
         "category": "affect_state",
-        "weight": 3.4809
+        "weight": 3.5343
       },
       {
         "attribute": "white",
         "category": "color_hue",
-        "weight": 1.5484
+        "weight": 1.5721
       }
     ],
     "SHIELD": [
       {
         "attribute": "old",
         "category": "appearance_age",
-        "weight": 0.9408
+        "weight": 0.9552
       }
     ],
     "SHIP": [
       {
         "attribute": "able",
         "category": "agency_capacity",
-        "weight": 0.8232
+        "weight": 0.8358
       },
       {
         "attribute": "beautiful",
         "category": "appearance_age",
-        "weight": 0.7409
+        "weight": 0.7522
       },
       {
         "attribute": "black",
         "category": "color_hue",
-        "weight": 1.7875
+        "weight": 1.8149
       },
       {
         "attribute": "bronze",
         "category": "color_material",
-        "weight": 0.8232
+        "weight": 0.8358
       },
       {
         "attribute": "dark",
         "category": "color_hue",
-        "weight": 0.7409
+        "weight": 0.7522
       },
       {
         "attribute": "foolish",
         "category": "cognitive_evaluation",
-        "weight": 0.7252
+        "weight": 0.7363
       },
       {
         "attribute": "good",
         "category": "moral_evaluation",
-        "weight": 3.2546
+        "weight": 2.3193
       },
       {
         "attribute": "great",
         "category": "scale_intensity",
-        "weight": 0.9408
+        "weight": 1.791
       },
       {
         "attribute": "high",
         "category": "scale_intensity",
-        "weight": 0.8732
+        "weight": 0.8865
       },
       {
         "attribute": "just",
         "category": "moral_evaluation",
-        "weight": 0.9408
+        "weight": 0.9552
       },
       {
         "attribute": "little",
         "category": "scale_intensity",
-        "weight": 3.3908
+        "weight": 3.4426
       },
       {
         "attribute": "long",
         "category": "scale_intensity",
-        "weight": 1.8816
-      },
-      {
-        "attribute": "small",
-        "category": "appearance_age",
-        "weight": 0.9702
+        "weight": 0.9552
       },
       {
         "attribute": "strong",
         "category": "agency_capacity",
-        "weight": 0.9408
+        "weight": 0.9552
       }
     ],
     "SKY": [
       {
         "attribute": "blameless",
         "category": "moral_evaluation",
-        "weight": 0.8732
+        "weight": 0.8865
       },
       {
         "attribute": "dark",
         "category": "color_hue",
-        "weight": 0.9702
+        "weight": 0.985
       },
       {
         "attribute": "good",
         "category": "moral_evaluation",
-        "weight": 6.2092
+        "weight": 6.3044
       },
       {
         "attribute": "great",
         "category": "scale_intensity",
-        "weight": 4.5746
+        "weight": 4.6446
       },
       {
         "attribute": "holy",
         "category": "moral_evaluation",
-        "weight": 0.8232
+        "weight": 0.8358
       },
       {
         "attribute": "long",
         "category": "scale_intensity",
-        "weight": 4.1552
+        "weight": 4.2188
       },
       {
         "attribute": "weak",
         "category": "agency_capacity",
-        "weight": 0.8467
+        "weight": 0.8597
       },
       {
         "attribute": "wise",
         "category": "cognitive_evaluation",
-        "weight": 0.9408
+        "weight": 0.9552
       }
     ],
     "SORROW": [
       {
         "attribute": "bitter",
         "category": "affect_state",
-        "weight": 0.8467
+        "weight": 0.8597
       },
       {
         "attribute": "dark",
         "category": "color_hue",
-        "weight": 0.9408
+        "weight": 0.9552
       },
       {
         "attribute": "great",
         "category": "scale_intensity",
-        "weight": 4.84505
+        "weight": 4.91935
       },
       {
         "attribute": "long",
         "category": "scale_intensity",
-        "weight": 0.9702
+        "weight": 0.985
       },
       {
         "attribute": "old",
         "category": "appearance_age",
-        "weight": 0.8467
+        "weight": 0.8597
       },
       {
         "attribute": "rosy-fingered",
         "category": "color_complex",
-        "weight": 0.7252
+        "weight": 0.7363
       },
       {
         "attribute": "tall",
         "category": "appearance_age",
-        "weight": 0.8232
+        "weight": 0.8358
       },
       {
         "attribute": "unhappy",
         "category": "affect_state",
-        "weight": 0.9408
+        "weight": 0.9552
       }
     ],
     "SPEAR": [
       {
         "attribute": "bronze",
         "category": "color_material",
-        "weight": 3.575
+        "weight": 3.6298
       },
       {
         "attribute": "long",
         "category": "scale_intensity",
-        "weight": 1.8816
+        "weight": 1.9104
       },
       {
         "attribute": "strong",
         "category": "agency_capacity",
-        "weight": 2.4892
+        "weight": 2.5273
       }
     ],
     "SPEECH": [
       {
         "attribute": "angry",
         "category": "affect_state",
-        "weight": 0.9702
+        "weight": 0.985
       },
       {
         "attribute": "divine",
         "category": "moral_evaluation",
-        "weight": 1.7875
+        "weight": 1.8149
       },
       {
         "attribute": "fair",
         "category": "appearance_age",
-        "weight": 1.7875
+        "weight": 1.8149
       },
       {
         "attribute": "fierce",
         "category": "behavior_disposition",
-        "weight": 0.8467
+        "weight": 0.8597
       },
       {
         "attribute": "friendly",
         "category": "behavior_disposition",
-        "weight": 0.8467
+        "weight": 0.8597
       },
       {
         "attribute": "good",
         "category": "moral_evaluation",
-        "weight": 0.7252
+        "weight": 0.7363
       },
       {
         "attribute": "kind",
         "category": "moral_evaluation",
-        "weight": 0.42335
+        "weight": 0.42985
       },
       {
         "attribute": "low",
         "category": "scale_intensity",
-        "weight": 0.9408
+        "weight": 0.9552
       },
       {
         "attribute": "loyal",
         "category": "moral_evaluation",
-        "weight": 0.9408
+        "weight": 1.9104
       },
       {
         "attribute": "young",
         "category": "appearance_age",
-        "weight": 0.9702
+        "weight": 0.985
       }
     ],
     "STORM": [
       {
         "attribute": "captain",
         "category": "social_status",
-        "weight": 0.9408
+        "weight": 0.9552
       },
       {
         "attribute": "fair",
         "category": "appearance_age",
-        "weight": 14.98025
+        "weight": 15.20955
       },
       {
         "attribute": "fierce",
         "category": "behavior_disposition",
-        "weight": 0.9408
+        "weight": 0.9552
       },
       {
         "attribute": "great",
         "category": "scale_intensity",
-        "weight": 1.3171
+        "weight": 1.3373
       },
       {
         "attribute": "keen",
         "category": "cognitive_evaluation",
-        "weight": 0.9408
+        "weight": 0.9552
       },
       {
         "attribute": "old",
         "category": "appearance_age",
-        "weight": 0.7252
+        "weight": 0.7363
       },
       {
         "attribute": "raging",
         "category": "affect_state",
-        "weight": 0.9702
+        "weight": 0.985
       },
       {
         "attribute": "small",
         "category": "appearance_age",
-        "weight": 0.8232
+        "weight": 0.8358
       },
       {
         "attribute": "strong",
         "category": "agency_capacity",
-        "weight": 0.7252
+        "weight": 0.7363
       }
     ],
     "SUITORS": [
       {
         "attribute": "angry",
         "category": "affect_state",
-        "weight": 1.3171
+        "weight": 2.3223
       },
       {
         "attribute": "cruel",
         "category": "moral_evaluation",
-        "weight": 0.9408
+        "weight": 0.9552
       },
       {
         "attribute": "feeble",
         "category": "agency_capacity",
-        "weight": 0.9702
+        "weight": 0.985
       },
       {
         "attribute": "foolish",
         "category": "cognitive_evaluation",
-        "weight": 0.4704
+        "weight": 0.4776
       },
       {
         "attribute": "good",
         "category": "moral_evaluation",
-        "weight": 0.8732
+        "weight": 0.8865
       },
       {
         "attribute": "insolent",
         "category": "behavior_disposition",
-        "weight": 2.7871
+        "weight": 2.8297
       },
       {
         "attribute": "kind",
         "category": "moral_evaluation",
-        "weight": 0.8232
+        "weight": 0.8358
       },
       {
         "attribute": "lordly",
         "category": "social_status",
-        "weight": 0.9408
+        "weight": 0.9552
       },
       {
         "attribute": "old",
         "category": "appearance_age",
-        "weight": 0.9702
+        "weight": 0.985
       },
       {
         "attribute": "wicked",
         "category": "moral_evaluation",
-        "weight": 10.0665
+        "weight": 10.2207
       },
       {
         "attribute": "young",
         "category": "appearance_age",
-        "weight": 0.8732
+        "weight": 0.8865
       }
     ],
     "SUN": [
       {
         "attribute": "angry",
         "category": "affect_state",
-        "weight": 0.8732
+        "weight": 0.8865
       },
       {
         "attribute": "dark",
         "category": "color_hue",
-        "weight": 0.9702
+        "weight": 0.985
       },
       {
         "attribute": "fair",
         "category": "appearance_age",
-        "weight": 0.8732
+        "weight": 0.8865
       },
       {
         "attribute": "long",
         "category": "scale_intensity",
-        "weight": 1.8816
+        "weight": 1.9104
       },
       {
         "attribute": "mighty",
         "category": "scale_intensity",
-        "weight": 0.9408
+        "weight": 0.9552
       },
       {
         "attribute": "noble",
         "category": "moral_evaluation",
-        "weight": 0.8467
+        "weight": 0.8597
       },
       {
         "attribute": "sacred",
         "category": "moral_evaluation",
-        "weight": 0.8732
+        "weight": 0.8865
       }
     ],
     "SWORD": [
       {
         "attribute": "bronze",
         "category": "color_material",
-        "weight": 3.1458
+        "weight": 3.1939
       },
       {
         "attribute": "comely",
         "category": "appearance_age",
-        "weight": 1.8816
+        "weight": 1.9104
       },
       {
         "attribute": "good",
         "category": "moral_evaluation",
-        "weight": 0.9408
+        "weight": 0.9552
       },
       {
         "attribute": "keen",
         "category": "cognitive_evaluation",
-        "weight": 2.352
+        "weight": 2.388
       },
       {
         "attribute": "small",
         "category": "appearance_age",
-        "weight": 0.9408
+        "weight": 0.9552
       }
     ],
     "TEIRESIAS": [
       {
         "attribute": "beautiful",
         "category": "appearance_age",
-        "weight": 0.5684
+        "weight": 0.5771
       },
       {
         "attribute": "black",
         "category": "color_hue",
-        "weight": 0.5684
+        "weight": 0.5771
+      },
+      {
+        "attribute": "feeble",
+        "category": "agency_capacity",
+        "weight": 0.5771
       },
       {
         "attribute": "golden",
         "category": "color_material",
-        "weight": 1.3916
+        "weight": 1.4129
       },
       {
         "attribute": "just",
         "category": "moral_evaluation",
-        "weight": 0.5684
-      },
-      {
-        "attribute": "kind",
-        "category": "moral_evaluation",
-        "weight": 0.9408
+        "weight": 0.5771
       },
       {
         "attribute": "old",
         "category": "appearance_age",
-        "weight": 0.8232
+        "weight": 0.8358
       },
       {
         "attribute": "tall",
         "category": "appearance_age",
-        "weight": 0.5684
+        "weight": 0.5771
       },
       {
         "attribute": "white",
         "category": "color_hue",
-        "weight": 0.5684
+        "weight": 0.5771
       }
     ],
     "TELEMACHUS": [
       {
         "attribute": "able",
         "category": "agency_capacity",
-        "weight": 0.9408
+        "weight": 0.9552
+      },
+      {
+        "attribute": "afraid",
+        "category": "affect_state",
+        "weight": 0.5771
       },
       {
         "attribute": "angry",
         "category": "affect_state",
-        "weight": 0.5684
+        "weight": 0.5771
       },
       {
         "attribute": "beautiful",
         "category": "appearance_age",
-        "weight": 0.8232
+        "weight": 0.8358
       },
       {
         "attribute": "brilliant",
         "category": "luminosity",
-        "weight": 0.9408
+        "weight": 0.9552
       },
       {
         "attribute": "bronze",
         "category": "color_material",
-        "weight": 0.5684
-      },
-      {
-        "attribute": "comely",
-        "category": "appearance_age",
-        "weight": 0.5684
+        "weight": 0.5771
       },
       {
         "attribute": "distressed",
         "category": "affect_state",
-        "weight": 0.9408
+        "weight": 0.9552
       },
       {
         "attribute": "fierce",
         "category": "behavior_disposition",
-        "weight": 0.8732
+        "weight": 0.8865
       },
       {
         "attribute": "furious",
         "category": "affect_state",
-        "weight": 0.9702
+        "weight": 0.985
       },
       {
         "attribute": "golden",
         "category": "color_material",
-        "weight": 0.5684
+        "weight": 0.5771
       },
       {
         "attribute": "good",
         "category": "moral_evaluation",
-        "weight": 4.6158
+        "weight": 5.8405
       },
       {
         "attribute": "great",
         "category": "scale_intensity",
-        "weight": 2.01
+        "weight": 2.0407
       },
       {
         "attribute": "grieving",
         "category": "affect_state",
-        "weight": 0.2842
+        "weight": 0.28855
       },
       {
         "attribute": "happy",
         "category": "affect_state",
-        "weight": 0.4851
+        "weight": 0.4925
       },
       {
         "attribute": "high",
         "category": "scale_intensity",
-        "weight": 1.5386
+        "weight": 1.5621
       },
       {
         "attribute": "insolent",
         "category": "behavior_disposition",
-        "weight": 1.3093
+        "weight": 1.3293
       },
       {
         "attribute": "just",
         "category": "moral_evaluation",
-        "weight": 2.5284
+        "weight": 2.5671
       },
       {
         "attribute": "kind",
         "category": "moral_evaluation",
-        "weight": 0.9702
+        "weight": 0.985
+      },
+      {
+        "attribute": "little",
+        "category": "scale_intensity",
+        "weight": 0.5771
       },
       {
         "attribute": "long",
         "category": "scale_intensity",
-        "weight": 2.54015
+        "weight": 3.15615
       },
       {
         "attribute": "narrow",
         "category": "scale_intensity",
-        "weight": 0.5684
+        "weight": 0.5771
       },
       {
         "attribute": "old",
         "category": "appearance_age",
-        "weight": 3.1615
+        "weight": 1.4368
+      },
+      {
+        "attribute": "righteous",
+        "category": "moral_evaluation",
+        "weight": 0.5771
       },
       {
         "attribute": "sad",
         "category": "affect_state",
-        "weight": 0.9408
+        "weight": 0.9552
       },
       {
         "attribute": "shameless",
         "category": "moral_evaluation",
-        "weight": 0.8232
+        "weight": 0.8358
       },
       {
         "attribute": "silver",
         "category": "color_material",
-        "weight": 0.5684
+        "weight": 0.5771
       },
       {
         "attribute": "strong",
         "category": "agency_capacity",
-        "weight": 0.5684
+        "weight": 1.1542
       },
       {
         "attribute": "white",
         "category": "color_hue",
-        "weight": 0.5684
+        "weight": 1.1542
       },
       {
         "attribute": "wicked",
         "category": "moral_evaluation",
-        "weight": 1.1368
+        "weight": 1.1542
       },
       {
         "attribute": "young",
         "category": "appearance_age",
-        "weight": 1.4151
+        "weight": 1.4368
       }
     ],
     "TROJANS": [
       {
         "attribute": "long",
         "category": "scale_intensity",
-        "weight": 0.9408
+        "weight": 0.9552
       }
     ],
     "TROY": [
       {
         "attribute": "fair",
         "category": "appearance_age",
-        "weight": 0.7252
+        "weight": 0.7363
       },
       {
         "attribute": "good",
         "category": "moral_evaluation",
-        "weight": 0.8232
+        "weight": 0.7522
       },
       {
         "attribute": "just",
         "category": "moral_evaluation",
-        "weight": 0.8232
+        "weight": 0.8358
       },
       {
         "attribute": "long",
         "category": "scale_intensity",
-        "weight": 1.7934
+        "weight": 1.8208
       }
     ],
     "WINE": [
       {
         "attribute": "black",
         "category": "color_hue",
-        "weight": 2.8224
+        "weight": 2.8656
       },
       {
         "attribute": "gold",
         "category": "color_material",
-        "weight": 0.7252
+        "weight": 0.7363
       },
       {
         "attribute": "golden",
         "category": "color_material",
-        "weight": 1.8816
+        "weight": 1.9104
       },
       {
         "attribute": "great",
         "category": "scale_intensity",
-        "weight": 1.4504
+        "weight": 1.4726
       },
       {
         "attribute": "kind",
         "category": "moral_evaluation",
-        "weight": 0.8232
+        "weight": 0.8358
       },
       {
         "attribute": "long",
         "category": "scale_intensity",
-        "weight": 1.666
+        "weight": 1.6915
       },
       {
         "attribute": "old",
         "category": "appearance_age",
-        "weight": 1.911
+        "weight": 1.9402
       },
       {
         "attribute": "sad",
         "category": "affect_state",
-        "weight": 0.8232
+        "weight": 0.8358
       },
       {
         "attribute": "wicked",
         "category": "moral_evaluation",
-        "weight": 0.8232
+        "weight": 0.8358
       }
     ],
     "ZEUS": [
       {
         "attribute": "afraid",
         "category": "affect_state",
-        "weight": 0.9408
+        "weight": 1.9104
       },
       {
         "attribute": "angry",
         "category": "affect_state",
-        "weight": 2.3148
+        "weight": 2.3501
       },
       {
         "attribute": "ashen",
         "category": "color_complex",
-        "weight": 0.5684
-      },
-      {
-        "attribute": "beautiful",
-        "category": "appearance_age",
-        "weight": 0.5684
+        "weight": 0.5771
       },
       {
         "attribute": "black",
         "category": "color_hue",
-        "weight": 0.8467
+        "weight": 1.4368
       },
       {
         "attribute": "blue",
         "category": "color_hue",
-        "weight": 0.5684
+        "weight": 0.5771
       },
       {
         "attribute": "brave",
         "category": "agency_capacity",
-        "weight": 0.5684
+        "weight": 0.5771
       },
       {
         "attribute": "bronze",
         "category": "color_material",
-        "weight": 0.5684
+        "weight": 0.5771
+      },
+      {
+        "attribute": "crimson",
+        "category": "color_hue",
+        "weight": 0.5771
+      },
+      {
+        "attribute": "cunning",
+        "category": "cognitive_evaluation",
+        "weight": 0.5771
       },
       {
         "attribute": "endless",
         "category": "scale_intensity",
-        "weight": 0.5684
+        "weight": 0.5771
       },
       {
         "attribute": "evil",
         "category": "moral_evaluation",
-        "weight": 2.0188
+        "weight": 2.6268
+      },
+      {
+        "attribute": "fair",
+        "category": "appearance_age",
+        "weight": 0.5771
       },
       {
         "attribute": "foolish",
         "category": "cognitive_evaluation",
-        "weight": 0.5684
+        "weight": 0.5771
       },
       {
         "attribute": "free",
         "category": "social_status",
-        "weight": 0.9408
+        "weight": 0.9552
       },
       {
         "attribute": "furious",
         "category": "affect_state",
-        "weight": 1.1368
+        "weight": 1.7313
+      },
+      {
+        "attribute": "glad",
+        "category": "affect_state",
+        "weight": 1.1542
       },
       {
         "attribute": "gold",
         "category": "color_material",
-        "weight": 1.7052
+        "weight": 2.3084
       },
       {
         "attribute": "golden",
         "category": "color_material",
-        "weight": 1.2936
+        "weight": 1.3134
       },
       {
         "attribute": "good",
         "category": "moral_evaluation",
-        "weight": 3.5221
+        "weight": 4.7302
       },
       {
         "attribute": "great",
         "category": "scale_intensity",
-        "weight": 2.7352
+        "weight": 3.9312
       },
       {
         "attribute": "grieving",
         "category": "affect_state",
-        "weight": 0.5684
+        "weight": 0.5771
       },
       {
         "attribute": "handsome",
         "category": "appearance_age",
-        "weight": 0.5684
+        "weight": 0.5771
+      },
+      {
+        "attribute": "happy",
+        "category": "affect_state",
+        "weight": 0.5771
       },
       {
         "attribute": "high",
         "category": "scale_intensity",
-        "weight": 0.5684
+        "weight": 1.1542
+      },
+      {
+        "attribute": "hospitable",
+        "category": "behavior_disposition",
+        "weight": 1.1542
       },
       {
         "attribute": "huge",
         "category": "scale_intensity",
-        "weight": 0.5684
+        "weight": 1.7313
       },
       {
         "attribute": "just",
         "category": "moral_evaluation",
-        "weight": 2.842
+        "weight": 2.3084
+      },
+      {
+        "attribute": "kind",
+        "category": "moral_evaluation",
+        "weight": 1.44275
       },
       {
         "attribute": "little",
         "category": "scale_intensity",
-        "weight": 0.5684
+        "weight": 0.5771
       },
       {
         "attribute": "long",
         "category": "scale_intensity",
-        "weight": 3.9788
+        "weight": 4.0397
       },
       {
         "attribute": "lordly",
         "category": "social_status",
-        "weight": 0.5684
+        "weight": 0.5771
       },
       {
         "attribute": "mighty",
         "category": "scale_intensity",
-        "weight": 1.5876
+        "weight": 1.6119
       },
       {
         "attribute": "old",
         "category": "appearance_age",
-        "weight": 2.9302
+        "weight": 2.97505
       },
       {
         "attribute": "savage",
         "category": "behavior_disposition",
-        "weight": 0.5684
+        "weight": 1.1542
+      },
+      {
+        "attribute": "silver",
+        "category": "color_material",
+        "weight": 0.5771
+      },
+      {
+        "attribute": "small",
+        "category": "appearance_age",
+        "weight": 0.5771
       },
       {
         "attribute": "strong",
         "category": "agency_capacity",
-        "weight": 0.5684
+        "weight": 0.86565
       },
       {
         "attribute": "tall",
         "category": "appearance_age",
-        "weight": 0.5684
+        "weight": 0.5771
       },
       {
         "attribute": "white",
         "category": "color_hue",
-        "weight": 0.5684
+        "weight": 0.5771
+      },
+      {
+        "attribute": "yellow",
+        "category": "color_hue",
+        "weight": 0.5771
       },
       {
         "attribute": "young",
         "category": "appearance_age",
-        "weight": 0.5684
+        "weight": 1.7313
       }
     ]
   },

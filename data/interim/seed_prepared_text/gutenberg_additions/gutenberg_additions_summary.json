@@ -1,26 +1,30 @@
 [
   {
-    "epub": "Homer_Odyssey_Butcher_Lang_PG1728.epub",
-    "books": 24,
-    "word_tokens": 137180,
-    "text": "Homer_Odyssey_Butcher_Lang_PG1728_books_1_24.txt"
-  },
-  {
     "epub": "Homer_Odyssey_Chapman_PG48895.epub",
     "books": 24,
-    "word_tokens": 146275,
-    "text": "Homer_Odyssey_Chapman_PG48895_books_1_24.txt"
-  },
-  {
-    "epub": "Homer_Odyssey_Cowper_PG24269.epub",
-    "books": 24,
-    "word_tokens": 121498,
-    "text": "Homer_Odyssey_Cowper_PG24269_books_1_24.txt"
+    "word_tokens": 134563,
+    "text": "Homer_Odyssey_Chapman_PG48895_books_1_24.txt",
+    "provenance": "Homer_Odyssey_Chapman_PG48895_book_provenance.json"
   },
   {
     "epub": "Homer_Odyssey_Pope_PG3160.epub",
     "books": 24,
-    "word_tokens": 115019,
-    "text": "Homer_Odyssey_Pope_PG3160_books_1_24.txt"
+    "word_tokens": 108994,
+    "text": "Homer_Odyssey_Pope_PG3160_books_1_24.txt",
+    "provenance": "Homer_Odyssey_Pope_PG3160_book_provenance.json"
+  },
+  {
+    "epub": "Homer_Odyssey_Cowper_PG24269.epub",
+    "books": 24,
+    "word_tokens": 109987,
+    "text": "Homer_Odyssey_Cowper_PG24269_books_1_24.txt",
+    "provenance": "Homer_Odyssey_Cowper_PG24269_book_provenance.json"
+  },
+  {
+    "epub": "Homer_Odyssey_Butcher_Lang_PG1728.epub",
+    "books": 24,
+    "word_tokens": 135382,
+    "text": "Homer_Odyssey_Butcher_Lang_PG1728_books_1_24.txt",
+    "provenance": "Homer_Odyssey_Butcher_Lang_PG1728_book_provenance.json"
   }
 ]

@@ -10,7 +10,7 @@ from dataclasses import dataclass, asdict
 from pathlib import Path
 from typing import Iterable
 
-from .corpus import Passage, WORD_RE, split_sentences
+from .corpus import BookAnchor, WORD_RE, split_sentences
 
 COPULA_RE = re.compile(
     r"\b(?:am|art|are|be|become|became|been|being|is|seem|seemed|seems|was|wast|were|wert|wax|waxed)\b",
@@ -28,8 +28,7 @@ class AttributionEvent:
     year: int
     form: str
     book: int
-    passage: int
-    passage_id: str
+    anchor_id: str
     sentence_index: int
     target: str
     target_surface: str
@@ -152,7 +151,7 @@ def _event_id(parts: list[str]) -> str:
 
 
 def extract_events(
-    passages: Iterable[Passage], ontology_path: Path, entities_path: Path
+    anchors: Iterable[BookAnchor], ontology_path: Path, entities_path: Path
 ) -> list[AttributionEvent]:
     ontology, entities = _load_resources(ontology_path, entities_path)
     category_map, normalization, valence_map = _attribute_maps(ontology)
@@ -161,9 +160,9 @@ def extract_events(
     generic_heads = [item.lower() for item in entities["generic_target_heads"]]
     events: list[AttributionEvent] = []
 
-    for passage in passages:
+    for anchor in anchors:
         last_character: dict | None = None
-        for sentence_index, sentence in enumerate(split_sentences(passage.text), start=1):
+        for sentence_index, sentence in enumerate(split_sentences(anchor.text), start=1):
             targets = _find_targets(sentence, aliases, generic_heads)
             explicit_characters = [item for item in targets if item["type"] == "character"]
             if explicit_characters:
@@ -219,11 +218,11 @@ def extract_events(
                 negated = bool(NEGATION_RE.search(sentence[negation_window_start : attribute["end"]]))
                 extraction_confidence = min(
                     0.99,
-                    max(0.05, base_score * ambiguity_penalty * passage.segmentation_confidence),
+                    max(0.05, base_score * ambiguity_penalty * anchor.segmentation_confidence),
                 )
                 event_key = [
-                    passage.translation_id,
-                    passage.passage_id,
+                    anchor.translation_id,
+                    anchor.anchor_id,
                     str(sentence_index),
                     target["canonical"],
                     attribute["canonical"],
@@ -232,13 +231,12 @@ def extract_events(
                 events.append(
                     AttributionEvent(
                         event_id=_event_id(event_key),
-                        translation_id=passage.translation_id,
-                        translator=passage.translator,
-                        year=passage.year,
-                        form=passage.form,
-                        book=passage.book,
-                        passage=passage.passage,
-                        passage_id=passage.passage_id,
+                        translation_id=anchor.translation_id,
+                        translator=anchor.translator,
+                        year=anchor.year,
+                        form=anchor.form,
+                        book=anchor.book,
+                        anchor_id=anchor.anchor_id,
                         sentence_index=sentence_index,
                         target=target["canonical"],
                         target_surface=target["surface"],
@@ -250,12 +248,12 @@ def extract_events(
                         relation=relation,
                         negated=negated,
                         token_distance=distance,
-                        segmentation_confidence=passage.segmentation_confidence,
+                        segmentation_confidence=anchor.segmentation_confidence,
                         extraction_confidence=round(extraction_confidence, 4),
                         context=sentence,
                     )
                 )
-    events.sort(key=lambda item: (item.year, item.book, item.passage, item.sentence_index, item.target, item.attribute))
+    events.sort(key=lambda item: (item.year, item.book, item.anchor_id, item.sentence_index, item.target, item.attribute))
     return events
 
 
@@ -263,7 +261,7 @@ def write_events(csv_path: Path, jsonl_path: Path, events: Iterable[AttributionE
     rows = list(events)
     csv_path.parent.mkdir(parents=True, exist_ok=True)
     with csv_path.open("w", encoding="utf-8", newline="") as handle:
-        writer = csv.DictWriter(handle, fieldnames=list(asdict(rows[0]).keys()))
+        writer = csv.DictWriter(handle, fieldnames=list(asdict(rows[0]).keys()), lineterminator="\n")
         writer.writeheader()
         for event in rows:
             writer.writerow(asdict(event))

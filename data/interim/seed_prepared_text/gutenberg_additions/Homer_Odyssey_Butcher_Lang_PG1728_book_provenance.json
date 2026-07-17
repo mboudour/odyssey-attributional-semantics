@@ -3,144 +3,192 @@
     "book": 1,
     "epub_member": "OEBPS/6809102338220889749_1728-h-5.htm.xhtml",
     "heading": "BOOK I.",
-    "word_tokens": 5038
+    "extraction_method": "edition_specific_poem_only_html_selectors",
+    "selector_rule": "ordinary poem paragraphs after synopsis; letter and footnote paragraphs excluded",
+    "word_tokens": 4935
   },
   {
     "book": 2,
     "epub_member": "OEBPS/6809102338220889749_1728-h-6.htm.xhtml",
     "heading": "BOOK II.",
-    "word_tokens": 5014
+    "extraction_method": "edition_specific_poem_only_html_selectors",
+    "selector_rule": "ordinary poem paragraphs after synopsis; letter and footnote paragraphs excluded",
+    "word_tokens": 4943
   },
   {
     "book": 3,
     "epub_member": "OEBPS/6809102338220889749_1728-h-7.htm.xhtml",
     "heading": "BOOK III.",
-    "word_tokens": 5669
+    "extraction_method": "edition_specific_poem_only_html_selectors",
+    "selector_rule": "ordinary poem paragraphs after synopsis; letter and footnote paragraphs excluded",
+    "word_tokens": 5630
   },
   {
     "book": 4,
     "epub_member": "OEBPS/6809102338220889749_1728-h-8.htm.xhtml",
     "heading": "BOOK IV.",
-    "word_tokens": 9584
+    "extraction_method": "edition_specific_poem_only_html_selectors",
+    "selector_rule": "ordinary poem paragraphs after synopsis; letter and footnote paragraphs excluded",
+    "word_tokens": 9466
   },
   {
     "book": 5,
     "epub_member": "OEBPS/6809102338220889749_1728-h-9.htm.xhtml",
     "heading": "BOOK V.",
-    "word_tokens": 5698
+    "extraction_method": "edition_specific_poem_only_html_selectors",
+    "selector_rule": "ordinary poem paragraphs after synopsis; letter and footnote paragraphs excluded",
+    "word_tokens": 5539
   },
   {
     "book": 6,
     "epub_member": "OEBPS/6809102338220889749_1728-h-10.htm.xhtml",
     "heading": "BOOK VI.",
-    "word_tokens": 3769
+    "extraction_method": "edition_specific_poem_only_html_selectors",
+    "selector_rule": "ordinary poem paragraphs after synopsis; letter and footnote paragraphs excluded",
+    "word_tokens": 3708
   },
   {
     "book": 7,
     "epub_member": "OEBPS/6809102338220889749_1728-h-11.htm.xhtml",
     "heading": "BOOK VII.",
-    "word_tokens": 3844
+    "extraction_method": "edition_specific_poem_only_html_selectors",
+    "selector_rule": "ordinary poem paragraphs after synopsis; letter and footnote paragraphs excluded",
+    "word_tokens": 3785
   },
   {
     "book": 8,
     "epub_member": "OEBPS/6809102338220889749_1728-h-12.htm.xhtml",
     "heading": "BOOK VIII.",
-    "word_tokens": 6507
+    "extraction_method": "edition_specific_poem_only_html_selectors",
+    "selector_rule": "ordinary poem paragraphs after synopsis; letter and footnote paragraphs excluded",
+    "word_tokens": 6426
   },
   {
     "book": 9,
     "epub_member": "OEBPS/6809102338220889749_1728-h-13.htm.xhtml",
     "heading": "BOOK IX.",
-    "word_tokens": 6550
+    "extraction_method": "edition_specific_poem_only_html_selectors",
+    "selector_rule": "ordinary poem paragraphs after synopsis; letter and footnote paragraphs excluded",
+    "word_tokens": 6421
   },
   {
     "book": 10,
     "epub_member": "OEBPS/6809102338220889749_1728-h-14.htm.xhtml",
     "heading": "BOOK X.",
-    "word_tokens": 6617
+    "extraction_method": "edition_specific_poem_only_html_selectors",
+    "selector_rule": "ordinary poem paragraphs after synopsis; letter and footnote paragraphs excluded",
+    "word_tokens": 6516
   },
   {
     "book": 11,
     "epub_member": "OEBPS/6809102338220889749_1728-h-15.htm.xhtml",
     "heading": "BOOK XI.",
-    "word_tokens": 7105
+    "extraction_method": "edition_specific_poem_only_html_selectors",
+    "selector_rule": "ordinary poem paragraphs after synopsis; letter and footnote paragraphs excluded",
+    "word_tokens": 7009
   },
   {
     "book": 12,
     "epub_member": "OEBPS/6809102338220889749_1728-h-16.htm.xhtml",
     "heading": "BOOK XII.",
-    "word_tokens": 5099
+    "extraction_method": "edition_specific_poem_only_html_selectors",
+    "selector_rule": "ordinary poem paragraphs after synopsis; letter and footnote paragraphs excluded",
+    "word_tokens": 5037
   },
   {
     "book": 13,
     "epub_member": "OEBPS/6809102338220889749_1728-h-17.htm.xhtml",
     "heading": "BOOK XIII.",
-    "word_tokens": 4977
+    "extraction_method": "edition_specific_poem_only_html_selectors",
+    "selector_rule": "ordinary poem paragraphs after synopsis; letter and footnote paragraphs excluded",
+    "word_tokens": 4912
   },
   {
     "book": 14,
     "epub_member": "OEBPS/6809102338220889749_1728-h-18.htm.xhtml",
     "heading": "BOOK XIV.",
-    "word_tokens": 6177
+    "extraction_method": "edition_specific_poem_only_html_selectors",
+    "selector_rule": "ordinary poem paragraphs after synopsis; letter and footnote paragraphs excluded",
+    "word_tokens": 6131
   },
   {
     "book": 15,
     "epub_member": "OEBPS/6809102338220889749_1728-h-19.htm.xhtml",
     "heading": "BOOK XV.",
-    "word_tokens": 6185
+    "extraction_method": "edition_specific_poem_only_html_selectors",
+    "selector_rule": "ordinary poem paragraphs after synopsis; letter and footnote paragraphs excluded",
+    "word_tokens": 6154
   },
   {
     "book": 16,
     "epub_member": "OEBPS/6809102338220889749_1728-h-20.htm.xhtml",
     "heading": "BOOK XVI.",
-    "word_tokens": 5449
+    "extraction_method": "edition_specific_poem_only_html_selectors",
+    "selector_rule": "ordinary poem paragraphs after synopsis; letter and footnote paragraphs excluded",
+    "word_tokens": 5399
   },
   {
     "book": 17,
     "epub_member": "OEBPS/6809102338220889749_1728-h-21.htm.xhtml",
     "heading": "BOOK XVII.",
-    "word_tokens": 6845
+    "extraction_method": "edition_specific_poem_only_html_selectors",
+    "selector_rule": "ordinary poem paragraphs after synopsis; letter and footnote paragraphs excluded",
+    "word_tokens": 6711
   },
   {
     "book": 18,
     "epub_member": "OEBPS/6809102338220889749_1728-h-22.htm.xhtml",
     "heading": "BOOK XVIII.",
-    "word_tokens": 4804
+    "extraction_method": "edition_specific_poem_only_html_selectors",
+    "selector_rule": "ordinary poem paragraphs after synopsis; letter and footnote paragraphs excluded",
+    "word_tokens": 4763
   },
   {
     "book": 19,
     "epub_member": "OEBPS/6809102338220889749_1728-h-23.htm.xhtml",
     "heading": "BOOK XIX.",
-    "word_tokens": 6878
+    "extraction_method": "edition_specific_poem_only_html_selectors",
+    "selector_rule": "ordinary poem paragraphs after synopsis; letter and footnote paragraphs excluded",
+    "word_tokens": 6824
   },
   {
     "book": 20,
     "epub_member": "OEBPS/6809102338220889749_1728-h-24.htm.xhtml",
     "heading": "BOOK XX.",
-    "word_tokens": 4475
+    "extraction_method": "edition_specific_poem_only_html_selectors",
+    "selector_rule": "ordinary poem paragraphs after synopsis; letter and footnote paragraphs excluded",
+    "word_tokens": 4417
   },
   {
     "book": 21,
     "epub_member": "OEBPS/6809102338220889749_1728-h-25.htm.xhtml",
     "heading": "BOOK XXI.",
-    "word_tokens": 5022
+    "extraction_method": "edition_specific_poem_only_html_selectors",
+    "selector_rule": "ordinary poem paragraphs after synopsis; letter and footnote paragraphs excluded",
+    "word_tokens": 4927
   },
   {
     "book": 22,
     "epub_member": "OEBPS/6809102338220889749_1728-h-26.htm.xhtml",
     "heading": "BOOK XXII.",
-    "word_tokens": 5504
+    "extraction_method": "edition_specific_poem_only_html_selectors",
+    "selector_rule": "ordinary poem paragraphs after synopsis; letter and footnote paragraphs excluded",
+    "word_tokens": 5458
   },
   {
     "book": 23,
     "epub_member": "OEBPS/6809102338220889749_1728-h-27.htm.xhtml",
     "heading": "BOOK XXIII.",
-    "word_tokens": 4155
+    "extraction_method": "edition_specific_poem_only_html_selectors",
+    "selector_rule": "ordinary poem paragraphs after synopsis; letter and footnote paragraphs excluded",
+    "word_tokens": 4122
   },
   {
     "book": 24,
     "epub_member": "OEBPS/6809102338220889749_1728-h-28.htm.xhtml",
     "heading": "BOOK XXIV.",
-    "word_tokens": 6215
+    "extraction_method": "edition_specific_poem_only_html_selectors",
+    "selector_rule": "ordinary poem paragraphs after synopsis; letter and footnote paragraphs excluded",
+    "word_tokens": 6149
   }
 ]

@@ -68,7 +68,7 @@ def make_figures(tables: dict[str, pd.DataFrame], figure_dir: Path) -> list[Path
     alignment_plot = alignment.assign(pair=pair_labels)
     pair_order = alignment_plot.groupby("pair")["alignment_confidence"].median().sort_values(ascending=False).index
     sns.boxplot(data=alignment_plot, x="pair", y="alignment_confidence", order=pair_order, color="#4C78A8", fliersize=1, ax=ax)
-    ax.set_title("Book-relative passage alignment confidence")
+    ax.set_title("Native Book I–XXIV alignment confidence")
     ax.set_xlabel("")
     ax.set_ylabel("Composite confidence")
     ax.tick_params(axis="x", rotation=70, labelsize=8)
@@ -150,11 +150,11 @@ This report documents a fully reproducible, rights-safe baseline analysis of **s
 
 {_markdown_table(translation, ["translation_id", "translator", "year", "form", "corpus_words", "event_count", "events_per_10k_words", "mean_extraction_confidence"], rows=20)}
 
-The common alignment coordinate is `(book, relative passage bin)`, yielding 480 matched anchors per translation. It is a deterministic structural alignment, not Greek-line alignment. Murray’s OCR-damaged missing headings are reconstructed between observed anchors using a documented proportional allocation and receive reduced confidence.
+The common alignment coordinate is the complete native Homeric **Book I–XXIV** unit, yielding 24 matched anchors per translation. It is a transparent book-level structural alignment, not Greek-line alignment. Murray’s OCR-obscured Book III, V, IX, and XI starts are audited against original scan pages; no book is inferred by proportional allocation. OCR-derived text retains a reduced segmentation-confidence value.
 
 The ten weakest anchors are:
 
-{_markdown_table(lowest_alignment, ["passage_id", "mean_pairwise_cosine", "mean_length_ratio", "anchor_confidence"], rows=10)}
+{_markdown_table(lowest_alignment, ["anchor_id", "mean_pairwise_cosine", "mean_length_ratio", "anchor_confidence"], rows=10)}
 
 ### Primary distributional comparisons
 
@@ -170,7 +170,7 @@ For every ontology category, the pipeline estimates the descriptive slope in wei
 
 {_markdown_table(chronology, ["category", "slope_events_per_10k_per_century", "pearson_r_year", "exact_permutation_p", "holm_adjusted_p"], rows=20)}
 
-Matched-passage bootstrap intervals resample the 480 common anchors, preserving within-anchor cross-translation dependence:
+Matched-book bootstrap intervals resample the 24 common native-book anchors, preserving within-anchor cross-translation dependence:
 
 {_markdown_table(bootstrap, ["category", "slope_mean", "slope_ci_2_5", "slope_ci_97_5", "probability_positive"], rows=20)}
 
