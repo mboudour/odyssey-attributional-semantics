@@ -3,6 +3,7 @@ from __future__ import annotations
 import json
 from pathlib import Path
 
+import numpy as np
 import pandas as pd
 
 from odyssey_attr.analysis import contextual_embeddings
@@ -70,3 +71,7 @@ def test_contextual_embedding_vocabulary_is_json_serializable(tmp_path: Path) ->
     vocabulary = json.loads((tmp_path / "tfidf_vocabulary.json").read_text(encoding="utf-8"))
     assert vocabulary
     assert all(isinstance(term, str) and isinstance(index, int) for term, index in vocabulary.items())
+
+    archive = np.load(tmp_path / "event_context_svd.npz", allow_pickle=False)
+    assert archive["event_ids"].dtype.kind in {"U", "S"}
+    assert archive["vectors"].shape[0] == len(events)

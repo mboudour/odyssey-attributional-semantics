@@ -229,7 +229,8 @@ def contextual_embeddings(events: pd.DataFrame, model_dir: Path, dimensions: int
     effective_dimensions = min(dimensions, max(2, min(sparse.shape) - 1))
     svd = TruncatedSVD(n_components=effective_dimensions, random_state=20260717)
     vectors = normalize(svd.fit_transform(sparse).astype(np.float32))
-    np.savez_compressed(model_dir / "event_context_svd.npz", event_ids=events["event_id"].to_numpy(), vectors=vectors)
+    event_ids = events["event_id"].astype(str).to_numpy(dtype=str)
+    np.savez_compressed(model_dir / "event_context_svd.npz", event_ids=event_ids, vectors=vectors)
     np.save(model_dir / "svd_components.npy", svd.components_.astype(np.float32))
     vocabulary = {str(term): int(index) for term, index in vectorizer.vocabulary_.items()}
     (model_dir / "tfidf_vocabulary.json").write_text(json.dumps(vocabulary, sort_keys=True), encoding="utf-8")
