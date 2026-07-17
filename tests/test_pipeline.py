@@ -1,0 +1,57 @@
+from __future__ import annotations
+
+import json
+from pathlib import Path
+
+from odyssey_attr.corpus import books_to_passages, load_all_books
+from odyssey_attr.extract import extract_events
+
+ROOT = Path(__file__).resolve().parents[1]
+
+
+def test_corpus_registry_contains_six_rights_safe_translations() -> None:
+    registry = json.loads((ROOT / "config" / "corpus.json").read_text(encoding="utf-8"))
+    assert len(registry["translations"]) == 6
+    assert all(item["rights_status"] == "public_domain_us" for item in registry["translations"])
+    assert {item["translation_id"] for item in registry["translations"]} == {
+        "chapman_1616",
+        "pope_1726",
+        "cowper_1791",
+        "butcher_lang_1879",
+        "butler_1900",
+        "murray_1919",
+    }
+
+
+def test_all_translations_segment_to_twenty_four_books() -> None:
+    books = load_all_books(ROOT, ROOT / "config" / "corpus.json")
+    assert len(books) == 6 * 24
+    per_translation: dict[str, set[int]] = {}
+    for book in books:
+        per_translation.setdefault(book.translation_id, set()).add(book.book)
+        assert book.word_count > 500
+        assert 0 < book.segmentation_confidence <= 1
+    assert all(numbers == set(range(1, 25)) for numbers in per_translation.values())
+
+
+def test_common_passage_grid_and_event_schema() -> None:
+    books = load_all_books(ROOT, ROOT / "config" / "corpus.json")
+    passages = books_to_passages(books, bins_per_book=20)
+    assert len(passages) == 6 * 24 * 20
+    assert len({passage.passage_id for passage in passages}) == 24 * 20
+    events = extract_events(
+        passages[:120],
+        ROOT / "config" / "ontology.json",
+        ROOT / "config" / "entities.json",
+    )
+    assert events
+    assert all(0 < event.extraction_confidence <= 1 for event in events)
+    assert all(event.target and event.attribute and event.category for event in events)
+    assert {event.relation for event in events} <= {
+        "predicate_copular",
+        "attributive_pre_nominal",
+        "attributive_post_nominal",
+        "appositive_epithet",
+        "pronoun_copular",
+        "inverse_copular",
+    }

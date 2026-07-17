@@ -1,0 +1,30 @@
+{
+  "version": "1.0.0",
+  "scope_note": "Operational lexicon for reproducible candidate extraction. Categories are descriptive and must not be interpreted as ideological conclusions without contextual validation.",
+  "categories": {
+    "color_hue": ["black", "blue", "brown", "crimson", "dark", "dusky", "ebon", "green", "grey", "gray", "purple", "red", "ruddy", "sable", "scarlet", "vermilion", "violet", "white", "yellow"],
+    "color_material": ["brazen", "bronze", "copper", "gold", "golden", "silver", "silvery"],
+    "color_complex": ["ashen", "blood-red", "dark-blue", "dark-haired", "fair-haired", "flame-coloured", "flame-colored", "grey-eyed", "gray-eyed", "purple-dyed", "rosy", "rosy-fingered", "ruddy-faced", "wine-dark", "violet-dark"],
+    "luminosity": ["bright", "brilliant", "dazzling", "dim", "dusky", "gleaming", "glittering", "glowing", "lustrous", "murky", "radiant", "shining", "splendid", "sun-bright"],
+    "cognitive_evaluation": ["astute", "clever", "crafty", "cunning", "foolish", "guileful", "intelligent", "keen", "knowing", "prudent", "resourceful", "sagacious", "senseless", "shrewd", "subtle", "thoughtful", "unwise", "wily", "wise"],
+    "affect_state": ["afraid", "angry", "anxious", "bitter", "cheerful", "despairing", "distressed", "fearful", "furious", "glad", "grieving", "happy", "hopeful", "joyful", "melancholy", "mournful", "patient", "raging", "sad", "sorrowful", "terrified", "unhappy", "weary", "woeful", "wrathful"],
+    "moral_evaluation": ["base", "blameless", "cruel", "divine", "evil", "faithful", "false", "gentle", "godlike", "good", "guiltless", "holy", "honest", "impious", "just", "kind", "lawless", "loyal", "merciless", "noble", "pious", "righteous", "sacred", "shameless", "sinful", "treacherous", "trusty", "unjust", "virtuous", "wicked"],
+    "behavior_disposition": ["aggressive", "boastful", "bold", "deceitful", "defiant", "fierce", "friendly", "generous", "greedy", "hospitable", "insolent", "peaceful", "reckless", "ruthless", "savage", "secretive", "self-controlled", "steadfast", "stubborn", "violent", "wanton", "war-like", "warlike"],
+    "agency_capacity": ["able", "brave", "courageous", "dauntless", "enduring", "feeble", "formidable", "helpless", "heroic", "mighty", "powerful", "resolute", "strong", "tireless", "valiant", "weak"],
+    "social_status": ["captain", "chieftain", "enslaved", "free", "kingly", "lordly", "low-born", "noble-born", "princely", "queenly", "royal", "servile"],
+    "appearance_age": ["aged", "ancient", "beautiful", "comely", "fair", "handsome", "lovely", "old", "small", "tall", "ugly", "young", "youthful"],
+    "scale_intensity": ["boundless", "deep", "endless", "great", "high", "huge", "immense", "little", "long", "low", "mighty", "narrow", "vast", "wide"]
+  },
+  "valence": {
+    "positive": ["astute", "beautiful", "blameless", "brave", "bright", "brilliant", "cheerful", "clever", "comely", "courageous", "dauntless", "divine", "enduring", "fair", "faithful", "friendly", "generous", "gentle", "glad", "godlike", "good", "guiltless", "handsome", "heroic", "holy", "honest", "hopeful", "hospitable", "intelligent", "joyful", "just", "keen", "kind", "knowing", "loyal", "lovely", "lustrous", "mighty", "noble", "patient", "peaceful", "pious", "powerful", "prudent", "radiant", "resolute", "resourceful", "righteous", "sacred", "sagacious", "shining", "shrewd", "splendid", "steadfast", "strong", "thoughtful", "tireless", "trusty", "valiant", "virtuous", "wise"],
+    "negative": ["afraid", "aggressive", "angry", "anxious", "base", "bitter", "boastful", "cruel", "dark", "deceitful", "despairing", "dim", "distressed", "evil", "false", "fearful", "feeble", "foolish", "furious", "greedy", "guileful", "helpless", "impious", "insolent", "lawless", "melancholy", "merciless", "mournful", "murky", "raging", "reckless", "ruthless", "sad", "savage", "senseless", "shameless", "sinful", "sorrowful", "terrified", "treacherous", "ugly", "unhappy", "unjust", "unwise", "violent", "wanton", "weak", "weary", "wicked", "woeful", "wrathful"],
+    "context_dependent": ["ashen", "black", "blue", "brazen", "bronze", "brown", "copper", "crimson", "dusky", "ebon", "gold", "golden", "gray", "green", "grey", "purple", "red", "rosy", "ruddy", "sable", "scarlet", "silver", "silvery", "vermilion", "violet", "white", "yellow"]
+  },
+  "normalization": {
+    "grey": "gray",
+    "grey-eyed": "gray-eyed",
+    "flame-coloured": "flame-colored",
+    "war-like": "warlike",
+    "sunbright": "sun-bright"
+  }
+}

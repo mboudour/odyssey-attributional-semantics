@@ -1,0 +1,59 @@
+cue_id,start_s,end_s,duration_s,text,line_count,token_count
+1,0.0,4.04,4.04,HOMER'S ODYSSEY Cinematic rendering of the greatest poem of ancient Greek literature,3,12
+2,4.08,16.36,12.28,Costumes from the tailorshops of the Scala Theatre in Milan.,2,10
+3,16.4,28.96,12.56,Scenes after old drawings that are in the famous Brera library (Milan).,2,12
+4,29.0,43.2,14.2,The adventures of Ulysses after the poem by Homer THE ODYSSEY,3,11
+5,43.24,48.52,5.28,The departure of Ulysses,1,4
+6,73.84,88.71,14.87,"Ulysses says goodbye to his wife Penelope, his son Telemachus, his old father Laertes,",3,14
+7,88.73,98.6,9.87,"...and leaves Ithaka, to go to the war against Troy.",2,10
+8,137.28,141.24,3.96,The ships of Ulysses leave Ithaca,1,6
+9,163.96,172.34,8.38,"Believing Ulysses to be dead, the suitors take possession of his house...",3,12
+10,172.36,179.72,7.36,...and demand that Penelope choose a new husband among them.,2,10
+11,210.72,226.0,15.28,Penelope manages to put off the choice of the new husband as long as until she will have finished weaving the shroud.,3,22
+12,247.52,266.48,18.96,"At night she undoes the stitches. Caught by the suitors doing this, she promises to complete the work.",3,18
+13,314.64,330.16,15.52,"After the destruction of Troy, Ulysses sets sail with his companions to return home.",3,14
+14,401.76,405.88,4.12,Ulysses lands on the island of the cyclope Polyphemus.,2,9
+15,427.04,436.24,9.2,Polyphemus devours one of Ulysses' companions.,2,6
+16,486.72,492.8,6.08,Ulysses blinds the terrible Polyphemus.,2,5
+17,609.8,618.92,9.12,Ulysses flees from Polyphemus with the surviving companions.,2,8
+18,645.8,658.4,12.6,"Ulysses flees with his companions from the cave of Polyphemus, letting the sheep carry them.",3,15
+19,677.16,696.04,18.88,"After the stolen sheep have been brought on the ships, Ulysses pushes away from land with his companions.",3,18
+20,737.72,746.32,8.6,Ulysses mocks Polyphemus from the ships.,2,6
+21,758.6,771.16,12.56,Polyphemus hurls a rock at Ulysses' ship and begs for Neptune's revenge.,3,12
+22,792.68,805.18,12.5,"To escape the seductive call of the sirens, Ulysses blocks the ears of his companions with wax,",3,17
+23,805.2,814.16,8.96,...and has himself tied to the mast of the ship.,2,10
+24,894.64,903.77,9.13,During the passage through the strait of Scylla and Charybdis...,2,10
+25,903.79,912.92,9.13,"...Ulysses' ship looses six more companions, whom the monster eats.",2,10
+26,951.4,963.44,12.04,"Ulysses lands in Sicily, where the sacred bulls of Jupiter are located.",3,12
+27,976.32,977.24,0.92,End of the first part. A short break in order to prepare the second part.,3,15
+28,977.28,979.92,2.64,"Ulysses, who removed himself from his companions, is called back by the smoke of burning bulls.",3,16
+29,1011.52,1036.16,24.64,"Aching with hunger, despite his warnings, Ulysses' companions feed on the meat of the sacred bulls.",3,16
+30,1068.44,1077.64,9.2,Jupiter delivers the lightning on Ulysses' ship to avenge himself.,2,10
+31,1096.4,1099.36,2.96,Only Ulysses saves himself...,1,4
+32,1110.28,1116.16,5.88,...and reaches the island of Calypso.,2,6
+33,1158.08,1163.08,5.0,Where he spends seven years.,1,5
+34,1191.16,1203.84,12.68,"Calypso, by will of the gods, advises Ulysses to build a raft to return home.",3,15
+35,1241.32,1247.16,5.84,Ulysses goes to work.,1,4
+36,1276.4,1287.36,10.96,"After a moving farewell, Ulysses leaves the island of Calypso.",2,10
+37,1338.04,1350.6,12.56,"To avenge Polyphemus, the seagod Neptune steers the ship to sea.",2,11
+38,1362.32,1374.84,12.52,"Saved by a miracle, Ulysses goes ashore at the mouth of a stream.",3,13
+39,1447.72,1458.01,10.29,"Nausicaa, the daughter of the Phaeacian king Alcinous, welcomes Ulysses,",3,10
+40,1458.03,1468.32,10.29,"...gives him clothes, and advises him that he head for her father.",3,12
+41,1502.92,1507.36,4.44,Ulysses heads for the palace of the king.,2,8
+42,1602.56,1611.48,8.92,After a cordial reception he recounts his adventures.,2,8
+43,1734.08,1740.12,6.04,...he is given precious presents.,1,5
+44,1810.28,1822.36,12.08,The ship of Alcinous finally takes Ulysses back to his homeland.,3,11
+45,1834.84,1840.6,5.76,The sleeping Ulysses is brought ashore.,2,6
+46,1862.84,1864.56,1.72,End of the second reel. One moment please to prepare the second part.,3,13
+47,1864.6,1870.68,6.08,"The goddess Minerva changes Ulysses into an old beggar, so that he isn't recognized by the suitors.",3,17
+48,1962.4,1977.72,15.32,Ulysses heads for the hut of the old shepherd Eumaeus. Here he also finds his son Telemachus.,3,17
+49,2018.76,2030.28,11.52,Minerva orders Ulysses to reveal himself to his son Telemachus.,2,10
+50,2048.32,2057.28,8.96,"With help from Minerva, Telemachus recognizes his father.",2,8
+51,2096.04,2101.68,5.64,The suitors maltreat the beggar.,1,5
+52,2190.36,2202.2,11.84,Loathly Ulysses observes the flirtations of his maids with the suitors.,3,11
+53,2292.4,2301.32,8.92,Ulysses hides with his son Telemachus the suitors' weapons.,2,9
+54,2355.6,2373.72,18.12,Penelope declares to wish to marry he among the suitors who is capable to string the bow of Ulysses.,3,19
+55,2399.88,2414.64,14.76,"Ulysses watches the inability of the suitors at stringing his bow, and now has his bow handed to himself.",3,19
+56,2505.24,2514.8,9.56,Ulysses starts a massacre among the suitors.,2,7
+57,2567.16,2576.16,9.0,Finally Penelope recognizes the husband and embraces him.,2,8
+58,2628.4,2632.68,4.28,The end.,1,2

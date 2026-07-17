@@ -1,0 +1,15 @@
+{
+  "source_file": "lodissea_1911_en.srt",
+  "source_sha256": "82762b75ba2d4301d19798733cffc21784e620754235c292d3c985a470cb96f0",
+  "cue_count": 58,
+  "first_start_s": 0.0,
+  "last_end_s": 2632.68,
+  "covered_duration_s": 564.82,
+  "token_count": 623,
+  "mean_tokens_per_cue": 10.741,
+  "mean_cue_duration_s": 9.738,
+  "overlap_count": 0,
+  "license": "CC BY-SA 4.0 (Wikimedia Commons unstructured text)",
+  "source_url": "https://commons.wikimedia.org/wiki/TimedText:L%27Odissea_(Milano_Films,_1911)_.webm.en.srt",
+  "retrieved_utc": "2026-07-17"
+}

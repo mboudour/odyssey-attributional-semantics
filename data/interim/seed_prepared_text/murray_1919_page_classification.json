@@ -1,0 +1,6852 @@
+{
+  "vol1": [
+    {
+      "pdf_page": 1,
+      "latin_letters": 61,
+      "greek_letters": 0,
+      "ascii_word_tokens": 17,
+      "keep_as_english": false
+    },
+    {
+      "pdf_page": 2,
+      "latin_letters": 0,
+      "greek_letters": 0,
+      "ascii_word_tokens": 0,
+      "keep_as_english": false
+    },
+    {
+      "pdf_page": 3,
+      "latin_letters": 0,
+      "greek_letters": 0,
+      "ascii_word_tokens": 0,
+      "keep_as_english": false
+    },
+    {
+      "pdf_page": 4,
+      "latin_letters": 111,
+      "greek_letters": 7,
+      "ascii_word_tokens": 32,
+      "keep_as_english": false
+    },
+    {
+      "pdf_page": 5,
+      "latin_letters": 6,
+      "greek_letters": 2,
+      "ascii_word_tokens": 2,
+      "keep_as_english": false
+    },
+    {
+      "pdf_page": 6,
+      "latin_letters": 0,
+      "greek_letters": 0,
+      "ascii_word_tokens": 0,
+      "keep_as_english": false
+    },
+    {
+      "pdf_page": 7,
+      "latin_letters": 5,
+      "greek_letters": 0,
+      "ascii_word_tokens": 1,
+      "keep_as_english": false
+    },
+    {
+      "pdf_page": 8,
+      "latin_letters": 142,
+      "greek_letters": 2,
+      "ascii_word_tokens": 26,
+      "keep_as_english": false
+    },
+    {
+      "pdf_page": 9,
+      "latin_letters": 51,
+      "greek_letters": 0,
+      "ascii_word_tokens": 9,
+      "keep_as_english": false
+    },
+    {
+      "pdf_page": 10,
+      "latin_letters": 35,
+      "greek_letters": 27,
+      "ascii_word_tokens": 7,
+      "keep_as_english": false
+    },
+    {
+      "pdf_page": 11,
+      "latin_letters": 0,
+      "greek_letters": 0,
+      "ascii_word_tokens": 0,
+      "keep_as_english": false
+    },
+    {
+      "pdf_page": 12,
+      "latin_letters": 832,
+      "greek_letters": 1,
+      "ascii_word_tokens": 183,
+      "keep_as_english": true
+    },
+    {
+      "pdf_page": 13,
+      "latin_letters": 997,
+      "greek_letters": 1,
+      "ascii_word_tokens": 218,
+      "keep_as_english": true
+    },
+    {
+      "pdf_page": 14,
+      "latin_letters": 976,
+      "greek_letters": 5,
+      "ascii_word_tokens": 207,
+      "keep_as_english": true
+    },
+    {
+      "pdf_page": 15,
+      "latin_letters": 1047,
+      "greek_letters": 2,
+      "ascii_word_tokens": 223,
+      "keep_as_english": true
+    },
+    {
+      "pdf_page": 16,
+      "latin_letters": 997,
+      "greek_letters": 1,
+      "ascii_word_tokens": 200,
+      "keep_as_english": true
+    },
+    {
+      "pdf_page": 17,
+      "latin_letters": 227,
+      "greek_letters": 0,
+      "ascii_word_tokens": 47,
+      "keep_as_english": false
+    },
+    {
+      "pdf_page": 18,
+      "latin_letters": 1013,
+      "greek_letters": 13,
+      "ascii_word_tokens": 196,
+      "keep_as_english": true
+    },
+    {
+      "pdf_page": 19,
+      "latin_letters": 700,
+      "greek_letters": 3,
+      "ascii_word_tokens": 133,
+      "keep_as_english": true
+    },
+    {
+      "pdf_page": 20,
+      "latin_letters": 13,
+      "greek_letters": 0,
+      "ascii_word_tokens": 2,
+      "keep_as_english": false
+    },
+    {
+      "pdf_page": 21,
+      "latin_letters": 22,
+      "greek_letters": 692,
+      "ascii_word_tokens": 5,
+      "keep_as_english": false
+    },
+    {
+      "pdf_page": 22,
+      "latin_letters": 883,
+      "greek_letters": 0,
+      "ascii_word_tokens": 214,
+      "keep_as_english": true
+    },
+    {
+      "pdf_page": 23,
+      "latin_letters": 118,
+      "greek_letters": 846,
+      "ascii_word_tokens": 24,
+      "keep_as_english": false
+    },
+    {
+      "pdf_page": 24,
+      "latin_letters": 1247,
+      "greek_letters": 8,
+      "ascii_word_tokens": 289,
+      "keep_as_english": true
+    },
+    {
+      "pdf_page": 25,
+      "latin_letters": 59,
+      "greek_letters": 924,
+      "ascii_word_tokens": 14,
+      "keep_as_english": false
+    },
+    {
+      "pdf_page": 26,
+      "latin_letters": 1207,
+      "greek_letters": 12,
+      "ascii_word_tokens": 276,
+      "keep_as_english": true
+    },
+    {
+      "pdf_page": 27,
+      "latin_letters": 90,
+      "greek_letters": 959,
+      "ascii_word_tokens": 23,
+      "keep_as_english": false
+    },
+    {
+      "pdf_page": 28,
+      "latin_letters": 1231,
+      "greek_letters": 5,
+      "ascii_word_tokens": 291,
+      "keep_as_english": true
+    },
+    {
+      "pdf_page": 29,
+      "latin_letters": 94,
+      "greek_letters": 852,
+      "ascii_word_tokens": 18,
+      "keep_as_english": false
+    },
+    {
+      "pdf_page": 30,
+      "latin_letters": 1331,
+      "greek_letters": 7,
+      "ascii_word_tokens": 303,
+      "keep_as_english": true
+    },
+    {
+      "pdf_page": 31,
+      "latin_letters": 101,
+      "greek_letters": 939,
+      "ascii_word_tokens": 27,
+      "keep_as_english": false
+    },
+    {
+      "pdf_page": 32,
+      "latin_letters": 1261,
+      "greek_letters": 2,
+      "ascii_word_tokens": 295,
+      "keep_as_english": true
+    },
+    {
+      "pdf_page": 33,
+      "latin_letters": 20,
+      "greek_letters": 1039,
+      "ascii_word_tokens": 7,
+      "keep_as_english": false
+    },
+    {
+      "pdf_page": 34,
+      "latin_letters": 1336,
+      "greek_letters": 22,
+      "ascii_word_tokens": 331,
+      "keep_as_english": true
+    },
+    {
+      "pdf_page": 35,
+      "latin_letters": 15,
+      "greek_letters": 940,
+      "ascii_word_tokens": 4,
+      "keep_as_english": false
+    },
+    {
+      "pdf_page": 36,
+      "latin_letters": 1227,
+      "greek_letters": 5,
+      "ascii_word_tokens": 311,
+      "keep_as_english": true
+    },
+    {
+      "pdf_page": 37,
+      "latin_letters": 35,
+      "greek_letters": 998,
+      "ascii_word_tokens": 11,
+      "keep_as_english": false
+    },
+    {
+      "pdf_page": 38,
+      "latin_letters": 1268,
+      "greek_letters": 1,
+      "ascii_word_tokens": 307,
+      "keep_as_english": true
+    },
+    {
+      "pdf_page": 39,
+      "latin_letters": 12,
+      "greek_letters": 920,
+      "ascii_word_tokens": 4,
+      "keep_as_english": false
+    },
+    {
+      "pdf_page": 40,
+      "latin_letters": 1308,
+      "greek_letters": 9,
+      "ascii_word_tokens": 319,
+      "keep_as_english": true
+    },
+    {
+      "pdf_page": 41,
+      "latin_letters": 207,
+      "greek_letters": 878,
+      "ascii_word_tokens": 47,
+      "keep_as_english": false
+    },
+    {
+      "pdf_page": 42,
+      "latin_letters": 1340,
+      "greek_letters": 5,
+      "ascii_word_tokens": 324,
+      "keep_as_english": true
+    },
+    {
+      "pdf_page": 43,
+      "latin_letters": 82,
+      "greek_letters": 1025,
+      "ascii_word_tokens": 21,
+      "keep_as_english": false
+    },
+    {
+      "pdf_page": 44,
+      "latin_letters": 1320,
+      "greek_letters": 3,
+      "ascii_word_tokens": 323,
+      "keep_as_english": true
+    },
+    {
+      "pdf_page": 45,
+      "latin_letters": 112,
+      "greek_letters": 922,
+      "ascii_word_tokens": 33,
+      "keep_as_english": false
+    },
+    {
+      "pdf_page": 46,
+      "latin_letters": 1209,
+      "greek_letters": 5,
+      "ascii_word_tokens": 278,
+      "keep_as_english": true
+    },
+    {
+      "pdf_page": 47,
+      "latin_letters": 130,
+      "greek_letters": 875,
+      "ascii_word_tokens": 29,
+      "keep_as_english": false
+    },
+    {
+      "pdf_page": 48,
+      "latin_letters": 1233,
+      "greek_letters": 4,
+      "ascii_word_tokens": 300,
+      "keep_as_english": true
+    },
+    {
+      "pdf_page": 49,
+      "latin_letters": 22,
+      "greek_letters": 1054,
+      "ascii_word_tokens": 4,
+      "keep_as_english": false
+    },
+    {
+      "pdf_page": 50,
+      "latin_letters": 1274,
+      "greek_letters": 1,
+      "ascii_word_tokens": 297,
+      "keep_as_english": true
+    },
+    {
+      "pdf_page": 51,
+      "latin_letters": 14,
+      "greek_letters": 1023,
+      "ascii_word_tokens": 4,
+      "keep_as_english": false
+    },
+    {
+      "pdf_page": 52,
+      "latin_letters": 1268,
+      "greek_letters": 2,
+      "ascii_word_tokens": 310,
+      "keep_as_english": true
+    },
+    {
+      "pdf_page": 53,
+      "latin_letters": 14,
+      "greek_letters": 790,
+      "ascii_word_tokens": 4,
+      "keep_as_english": false
+    },
+    {
+      "pdf_page": 54,
+      "latin_letters": 1071,
+      "greek_letters": 0,
+      "ascii_word_tokens": 256,
+      "keep_as_english": true
+    },
+    {
+      "pdf_page": 55,
+      "latin_letters": 39,
+      "greek_letters": 762,
+      "ascii_word_tokens": 11,
+      "keep_as_english": false
+    },
+    {
+      "pdf_page": 56,
+      "latin_letters": 994,
+      "greek_letters": 0,
+      "ascii_word_tokens": 229,
+      "keep_as_english": true
+    },
+    {
+      "pdf_page": 57,
+      "latin_letters": 26,
+      "greek_letters": 852,
+      "ascii_word_tokens": 8,
+      "keep_as_english": false
+    },
+    {
+      "pdf_page": 58,
+      "latin_letters": 1275,
+      "greek_letters": 0,
+      "ascii_word_tokens": 321,
+      "keep_as_english": true
+    },
+    {
+      "pdf_page": 59,
+      "latin_letters": 23,
+      "greek_letters": 997,
+      "ascii_word_tokens": 8,
+      "keep_as_english": false
+    },
+    {
+      "pdf_page": 60,
+      "latin_letters": 1358,
+      "greek_letters": 3,
+      "ascii_word_tokens": 321,
+      "keep_as_english": true
+    },
+    {
+      "pdf_page": 61,
+      "latin_letters": 101,
+      "greek_letters": 932,
+      "ascii_word_tokens": 21,
+      "keep_as_english": false
+    },
+    {
+      "pdf_page": 62,
+      "latin_letters": 1282,
+      "greek_letters": 0,
+      "ascii_word_tokens": 306,
+      "keep_as_english": true
+    },
+    {
+      "pdf_page": 63,
+      "latin_letters": 28,
+      "greek_letters": 983,
+      "ascii_word_tokens": 11,
+      "keep_as_english": false
+    },
+    {
+      "pdf_page": 64,
+      "latin_letters": 1297,
+      "greek_letters": 0,
+      "ascii_word_tokens": 316,
+      "keep_as_english": true
+    },
+    {
+      "pdf_page": 65,
+      "latin_letters": 15,
+      "greek_letters": 929,
+      "ascii_word_tokens": 5,
+      "keep_as_english": false
+    },
+    {
+      "pdf_page": 66,
+      "latin_letters": 1322,
+      "greek_letters": 0,
+      "ascii_word_tokens": 318,
+      "keep_as_english": true
+    },
+    {
+      "pdf_page": 67,
+      "latin_letters": 24,
+      "greek_letters": 995,
+      "ascii_word_tokens": 7,
+      "keep_as_english": false
+    },
+    {
+      "pdf_page": 68,
+      "latin_letters": 1311,
+      "greek_letters": 3,
+      "ascii_word_tokens": 325,
+      "keep_as_english": true
+    },
+    {
+      "pdf_page": 69,
+      "latin_letters": 104,
+      "greek_letters": 1015,
+      "ascii_word_tokens": 23,
+      "keep_as_english": false
+    },
+    {
+      "pdf_page": 70,
+      "latin_letters": 1328,
+      "greek_letters": 8,
+      "ascii_word_tokens": 332,
+      "keep_as_english": true
+    },
+    {
+      "pdf_page": 71,
+      "latin_letters": 27,
+      "greek_letters": 987,
+      "ascii_word_tokens": 9,
+      "keep_as_english": false
+    },
+    {
+      "pdf_page": 72,
+      "latin_letters": 1253,
+      "greek_letters": 2,
+      "ascii_word_tokens": 314,
+      "keep_as_english": true
+    },
+    {
+      "pdf_page": 73,
+      "latin_letters": 290,
+      "greek_letters": 827,
+      "ascii_word_tokens": 73,
+      "keep_as_english": false
+    },
+    {
+      "pdf_page": 74,
+      "latin_letters": 1276,
+      "greek_letters": 10,
+      "ascii_word_tokens": 305,
+      "keep_as_english": true
+    },
+    {
+      "pdf_page": 75,
+      "latin_letters": 85,
+      "greek_letters": 1009,
+      "ascii_word_tokens": 23,
+      "keep_as_english": false
+    },
+    {
+      "pdf_page": 76,
+      "latin_letters": 1364,
+      "greek_letters": 3,
+      "ascii_word_tokens": 334,
+      "keep_as_english": true
+    },
+    {
+      "pdf_page": 77,
+      "latin_letters": 131,
+      "greek_letters": 969,
+      "ascii_word_tokens": 29,
+      "keep_as_english": false
+    },
+    {
+      "pdf_page": 78,
+      "latin_letters": 1302,
+      "greek_letters": 9,
+      "ascii_word_tokens": 306,
+      "keep_as_english": true
+    },
+    {
+      "pdf_page": 79,
+      "latin_letters": 43,
+      "greek_letters": 991,
+      "ascii_word_tokens": 14,
+      "keep_as_english": false
+    },
+    {
+      "pdf_page": 80,
+      "latin_letters": 1231,
+      "greek_letters": 2,
+      "ascii_word_tokens": 297,
+      "keep_as_english": true
+    },
+    {
+      "pdf_page": 81,
+      "latin_letters": 26,
+      "greek_letters": 986,
+      "ascii_word_tokens": 9,
+      "keep_as_english": false
+    },
+    {
+      "pdf_page": 82,
+      "latin_letters": 1259,
+      "greek_letters": 6,
+      "ascii_word_tokens": 308,
+      "keep_as_english": true
+    },
+    {
+      "pdf_page": 83,
+      "latin_letters": 40,
+      "greek_letters": 939,
+      "ascii_word_tokens": 12,
+      "keep_as_english": false
+    },
+    {
+      "pdf_page": 84,
+      "latin_letters": 1246,
+      "greek_letters": 0,
+      "ascii_word_tokens": 288,
+      "keep_as_english": true
+    },
+    {
+      "pdf_page": 85,
+      "latin_letters": 114,
+      "greek_letters": 903,
+      "ascii_word_tokens": 25,
+      "keep_as_english": false
+    },
+    {
+      "pdf_page": 86,
+      "latin_letters": 1180,
+      "greek_letters": 35,
+      "ascii_word_tokens": 273,
+      "keep_as_english": true
+    },
+    {
+      "pdf_page": 87,
+      "latin_letters": 15,
+      "greek_letters": 698,
+      "ascii_word_tokens": 5,
+      "keep_as_english": false
+    },
+    {
+      "pdf_page": 88,
+      "latin_letters": 980,
+      "greek_letters": 9,
+      "ascii_word_tokens": 235,
+      "keep_as_english": true
+    },
+    {
+      "pdf_page": 89,
+      "latin_letters": 58,
+      "greek_letters": 992,
+      "ascii_word_tokens": 15,
+      "keep_as_english": false
+    },
+    {
+      "pdf_page": 90,
+      "latin_letters": 1318,
+      "greek_letters": 3,
+      "ascii_word_tokens": 309,
+      "keep_as_english": true
+    },
+    {
+      "pdf_page": 91,
+      "latin_letters": 16,
+      "greek_letters": 893,
+      "ascii_word_tokens": 5,
+      "keep_as_english": false
+    },
+    {
+      "pdf_page": 92,
+      "latin_letters": 1254,
+      "greek_letters": 3,
+      "ascii_word_tokens": 289,
+      "keep_as_english": true
+    },
+    {
+      "pdf_page": 93,
+      "latin_letters": 42,
+      "greek_letters": 1004,
+      "ascii_word_tokens": 12,
+      "keep_as_english": false
+    },
+    {
+      "pdf_page": 94,
+      "latin_letters": 1285,
+      "greek_letters": 0,
+      "ascii_word_tokens": 320,
+      "keep_as_english": true
+    },
+    {
+      "pdf_page": 95,
+      "latin_letters": 76,
+      "greek_letters": 1042,
+      "ascii_word_tokens": 18,
+      "keep_as_english": false
+    },
+    {
+      "pdf_page": 96,
+      "latin_letters": 1294,
+      "greek_letters": 4,
+      "ascii_word_tokens": 304,
+      "keep_as_english": true
+    },
+    {
+      "pdf_page": 97,
+      "latin_letters": 48,
+      "greek_letters": 1005,
+      "ascii_word_tokens": 12,
+      "keep_as_english": false
+    },
+    {
+      "pdf_page": 98,
+      "latin_letters": 1311,
+      "greek_letters": 1,
+      "ascii_word_tokens": 310,
+      "keep_as_english": true
+    },
+    {
+      "pdf_page": 99,
+      "latin_letters": 17,
+      "greek_letters": 1033,
+      "ascii_word_tokens": 5,
+      "keep_as_english": false
+    },
+    {
+      "pdf_page": 100,
+      "latin_letters": 1332,
+      "greek_letters": 3,
+      "ascii_word_tokens": 325,
+      "keep_as_english": true
+    },
+    {
+      "pdf_page": 101,
+      "latin_letters": 68,
+      "greek_letters": 971,
+      "ascii_word_tokens": 16,
+      "keep_as_english": false
+    },
+    {
+      "pdf_page": 102,
+      "latin_letters": 1251,
+      "greek_letters": 1,
+      "ascii_word_tokens": 303,
+      "keep_as_english": true
+    },
+    {
+      "pdf_page": 103,
+      "latin_letters": 104,
+      "greek_letters": 886,
+      "ascii_word_tokens": 21,
+      "keep_as_english": false
+    },
+    {
+      "pdf_page": 104,
+      "latin_letters": 1252,
+      "greek_letters": 1,
+      "ascii_word_tokens": 301,
+      "keep_as_english": true
+    },
+    {
+      "pdf_page": 105,
+      "latin_letters": 63,
+      "greek_letters": 948,
+      "ascii_word_tokens": 13,
+      "keep_as_english": false
+    },
+    {
+      "pdf_page": 106,
+      "latin_letters": 1271,
+      "greek_letters": 0,
+      "ascii_word_tokens": 304,
+      "keep_as_english": true
+    },
+    {
+      "pdf_page": 107,
+      "latin_letters": 29,
+      "greek_letters": 967,
+      "ascii_word_tokens": 7,
+      "keep_as_english": false
+    },
+    {
+      "pdf_page": 108,
+      "latin_letters": 1319,
+      "greek_letters": 1,
+      "ascii_word_tokens": 315,
+      "keep_as_english": true
+    },
+    {
+      "pdf_page": 109,
+      "latin_letters": 36,
+      "greek_letters": 1004,
+      "ascii_word_tokens": 7,
+      "keep_as_english": false
+    },
+    {
+      "pdf_page": 110,
+      "latin_letters": 1264,
+      "greek_letters": 4,
+      "ascii_word_tokens": 305,
+      "keep_as_english": true
+    },
+    {
+      "pdf_page": 111,
+      "latin_letters": 15,
+      "greek_letters": 969,
+      "ascii_word_tokens": 5,
+      "keep_as_english": false
+    },
+    {
+      "pdf_page": 112,
+      "latin_letters": 1223,
+      "greek_letters": 1,
+      "ascii_word_tokens": 300,
+      "keep_as_english": true
+    },
+    {
+      "pdf_page": 113,
+      "latin_letters": 116,
+      "greek_letters": 912,
+      "ascii_word_tokens": 26,
+      "keep_as_english": false
+    },
+    {
+      "pdf_page": 114,
+      "latin_letters": 1282,
+      "greek_letters": 0,
+      "ascii_word_tokens": 316,
+      "keep_as_english": true
+    },
+    {
+      "pdf_page": 115,
+      "latin_letters": 19,
+      "greek_letters": 901,
+      "ascii_word_tokens": 5,
+      "keep_as_english": false
+    },
+    {
+      "pdf_page": 116,
+      "latin_letters": 1279,
+      "greek_letters": 6,
+      "ascii_word_tokens": 299,
+      "keep_as_english": true
+    },
+    {
+      "pdf_page": 117,
+      "latin_letters": 23,
+      "greek_letters": 892,
+      "ascii_word_tokens": 8,
+      "keep_as_english": false
+    },
+    {
+      "pdf_page": 118,
+      "latin_letters": 1257,
+      "greek_letters": 2,
+      "ascii_word_tokens": 299,
+      "keep_as_english": true
+    },
+    {
+      "pdf_page": 119,
+      "latin_letters": 16,
+      "greek_letters": 930,
+      "ascii_word_tokens": 4,
+      "keep_as_english": false
+    },
+    {
+      "pdf_page": 120,
+      "latin_letters": 1307,
+      "greek_letters": 0,
+      "ascii_word_tokens": 298,
+      "keep_as_english": true
+    },
+    {
+      "pdf_page": 121,
+      "latin_letters": 37,
+      "greek_letters": 877,
+      "ascii_word_tokens": 12,
+      "keep_as_english": false
+    },
+    {
+      "pdf_page": 122,
+      "latin_letters": 1262,
+      "greek_letters": 4,
+      "ascii_word_tokens": 305,
+      "keep_as_english": true
+    },
+    {
+      "pdf_page": 123,
+      "latin_letters": 31,
+      "greek_letters": 600,
+      "ascii_word_tokens": 7,
+      "keep_as_english": false
+    },
+    {
+      "pdf_page": 124,
+      "latin_letters": 844,
+      "greek_letters": 0,
+      "ascii_word_tokens": 197,
+      "keep_as_english": true
+    },
+    {
+      "pdf_page": 125,
+      "latin_letters": 31,
+      "greek_letters": 672,
+      "ascii_word_tokens": 5,
+      "keep_as_english": false
+    },
+    {
+      "pdf_page": 126,
+      "latin_letters": 1023,
+      "greek_letters": 3,
+      "ascii_word_tokens": 232,
+      "keep_as_english": true
+    },
+    {
+      "pdf_page": 127,
+      "latin_letters": 32,
+      "greek_letters": 972,
+      "ascii_word_tokens": 8,
+      "keep_as_english": false
+    },
+    {
+      "pdf_page": 128,
+      "latin_letters": 1331,
+      "greek_letters": 0,
+      "ascii_word_tokens": 306,
+      "keep_as_english": true
+    },
+    {
+      "pdf_page": 129,
+      "latin_letters": 117,
+      "greek_letters": 896,
+      "ascii_word_tokens": 22,
+      "keep_as_english": false
+    },
+    {
+      "pdf_page": 130,
+      "latin_letters": 1205,
+      "greek_letters": 16,
+      "ascii_word_tokens": 293,
+      "keep_as_english": true
+    },
+    {
+      "pdf_page": 131,
+      "latin_letters": 35,
+      "greek_letters": 921,
+      "ascii_word_tokens": 9,
+      "keep_as_english": false
+    },
+    {
+      "pdf_page": 132,
+      "latin_letters": 1328,
+      "greek_letters": 3,
+      "ascii_word_tokens": 304,
+      "keep_as_english": true
+    },
+    {
+      "pdf_page": 133,
+      "latin_letters": 25,
+      "greek_letters": 960,
+      "ascii_word_tokens": 7,
+      "keep_as_english": false
+    },
+    {
+      "pdf_page": 134,
+      "latin_letters": 1228,
+      "greek_letters": 33,
+      "ascii_word_tokens": 307,
+      "keep_as_english": true
+    },
+    {
+      "pdf_page": 135,
+      "latin_letters": 34,
+      "greek_letters": 980,
+      "ascii_word_tokens": 7,
+      "keep_as_english": false
+    },
+    {
+      "pdf_page": 136,
+      "latin_letters": 1260,
+      "greek_letters": 3,
+      "ascii_word_tokens": 307,
+      "keep_as_english": true
+    },
+    {
+      "pdf_page": 137,
+      "latin_letters": 29,
+      "greek_letters": 974,
+      "ascii_word_tokens": 9,
+      "keep_as_english": false
+    },
+    {
+      "pdf_page": 138,
+      "latin_letters": 1298,
+      "greek_letters": 1,
+      "ascii_word_tokens": 320,
+      "keep_as_english": true
+    },
+    {
+      "pdf_page": 139,
+      "latin_letters": 23,
+      "greek_letters": 960,
+      "ascii_word_tokens": 6,
+      "keep_as_english": false
+    },
+    {
+      "pdf_page": 140,
+      "latin_letters": 1262,
+      "greek_letters": 5,
+      "ascii_word_tokens": 313,
+      "keep_as_english": true
+    },
+    {
+      "pdf_page": 141,
+      "latin_letters": 15,
+      "greek_letters": 965,
+      "ascii_word_tokens": 5,
+      "keep_as_english": false
+    },
+    {
+      "pdf_page": 142,
+      "latin_letters": 1241,
+      "greek_letters": 3,
+      "ascii_word_tokens": 305,
+      "keep_as_english": true
+    },
+    {
+      "pdf_page": 143,
+      "latin_letters": 17,
+      "greek_letters": 871,
+      "ascii_word_tokens": 4,
+      "keep_as_english": false
+    },
+    {
+      "pdf_page": 144,
+      "latin_letters": 1267,
+      "greek_letters": 17,
+      "ascii_word_tokens": 314,
+      "keep_as_english": true
+    },
+    {
+      "pdf_page": 145,
+      "latin_letters": 30,
+      "greek_letters": 1050,
+      "ascii_word_tokens": 10,
+      "keep_as_english": false
+    },
+    {
+      "pdf_page": 146,
+      "latin_letters": 1292,
+      "greek_letters": 0,
+      "ascii_word_tokens": 303,
+      "keep_as_english": true
+    },
+    {
+      "pdf_page": 147,
+      "latin_letters": 23,
+      "greek_letters": 949,
+      "ascii_word_tokens": 6,
+      "keep_as_english": false
+    },
+    {
+      "pdf_page": 148,
+      "latin_letters": 1244,
+      "greek_letters": 0,
+      "ascii_word_tokens": 293,
+      "keep_as_english": true
+    },
+    {
+      "pdf_page": 149,
+      "latin_letters": 5,
+      "greek_letters": 949,
+      "ascii_word_tokens": 1,
+      "keep_as_english": false
+    },
+    {
+      "pdf_page": 150,
+      "latin_letters": 1290,
+      "greek_letters": 12,
+      "ascii_word_tokens": 299,
+      "keep_as_english": true
+    },
+    {
+      "pdf_page": 151,
+      "latin_letters": 84,
+      "greek_letters": 887,
+      "ascii_word_tokens": 18,
+      "keep_as_english": false
+    },
+    {
+      "pdf_page": 152,
+      "latin_letters": 1251,
+      "greek_letters": 0,
+      "ascii_word_tokens": 306,
+      "keep_as_english": true
+    },
+    {
+      "pdf_page": 153,
+      "latin_letters": 26,
+      "greek_letters": 944,
+      "ascii_word_tokens": 8,
+      "keep_as_english": false
+    },
+    {
+      "pdf_page": 154,
+      "latin_letters": 1217,
+      "greek_letters": 2,
+      "ascii_word_tokens": 310,
+      "keep_as_english": true
+    },
+    {
+      "pdf_page": 155,
+      "latin_letters": 19,
+      "greek_letters": 940,
+      "ascii_word_tokens": 7,
+      "keep_as_english": false
+    },
+    {
+      "pdf_page": 156,
+      "latin_letters": 1231,
+      "greek_letters": 0,
+      "ascii_word_tokens": 316,
+      "keep_as_english": true
+    },
+    {
+      "pdf_page": 157,
+      "latin_letters": 20,
+      "greek_letters": 976,
+      "ascii_word_tokens": 7,
+      "keep_as_english": false
+    },
+    {
+      "pdf_page": 158,
+      "latin_letters": 1272,
+      "greek_letters": 1,
+      "ascii_word_tokens": 321,
+      "keep_as_english": true
+    },
+    {
+      "pdf_page": 159,
+      "latin_letters": 33,
+      "greek_letters": 1033,
+      "ascii_word_tokens": 9,
+      "keep_as_english": false
+    },
+    {
+      "pdf_page": 160,
+      "latin_letters": 1261,
+      "greek_letters": 0,
+      "ascii_word_tokens": 315,
+      "keep_as_english": true
+    },
+    {
+      "pdf_page": 161,
+      "latin_letters": 36,
+      "greek_letters": 997,
+      "ascii_word_tokens": 10,
+      "keep_as_english": false
+    },
+    {
+      "pdf_page": 162,
+      "latin_letters": 1242,
+      "greek_letters": 1,
+      "ascii_word_tokens": 316,
+      "keep_as_english": true
+    },
+    {
+      "pdf_page": 163,
+      "latin_letters": 94,
+      "greek_letters": 926,
+      "ascii_word_tokens": 21,
+      "keep_as_english": false
+    },
+    {
+      "pdf_page": 164,
+      "latin_letters": 1299,
+      "greek_letters": 1,
+      "ascii_word_tokens": 303,
+      "keep_as_english": true
+    },
+    {
+      "pdf_page": 165,
+      "latin_letters": 59,
+      "greek_letters": 952,
+      "ascii_word_tokens": 14,
+      "keep_as_english": false
+    },
+    {
+      "pdf_page": 166,
+      "latin_letters": 1195,
+      "greek_letters": 2,
+      "ascii_word_tokens": 314,
+      "keep_as_english": true
+    },
+    {
+      "pdf_page": 167,
+      "latin_letters": 29,
+      "greek_letters": 1015,
+      "ascii_word_tokens": 10,
+      "keep_as_english": false
+    },
+    {
+      "pdf_page": 168,
+      "latin_letters": 1326,
+      "greek_letters": 0,
+      "ascii_word_tokens": 327,
+      "keep_as_english": true
+    },
+    {
+      "pdf_page": 169,
+      "latin_letters": 11,
+      "greek_letters": 998,
+      "ascii_word_tokens": 4,
+      "keep_as_english": false
+    },
+    {
+      "pdf_page": 170,
+      "latin_letters": 1276,
+      "greek_letters": 0,
+      "ascii_word_tokens": 302,
+      "keep_as_english": true
+    },
+    {
+      "pdf_page": 171,
+      "latin_letters": 65,
+      "greek_letters": 978,
+      "ascii_word_tokens": 16,
+      "keep_as_english": false
+    },
+    {
+      "pdf_page": 172,
+      "latin_letters": 1220,
+      "greek_letters": 6,
+      "ascii_word_tokens": 297,
+      "keep_as_english": true
+    },
+    {
+      "pdf_page": 173,
+      "latin_letters": 70,
+      "greek_letters": 952,
+      "ascii_word_tokens": 16,
+      "keep_as_english": false
+    },
+    {
+      "pdf_page": 174,
+      "latin_letters": 1261,
+      "greek_letters": 3,
+      "ascii_word_tokens": 308,
+      "keep_as_english": true
+    },
+    {
+      "pdf_page": 175,
+      "latin_letters": 22,
+      "greek_letters": 959,
+      "ascii_word_tokens": 6,
+      "keep_as_english": false
+    },
+    {
+      "pdf_page": 176,
+      "latin_letters": 1060,
+      "greek_letters": 6,
+      "ascii_word_tokens": 242,
+      "keep_as_english": true
+    },
+    {
+      "pdf_page": 177,
+      "latin_letters": 46,
+      "greek_letters": 973,
+      "ascii_word_tokens": 14,
+      "keep_as_english": false
+    },
+    {
+      "pdf_page": 178,
+      "latin_letters": 1212,
+      "greek_letters": 0,
+      "ascii_word_tokens": 305,
+      "keep_as_english": true
+    },
+    {
+      "pdf_page": 179,
+      "latin_letters": 17,
+      "greek_letters": 1021,
+      "ascii_word_tokens": 7,
+      "keep_as_english": false
+    },
+    {
+      "pdf_page": 180,
+      "latin_letters": 1332,
+      "greek_letters": 0,
+      "ascii_word_tokens": 335,
+      "keep_as_english": true
+    },
+    {
+      "pdf_page": 181,
+      "latin_letters": 38,
+      "greek_letters": 834,
+      "ascii_word_tokens": 11,
+      "keep_as_english": false
+    },
+    {
+      "pdf_page": 182,
+      "latin_letters": 1207,
+      "greek_letters": 0,
+      "ascii_word_tokens": 285,
+      "keep_as_english": true
+    },
+    {
+      "pdf_page": 183,
+      "latin_letters": 36,
+      "greek_letters": 976,
+      "ascii_word_tokens": 10,
+      "keep_as_english": false
+    },
+    {
+      "pdf_page": 184,
+      "latin_letters": 1279,
+      "greek_letters": 14,
+      "ascii_word_tokens": 303,
+      "keep_as_english": true
+    },
+    {
+      "pdf_page": 185,
+      "latin_letters": 70,
+      "greek_letters": 1018,
+      "ascii_word_tokens": 17,
+      "keep_as_english": false
+    },
+    {
+      "pdf_page": 186,
+      "latin_letters": 1261,
+      "greek_letters": 0,
+      "ascii_word_tokens": 324,
+      "keep_as_english": true
+    },
+    {
+      "pdf_page": 187,
+      "latin_letters": 14,
+      "greek_letters": 345,
+      "ascii_word_tokens": 4,
+      "keep_as_english": false
+    },
+    {
+      "pdf_page": 188,
+      "latin_letters": 570,
+      "greek_letters": 2,
+      "ascii_word_tokens": 129,
+      "keep_as_english": true
+    },
+    {
+      "pdf_page": 189,
+      "latin_letters": 5,
+      "greek_letters": 772,
+      "ascii_word_tokens": 2,
+      "keep_as_english": false
+    },
+    {
+      "pdf_page": 190,
+      "latin_letters": 931,
+      "greek_letters": 2,
+      "ascii_word_tokens": 225,
+      "keep_as_english": true
+    },
+    {
+      "pdf_page": 191,
+      "latin_letters": 11,
+      "greek_letters": 957,
+      "ascii_word_tokens": 4,
+      "keep_as_english": false
+    },
+    {
+      "pdf_page": 192,
+      "latin_letters": 1302,
+      "greek_letters": 0,
+      "ascii_word_tokens": 311,
+      "keep_as_english": true
+    },
+    {
+      "pdf_page": 193,
+      "latin_letters": 16,
+      "greek_letters": 1057,
+      "ascii_word_tokens": 4,
+      "keep_as_english": false
+    },
+    {
+      "pdf_page": 194,
+      "latin_letters": 1318,
+      "greek_letters": 1,
+      "ascii_word_tokens": 310,
+      "keep_as_english": true
+    },
+    {
+      "pdf_page": 195,
+      "latin_letters": 76,
+      "greek_letters": 1021,
+      "ascii_word_tokens": 16,
+      "keep_as_english": false
+    },
+    {
+      "pdf_page": 196,
+      "latin_letters": 1297,
+      "greek_letters": 9,
+      "ascii_word_tokens": 313,
+      "keep_as_english": true
+    },
+    {
+      "pdf_page": 197,
+      "latin_letters": 30,
+      "greek_letters": 895,
+      "ascii_word_tokens": 8,
+      "keep_as_english": false
+    },
+    {
+      "pdf_page": 198,
+      "latin_letters": 1267,
+      "greek_letters": 9,
+      "ascii_word_tokens": 301,
+      "keep_as_english": true
+    },
+    {
+      "pdf_page": 199,
+      "latin_letters": 42,
+      "greek_letters": 944,
+      "ascii_word_tokens": 11,
+      "keep_as_english": false
+    },
+    {
+      "pdf_page": 200,
+      "latin_letters": 1231,
+      "greek_letters": 3,
+      "ascii_word_tokens": 305,
+      "keep_as_english": true
+    },
+    {
+      "pdf_page": 201,
+      "latin_letters": 22,
+      "greek_letters": 1014,
+      "ascii_word_tokens": 8,
+      "keep_as_english": false
+    },
+    {
+      "pdf_page": 202,
+      "latin_letters": 1333,
+      "greek_letters": 10,
+      "ascii_word_tokens": 328,
+      "keep_as_english": true
+    },
+    {
+      "pdf_page": 203,
+      "latin_letters": 238,
+      "greek_letters": 820,
+      "ascii_word_tokens": 50,
+      "keep_as_english": false
+    },
+    {
+      "pdf_page": 204,
+      "latin_letters": 1318,
+      "greek_letters": 1,
+      "ascii_word_tokens": 322,
+      "keep_as_english": true
+    },
+    {
+      "pdf_page": 205,
+      "latin_letters": 65,
+      "greek_letters": 990,
+      "ascii_word_tokens": 15,
+      "keep_as_english": false
+    },
+    {
+      "pdf_page": 206,
+      "latin_letters": 1329,
+      "greek_letters": 2,
+      "ascii_word_tokens": 316,
+      "keep_as_english": true
+    },
+    {
+      "pdf_page": 207,
+      "latin_letters": 18,
+      "greek_letters": 927,
+      "ascii_word_tokens": 4,
+      "keep_as_english": false
+    },
+    {
+      "pdf_page": 208,
+      "latin_letters": 1382,
+      "greek_letters": 5,
+      "ascii_word_tokens": 324,
+      "keep_as_english": true
+    },
+    {
+      "pdf_page": 209,
+      "latin_letters": 44,
+      "greek_letters": 867,
+      "ascii_word_tokens": 10,
+      "keep_as_english": false
+    },
+    {
+      "pdf_page": 210,
+      "latin_letters": 1246,
+      "greek_letters": 3,
+      "ascii_word_tokens": 305,
+      "keep_as_english": true
+    },
+    {
+      "pdf_page": 211,
+      "latin_letters": 12,
+      "greek_letters": 980,
+      "ascii_word_tokens": 4,
+      "keep_as_english": false
+    },
+    {
+      "pdf_page": 212,
+      "latin_letters": 1286,
+      "greek_letters": 0,
+      "ascii_word_tokens": 325,
+      "keep_as_english": true
+    },
+    {
+      "pdf_page": 213,
+      "latin_letters": 43,
+      "greek_letters": 936,
+      "ascii_word_tokens": 14,
+      "keep_as_english": false
+    },
+    {
+      "pdf_page": 214,
+      "latin_letters": 1278,
+      "greek_letters": 3,
+      "ascii_word_tokens": 321,
+      "keep_as_english": true
+    },
+    {
+      "pdf_page": 215,
+      "latin_letters": 12,
+      "greek_letters": 992,
+      "ascii_word_tokens": 4,
+      "keep_as_english": false
+    },
+    {
+      "pdf_page": 216,
+      "latin_letters": 1255,
+      "greek_letters": 1,
+      "ascii_word_tokens": 302,
+      "keep_as_english": true
+    },
+    {
+      "pdf_page": 217,
+      "latin_letters": 21,
+      "greek_letters": 1001,
+      "ascii_word_tokens": 6,
+      "keep_as_english": false
+    },
+    {
+      "pdf_page": 218,
+      "latin_letters": 1312,
+      "greek_letters": 1,
+      "ascii_word_tokens": 312,
+      "keep_as_english": true
+    },
+    {
+      "pdf_page": 219,
+      "latin_letters": 23,
+      "greek_letters": 994,
+      "ascii_word_tokens": 5,
+      "keep_as_english": false
+    },
+    {
+      "pdf_page": 220,
+      "latin_letters": 1329,
+      "greek_letters": 2,
+      "ascii_word_tokens": 319,
+      "keep_as_english": true
+    },
+    {
+      "pdf_page": 221,
+      "latin_letters": 18,
+      "greek_letters": 884,
+      "ascii_word_tokens": 4,
+      "keep_as_english": false
+    },
+    {
+      "pdf_page": 222,
+      "latin_letters": 1241,
+      "greek_letters": 2,
+      "ascii_word_tokens": 311,
+      "keep_as_english": true
+    },
+    {
+      "pdf_page": 223,
+      "latin_letters": 9,
+      "greek_letters": 960,
+      "ascii_word_tokens": 3,
+      "keep_as_english": false
+    },
+    {
+      "pdf_page": 224,
+      "latin_letters": 1202,
+      "greek_letters": 0,
+      "ascii_word_tokens": 292,
+      "keep_as_english": true
+    },
+    {
+      "pdf_page": 225,
+      "latin_letters": 11,
+      "greek_letters": 769,
+      "ascii_word_tokens": 5,
+      "keep_as_english": false
+    },
+    {
+      "pdf_page": 226,
+      "latin_letters": 1009,
+      "greek_letters": 0,
+      "ascii_word_tokens": 233,
+      "keep_as_english": true
+    },
+    {
+      "pdf_page": 227,
+      "latin_letters": 23,
+      "greek_letters": 996,
+      "ascii_word_tokens": 7,
+      "keep_as_english": false
+    },
+    {
+      "pdf_page": 228,
+      "latin_letters": 1289,
+      "greek_letters": 3,
+      "ascii_word_tokens": 300,
+      "keep_as_english": true
+    },
+    {
+      "pdf_page": 229,
+      "latin_letters": 19,
+      "greek_letters": 919,
+      "ascii_word_tokens": 5,
+      "keep_as_english": false
+    },
+    {
+      "pdf_page": 230,
+      "latin_letters": 1254,
+      "greek_letters": 13,
+      "ascii_word_tokens": 297,
+      "keep_as_english": true
+    },
+    {
+      "pdf_page": 231,
+      "latin_letters": 26,
+      "greek_letters": 1001,
+      "ascii_word_tokens": 6,
+      "keep_as_english": false
+    },
+    {
+      "pdf_page": 232,
+      "latin_letters": 1384,
+      "greek_letters": 3,
+      "ascii_word_tokens": 321,
+      "keep_as_english": true
+    },
+    {
+      "pdf_page": 233,
+      "latin_letters": 40,
+      "greek_letters": 966,
+      "ascii_word_tokens": 11,
+      "keep_as_english": false
+    },
+    {
+      "pdf_page": 234,
+      "latin_letters": 1266,
+      "greek_letters": 4,
+      "ascii_word_tokens": 314,
+      "keep_as_english": true
+    },
+    {
+      "pdf_page": 235,
+      "latin_letters": 80,
+      "greek_letters": 937,
+      "ascii_word_tokens": 19,
+      "keep_as_english": false
+    },
+    {
+      "pdf_page": 236,
+      "latin_letters": 1357,
+      "greek_letters": 0,
+      "ascii_word_tokens": 328,
+      "keep_as_english": true
+    },
+    {
+      "pdf_page": 237,
+      "latin_letters": 15,
+      "greek_letters": 941,
+      "ascii_word_tokens": 5,
+      "keep_as_english": false
+    },
+    {
+      "pdf_page": 238,
+      "latin_letters": 1195,
+      "greek_letters": 15,
+      "ascii_word_tokens": 310,
+      "keep_as_english": true
+    },
+    {
+      "pdf_page": 239,
+      "latin_letters": 23,
+      "greek_letters": 951,
+      "ascii_word_tokens": 7,
+      "keep_as_english": false
+    },
+    {
+      "pdf_page": 240,
+      "latin_letters": 1246,
+      "greek_letters": 10,
+      "ascii_word_tokens": 308,
+      "keep_as_english": true
+    },
+    {
+      "pdf_page": 241,
+      "latin_letters": 32,
+      "greek_letters": 971,
+      "ascii_word_tokens": 9,
+      "keep_as_english": false
+    },
+    {
+      "pdf_page": 242,
+      "latin_letters": 1287,
+      "greek_letters": 2,
+      "ascii_word_tokens": 308,
+      "keep_as_english": true
+    },
+    {
+      "pdf_page": 243,
+      "latin_letters": 27,
+      "greek_letters": 981,
+      "ascii_word_tokens": 9,
+      "keep_as_english": false
+    },
+    {
+      "pdf_page": 244,
+      "latin_letters": 1258,
+      "greek_letters": 0,
+      "ascii_word_tokens": 296,
+      "keep_as_english": true
+    },
+    {
+      "pdf_page": 245,
+      "latin_letters": 22,
+      "greek_letters": 964,
+      "ascii_word_tokens": 5,
+      "keep_as_english": false
+    },
+    {
+      "pdf_page": 246,
+      "latin_letters": 1322,
+      "greek_letters": 1,
+      "ascii_word_tokens": 327,
+      "keep_as_english": true
+    },
+    {
+      "pdf_page": 247,
+      "latin_letters": 47,
+      "greek_letters": 1050,
+      "ascii_word_tokens": 13,
+      "keep_as_english": false
+    },
+    {
+      "pdf_page": 248,
+      "latin_letters": 1363,
+      "greek_letters": 18,
+      "ascii_word_tokens": 316,
+      "keep_as_english": true
+    },
+    {
+      "pdf_page": 249,
+      "latin_letters": 13,
+      "greek_letters": 207,
+      "ascii_word_tokens": 4,
+      "keep_as_english": false
+    },
+    {
+      "pdf_page": 250,
+      "latin_letters": 300,
+      "greek_letters": 0,
+      "ascii_word_tokens": 72,
+      "keep_as_english": true
+    },
+    {
+      "pdf_page": 251,
+      "latin_letters": 11,
+      "greek_letters": 739,
+      "ascii_word_tokens": 4,
+      "keep_as_english": false
+    },
+    {
+      "pdf_page": 252,
+      "latin_letters": 1003,
+      "greek_letters": 7,
+      "ascii_word_tokens": 238,
+      "keep_as_english": true
+    },
+    {
+      "pdf_page": 253,
+      "latin_letters": 19,
+      "greek_letters": 959,
+      "ascii_word_tokens": 6,
+      "keep_as_english": false
+    },
+    {
+      "pdf_page": 254,
+      "latin_letters": 1240,
+      "greek_letters": 0,
+      "ascii_word_tokens": 298,
+      "keep_as_english": true
+    },
+    {
+      "pdf_page": 255,
+      "latin_letters": 52,
+      "greek_letters": 1005,
+      "ascii_word_tokens": 13,
+      "keep_as_english": false
+    },
+    {
+      "pdf_page": 256,
+      "latin_letters": 1367,
+      "greek_letters": 5,
+      "ascii_word_tokens": 312,
+      "keep_as_english": true
+    },
+    {
+      "pdf_page": 257,
+      "latin_letters": 125,
+      "greek_letters": 929,
+      "ascii_word_tokens": 34,
+      "keep_as_english": false
+    },
+    {
+      "pdf_page": 258,
+      "latin_letters": 1280,
+      "greek_letters": 10,
+      "ascii_word_tokens": 282,
+      "keep_as_english": true
+    },
+    {
+      "pdf_page": 259,
+      "latin_letters": 99,
+      "greek_letters": 945,
+      "ascii_word_tokens": 23,
+      "keep_as_english": false
+    },
+    {
+      "pdf_page": 260,
+      "latin_letters": 1373,
+      "greek_letters": 4,
+      "ascii_word_tokens": 311,
+      "keep_as_english": true
+    },
+    {
+      "pdf_page": 261,
+      "latin_letters": 20,
+      "greek_letters": 934,
+      "ascii_word_tokens": 5,
+      "keep_as_english": false
+    },
+    {
+      "pdf_page": 262,
+      "latin_letters": 1272,
+      "greek_letters": 0,
+      "ascii_word_tokens": 301,
+      "keep_as_english": true
+    },
+    {
+      "pdf_page": 263,
+      "latin_letters": 22,
+      "greek_letters": 926,
+      "ascii_word_tokens": 8,
+      "keep_as_english": false
+    },
+    {
+      "pdf_page": 264,
+      "latin_letters": 1273,
+      "greek_letters": 2,
+      "ascii_word_tokens": 292,
+      "keep_as_english": true
+    },
+    {
+      "pdf_page": 265,
+      "latin_letters": 18,
+      "greek_letters": 1118,
+      "ascii_word_tokens": 6,
+      "keep_as_english": false
+    },
+    {
+      "pdf_page": 266,
+      "latin_letters": 1338,
+      "greek_letters": 0,
+      "ascii_word_tokens": 327,
+      "keep_as_english": true
+    },
+    {
+      "pdf_page": 267,
+      "latin_letters": 29,
+      "greek_letters": 955,
+      "ascii_word_tokens": 9,
+      "keep_as_english": false
+    },
+    {
+      "pdf_page": 268,
+      "latin_letters": 1242,
+      "greek_letters": 1,
+      "ascii_word_tokens": 306,
+      "keep_as_english": true
+    },
+    {
+      "pdf_page": 269,
+      "latin_letters": 93,
+      "greek_letters": 1014,
+      "ascii_word_tokens": 19,
+      "keep_as_english": false
+    },
+    {
+      "pdf_page": 270,
+      "latin_letters": 1305,
+      "greek_letters": 1,
+      "ascii_word_tokens": 311,
+      "keep_as_english": true
+    },
+    {
+      "pdf_page": 271,
+      "latin_letters": 48,
+      "greek_letters": 906,
+      "ascii_word_tokens": 12,
+      "keep_as_english": false
+    },
+    {
+      "pdf_page": 272,
+      "latin_letters": 1359,
+      "greek_letters": 9,
+      "ascii_word_tokens": 321,
+      "keep_as_english": true
+    },
+    {
+      "pdf_page": 273,
+      "latin_letters": 26,
+      "greek_letters": 1032,
+      "ascii_word_tokens": 9,
+      "keep_as_english": false
+    },
+    {
+      "pdf_page": 274,
+      "latin_letters": 1298,
+      "greek_letters": 4,
+      "ascii_word_tokens": 313,
+      "keep_as_english": true
+    },
+    {
+      "pdf_page": 275,
+      "latin_letters": 21,
+      "greek_letters": 714,
+      "ascii_word_tokens": 7,
+      "keep_as_english": false
+    },
+    {
+      "pdf_page": 276,
+      "latin_letters": 818,
+      "greek_letters": 9,
+      "ascii_word_tokens": 197,
+      "keep_as_english": true
+    },
+    {
+      "pdf_page": 277,
+      "latin_letters": 14,
+      "greek_letters": 801,
+      "ascii_word_tokens": 5,
+      "keep_as_english": false
+    },
+    {
+      "pdf_page": 278,
+      "latin_letters": 1051,
+      "greek_letters": 0,
+      "ascii_word_tokens": 239,
+      "keep_as_english": true
+    },
+    {
+      "pdf_page": 279,
+      "latin_letters": 22,
+      "greek_letters": 1002,
+      "ascii_word_tokens": 8,
+      "keep_as_english": false
+    },
+    {
+      "pdf_page": 280,
+      "latin_letters": 1277,
+      "greek_letters": 2,
+      "ascii_word_tokens": 323,
+      "keep_as_english": true
+    },
+    {
+      "pdf_page": 281,
+      "latin_letters": 68,
+      "greek_letters": 988,
+      "ascii_word_tokens": 14,
+      "keep_as_english": false
+    },
+    {
+      "pdf_page": 282,
+      "latin_letters": 1343,
+      "greek_letters": 3,
+      "ascii_word_tokens": 323,
+      "keep_as_english": true
+    },
+    {
+      "pdf_page": 283,
+      "latin_letters": 17,
+      "greek_letters": 1038,
+      "ascii_word_tokens": 5,
+      "keep_as_english": false
+    },
+    {
+      "pdf_page": 284,
+      "latin_letters": 1319,
+      "greek_letters": 0,
+      "ascii_word_tokens": 319,
+      "keep_as_english": true
+    },
+    {
+      "pdf_page": 285,
+      "latin_letters": 73,
+      "greek_letters": 1005,
+      "ascii_word_tokens": 20,
+      "keep_as_english": false
+    },
+    {
+      "pdf_page": 286,
+      "latin_letters": 1341,
+      "greek_letters": 4,
+      "ascii_word_tokens": 315,
+      "keep_as_english": true
+    },
+    {
+      "pdf_page": 287,
+      "latin_letters": 56,
+      "greek_letters": 952,
+      "ascii_word_tokens": 12,
+      "keep_as_english": false
+    },
+    {
+      "pdf_page": 288,
+      "latin_letters": 1180,
+      "greek_letters": 1,
+      "ascii_word_tokens": 294,
+      "keep_as_english": true
+    },
+    {
+      "pdf_page": 289,
+      "latin_letters": 8,
+      "greek_letters": 926,
+      "ascii_word_tokens": 2,
+      "keep_as_english": false
+    },
+    {
+      "pdf_page": 290,
+      "latin_letters": 1290,
+      "greek_letters": 15,
+      "ascii_word_tokens": 312,
+      "keep_as_english": true
+    },
+    {
+      "pdf_page": 291,
+      "latin_letters": 20,
+      "greek_letters": 978,
+      "ascii_word_tokens": 5,
+      "keep_as_english": false
+    },
+    {
+      "pdf_page": 292,
+      "latin_letters": 1253,
+      "greek_letters": 5,
+      "ascii_word_tokens": 319,
+      "keep_as_english": true
+    },
+    {
+      "pdf_page": 293,
+      "latin_letters": 26,
+      "greek_letters": 1088,
+      "ascii_word_tokens": 7,
+      "keep_as_english": false
+    },
+    {
+      "pdf_page": 294,
+      "latin_letters": 1344,
+      "greek_letters": 4,
+      "ascii_word_tokens": 324,
+      "keep_as_english": true
+    },
+    {
+      "pdf_page": 295,
+      "latin_letters": 31,
+      "greek_letters": 963,
+      "ascii_word_tokens": 10,
+      "keep_as_english": false
+    },
+    {
+      "pdf_page": 296,
+      "latin_letters": 1355,
+      "greek_letters": 10,
+      "ascii_word_tokens": 321,
+      "keep_as_english": true
+    },
+    {
+      "pdf_page": 297,
+      "latin_letters": 43,
+      "greek_letters": 955,
+      "ascii_word_tokens": 12,
+      "keep_as_english": false
+    },
+    {
+      "pdf_page": 298,
+      "latin_letters": 1275,
+      "greek_letters": 2,
+      "ascii_word_tokens": 315,
+      "keep_as_english": true
+    },
+    {
+      "pdf_page": 299,
+      "latin_letters": 16,
+      "greek_letters": 944,
+      "ascii_word_tokens": 4,
+      "keep_as_english": false
+    },
+    {
+      "pdf_page": 300,
+      "latin_letters": 1250,
+      "greek_letters": 7,
+      "ascii_word_tokens": 304,
+      "keep_as_english": true
+    },
+    {
+      "pdf_page": 301,
+      "latin_letters": 23,
+      "greek_letters": 970,
+      "ascii_word_tokens": 6,
+      "keep_as_english": false
+    },
+    {
+      "pdf_page": 302,
+      "latin_letters": 1249,
+      "greek_letters": 10,
+      "ascii_word_tokens": 290,
+      "keep_as_english": true
+    },
+    {
+      "pdf_page": 303,
+      "latin_letters": 12,
+      "greek_letters": 1002,
+      "ascii_word_tokens": 3,
+      "keep_as_english": false
+    },
+    {
+      "pdf_page": 304,
+      "latin_letters": 1250,
+      "greek_letters": 5,
+      "ascii_word_tokens": 287,
+      "keep_as_english": true
+    },
+    {
+      "pdf_page": 305,
+      "latin_letters": 18,
+      "greek_letters": 944,
+      "ascii_word_tokens": 6,
+      "keep_as_english": false
+    },
+    {
+      "pdf_page": 306,
+      "latin_letters": 1212,
+      "greek_letters": 4,
+      "ascii_word_tokens": 298,
+      "keep_as_english": true
+    },
+    {
+      "pdf_page": 307,
+      "latin_letters": 8,
+      "greek_letters": 967,
+      "ascii_word_tokens": 2,
+      "keep_as_english": false
+    },
+    {
+      "pdf_page": 308,
+      "latin_letters": 1262,
+      "greek_letters": 0,
+      "ascii_word_tokens": 293,
+      "keep_as_english": true
+    },
+    {
+      "pdf_page": 309,
+      "latin_letters": 22,
+      "greek_letters": 902,
+      "ascii_word_tokens": 7,
+      "keep_as_english": false
+    },
+    {
+      "pdf_page": 310,
+      "latin_letters": 1194,
+      "greek_letters": 1,
+      "ascii_word_tokens": 290,
+      "keep_as_english": true
+    },
+    {
+      "pdf_page": 311,
+      "latin_letters": 22,
+      "greek_letters": 911,
+      "ascii_word_tokens": 7,
+      "keep_as_english": false
+    },
+    {
+      "pdf_page": 312,
+      "latin_letters": 1212,
+      "greek_letters": 4,
+      "ascii_word_tokens": 292,
+      "keep_as_english": true
+    },
+    {
+      "pdf_page": 313,
+      "latin_letters": 43,
+      "greek_letters": 974,
+      "ascii_word_tokens": 11,
+      "keep_as_english": false
+    },
+    {
+      "pdf_page": 314,
+      "latin_letters": 1363,
+      "greek_letters": 1,
+      "ascii_word_tokens": 323,
+      "keep_as_english": true
+    },
+    {
+      "pdf_page": 315,
+      "latin_letters": 23,
+      "greek_letters": 1034,
+      "ascii_word_tokens": 6,
+      "keep_as_english": false
+    },
+    {
+      "pdf_page": 316,
+      "latin_letters": 1304,
+      "greek_letters": 10,
+      "ascii_word_tokens": 303,
+      "keep_as_english": true
+    },
+    {
+      "pdf_page": 317,
+      "latin_letters": 10,
+      "greek_letters": 1034,
+      "ascii_word_tokens": 3,
+      "keep_as_english": false
+    },
+    {
+      "pdf_page": 318,
+      "latin_letters": 1369,
+      "greek_letters": 1,
+      "ascii_word_tokens": 331,
+      "keep_as_english": true
+    },
+    {
+      "pdf_page": 319,
+      "latin_letters": 12,
+      "greek_letters": 281,
+      "ascii_word_tokens": 4,
+      "keep_as_english": false
+    },
+    {
+      "pdf_page": 320,
+      "latin_letters": 330,
+      "greek_letters": 1,
+      "ascii_word_tokens": 83,
+      "keep_as_english": true
+    },
+    {
+      "pdf_page": 321,
+      "latin_letters": 161,
+      "greek_letters": 650,
+      "ascii_word_tokens": 32,
+      "keep_as_english": false
+    },
+    {
+      "pdf_page": 322,
+      "latin_letters": 892,
+      "greek_letters": 6,
+      "ascii_word_tokens": 220,
+      "keep_as_english": true
+    },
+    {
+      "pdf_page": 323,
+      "latin_letters": 111,
+      "greek_letters": 829,
+      "ascii_word_tokens": 30,
+      "keep_as_english": false
+    },
+    {
+      "pdf_page": 324,
+      "latin_letters": 1358,
+      "greek_letters": 4,
+      "ascii_word_tokens": 330,
+      "keep_as_english": true
+    },
+    {
+      "pdf_page": 325,
+      "latin_letters": 12,
+      "greek_letters": 1011,
+      "ascii_word_tokens": 5,
+      "keep_as_english": false
+    },
+    {
+      "pdf_page": 326,
+      "latin_letters": 1281,
+      "greek_letters": 0,
+      "ascii_word_tokens": 305,
+      "keep_as_english": true
+    },
+    {
+      "pdf_page": 327,
+      "latin_letters": 90,
+      "greek_letters": 1025,
+      "ascii_word_tokens": 21,
+      "keep_as_english": false
+    },
+    {
+      "pdf_page": 328,
+      "latin_letters": 1314,
+      "greek_letters": 1,
+      "ascii_word_tokens": 325,
+      "keep_as_english": true
+    },
+    {
+      "pdf_page": 329,
+      "latin_letters": 31,
+      "greek_letters": 972,
+      "ascii_word_tokens": 10,
+      "keep_as_english": false
+    },
+    {
+      "pdf_page": 330,
+      "latin_letters": 1264,
+      "greek_letters": 4,
+      "ascii_word_tokens": 288,
+      "keep_as_english": true
+    },
+    {
+      "pdf_page": 331,
+      "latin_letters": 26,
+      "greek_letters": 1002,
+      "ascii_word_tokens": 8,
+      "keep_as_english": false
+    },
+    {
+      "pdf_page": 332,
+      "latin_letters": 1324,
+      "greek_letters": 0,
+      "ascii_word_tokens": 321,
+      "keep_as_english": true
+    },
+    {
+      "pdf_page": 333,
+      "latin_letters": 31,
+      "greek_letters": 1000,
+      "ascii_word_tokens": 11,
+      "keep_as_english": false
+    },
+    {
+      "pdf_page": 334,
+      "latin_letters": 1252,
+      "greek_letters": 0,
+      "ascii_word_tokens": 319,
+      "keep_as_english": true
+    },
+    {
+      "pdf_page": 335,
+      "latin_letters": 11,
+      "greek_letters": 935,
+      "ascii_word_tokens": 4,
+      "keep_as_english": false
+    },
+    {
+      "pdf_page": 336,
+      "latin_letters": 1227,
+      "greek_letters": 3,
+      "ascii_word_tokens": 309,
+      "keep_as_english": true
+    },
+    {
+      "pdf_page": 337,
+      "latin_letters": 12,
+      "greek_letters": 942,
+      "ascii_word_tokens": 4,
+      "keep_as_english": false
+    },
+    {
+      "pdf_page": 338,
+      "latin_letters": 1340,
+      "greek_letters": 13,
+      "ascii_word_tokens": 320,
+      "keep_as_english": true
+    },
+    {
+      "pdf_page": 339,
+      "latin_letters": 10,
+      "greek_letters": 1031,
+      "ascii_word_tokens": 3,
+      "keep_as_english": false
+    },
+    {
+      "pdf_page": 340,
+      "latin_letters": 1268,
+      "greek_letters": 0,
+      "ascii_word_tokens": 310,
+      "keep_as_english": true
+    },
+    {
+      "pdf_page": 341,
+      "latin_letters": 22,
+      "greek_letters": 978,
+      "ascii_word_tokens": 9,
+      "keep_as_english": false
+    },
+    {
+      "pdf_page": 342,
+      "latin_letters": 1307,
+      "greek_letters": 1,
+      "ascii_word_tokens": 315,
+      "keep_as_english": true
+    },
+    {
+      "pdf_page": 343,
+      "latin_letters": 20,
+      "greek_letters": 983,
+      "ascii_word_tokens": 5,
+      "keep_as_english": false
+    },
+    {
+      "pdf_page": 344,
+      "latin_letters": 1317,
+      "greek_letters": 2,
+      "ascii_word_tokens": 332,
+      "keep_as_english": true
+    },
+    {
+      "pdf_page": 345,
+      "latin_letters": 41,
+      "greek_letters": 1003,
+      "ascii_word_tokens": 9,
+      "keep_as_english": false
+    },
+    {
+      "pdf_page": 346,
+      "latin_letters": 1317,
+      "greek_letters": 2,
+      "ascii_word_tokens": 330,
+      "keep_as_english": true
+    },
+    {
+      "pdf_page": 347,
+      "latin_letters": 14,
+      "greek_letters": 979,
+      "ascii_word_tokens": 5,
+      "keep_as_english": false
+    },
+    {
+      "pdf_page": 348,
+      "latin_letters": 1230,
+      "greek_letters": 2,
+      "ascii_word_tokens": 303,
+      "keep_as_english": true
+    },
+    {
+      "pdf_page": 349,
+      "latin_letters": 65,
+      "greek_letters": 995,
+      "ascii_word_tokens": 12,
+      "keep_as_english": false
+    },
+    {
+      "pdf_page": 350,
+      "latin_letters": 1317,
+      "greek_letters": 0,
+      "ascii_word_tokens": 311,
+      "keep_as_english": true
+    },
+    {
+      "pdf_page": 351,
+      "latin_letters": 40,
+      "greek_letters": 1006,
+      "ascii_word_tokens": 12,
+      "keep_as_english": false
+    },
+    {
+      "pdf_page": 352,
+      "latin_letters": 1340,
+      "greek_letters": 2,
+      "ascii_word_tokens": 323,
+      "keep_as_english": true
+    },
+    {
+      "pdf_page": 353,
+      "latin_letters": 16,
+      "greek_letters": 927,
+      "ascii_word_tokens": 5,
+      "keep_as_english": false
+    },
+    {
+      "pdf_page": 354,
+      "latin_letters": 1302,
+      "greek_letters": 2,
+      "ascii_word_tokens": 321,
+      "keep_as_english": true
+    },
+    {
+      "pdf_page": 355,
+      "latin_letters": 27,
+      "greek_letters": 900,
+      "ascii_word_tokens": 9,
+      "keep_as_english": false
+    },
+    {
+      "pdf_page": 356,
+      "latin_letters": 1294,
+      "greek_letters": 4,
+      "ascii_word_tokens": 335,
+      "keep_as_english": true
+    },
+    {
+      "pdf_page": 357,
+      "latin_letters": 29,
+      "greek_letters": 970,
+      "ascii_word_tokens": 8,
+      "keep_as_english": false
+    },
+    {
+      "pdf_page": 358,
+      "latin_letters": 1232,
+      "greek_letters": 1,
+      "ascii_word_tokens": 299,
+      "keep_as_english": true
+    },
+    {
+      "pdf_page": 359,
+      "latin_letters": 48,
+      "greek_letters": 976,
+      "ascii_word_tokens": 15,
+      "keep_as_english": false
+    },
+    {
+      "pdf_page": 360,
+      "latin_letters": 1209,
+      "greek_letters": 0,
+      "ascii_word_tokens": 305,
+      "keep_as_english": true
+    },
+    {
+      "pdf_page": 361,
+      "latin_letters": 25,
+      "greek_letters": 649,
+      "ascii_word_tokens": 7,
+      "keep_as_english": false
+    },
+    {
+      "pdf_page": 362,
+      "latin_letters": 842,
+      "greek_letters": 0,
+      "ascii_word_tokens": 214,
+      "keep_as_english": true
+    },
+    {
+      "pdf_page": 363,
+      "latin_letters": 30,
+      "greek_letters": 700,
+      "ascii_word_tokens": 8,
+      "keep_as_english": false
+    },
+    {
+      "pdf_page": 364,
+      "latin_letters": 1043,
+      "greek_letters": 0,
+      "ascii_word_tokens": 258,
+      "keep_as_english": true
+    },
+    {
+      "pdf_page": 365,
+      "latin_letters": 24,
+      "greek_letters": 943,
+      "ascii_word_tokens": 9,
+      "keep_as_english": false
+    },
+    {
+      "pdf_page": 366,
+      "latin_letters": 1297,
+      "greek_letters": 2,
+      "ascii_word_tokens": 320,
+      "keep_as_english": true
+    },
+    {
+      "pdf_page": 367,
+      "latin_letters": 9,
+      "greek_letters": 977,
+      "ascii_word_tokens": 3,
+      "keep_as_english": false
+    },
+    {
+      "pdf_page": 368,
+      "latin_letters": 1204,
+      "greek_letters": 2,
+      "ascii_word_tokens": 287,
+      "keep_as_english": true
+    },
+    {
+      "pdf_page": 369,
+      "latin_letters": 131,
+      "greek_letters": 927,
+      "ascii_word_tokens": 29,
+      "keep_as_english": false
+    },
+    {
+      "pdf_page": 370,
+      "latin_letters": 1301,
+      "greek_letters": 6,
+      "ascii_word_tokens": 307,
+      "keep_as_english": true
+    },
+    {
+      "pdf_page": 371,
+      "latin_letters": 76,
+      "greek_letters": 885,
+      "ascii_word_tokens": 17,
+      "keep_as_english": false
+    },
+    {
+      "pdf_page": 372,
+      "latin_letters": 1304,
+      "greek_letters": 6,
+      "ascii_word_tokens": 308,
+      "keep_as_english": true
+    },
+    {
+      "pdf_page": 373,
+      "latin_letters": 52,
+      "greek_letters": 990,
+      "ascii_word_tokens": 10,
+      "keep_as_english": false
+    },
+    {
+      "pdf_page": 374,
+      "latin_letters": 1233,
+      "greek_letters": 2,
+      "ascii_word_tokens": 303,
+      "keep_as_english": true
+    },
+    {
+      "pdf_page": 375,
+      "latin_letters": 33,
+      "greek_letters": 948,
+      "ascii_word_tokens": 11,
+      "keep_as_english": false
+    },
+    {
+      "pdf_page": 376,
+      "latin_letters": 960,
+      "greek_letters": 2,
+      "ascii_word_tokens": 246,
+      "keep_as_english": true
+    },
+    {
+      "pdf_page": 377,
+      "latin_letters": 50,
+      "greek_letters": 1045,
+      "ascii_word_tokens": 13,
+      "keep_as_english": false
+    },
+    {
+      "pdf_page": 378,
+      "latin_letters": 1271,
+      "greek_letters": 3,
+      "ascii_word_tokens": 310,
+      "keep_as_english": true
+    },
+    {
+      "pdf_page": 379,
+      "latin_letters": 109,
+      "greek_letters": 906,
+      "ascii_word_tokens": 20,
+      "keep_as_english": false
+    },
+    {
+      "pdf_page": 380,
+      "latin_letters": 1256,
+      "greek_letters": 2,
+      "ascii_word_tokens": 291,
+      "keep_as_english": true
+    },
+    {
+      "pdf_page": 381,
+      "latin_letters": 59,
+      "greek_letters": 916,
+      "ascii_word_tokens": 17,
+      "keep_as_english": false
+    },
+    {
+      "pdf_page": 382,
+      "latin_letters": 1227,
+      "greek_letters": 0,
+      "ascii_word_tokens": 295,
+      "keep_as_english": true
+    },
+    {
+      "pdf_page": 383,
+      "latin_letters": 52,
+      "greek_letters": 936,
+      "ascii_word_tokens": 14,
+      "keep_as_english": false
+    },
+    {
+      "pdf_page": 384,
+      "latin_letters": 1191,
+      "greek_letters": 5,
+      "ascii_word_tokens": 302,
+      "keep_as_english": true
+    },
+    {
+      "pdf_page": 385,
+      "latin_letters": 33,
+      "greek_letters": 947,
+      "ascii_word_tokens": 12,
+      "keep_as_english": false
+    },
+    {
+      "pdf_page": 386,
+      "latin_letters": 1246,
+      "greek_letters": 3,
+      "ascii_word_tokens": 313,
+      "keep_as_english": true
+    },
+    {
+      "pdf_page": 387,
+      "latin_letters": 36,
+      "greek_letters": 948,
+      "ascii_word_tokens": 9,
+      "keep_as_english": false
+    },
+    {
+      "pdf_page": 388,
+      "latin_letters": 1236,
+      "greek_letters": 11,
+      "ascii_word_tokens": 323,
+      "keep_as_english": true
+    },
+    {
+      "pdf_page": 389,
+      "latin_letters": 65,
+      "greek_letters": 1020,
+      "ascii_word_tokens": 16,
+      "keep_as_english": false
+    },
+    {
+      "pdf_page": 390,
+      "latin_letters": 1314,
+      "greek_letters": 4,
+      "ascii_word_tokens": 320,
+      "keep_as_english": true
+    },
+    {
+      "pdf_page": 391,
+      "latin_letters": 19,
+      "greek_letters": 981,
+      "ascii_word_tokens": 6,
+      "keep_as_english": false
+    },
+    {
+      "pdf_page": 392,
+      "latin_letters": 1189,
+      "greek_letters": 1,
+      "ascii_word_tokens": 292,
+      "keep_as_english": true
+    },
+    {
+      "pdf_page": 393,
+      "latin_letters": 41,
+      "greek_letters": 1038,
+      "ascii_word_tokens": 13,
+      "keep_as_english": false
+    },
+    {
+      "pdf_page": 394,
+      "latin_letters": 1224,
+      "greek_letters": 4,
+      "ascii_word_tokens": 296,
+      "keep_as_english": true
+    },
+    {
+      "pdf_page": 395,
+      "latin_letters": 110,
+      "greek_letters": 957,
+      "ascii_word_tokens": 26,
+      "keep_as_english": false
+    },
+    {
+      "pdf_page": 396,
+      "latin_letters": 1222,
+      "greek_letters": 0,
+      "ascii_word_tokens": 302,
+      "keep_as_english": true
+    },
+    {
+      "pdf_page": 397,
+      "latin_letters": 78,
+      "greek_letters": 1040,
+      "ascii_word_tokens": 20,
+      "keep_as_english": false
+    },
+    {
+      "pdf_page": 398,
+      "latin_letters": 1199,
+      "greek_letters": 1,
+      "ascii_word_tokens": 290,
+      "keep_as_english": true
+    },
+    {
+      "pdf_page": 399,
+      "latin_letters": 22,
+      "greek_letters": 1021,
+      "ascii_word_tokens": 8,
+      "keep_as_english": false
+    },
+    {
+      "pdf_page": 400,
+      "latin_letters": 1254,
+      "greek_letters": 0,
+      "ascii_word_tokens": 304,
+      "keep_as_english": true
+    },
+    {
+      "pdf_page": 401,
+      "latin_letters": 30,
+      "greek_letters": 970,
+      "ascii_word_tokens": 10,
+      "keep_as_english": false
+    },
+    {
+      "pdf_page": 402,
+      "latin_letters": 1299,
+      "greek_letters": 1,
+      "ascii_word_tokens": 305,
+      "keep_as_english": true
+    },
+    {
+      "pdf_page": 403,
+      "latin_letters": 32,
+      "greek_letters": 1009,
+      "ascii_word_tokens": 9,
+      "keep_as_english": false
+    },
+    {
+      "pdf_page": 404,
+      "latin_letters": 1219,
+      "greek_letters": 0,
+      "ascii_word_tokens": 305,
+      "keep_as_english": true
+    },
+    {
+      "pdf_page": 405,
+      "latin_letters": 23,
+      "greek_letters": 842,
+      "ascii_word_tokens": 6,
+      "keep_as_english": false
+    },
+    {
+      "pdf_page": 406,
+      "latin_letters": 1003,
+      "greek_letters": 11,
+      "ascii_word_tokens": 245,
+      "keep_as_english": true
+    },
+    {
+      "pdf_page": 407,
+      "latin_letters": 42,
+      "greek_letters": 1074,
+      "ascii_word_tokens": 8,
+      "keep_as_english": false
+    },
+    {
+      "pdf_page": 408,
+      "latin_letters": 1274,
+      "greek_letters": 2,
+      "ascii_word_tokens": 302,
+      "keep_as_english": true
+    },
+    {
+      "pdf_page": 409,
+      "latin_letters": 64,
+      "greek_letters": 930,
+      "ascii_word_tokens": 14,
+      "keep_as_english": false
+    },
+    {
+      "pdf_page": 410,
+      "latin_letters": 1207,
+      "greek_letters": 3,
+      "ascii_word_tokens": 311,
+      "keep_as_english": true
+    },
+    {
+      "pdf_page": 411,
+      "latin_letters": 45,
+      "greek_letters": 921,
+      "ascii_word_tokens": 12,
+      "keep_as_english": false
+    },
+    {
+      "pdf_page": 412,
+      "latin_letters": 1246,
+      "greek_letters": 2,
+      "ascii_word_tokens": 311,
+      "keep_as_english": true
+    },
+    {
+      "pdf_page": 413,
+      "latin_letters": 103,
+      "greek_letters": 952,
+      "ascii_word_tokens": 27,
+      "keep_as_english": false
+    },
+    {
+      "pdf_page": 414,
+      "latin_letters": 1303,
+      "greek_letters": 16,
+      "ascii_word_tokens": 299,
+      "keep_as_english": true
+    },
+    {
+      "pdf_page": 415,
+      "latin_letters": 47,
+      "greek_letters": 942,
+      "ascii_word_tokens": 11,
+      "keep_as_english": false
+    },
+    {
+      "pdf_page": 416,
+      "latin_letters": 1172,
+      "greek_letters": 6,
+      "ascii_word_tokens": 287,
+      "keep_as_english": true
+    },
+    {
+      "pdf_page": 417,
+      "latin_letters": 15,
+      "greek_letters": 1012,
+      "ascii_word_tokens": 5,
+      "keep_as_english": false
+    },
+    {
+      "pdf_page": 418,
+      "latin_letters": 1291,
+      "greek_letters": 0,
+      "ascii_word_tokens": 316,
+      "keep_as_english": true
+    },
+    {
+      "pdf_page": 419,
+      "latin_letters": 15,
+      "greek_letters": 1027,
+      "ascii_word_tokens": 6,
+      "keep_as_english": false
+    },
+    {
+      "pdf_page": 420,
+      "latin_letters": 1208,
+      "greek_letters": 2,
+      "ascii_word_tokens": 293,
+      "keep_as_english": true
+    },
+    {
+      "pdf_page": 421,
+      "latin_letters": 75,
+      "greek_letters": 974,
+      "ascii_word_tokens": 18,
+      "keep_as_english": false
+    },
+    {
+      "pdf_page": 422,
+      "latin_letters": 1283,
+      "greek_letters": 2,
+      "ascii_word_tokens": 309,
+      "keep_as_english": true
+    },
+    {
+      "pdf_page": 423,
+      "latin_letters": 19,
+      "greek_letters": 934,
+      "ascii_word_tokens": 4,
+      "keep_as_english": false
+    },
+    {
+      "pdf_page": 424,
+      "latin_letters": 1244,
+      "greek_letters": 10,
+      "ascii_word_tokens": 291,
+      "keep_as_english": true
+    },
+    {
+      "pdf_page": 425,
+      "latin_letters": 18,
+      "greek_letters": 973,
+      "ascii_word_tokens": 5,
+      "keep_as_english": false
+    },
+    {
+      "pdf_page": 426,
+      "latin_letters": 1256,
+      "greek_letters": 2,
+      "ascii_word_tokens": 298,
+      "keep_as_english": true
+    },
+    {
+      "pdf_page": 427,
+      "latin_letters": 102,
+      "greek_letters": 960,
+      "ascii_word_tokens": 30,
+      "keep_as_english": false
+    },
+    {
+      "pdf_page": 428,
+      "latin_letters": 1289,
+      "greek_letters": 2,
+      "ascii_word_tokens": 309,
+      "keep_as_english": true
+    },
+    {
+      "pdf_page": 429,
+      "latin_letters": 37,
+      "greek_letters": 985,
+      "ascii_word_tokens": 11,
+      "keep_as_english": false
+    },
+    {
+      "pdf_page": 430,
+      "latin_letters": 1179,
+      "greek_letters": 6,
+      "ascii_word_tokens": 284,
+      "keep_as_english": true
+    },
+    {
+      "pdf_page": 431,
+      "latin_letters": 30,
+      "greek_letters": 995,
+      "ascii_word_tokens": 9,
+      "keep_as_english": false
+    },
+    {
+      "pdf_page": 432,
+      "latin_letters": 1281,
+      "greek_letters": 2,
+      "ascii_word_tokens": 317,
+      "keep_as_english": true
+    },
+    {
+      "pdf_page": 433,
+      "latin_letters": 94,
+      "greek_letters": 951,
+      "ascii_word_tokens": 27,
+      "keep_as_english": false
+    },
+    {
+      "pdf_page": 434,
+      "latin_letters": 1275,
+      "greek_letters": 8,
+      "ascii_word_tokens": 320,
+      "keep_as_english": true
+    },
+    {
+      "pdf_page": 435,
+      "latin_letters": 75,
+      "greek_letters": 905,
+      "ascii_word_tokens": 18,
+      "keep_as_english": false
+    },
+    {
+      "pdf_page": 436,
+      "latin_letters": 1251,
+      "greek_letters": 21,
+      "ascii_word_tokens": 291,
+      "keep_as_english": true
+    },
+    {
+      "pdf_page": 437,
+      "latin_letters": 75,
+      "greek_letters": 1013,
+      "ascii_word_tokens": 18,
+      "keep_as_english": false
+    },
+    {
+      "pdf_page": 438,
+      "latin_letters": 1306,
+      "greek_letters": 5,
+      "ascii_word_tokens": 333,
+      "keep_as_english": true
+    },
+    {
+      "pdf_page": 439,
+      "latin_letters": 66,
+      "greek_letters": 958,
+      "ascii_word_tokens": 16,
+      "keep_as_english": false
+    },
+    {
+      "pdf_page": 440,
+      "latin_letters": 1340,
+      "greek_letters": 0,
+      "ascii_word_tokens": 332,
+      "keep_as_english": true
+    },
+    {
+      "pdf_page": 441,
+      "latin_letters": 56,
+      "greek_letters": 1045,
+      "ascii_word_tokens": 11,
+      "keep_as_english": false
+    },
+    {
+      "pdf_page": 442,
+      "latin_letters": 1382,
+      "greek_letters": 2,
+      "ascii_word_tokens": 343,
+      "keep_as_english": true
+    },
+    {
+      "pdf_page": 443,
+      "latin_letters": 19,
+      "greek_letters": 972,
+      "ascii_word_tokens": 6,
+      "keep_as_english": false
+    },
+    {
+      "pdf_page": 444,
+      "latin_letters": 1234,
+      "greek_letters": 1,
+      "ascii_word_tokens": 301,
+      "keep_as_english": true
+    },
+    {
+      "pdf_page": 445,
+      "latin_letters": 39,
+      "greek_letters": 919,
+      "ascii_word_tokens": 10,
+      "keep_as_english": false
+    },
+    {
+      "pdf_page": 446,
+      "latin_letters": 1185,
+      "greek_letters": 15,
+      "ascii_word_tokens": 292,
+      "keep_as_english": true
+    },
+    {
+      "pdf_page": 447,
+      "latin_letters": 95,
+      "greek_letters": 972,
+      "ascii_word_tokens": 21,
+      "keep_as_english": false
+    },
+    {
+      "pdf_page": 448,
+      "latin_letters": 1252,
+      "greek_letters": 4,
+      "ascii_word_tokens": 299,
+      "keep_as_english": true
+    },
+    {
+      "pdf_page": 449,
+      "latin_letters": 70,
+      "greek_letters": 963,
+      "ascii_word_tokens": 20,
+      "keep_as_english": false
+    },
+    {
+      "pdf_page": 450,
+      "latin_letters": 1237,
+      "greek_letters": 2,
+      "ascii_word_tokens": 307,
+      "keep_as_english": true
+    },
+    {
+      "pdf_page": 451,
+      "latin_letters": 55,
+      "greek_letters": 741,
+      "ascii_word_tokens": 14,
+      "keep_as_english": false
+    },
+    {
+      "pdf_page": 452,
+      "latin_letters": 979,
+      "greek_letters": 7,
+      "ascii_word_tokens": 240,
+      "keep_as_english": true
+    },
+    {
+      "pdf_page": 453,
+      "latin_letters": 33,
+      "greek_letters": 990,
+      "ascii_word_tokens": 10,
+      "keep_as_english": false
+    },
+    {
+      "pdf_page": 454,
+      "latin_letters": 1275,
+      "greek_letters": 1,
+      "ascii_word_tokens": 324,
+      "keep_as_english": true
+    },
+    {
+      "pdf_page": 455,
+      "latin_letters": 19,
+      "greek_letters": 978,
+      "ascii_word_tokens": 7,
+      "keep_as_english": false
+    },
+    {
+      "pdf_page": 456,
+      "latin_letters": 1257,
+      "greek_letters": 3,
+      "ascii_word_tokens": 296,
+      "keep_as_english": true
+    },
+    {
+      "pdf_page": 457,
+      "latin_letters": 15,
+      "greek_letters": 1007,
+      "ascii_word_tokens": 4,
+      "keep_as_english": false
+    },
+    {
+      "pdf_page": 458,
+      "latin_letters": 1235,
+      "greek_letters": 15,
+      "ascii_word_tokens": 288,
+      "keep_as_english": true
+    },
+    {
+      "pdf_page": 459,
+      "latin_letters": 37,
+      "greek_letters": 1054,
+      "ascii_word_tokens": 12,
+      "keep_as_english": false
+    },
+    {
+      "pdf_page": 460,
+      "latin_letters": 1270,
+      "greek_letters": 0,
+      "ascii_word_tokens": 310,
+      "keep_as_english": true
+    },
+    {
+      "pdf_page": 461,
+      "latin_letters": 48,
+      "greek_letters": 884,
+      "ascii_word_tokens": 15,
+      "keep_as_english": false
+    },
+    {
+      "pdf_page": 462,
+      "latin_letters": 1190,
+      "greek_letters": 0,
+      "ascii_word_tokens": 295,
+      "keep_as_english": true
+    },
+    {
+      "pdf_page": 463,
+      "latin_letters": 33,
+      "greek_letters": 877,
+      "ascii_word_tokens": 10,
+      "keep_as_english": false
+    },
+    {
+      "pdf_page": 464,
+      "latin_letters": 1277,
+      "greek_letters": 4,
+      "ascii_word_tokens": 322,
+      "keep_as_english": true
+    },
+    {
+      "pdf_page": 465,
+      "latin_letters": 38,
+      "greek_letters": 1000,
+      "ascii_word_tokens": 9,
+      "keep_as_english": false
+    },
+    {
+      "pdf_page": 466,
+      "latin_letters": 1267,
+      "greek_letters": 0,
+      "ascii_word_tokens": 313,
+      "keep_as_english": true
+    },
+    {
+      "pdf_page": 467,
+      "latin_letters": 14,
+      "greek_letters": 1016,
+      "ascii_word_tokens": 5,
+      "keep_as_english": false
+    },
+    {
+      "pdf_page": 468,
+      "latin_letters": 1272,
+      "greek_letters": 4,
+      "ascii_word_tokens": 310,
+      "keep_as_english": true
+    },
+    {
+      "pdf_page": 469,
+      "latin_letters": 85,
+      "greek_letters": 950,
+      "ascii_word_tokens": 19,
+      "keep_as_english": false
+    },
+    {
+      "pdf_page": 470,
+      "latin_letters": 1216,
+      "greek_letters": 8,
+      "ascii_word_tokens": 297,
+      "keep_as_english": true
+    },
+    {
+      "pdf_page": 471,
+      "latin_letters": 24,
+      "greek_letters": 961,
+      "ascii_word_tokens": 8,
+      "keep_as_english": false
+    },
+    {
+      "pdf_page": 472,
+      "latin_letters": 1250,
+      "greek_letters": 0,
+      "ascii_word_tokens": 293,
+      "keep_as_english": true
+    },
+    {
+      "pdf_page": 473,
+      "latin_letters": 26,
+      "greek_letters": 938,
+      "ascii_word_tokens": 9,
+      "keep_as_english": false
+    },
+    {
+      "pdf_page": 474,
+      "latin_letters": 1301,
+      "greek_letters": 0,
+      "ascii_word_tokens": 313,
+      "keep_as_english": true
+    },
+    {
+      "pdf_page": 475,
+      "latin_letters": 27,
+      "greek_letters": 1026,
+      "ascii_word_tokens": 7,
+      "keep_as_english": false
+    },
+    {
+      "pdf_page": 476,
+      "latin_letters": 1366,
+      "greek_letters": 7,
+      "ascii_word_tokens": 331,
+      "keep_as_english": true
+    },
+    {
+      "pdf_page": 477,
+      "latin_letters": 34,
+      "greek_letters": 988,
+      "ascii_word_tokens": 11,
+      "keep_as_english": false
+    },
+    {
+      "pdf_page": 478,
+      "latin_letters": 1260,
+      "greek_letters": 2,
+      "ascii_word_tokens": 298,
+      "keep_as_english": true
+    },
+    {
+      "pdf_page": 479,
+      "latin_letters": 46,
+      "greek_letters": 1000,
+      "ascii_word_tokens": 9,
+      "keep_as_english": false
+    },
+    {
+      "pdf_page": 480,
+      "latin_letters": 1167,
+      "greek_letters": 0,
+      "ascii_word_tokens": 288,
+      "keep_as_english": true
+    },
+    {
+      "pdf_page": 481,
+      "latin_letters": 28,
+      "greek_letters": 985,
+      "ascii_word_tokens": 7,
+      "keep_as_english": false
+    },
+    {
+      "pdf_page": 482,
+      "latin_letters": 1291,
+      "greek_letters": 0,
+      "ascii_word_tokens": 319,
+      "keep_as_english": true
+    },
+    {
+      "pdf_page": 483,
+      "latin_letters": 69,
+      "greek_letters": 337,
+      "ascii_word_tokens": 18,
+      "keep_as_english": false
+    },
+    {
+      "pdf_page": 484,
+      "latin_letters": 520,
+      "greek_letters": 4,
+      "ascii_word_tokens": 125,
+      "keep_as_english": true
+    },
+    {
+      "pdf_page": 485,
+      "latin_letters": 28,
+      "greek_letters": 2,
+      "ascii_word_tokens": 5,
+      "keep_as_english": false
+    },
+    {
+      "pdf_page": 486,
+      "latin_letters": 495,
+      "greek_letters": 23,
+      "ascii_word_tokens": 104,
+      "keep_as_english": true
+    },
+    {
+      "pdf_page": 487,
+      "latin_letters": 862,
+      "greek_letters": 53,
+      "ascii_word_tokens": 190,
+      "keep_as_english": true
+    },
+    {
+      "pdf_page": 488,
+      "latin_letters": 767,
+      "greek_letters": 44,
+      "ascii_word_tokens": 175,
+      "keep_as_english": true
+    },
+    {
+      "pdf_page": 489,
+      "latin_letters": 990,
+      "greek_letters": 55,
+      "ascii_word_tokens": 216,
+      "keep_as_english": true
+    },
+    {
+      "pdf_page": 490,
+      "latin_letters": 910,
+      "greek_letters": 29,
+      "ascii_word_tokens": 173,
+      "keep_as_english": true
+    },
+    {
+      "pdf_page": 491,
+      "latin_letters": 933,
+      "greek_letters": 70,
+      "ascii_word_tokens": 185,
+      "keep_as_english": true
+    },
+    {
+      "pdf_page": 492,
+      "latin_letters": 874,
+      "greek_letters": 38,
+      "ascii_word_tokens": 203,
+      "keep_as_english": true
+    },
+    {
+      "pdf_page": 493,
+      "latin_letters": 1011,
+      "greek_letters": 30,
+      "ascii_word_tokens": 215,
+      "keep_as_english": true
+    },
+    {
+      "pdf_page": 494,
+      "latin_letters": 766,
+      "greek_letters": 34,
+      "ascii_word_tokens": 170,
+      "keep_as_english": true
+    },
+    {
+      "pdf_page": 495,
+      "latin_letters": 589,
+      "greek_letters": 23,
+      "ascii_word_tokens": 113,
+      "keep_as_english": true
+    },
+    {
+      "pdf_page": 496,
+      "latin_letters": 0,
+      "greek_letters": 0,
+      "ascii_word_tokens": 0,
+      "keep_as_english": false
+    },
+    {
+      "pdf_page": 497,
+      "latin_letters": 0,
+      "greek_letters": 0,
+      "ascii_word_tokens": 0,
+      "keep_as_english": false
+    },
+    {
+      "pdf_page": 498,
+      "latin_letters": 30,
+      "greek_letters": 2,
+      "ascii_word_tokens": 6,
+      "keep_as_english": false
+    },
+    {
+      "pdf_page": 499,
+      "latin_letters": 0,
+      "greek_letters": 0,
+      "ascii_word_tokens": 0,
+      "keep_as_english": false
+    }
+  ],
+  "vol2": [
+    {
+      "pdf_page": 1,
+      "latin_letters": 41,
+      "greek_letters": 6,
+      "ascii_word_tokens": 9,
+      "keep_as_english": false
+    },
+    {
+      "pdf_page": 2,
+      "latin_letters": 0,
+      "greek_letters": 0,
+      "ascii_word_tokens": 0,
+      "keep_as_english": false
+    },
+    {
+      "pdf_page": 3,
+      "latin_letters": 0,
+      "greek_letters": 0,
+      "ascii_word_tokens": 0,
+      "keep_as_english": false
+    },
+    {
+      "pdf_page": 4,
+      "latin_letters": 83,
+      "greek_letters": 13,
+      "ascii_word_tokens": 23,
+      "keep_as_english": false
+    },
+    {
+      "pdf_page": 5,
+      "latin_letters": 0,
+      "greek_letters": 0,
+      "ascii_word_tokens": 0,
+      "keep_as_english": false
+    },
+    {
+      "pdf_page": 6,
+      "latin_letters": 128,
+      "greek_letters": 5,
+      "ascii_word_tokens": 23,
+      "keep_as_english": false
+    },
+    {
+      "pdf_page": 7,
+      "latin_letters": 20,
+      "greek_letters": 0,
+      "ascii_word_tokens": 7,
+      "keep_as_english": false
+    },
+    {
+      "pdf_page": 8,
+      "latin_letters": 29,
+      "greek_letters": 6,
+      "ascii_word_tokens": 10,
+      "keep_as_english": false
+    },
+    {
+      "pdf_page": 9,
+      "latin_letters": 0,
+      "greek_letters": 0,
+      "ascii_word_tokens": 0,
+      "keep_as_english": false
+    },
+    {
+      "pdf_page": 10,
+      "latin_letters": 13,
+      "greek_letters": 0,
+      "ascii_word_tokens": 2,
+      "keep_as_english": false
+    },
+    {
+      "pdf_page": 11,
+      "latin_letters": 23,
+      "greek_letters": 688,
+      "ascii_word_tokens": 9,
+      "keep_as_english": false
+    },
+    {
+      "pdf_page": 12,
+      "latin_letters": 938,
+      "greek_letters": 1,
+      "ascii_word_tokens": 215,
+      "keep_as_english": true
+    },
+    {
+      "pdf_page": 13,
+      "latin_letters": 5,
+      "greek_letters": 931,
+      "ascii_word_tokens": 1,
+      "keep_as_english": false
+    },
+    {
+      "pdf_page": 14,
+      "latin_letters": 1278,
+      "greek_letters": 0,
+      "ascii_word_tokens": 291,
+      "keep_as_english": true
+    },
+    {
+      "pdf_page": 15,
+      "latin_letters": 19,
+      "greek_letters": 1028,
+      "ascii_word_tokens": 5,
+      "keep_as_english": false
+    },
+    {
+      "pdf_page": 16,
+      "latin_letters": 1247,
+      "greek_letters": 4,
+      "ascii_word_tokens": 304,
+      "keep_as_english": true
+    },
+    {
+      "pdf_page": 17,
+      "latin_letters": 39,
+      "greek_letters": 999,
+      "ascii_word_tokens": 9,
+      "keep_as_english": false
+    },
+    {
+      "pdf_page": 18,
+      "latin_letters": 1298,
+      "greek_letters": 0,
+      "ascii_word_tokens": 307,
+      "keep_as_english": true
+    },
+    {
+      "pdf_page": 19,
+      "latin_letters": 16,
+      "greek_letters": 1006,
+      "ascii_word_tokens": 3,
+      "keep_as_english": false
+    },
+    {
+      "pdf_page": 20,
+      "latin_letters": 1330,
+      "greek_letters": 4,
+      "ascii_word_tokens": 324,
+      "keep_as_english": true
+    },
+    {
+      "pdf_page": 21,
+      "latin_letters": 18,
+      "greek_letters": 999,
+      "ascii_word_tokens": 5,
+      "keep_as_english": false
+    },
+    {
+      "pdf_page": 22,
+      "latin_letters": 1308,
+      "greek_letters": 3,
+      "ascii_word_tokens": 316,
+      "keep_as_english": true
+    },
+    {
+      "pdf_page": 23,
+      "latin_letters": 5,
+      "greek_letters": 983,
+      "ascii_word_tokens": 1,
+      "keep_as_english": false
+    },
+    {
+      "pdf_page": 24,
+      "latin_letters": 1210,
+      "greek_letters": 1,
+      "ascii_word_tokens": 306,
+      "keep_as_english": true
+    },
+    {
+      "pdf_page": 25,
+      "latin_letters": 13,
+      "greek_letters": 1024,
+      "ascii_word_tokens": 4,
+      "keep_as_english": false
+    },
+    {
+      "pdf_page": 26,
+      "latin_letters": 1168,
+      "greek_letters": 1,
+      "ascii_word_tokens": 281,
+      "keep_as_english": true
+    },
+    {
+      "pdf_page": 27,
+      "latin_letters": 38,
+      "greek_letters": 1034,
+      "ascii_word_tokens": 11,
+      "keep_as_english": false
+    },
+    {
+      "pdf_page": 28,
+      "latin_letters": 1367,
+      "greek_letters": 3,
+      "ascii_word_tokens": 340,
+      "keep_as_english": true
+    },
+    {
+      "pdf_page": 29,
+      "latin_letters": 12,
+      "greek_letters": 1018,
+      "ascii_word_tokens": 4,
+      "keep_as_english": false
+    },
+    {
+      "pdf_page": 30,
+      "latin_letters": 1284,
+      "greek_letters": 3,
+      "ascii_word_tokens": 318,
+      "keep_as_english": true
+    },
+    {
+      "pdf_page": 31,
+      "latin_letters": 28,
+      "greek_letters": 1007,
+      "ascii_word_tokens": 8,
+      "keep_as_english": false
+    },
+    {
+      "pdf_page": 32,
+      "latin_letters": 1294,
+      "greek_letters": 1,
+      "ascii_word_tokens": 334,
+      "keep_as_english": true
+    },
+    {
+      "pdf_page": 33,
+      "latin_letters": 50,
+      "greek_letters": 957,
+      "ascii_word_tokens": 13,
+      "keep_as_english": false
+    },
+    {
+      "pdf_page": 34,
+      "latin_letters": 1214,
+      "greek_letters": 4,
+      "ascii_word_tokens": 304,
+      "keep_as_english": true
+    },
+    {
+      "pdf_page": 35,
+      "latin_letters": 88,
+      "greek_letters": 910,
+      "ascii_word_tokens": 22,
+      "keep_as_english": false
+    },
+    {
+      "pdf_page": 36,
+      "latin_letters": 1217,
+      "greek_letters": 5,
+      "ascii_word_tokens": 290,
+      "keep_as_english": true
+    },
+    {
+      "pdf_page": 37,
+      "latin_letters": 21,
+      "greek_letters": 983,
+      "ascii_word_tokens": 8,
+      "keep_as_english": false
+    },
+    {
+      "pdf_page": 38,
+      "latin_letters": 1299,
+      "greek_letters": 0,
+      "ascii_word_tokens": 299,
+      "keep_as_english": true
+    },
+    {
+      "pdf_page": 39,
+      "latin_letters": 63,
+      "greek_letters": 1003,
+      "ascii_word_tokens": 14,
+      "keep_as_english": false
+    },
+    {
+      "pdf_page": 40,
+      "latin_letters": 1303,
+      "greek_letters": 3,
+      "ascii_word_tokens": 311,
+      "keep_as_english": true
+    },
+    {
+      "pdf_page": 41,
+      "latin_letters": 20,
+      "greek_letters": 806,
+      "ascii_word_tokens": 6,
+      "keep_as_english": false
+    },
+    {
+      "pdf_page": 42,
+      "latin_letters": 1056,
+      "greek_letters": 2,
+      "ascii_word_tokens": 248,
+      "keep_as_english": true
+    },
+    {
+      "pdf_page": 43,
+      "latin_letters": 15,
+      "greek_letters": 785,
+      "ascii_word_tokens": 4,
+      "keep_as_english": false
+    },
+    {
+      "pdf_page": 44,
+      "latin_letters": 1047,
+      "greek_letters": 2,
+      "ascii_word_tokens": 244,
+      "keep_as_english": true
+    },
+    {
+      "pdf_page": 45,
+      "latin_letters": 38,
+      "greek_letters": 960,
+      "ascii_word_tokens": 10,
+      "keep_as_english": false
+    },
+    {
+      "pdf_page": 46,
+      "latin_letters": 1287,
+      "greek_letters": 0,
+      "ascii_word_tokens": 311,
+      "keep_as_english": true
+    },
+    {
+      "pdf_page": 47,
+      "latin_letters": 31,
+      "greek_letters": 904,
+      "ascii_word_tokens": 9,
+      "keep_as_english": false
+    },
+    {
+      "pdf_page": 48,
+      "latin_letters": 1306,
+      "greek_letters": 2,
+      "ascii_word_tokens": 304,
+      "keep_as_english": true
+    },
+    {
+      "pdf_page": 49,
+      "latin_letters": 30,
+      "greek_letters": 1006,
+      "ascii_word_tokens": 8,
+      "keep_as_english": false
+    },
+    {
+      "pdf_page": 50,
+      "latin_letters": 1324,
+      "greek_letters": 1,
+      "ascii_word_tokens": 317,
+      "keep_as_english": true
+    },
+    {
+      "pdf_page": 51,
+      "latin_letters": 20,
+      "greek_letters": 946,
+      "ascii_word_tokens": 5,
+      "keep_as_english": false
+    },
+    {
+      "pdf_page": 52,
+      "latin_letters": 1285,
+      "greek_letters": 3,
+      "ascii_word_tokens": 306,
+      "keep_as_english": true
+    },
+    {
+      "pdf_page": 53,
+      "latin_letters": 40,
+      "greek_letters": 975,
+      "ascii_word_tokens": 11,
+      "keep_as_english": false
+    },
+    {
+      "pdf_page": 54,
+      "latin_letters": 1311,
+      "greek_letters": 1,
+      "ascii_word_tokens": 332,
+      "keep_as_english": true
+    },
+    {
+      "pdf_page": 55,
+      "latin_letters": 274,
+      "greek_letters": 876,
+      "ascii_word_tokens": 61,
+      "keep_as_english": false
+    },
+    {
+      "pdf_page": 56,
+      "latin_letters": 1231,
+      "greek_letters": 6,
+      "ascii_word_tokens": 300,
+      "keep_as_english": true
+    },
+    {
+      "pdf_page": 57,
+      "latin_letters": 9,
+      "greek_letters": 1018,
+      "ascii_word_tokens": 3,
+      "keep_as_english": false
+    },
+    {
+      "pdf_page": 58,
+      "latin_letters": 1257,
+      "greek_letters": 0,
+      "ascii_word_tokens": 321,
+      "keep_as_english": true
+    },
+    {
+      "pdf_page": 59,
+      "latin_letters": 18,
+      "greek_letters": 1029,
+      "ascii_word_tokens": 6,
+      "keep_as_english": false
+    },
+    {
+      "pdf_page": 60,
+      "latin_letters": 1346,
+      "greek_letters": 2,
+      "ascii_word_tokens": 320,
+      "keep_as_english": true
+    },
+    {
+      "pdf_page": 61,
+      "latin_letters": 12,
+      "greek_letters": 1021,
+      "ascii_word_tokens": 3,
+      "keep_as_english": false
+    },
+    {
+      "pdf_page": 62,
+      "latin_letters": 1279,
+      "greek_letters": 2,
+      "ascii_word_tokens": 312,
+      "keep_as_english": true
+    },
+    {
+      "pdf_page": 63,
+      "latin_letters": 14,
+      "greek_letters": 1006,
+      "ascii_word_tokens": 5,
+      "keep_as_english": false
+    },
+    {
+      "pdf_page": 64,
+      "latin_letters": 1303,
+      "greek_letters": 0,
+      "ascii_word_tokens": 317,
+      "keep_as_english": true
+    },
+    {
+      "pdf_page": 65,
+      "latin_letters": 16,
+      "greek_letters": 959,
+      "ascii_word_tokens": 3,
+      "keep_as_english": false
+    },
+    {
+      "pdf_page": 66,
+      "latin_letters": 1275,
+      "greek_letters": 0,
+      "ascii_word_tokens": 309,
+      "keep_as_english": true
+    },
+    {
+      "pdf_page": 67,
+      "latin_letters": 14,
+      "greek_letters": 944,
+      "ascii_word_tokens": 5,
+      "keep_as_english": false
+    },
+    {
+      "pdf_page": 68,
+      "latin_letters": 1264,
+      "greek_letters": 0,
+      "ascii_word_tokens": 300,
+      "keep_as_english": true
+    },
+    {
+      "pdf_page": 69,
+      "latin_letters": 47,
+      "greek_letters": 988,
+      "ascii_word_tokens": 13,
+      "keep_as_english": false
+    },
+    {
+      "pdf_page": 70,
+      "latin_letters": 1311,
+      "greek_letters": 3,
+      "ascii_word_tokens": 321,
+      "keep_as_english": true
+    },
+    {
+      "pdf_page": 71,
+      "latin_letters": 57,
+      "greek_letters": 1042,
+      "ascii_word_tokens": 18,
+      "keep_as_english": false
+    },
+    {
+      "pdf_page": 72,
+      "latin_letters": 1364,
+      "greek_letters": 1,
+      "ascii_word_tokens": 321,
+      "keep_as_english": true
+    },
+    {
+      "pdf_page": 73,
+      "latin_letters": 29,
+      "greek_letters": 984,
+      "ascii_word_tokens": 9,
+      "keep_as_english": false
+    },
+    {
+      "pdf_page": 74,
+      "latin_letters": 1380,
+      "greek_letters": 0,
+      "ascii_word_tokens": 343,
+      "keep_as_english": true
+    },
+    {
+      "pdf_page": 75,
+      "latin_letters": 20,
+      "greek_letters": 946,
+      "ascii_word_tokens": 6,
+      "keep_as_english": false
+    },
+    {
+      "pdf_page": 76,
+      "latin_letters": 1327,
+      "greek_letters": 0,
+      "ascii_word_tokens": 334,
+      "keep_as_english": true
+    },
+    {
+      "pdf_page": 77,
+      "latin_letters": 43,
+      "greek_letters": 1002,
+      "ascii_word_tokens": 8,
+      "keep_as_english": false
+    },
+    {
+      "pdf_page": 78,
+      "latin_letters": 1306,
+      "greek_letters": 9,
+      "ascii_word_tokens": 332,
+      "keep_as_english": true
+    },
+    {
+      "pdf_page": 79,
+      "latin_letters": 79,
+      "greek_letters": 1000,
+      "ascii_word_tokens": 15,
+      "keep_as_english": false
+    },
+    {
+      "pdf_page": 80,
+      "latin_letters": 1297,
+      "greek_letters": 0,
+      "ascii_word_tokens": 321,
+      "keep_as_english": true
+    },
+    {
+      "pdf_page": 81,
+      "latin_letters": 10,
+      "greek_letters": 289,
+      "ascii_word_tokens": 3,
+      "keep_as_english": false
+    },
+    {
+      "pdf_page": 82,
+      "latin_letters": 405,
+      "greek_letters": 0,
+      "ascii_word_tokens": 97,
+      "keep_as_english": true
+    },
+    {
+      "pdf_page": 83,
+      "latin_letters": 35,
+      "greek_letters": 785,
+      "ascii_word_tokens": 7,
+      "keep_as_english": false
+    },
+    {
+      "pdf_page": 84,
+      "latin_letters": 1017,
+      "greek_letters": 5,
+      "ascii_word_tokens": 236,
+      "keep_as_english": true
+    },
+    {
+      "pdf_page": 85,
+      "latin_letters": 59,
+      "greek_letters": 933,
+      "ascii_word_tokens": 18,
+      "keep_as_english": false
+    },
+    {
+      "pdf_page": 86,
+      "latin_letters": 1304,
+      "greek_letters": 16,
+      "ascii_word_tokens": 319,
+      "keep_as_english": true
+    },
+    {
+      "pdf_page": 87,
+      "latin_letters": 202,
+      "greek_letters": 873,
+      "ascii_word_tokens": 43,
+      "keep_as_english": false
+    },
+    {
+      "pdf_page": 88,
+      "latin_letters": 1301,
+      "greek_letters": 0,
+      "ascii_word_tokens": 318,
+      "keep_as_english": true
+    },
+    {
+      "pdf_page": 89,
+      "latin_letters": 42,
+      "greek_letters": 980,
+      "ascii_word_tokens": 10,
+      "keep_as_english": false
+    },
+    {
+      "pdf_page": 90,
+      "latin_letters": 928,
+      "greek_letters": 0,
+      "ascii_word_tokens": 230,
+      "keep_as_english": true
+    },
+    {
+      "pdf_page": 91,
+      "latin_letters": 45,
+      "greek_letters": 914,
+      "ascii_word_tokens": 12,
+      "keep_as_english": false
+    },
+    {
+      "pdf_page": 92,
+      "latin_letters": 1239,
+      "greek_letters": 0,
+      "ascii_word_tokens": 297,
+      "keep_as_english": true
+    },
+    {
+      "pdf_page": 93,
+      "latin_letters": 43,
+      "greek_letters": 982,
+      "ascii_word_tokens": 13,
+      "keep_as_english": false
+    },
+    {
+      "pdf_page": 94,
+      "latin_letters": 1242,
+      "greek_letters": 6,
+      "ascii_word_tokens": 296,
+      "keep_as_english": true
+    },
+    {
+      "pdf_page": 95,
+      "latin_letters": 31,
+      "greek_letters": 894,
+      "ascii_word_tokens": 10,
+      "keep_as_english": false
+    },
+    {
+      "pdf_page": 96,
+      "latin_letters": 1240,
+      "greek_letters": 0,
+      "ascii_word_tokens": 297,
+      "keep_as_english": true
+    },
+    {
+      "pdf_page": 97,
+      "latin_letters": 32,
+      "greek_letters": 910,
+      "ascii_word_tokens": 8,
+      "keep_as_english": false
+    },
+    {
+      "pdf_page": 98,
+      "latin_letters": 1240,
+      "greek_letters": 3,
+      "ascii_word_tokens": 294,
+      "keep_as_english": true
+    },
+    {
+      "pdf_page": 99,
+      "latin_letters": 203,
+      "greek_letters": 814,
+      "ascii_word_tokens": 47,
+      "keep_as_english": false
+    },
+    {
+      "pdf_page": 100,
+      "latin_letters": 1236,
+      "greek_letters": 2,
+      "ascii_word_tokens": 293,
+      "keep_as_english": true
+    },
+    {
+      "pdf_page": 101,
+      "latin_letters": 61,
+      "greek_letters": 987,
+      "ascii_word_tokens": 13,
+      "keep_as_english": false
+    },
+    {
+      "pdf_page": 102,
+      "latin_letters": 1217,
+      "greek_letters": 0,
+      "ascii_word_tokens": 284,
+      "keep_as_english": true
+    },
+    {
+      "pdf_page": 103,
+      "latin_letters": 38,
+      "greek_letters": 896,
+      "ascii_word_tokens": 11,
+      "keep_as_english": false
+    },
+    {
+      "pdf_page": 104,
+      "latin_letters": 1212,
+      "greek_letters": 5,
+      "ascii_word_tokens": 304,
+      "keep_as_english": true
+    },
+    {
+      "pdf_page": 105,
+      "latin_letters": 184,
+      "greek_letters": 860,
+      "ascii_word_tokens": 35,
+      "keep_as_english": false
+    },
+    {
+      "pdf_page": 106,
+      "latin_letters": 1179,
+      "greek_letters": 11,
+      "ascii_word_tokens": 290,
+      "keep_as_english": true
+    },
+    {
+      "pdf_page": 107,
+      "latin_letters": 60,
+      "greek_letters": 1015,
+      "ascii_word_tokens": 15,
+      "keep_as_english": false
+    },
+    {
+      "pdf_page": 108,
+      "latin_letters": 1254,
+      "greek_letters": 2,
+      "ascii_word_tokens": 295,
+      "keep_as_english": true
+    },
+    {
+      "pdf_page": 109,
+      "latin_letters": 21,
+      "greek_letters": 1003,
+      "ascii_word_tokens": 5,
+      "keep_as_english": false
+    },
+    {
+      "pdf_page": 110,
+      "latin_letters": 1326,
+      "greek_letters": 2,
+      "ascii_word_tokens": 332,
+      "keep_as_english": true
+    },
+    {
+      "pdf_page": 111,
+      "latin_letters": 28,
+      "greek_letters": 1003,
+      "ascii_word_tokens": 8,
+      "keep_as_english": false
+    },
+    {
+      "pdf_page": 112,
+      "latin_letters": 1247,
+      "greek_letters": 6,
+      "ascii_word_tokens": 304,
+      "keep_as_english": true
+    },
+    {
+      "pdf_page": 113,
+      "latin_letters": 34,
+      "greek_letters": 999,
+      "ascii_word_tokens": 8,
+      "keep_as_english": false
+    },
+    {
+      "pdf_page": 114,
+      "latin_letters": 1278,
+      "greek_letters": 3,
+      "ascii_word_tokens": 300,
+      "keep_as_english": true
+    },
+    {
+      "pdf_page": 115,
+      "latin_letters": 14,
+      "greek_letters": 1032,
+      "ascii_word_tokens": 4,
+      "keep_as_english": false
+    },
+    {
+      "pdf_page": 116,
+      "latin_letters": 1262,
+      "greek_letters": 4,
+      "ascii_word_tokens": 318,
+      "keep_as_english": true
+    },
+    {
+      "pdf_page": 117,
+      "latin_letters": 21,
+      "greek_letters": 1021,
+      "ascii_word_tokens": 5,
+      "keep_as_english": false
+    },
+    {
+      "pdf_page": 118,
+      "latin_letters": 1295,
+      "greek_letters": 0,
+      "ascii_word_tokens": 328,
+      "keep_as_english": true
+    },
+    {
+      "pdf_page": 119,
+      "latin_letters": 24,
+      "greek_letters": 1017,
+      "ascii_word_tokens": 7,
+      "keep_as_english": false
+    },
+    {
+      "pdf_page": 120,
+      "latin_letters": 1295,
+      "greek_letters": 0,
+      "ascii_word_tokens": 314,
+      "keep_as_english": true
+    },
+    {
+      "pdf_page": 121,
+      "latin_letters": 29,
+      "greek_letters": 986,
+      "ascii_word_tokens": 8,
+      "keep_as_english": false
+    },
+    {
+      "pdf_page": 122,
+      "latin_letters": 1266,
+      "greek_letters": 2,
+      "ascii_word_tokens": 295,
+      "keep_as_english": true
+    },
+    {
+      "pdf_page": 123,
+      "latin_letters": 15,
+      "greek_letters": 377,
+      "ascii_word_tokens": 4,
+      "keep_as_english": false
+    },
+    {
+      "pdf_page": 124,
+      "latin_letters": 515,
+      "greek_letters": 3,
+      "ascii_word_tokens": 118,
+      "keep_as_english": true
+    },
+    {
+      "pdf_page": 125,
+      "latin_letters": 10,
+      "greek_letters": 776,
+      "ascii_word_tokens": 3,
+      "keep_as_english": false
+    },
+    {
+      "pdf_page": 126,
+      "latin_letters": 1007,
+      "greek_letters": 5,
+      "ascii_word_tokens": 239,
+      "keep_as_english": true
+    },
+    {
+      "pdf_page": 127,
+      "latin_letters": 28,
+      "greek_letters": 914,
+      "ascii_word_tokens": 10,
+      "keep_as_english": false
+    },
+    {
+      "pdf_page": 128,
+      "latin_letters": 1221,
+      "greek_letters": 0,
+      "ascii_word_tokens": 295,
+      "keep_as_english": true
+    },
+    {
+      "pdf_page": 129,
+      "latin_letters": 9,
+      "greek_letters": 989,
+      "ascii_word_tokens": 2,
+      "keep_as_english": false
+    },
+    {
+      "pdf_page": 130,
+      "latin_letters": 1259,
+      "greek_letters": 1,
+      "ascii_word_tokens": 307,
+      "keep_as_english": true
+    },
+    {
+      "pdf_page": 131,
+      "latin_letters": 46,
+      "greek_letters": 977,
+      "ascii_word_tokens": 11,
+      "keep_as_english": false
+    },
+    {
+      "pdf_page": 132,
+      "latin_letters": 1338,
+      "greek_letters": 33,
+      "ascii_word_tokens": 324,
+      "keep_as_english": true
+    },
+    {
+      "pdf_page": 133,
+      "latin_letters": 24,
+      "greek_letters": 1041,
+      "ascii_word_tokens": 7,
+      "keep_as_english": false
+    },
+    {
+      "pdf_page": 134,
+      "latin_letters": 1266,
+      "greek_letters": 2,
+      "ascii_word_tokens": 300,
+      "keep_as_english": true
+    },
+    {
+      "pdf_page": 135,
+      "latin_letters": 51,
+      "greek_letters": 939,
+      "ascii_word_tokens": 12,
+      "keep_as_english": false
+    },
+    {
+      "pdf_page": 136,
+      "latin_letters": 1082,
+      "greek_letters": 6,
+      "ascii_word_tokens": 257,
+      "keep_as_english": true
+    },
+    {
+      "pdf_page": 137,
+      "latin_letters": 20,
+      "greek_letters": 952,
+      "ascii_word_tokens": 6,
+      "keep_as_english": false
+    },
+    {
+      "pdf_page": 138,
+      "latin_letters": 1275,
+      "greek_letters": 0,
+      "ascii_word_tokens": 315,
+      "keep_as_english": true
+    },
+    {
+      "pdf_page": 139,
+      "latin_letters": 36,
+      "greek_letters": 1059,
+      "ascii_word_tokens": 12,
+      "keep_as_english": false
+    },
+    {
+      "pdf_page": 140,
+      "latin_letters": 1314,
+      "greek_letters": 2,
+      "ascii_word_tokens": 314,
+      "keep_as_english": true
+    },
+    {
+      "pdf_page": 141,
+      "latin_letters": 15,
+      "greek_letters": 1003,
+      "ascii_word_tokens": 5,
+      "keep_as_english": false
+    },
+    {
+      "pdf_page": 142,
+      "latin_letters": 1246,
+      "greek_letters": 0,
+      "ascii_word_tokens": 299,
+      "keep_as_english": true
+    },
+    {
+      "pdf_page": 143,
+      "latin_letters": 15,
+      "greek_letters": 1041,
+      "ascii_word_tokens": 5,
+      "keep_as_english": false
+    },
+    {
+      "pdf_page": 144,
+      "latin_letters": 1111,
+      "greek_letters": 5,
+      "ascii_word_tokens": 269,
+      "keep_as_english": true
+    },
+    {
+      "pdf_page": 145,
+      "latin_letters": 50,
+      "greek_letters": 889,
+      "ascii_word_tokens": 13,
+      "keep_as_english": false
+    },
+    {
+      "pdf_page": 146,
+      "latin_letters": 1296,
+      "greek_letters": 6,
+      "ascii_word_tokens": 322,
+      "keep_as_english": true
+    },
+    {
+      "pdf_page": 147,
+      "latin_letters": 214,
+      "greek_letters": 819,
+      "ascii_word_tokens": 60,
+      "keep_as_english": false
+    },
+    {
+      "pdf_page": 148,
+      "latin_letters": 1297,
+      "greek_letters": 2,
+      "ascii_word_tokens": 305,
+      "keep_as_english": true
+    },
+    {
+      "pdf_page": 149,
+      "latin_letters": 15,
+      "greek_letters": 913,
+      "ascii_word_tokens": 4,
+      "keep_as_english": false
+    },
+    {
+      "pdf_page": 150,
+      "latin_letters": 1225,
+      "greek_letters": 3,
+      "ascii_word_tokens": 299,
+      "keep_as_english": true
+    },
+    {
+      "pdf_page": 151,
+      "latin_letters": 11,
+      "greek_letters": 979,
+      "ascii_word_tokens": 3,
+      "keep_as_english": false
+    },
+    {
+      "pdf_page": 152,
+      "latin_letters": 1328,
+      "greek_letters": 0,
+      "ascii_word_tokens": 330,
+      "keep_as_english": true
+    },
+    {
+      "pdf_page": 153,
+      "latin_letters": 27,
+      "greek_letters": 982,
+      "ascii_word_tokens": 9,
+      "keep_as_english": false
+    },
+    {
+      "pdf_page": 154,
+      "latin_letters": 1283,
+      "greek_letters": 1,
+      "ascii_word_tokens": 318,
+      "keep_as_english": true
+    },
+    {
+      "pdf_page": 155,
+      "latin_letters": 15,
+      "greek_letters": 1037,
+      "ascii_word_tokens": 4,
+      "keep_as_english": false
+    },
+    {
+      "pdf_page": 156,
+      "latin_letters": 1324,
+      "greek_letters": 1,
+      "ascii_word_tokens": 307,
+      "keep_as_english": true
+    },
+    {
+      "pdf_page": 157,
+      "latin_letters": 19,
+      "greek_letters": 964,
+      "ascii_word_tokens": 6,
+      "keep_as_english": false
+    },
+    {
+      "pdf_page": 158,
+      "latin_letters": 1273,
+      "greek_letters": 0,
+      "ascii_word_tokens": 319,
+      "keep_as_english": true
+    },
+    {
+      "pdf_page": 159,
+      "latin_letters": 9,
+      "greek_letters": 352,
+      "ascii_word_tokens": 3,
+      "keep_as_english": false
+    },
+    {
+      "pdf_page": 160,
+      "latin_letters": 493,
+      "greek_letters": 3,
+      "ascii_word_tokens": 123,
+      "keep_as_english": true
+    },
+    {
+      "pdf_page": 161,
+      "latin_letters": 39,
+      "greek_letters": 846,
+      "ascii_word_tokens": 11,
+      "keep_as_english": false
+    },
+    {
+      "pdf_page": 162,
+      "latin_letters": 1054,
+      "greek_letters": 0,
+      "ascii_word_tokens": 270,
+      "keep_as_english": true
+    },
+    {
+      "pdf_page": 163,
+      "latin_letters": 77,
+      "greek_letters": 1006,
+      "ascii_word_tokens": 20,
+      "keep_as_english": false
+    },
+    {
+      "pdf_page": 164,
+      "latin_letters": 1336,
+      "greek_letters": 5,
+      "ascii_word_tokens": 310,
+      "keep_as_english": true
+    },
+    {
+      "pdf_page": 165,
+      "latin_letters": 41,
+      "greek_letters": 957,
+      "ascii_word_tokens": 12,
+      "keep_as_english": false
+    },
+    {
+      "pdf_page": 166,
+      "latin_letters": 1169,
+      "greek_letters": 44,
+      "ascii_word_tokens": 270,
+      "keep_as_english": true
+    },
+    {
+      "pdf_page": 167,
+      "latin_letters": 17,
+      "greek_letters": 1032,
+      "ascii_word_tokens": 5,
+      "keep_as_english": false
+    },
+    {
+      "pdf_page": 168,
+      "latin_letters": 1279,
+      "greek_letters": 1,
+      "ascii_word_tokens": 308,
+      "keep_as_english": true
+    },
+    {
+      "pdf_page": 169,
+      "latin_letters": 11,
+      "greek_letters": 1125,
+      "ascii_word_tokens": 4,
+      "keep_as_english": false
+    },
+    {
+      "pdf_page": 170,
+      "latin_letters": 1284,
+      "greek_letters": 2,
+      "ascii_word_tokens": 314,
+      "keep_as_english": true
+    },
+    {
+      "pdf_page": 171,
+      "latin_letters": 47,
+      "greek_letters": 928,
+      "ascii_word_tokens": 9,
+      "keep_as_english": false
+    },
+    {
+      "pdf_page": 172,
+      "latin_letters": 1230,
+      "greek_letters": 1,
+      "ascii_word_tokens": 302,
+      "keep_as_english": true
+    },
+    {
+      "pdf_page": 173,
+      "latin_letters": 64,
+      "greek_letters": 1004,
+      "ascii_word_tokens": 11,
+      "keep_as_english": false
+    },
+    {
+      "pdf_page": 174,
+      "latin_letters": 1201,
+      "greek_letters": 0,
+      "ascii_word_tokens": 306,
+      "keep_as_english": true
+    },
+    {
+      "pdf_page": 175,
+      "latin_letters": 30,
+      "greek_letters": 926,
+      "ascii_word_tokens": 8,
+      "keep_as_english": false
+    },
+    {
+      "pdf_page": 176,
+      "latin_letters": 1330,
+      "greek_letters": 7,
+      "ascii_word_tokens": 310,
+      "keep_as_english": true
+    },
+    {
+      "pdf_page": 177,
+      "latin_letters": 23,
+      "greek_letters": 906,
+      "ascii_word_tokens": 8,
+      "keep_as_english": false
+    },
+    {
+      "pdf_page": 178,
+      "latin_letters": 1333,
+      "greek_letters": 8,
+      "ascii_word_tokens": 321,
+      "keep_as_english": true
+    },
+    {
+      "pdf_page": 179,
+      "latin_letters": 25,
+      "greek_letters": 977,
+      "ascii_word_tokens": 9,
+      "keep_as_english": false
+    },
+    {
+      "pdf_page": 180,
+      "latin_letters": 1302,
+      "greek_letters": 3,
+      "ascii_word_tokens": 309,
+      "keep_as_english": true
+    },
+    {
+      "pdf_page": 181,
+      "latin_letters": 22,
+      "greek_letters": 1018,
+      "ascii_word_tokens": 5,
+      "keep_as_english": false
+    },
+    {
+      "pdf_page": 182,
+      "latin_letters": 1254,
+      "greek_letters": 2,
+      "ascii_word_tokens": 309,
+      "keep_as_english": true
+    },
+    {
+      "pdf_page": 183,
+      "latin_letters": 22,
+      "greek_letters": 964,
+      "ascii_word_tokens": 5,
+      "keep_as_english": false
+    },
+    {
+      "pdf_page": 184,
+      "latin_letters": 1240,
+      "greek_letters": 0,
+      "ascii_word_tokens": 311,
+      "keep_as_english": true
+    },
+    {
+      "pdf_page": 185,
+      "latin_letters": 77,
+      "greek_letters": 946,
+      "ascii_word_tokens": 16,
+      "keep_as_english": false
+    },
+    {
+      "pdf_page": 186,
+      "latin_letters": 1197,
+      "greek_letters": 2,
+      "ascii_word_tokens": 290,
+      "keep_as_english": true
+    },
+    {
+      "pdf_page": 187,
+      "latin_letters": 36,
+      "greek_letters": 952,
+      "ascii_word_tokens": 11,
+      "keep_as_english": false
+    },
+    {
+      "pdf_page": 188,
+      "latin_letters": 1257,
+      "greek_letters": 8,
+      "ascii_word_tokens": 303,
+      "keep_as_english": true
+    },
+    {
+      "pdf_page": 189,
+      "latin_letters": 64,
+      "greek_letters": 900,
+      "ascii_word_tokens": 20,
+      "keep_as_english": false
+    },
+    {
+      "pdf_page": 190,
+      "latin_letters": 1339,
+      "greek_letters": 3,
+      "ascii_word_tokens": 320,
+      "keep_as_english": true
+    },
+    {
+      "pdf_page": 191,
+      "latin_letters": 16,
+      "greek_letters": 995,
+      "ascii_word_tokens": 4,
+      "keep_as_english": false
+    },
+    {
+      "pdf_page": 192,
+      "latin_letters": 1338,
+      "greek_letters": 4,
+      "ascii_word_tokens": 328,
+      "keep_as_english": true
+    },
+    {
+      "pdf_page": 193,
+      "latin_letters": 75,
+      "greek_letters": 876,
+      "ascii_word_tokens": 19,
+      "keep_as_english": false
+    },
+    {
+      "pdf_page": 194,
+      "latin_letters": 1236,
+      "greek_letters": 2,
+      "ascii_word_tokens": 293,
+      "keep_as_english": true
+    },
+    {
+      "pdf_page": 195,
+      "latin_letters": 62,
+      "greek_letters": 945,
+      "ascii_word_tokens": 14,
+      "keep_as_english": false
+    },
+    {
+      "pdf_page": 196,
+      "latin_letters": 964,
+      "greek_letters": 0,
+      "ascii_word_tokens": 228,
+      "keep_as_english": true
+    },
+    {
+      "pdf_page": 197,
+      "latin_letters": 187,
+      "greek_letters": 844,
+      "ascii_word_tokens": 44,
+      "keep_as_english": false
+    },
+    {
+      "pdf_page": 198,
+      "latin_letters": 1304,
+      "greek_letters": 1,
+      "ascii_word_tokens": 319,
+      "keep_as_english": true
+    },
+    {
+      "pdf_page": 199,
+      "latin_letters": 22,
+      "greek_letters": 978,
+      "ascii_word_tokens": 6,
+      "keep_as_english": false
+    },
+    {
+      "pdf_page": 200,
+      "latin_letters": 1255,
+      "greek_letters": 3,
+      "ascii_word_tokens": 299,
+      "keep_as_english": true
+    },
+    {
+      "pdf_page": 201,
+      "latin_letters": 49,
+      "greek_letters": 976,
+      "ascii_word_tokens": 11,
+      "keep_as_english": false
+    },
+    {
+      "pdf_page": 202,
+      "latin_letters": 1280,
+      "greek_letters": 0,
+      "ascii_word_tokens": 310,
+      "keep_as_english": true
+    },
+    {
+      "pdf_page": 203,
+      "latin_letters": 23,
+      "greek_letters": 900,
+      "ascii_word_tokens": 8,
+      "keep_as_english": false
+    },
+    {
+      "pdf_page": 204,
+      "latin_letters": 1122,
+      "greek_letters": 0,
+      "ascii_word_tokens": 273,
+      "keep_as_english": true
+    },
+    {
+      "pdf_page": 205,
+      "latin_letters": 9,
+      "greek_letters": 683,
+      "ascii_word_tokens": 2,
+      "keep_as_english": false
+    },
+    {
+      "pdf_page": 206,
+      "latin_letters": 957,
+      "greek_letters": 3,
+      "ascii_word_tokens": 247,
+      "keep_as_english": true
+    },
+    {
+      "pdf_page": 207,
+      "latin_letters": 79,
+      "greek_letters": 873,
+      "ascii_word_tokens": 16,
+      "keep_as_english": false
+    },
+    {
+      "pdf_page": 208,
+      "latin_letters": 1276,
+      "greek_letters": 6,
+      "ascii_word_tokens": 306,
+      "keep_as_english": true
+    },
+    {
+      "pdf_page": 209,
+      "latin_letters": 46,
+      "greek_letters": 925,
+      "ascii_word_tokens": 14,
+      "keep_as_english": false
+    },
+    {
+      "pdf_page": 210,
+      "latin_letters": 1172,
+      "greek_letters": 7,
+      "ascii_word_tokens": 292,
+      "keep_as_english": true
+    },
+    {
+      "pdf_page": 211,
+      "latin_letters": 33,
+      "greek_letters": 847,
+      "ascii_word_tokens": 9,
+      "keep_as_english": false
+    },
+    {
+      "pdf_page": 212,
+      "latin_letters": 1314,
+      "greek_letters": 0,
+      "ascii_word_tokens": 327,
+      "keep_as_english": true
+    },
+    {
+      "pdf_page": 213,
+      "latin_letters": 104,
+      "greek_letters": 967,
+      "ascii_word_tokens": 22,
+      "keep_as_english": false
+    },
+    {
+      "pdf_page": 214,
+      "latin_letters": 1199,
+      "greek_letters": 0,
+      "ascii_word_tokens": 288,
+      "keep_as_english": true
+    },
+    {
+      "pdf_page": 215,
+      "latin_letters": 23,
+      "greek_letters": 1018,
+      "ascii_word_tokens": 6,
+      "keep_as_english": false
+    },
+    {
+      "pdf_page": 216,
+      "latin_letters": 1335,
+      "greek_letters": 6,
+      "ascii_word_tokens": 327,
+      "keep_as_english": true
+    },
+    {
+      "pdf_page": 217,
+      "latin_letters": 18,
+      "greek_letters": 1019,
+      "ascii_word_tokens": 7,
+      "keep_as_english": false
+    },
+    {
+      "pdf_page": 218,
+      "latin_letters": 1267,
+      "greek_letters": 0,
+      "ascii_word_tokens": 307,
+      "keep_as_english": true
+    },
+    {
+      "pdf_page": 219,
+      "latin_letters": 12,
+      "greek_letters": 948,
+      "ascii_word_tokens": 4,
+      "keep_as_english": false
+    },
+    {
+      "pdf_page": 220,
+      "latin_letters": 1260,
+      "greek_letters": 16,
+      "ascii_word_tokens": 288,
+      "keep_as_english": true
+    },
+    {
+      "pdf_page": 221,
+      "latin_letters": 52,
+      "greek_letters": 960,
+      "ascii_word_tokens": 8,
+      "keep_as_english": false
+    },
+    {
+      "pdf_page": 222,
+      "latin_letters": 1303,
+      "greek_letters": 0,
+      "ascii_word_tokens": 307,
+      "keep_as_english": true
+    },
+    {
+      "pdf_page": 223,
+      "latin_letters": 39,
+      "greek_letters": 1040,
+      "ascii_word_tokens": 11,
+      "keep_as_english": false
+    },
+    {
+      "pdf_page": 224,
+      "latin_letters": 1263,
+      "greek_letters": 4,
+      "ascii_word_tokens": 300,
+      "keep_as_english": true
+    },
+    {
+      "pdf_page": 225,
+      "latin_letters": 10,
+      "greek_letters": 1049,
+      "ascii_word_tokens": 4,
+      "keep_as_english": false
+    },
+    {
+      "pdf_page": 226,
+      "latin_letters": 1247,
+      "greek_letters": 4,
+      "ascii_word_tokens": 294,
+      "keep_as_english": true
+    },
+    {
+      "pdf_page": 227,
+      "latin_letters": 127,
+      "greek_letters": 941,
+      "ascii_word_tokens": 28,
+      "keep_as_english": false
+    },
+    {
+      "pdf_page": 228,
+      "latin_letters": 1255,
+      "greek_letters": 0,
+      "ascii_word_tokens": 284,
+      "keep_as_english": true
+    },
+    {
+      "pdf_page": 229,
+      "latin_letters": 40,
+      "greek_letters": 959,
+      "ascii_word_tokens": 8,
+      "keep_as_english": false
+    },
+    {
+      "pdf_page": 230,
+      "latin_letters": 1262,
+      "greek_letters": 2,
+      "ascii_word_tokens": 282,
+      "keep_as_english": true
+    },
+    {
+      "pdf_page": 231,
+      "latin_letters": 111,
+      "greek_letters": 907,
+      "ascii_word_tokens": 21,
+      "keep_as_english": false
+    },
+    {
+      "pdf_page": 232,
+      "latin_letters": 1268,
+      "greek_letters": 0,
+      "ascii_word_tokens": 305,
+      "keep_as_english": true
+    },
+    {
+      "pdf_page": 233,
+      "latin_letters": 33,
+      "greek_letters": 978,
+      "ascii_word_tokens": 8,
+      "keep_as_english": false
+    },
+    {
+      "pdf_page": 234,
+      "latin_letters": 1320,
+      "greek_letters": 0,
+      "ascii_word_tokens": 311,
+      "keep_as_english": true
+    },
+    {
+      "pdf_page": 235,
+      "latin_letters": 54,
+      "greek_letters": 997,
+      "ascii_word_tokens": 16,
+      "keep_as_english": false
+    },
+    {
+      "pdf_page": 236,
+      "latin_letters": 1284,
+      "greek_letters": 2,
+      "ascii_word_tokens": 314,
+      "keep_as_english": true
+    },
+    {
+      "pdf_page": 237,
+      "latin_letters": 6,
+      "greek_letters": 732,
+      "ascii_word_tokens": 3,
+      "keep_as_english": false
+    },
+    {
+      "pdf_page": 238,
+      "latin_letters": 963,
+      "greek_letters": 1,
+      "ascii_word_tokens": 227,
+      "keep_as_english": true
+    },
+    {
+      "pdf_page": 239,
+      "latin_letters": 21,
+      "greek_letters": 912,
+      "ascii_word_tokens": 6,
+      "keep_as_english": false
+    },
+    {
+      "pdf_page": 240,
+      "latin_letters": 1305,
+      "greek_letters": 12,
+      "ascii_word_tokens": 302,
+      "keep_as_english": true
+    },
+    {
+      "pdf_page": 241,
+      "latin_letters": 27,
+      "greek_letters": 916,
+      "ascii_word_tokens": 6,
+      "keep_as_english": false
+    },
+    {
+      "pdf_page": 242,
+      "latin_letters": 1257,
+      "greek_letters": 2,
+      "ascii_word_tokens": 296,
+      "keep_as_english": true
+    },
+    {
+      "pdf_page": 243,
+      "latin_letters": 7,
+      "greek_letters": 949,
+      "ascii_word_tokens": 2,
+      "keep_as_english": false
+    },
+    {
+      "pdf_page": 244,
+      "latin_letters": 1277,
+      "greek_letters": 0,
+      "ascii_word_tokens": 320,
+      "keep_as_english": true
+    },
+    {
+      "pdf_page": 245,
+      "latin_letters": 10,
+      "greek_letters": 1028,
+      "ascii_word_tokens": 3,
+      "keep_as_english": false
+    },
+    {
+      "pdf_page": 246,
+      "latin_letters": 1290,
+      "greek_letters": 0,
+      "ascii_word_tokens": 308,
+      "keep_as_english": true
+    },
+    {
+      "pdf_page": 247,
+      "latin_letters": 79,
+      "greek_letters": 984,
+      "ascii_word_tokens": 24,
+      "keep_as_english": false
+    },
+    {
+      "pdf_page": 248,
+      "latin_letters": 1259,
+      "greek_letters": 0,
+      "ascii_word_tokens": 302,
+      "keep_as_english": true
+    },
+    {
+      "pdf_page": 249,
+      "latin_letters": 58,
+      "greek_letters": 905,
+      "ascii_word_tokens": 11,
+      "keep_as_english": false
+    },
+    {
+      "pdf_page": 250,
+      "latin_letters": 1325,
+      "greek_letters": 6,
+      "ascii_word_tokens": 313,
+      "keep_as_english": true
+    },
+    {
+      "pdf_page": 251,
+      "latin_letters": 21,
+      "greek_letters": 933,
+      "ascii_word_tokens": 7,
+      "keep_as_english": false
+    },
+    {
+      "pdf_page": 252,
+      "latin_letters": 1345,
+      "greek_letters": 8,
+      "ascii_word_tokens": 328,
+      "keep_as_english": true
+    },
+    {
+      "pdf_page": 253,
+      "latin_letters": 119,
+      "greek_letters": 889,
+      "ascii_word_tokens": 28,
+      "keep_as_english": false
+    },
+    {
+      "pdf_page": 254,
+      "latin_letters": 1284,
+      "greek_letters": 15,
+      "ascii_word_tokens": 315,
+      "keep_as_english": true
+    },
+    {
+      "pdf_page": 255,
+      "latin_letters": 14,
+      "greek_letters": 988,
+      "ascii_word_tokens": 4,
+      "keep_as_english": false
+    },
+    {
+      "pdf_page": 256,
+      "latin_letters": 1285,
+      "greek_letters": 1,
+      "ascii_word_tokens": 308,
+      "keep_as_english": true
+    },
+    {
+      "pdf_page": 257,
+      "latin_letters": 88,
+      "greek_letters": 1036,
+      "ascii_word_tokens": 24,
+      "keep_as_english": false
+    },
+    {
+      "pdf_page": 258,
+      "latin_letters": 1362,
+      "greek_letters": 1,
+      "ascii_word_tokens": 333,
+      "keep_as_english": true
+    },
+    {
+      "pdf_page": 259,
+      "latin_letters": 18,
+      "greek_letters": 1000,
+      "ascii_word_tokens": 7,
+      "keep_as_english": false
+    },
+    {
+      "pdf_page": 260,
+      "latin_letters": 1326,
+      "greek_letters": 2,
+      "ascii_word_tokens": 331,
+      "keep_as_english": true
+    },
+    {
+      "pdf_page": 261,
+      "latin_letters": 77,
+      "greek_letters": 968,
+      "ascii_word_tokens": 16,
+      "keep_as_english": false
+    },
+    {
+      "pdf_page": 262,
+      "latin_letters": 1208,
+      "greek_letters": 0,
+      "ascii_word_tokens": 302,
+      "keep_as_english": true
+    },
+    {
+      "pdf_page": 263,
+      "latin_letters": 161,
+      "greek_letters": 920,
+      "ascii_word_tokens": 37,
+      "keep_as_english": false
+    },
+    {
+      "pdf_page": 264,
+      "latin_letters": 1313,
+      "greek_letters": 1,
+      "ascii_word_tokens": 324,
+      "keep_as_english": true
+    },
+    {
+      "pdf_page": 265,
+      "latin_letters": 24,
+      "greek_letters": 983,
+      "ascii_word_tokens": 8,
+      "keep_as_english": false
+    },
+    {
+      "pdf_page": 266,
+      "latin_letters": 1278,
+      "greek_letters": 1,
+      "ascii_word_tokens": 307,
+      "keep_as_english": true
+    },
+    {
+      "pdf_page": 267,
+      "latin_letters": 34,
+      "greek_letters": 1014,
+      "ascii_word_tokens": 11,
+      "keep_as_english": false
+    },
+    {
+      "pdf_page": 268,
+      "latin_letters": 1319,
+      "greek_letters": 1,
+      "ascii_word_tokens": 304,
+      "keep_as_english": true
+    },
+    {
+      "pdf_page": 269,
+      "latin_letters": 64,
+      "greek_letters": 1027,
+      "ascii_word_tokens": 18,
+      "keep_as_english": false
+    },
+    {
+      "pdf_page": 270,
+      "latin_letters": 1368,
+      "greek_letters": 1,
+      "ascii_word_tokens": 336,
+      "keep_as_english": true
+    },
+    {
+      "pdf_page": 271,
+      "latin_letters": 36,
+      "greek_letters": 989,
+      "ascii_word_tokens": 11,
+      "keep_as_english": false
+    },
+    {
+      "pdf_page": 272,
+      "latin_letters": 1219,
+      "greek_letters": 1,
+      "ascii_word_tokens": 309,
+      "keep_as_english": true
+    },
+    {
+      "pdf_page": 273,
+      "latin_letters": 26,
+      "greek_letters": 957,
+      "ascii_word_tokens": 6,
+      "keep_as_english": false
+    },
+    {
+      "pdf_page": 274,
+      "latin_letters": 1286,
+      "greek_letters": 21,
+      "ascii_word_tokens": 308,
+      "keep_as_english": true
+    },
+    {
+      "pdf_page": 275,
+      "latin_letters": 24,
+      "greek_letters": 915,
+      "ascii_word_tokens": 7,
+      "keep_as_english": false
+    },
+    {
+      "pdf_page": 276,
+      "latin_letters": 1290,
+      "greek_letters": 17,
+      "ascii_word_tokens": 323,
+      "keep_as_english": true
+    },
+    {
+      "pdf_page": 277,
+      "latin_letters": 22,
+      "greek_letters": 913,
+      "ascii_word_tokens": 7,
+      "keep_as_english": false
+    },
+    {
+      "pdf_page": 278,
+      "latin_letters": 1248,
+      "greek_letters": 23,
+      "ascii_word_tokens": 303,
+      "keep_as_english": true
+    },
+    {
+      "pdf_page": 279,
+      "latin_letters": 146,
+      "greek_letters": 888,
+      "ascii_word_tokens": 29,
+      "keep_as_english": false
+    },
+    {
+      "pdf_page": 280,
+      "latin_letters": 1250,
+      "greek_letters": 7,
+      "ascii_word_tokens": 296,
+      "keep_as_english": true
+    },
+    {
+      "pdf_page": 281,
+      "latin_letters": 11,
+      "greek_letters": 175,
+      "ascii_word_tokens": 3,
+      "keep_as_english": false
+    },
+    {
+      "pdf_page": 282,
+      "latin_letters": 232,
+      "greek_letters": 0,
+      "ascii_word_tokens": 52,
+      "keep_as_english": false
+    },
+    {
+      "pdf_page": 283,
+      "latin_letters": 25,
+      "greek_letters": 791,
+      "ascii_word_tokens": 7,
+      "keep_as_english": false
+    },
+    {
+      "pdf_page": 284,
+      "latin_letters": 1095,
+      "greek_letters": 22,
+      "ascii_word_tokens": 257,
+      "keep_as_english": true
+    },
+    {
+      "pdf_page": 285,
+      "latin_letters": 23,
+      "greek_letters": 982,
+      "ascii_word_tokens": 7,
+      "keep_as_english": false
+    },
+    {
+      "pdf_page": 286,
+      "latin_letters": 1264,
+      "greek_letters": 7,
+      "ascii_word_tokens": 317,
+      "keep_as_english": true
+    },
+    {
+      "pdf_page": 287,
+      "latin_letters": 23,
+      "greek_letters": 979,
+      "ascii_word_tokens": 5,
+      "keep_as_english": false
+    },
+    {
+      "pdf_page": 288,
+      "latin_letters": 1307,
+      "greek_letters": 1,
+      "ascii_word_tokens": 286,
+      "keep_as_english": true
+    },
+    {
+      "pdf_page": 289,
+      "latin_letters": 12,
+      "greek_letters": 979,
+      "ascii_word_tokens": 3,
+      "keep_as_english": false
+    },
+    {
+      "pdf_page": 290,
+      "latin_letters": 1241,
+      "greek_letters": 2,
+      "ascii_word_tokens": 316,
+      "keep_as_english": true
+    },
+    {
+      "pdf_page": 291,
+      "latin_letters": 28,
+      "greek_letters": 953,
+      "ascii_word_tokens": 9,
+      "keep_as_english": false
+    },
+    {
+      "pdf_page": 292,
+      "latin_letters": 1282,
+      "greek_letters": 0,
+      "ascii_word_tokens": 310,
+      "keep_as_english": true
+    },
+    {
+      "pdf_page": 293,
+      "latin_letters": 44,
+      "greek_letters": 1048,
+      "ascii_word_tokens": 14,
+      "keep_as_english": false
+    },
+    {
+      "pdf_page": 294,
+      "latin_letters": 1293,
+      "greek_letters": 0,
+      "ascii_word_tokens": 310,
+      "keep_as_english": true
+    },
+    {
+      "pdf_page": 295,
+      "latin_letters": 26,
+      "greek_letters": 949,
+      "ascii_word_tokens": 9,
+      "keep_as_english": false
+    },
+    {
+      "pdf_page": 296,
+      "latin_letters": 1213,
+      "greek_letters": 4,
+      "ascii_word_tokens": 281,
+      "keep_as_english": true
+    },
+    {
+      "pdf_page": 297,
+      "latin_letters": 15,
+      "greek_letters": 960,
+      "ascii_word_tokens": 4,
+      "keep_as_english": false
+    },
+    {
+      "pdf_page": 298,
+      "latin_letters": 1284,
+      "greek_letters": 1,
+      "ascii_word_tokens": 310,
+      "keep_as_english": true
+    },
+    {
+      "pdf_page": 299,
+      "latin_letters": 10,
+      "greek_letters": 988,
+      "ascii_word_tokens": 3,
+      "keep_as_english": false
+    },
+    {
+      "pdf_page": 300,
+      "latin_letters": 1295,
+      "greek_letters": 0,
+      "ascii_word_tokens": 315,
+      "keep_as_english": true
+    },
+    {
+      "pdf_page": 301,
+      "latin_letters": 24,
+      "greek_letters": 1003,
+      "ascii_word_tokens": 7,
+      "keep_as_english": false
+    },
+    {
+      "pdf_page": 302,
+      "latin_letters": 1165,
+      "greek_letters": 4,
+      "ascii_word_tokens": 278,
+      "keep_as_english": true
+    },
+    {
+      "pdf_page": 303,
+      "latin_letters": 30,
+      "greek_letters": 931,
+      "ascii_word_tokens": 7,
+      "keep_as_english": false
+    },
+    {
+      "pdf_page": 304,
+      "latin_letters": 1239,
+      "greek_letters": 4,
+      "ascii_word_tokens": 291,
+      "keep_as_english": true
+    },
+    {
+      "pdf_page": 305,
+      "latin_letters": 12,
+      "greek_letters": 982,
+      "ascii_word_tokens": 4,
+      "keep_as_english": false
+    },
+    {
+      "pdf_page": 306,
+      "latin_letters": 1296,
+      "greek_letters": 1,
+      "ascii_word_tokens": 306,
+      "keep_as_english": true
+    },
+    {
+      "pdf_page": 307,
+      "latin_letters": 163,
+      "greek_letters": 859,
+      "ascii_word_tokens": 35,
+      "keep_as_english": false
+    },
+    {
+      "pdf_page": 308,
+      "latin_letters": 1256,
+      "greek_letters": 2,
+      "ascii_word_tokens": 295,
+      "keep_as_english": true
+    },
+    {
+      "pdf_page": 309,
+      "latin_letters": 18,
+      "greek_letters": 976,
+      "ascii_word_tokens": 5,
+      "keep_as_english": false
+    },
+    {
+      "pdf_page": 310,
+      "latin_letters": 1211,
+      "greek_letters": 0,
+      "ascii_word_tokens": 297,
+      "keep_as_english": true
+    },
+    {
+      "pdf_page": 311,
+      "latin_letters": 18,
+      "greek_letters": 511,
+      "ascii_word_tokens": 4,
+      "keep_as_english": false
+    },
+    {
+      "pdf_page": 312,
+      "latin_letters": 740,
+      "greek_letters": 40,
+      "ascii_word_tokens": 176,
+      "keep_as_english": true
+    },
+    {
+      "pdf_page": 313,
+      "latin_letters": 7,
+      "greek_letters": 822,
+      "ascii_word_tokens": 4,
+      "keep_as_english": false
+    },
+    {
+      "pdf_page": 314,
+      "latin_letters": 1057,
+      "greek_letters": 0,
+      "ascii_word_tokens": 257,
+      "keep_as_english": true
+    },
+    {
+      "pdf_page": 315,
+      "latin_letters": 140,
+      "greek_letters": 839,
+      "ascii_word_tokens": 30,
+      "keep_as_english": false
+    },
+    {
+      "pdf_page": 316,
+      "latin_letters": 1196,
+      "greek_letters": 5,
+      "ascii_word_tokens": 287,
+      "keep_as_english": true
+    },
+    {
+      "pdf_page": 317,
+      "latin_letters": 234,
+      "greek_letters": 831,
+      "ascii_word_tokens": 57,
+      "keep_as_english": false
+    },
+    {
+      "pdf_page": 318,
+      "latin_letters": 1355,
+      "greek_letters": 7,
+      "ascii_word_tokens": 326,
+      "keep_as_english": true
+    },
+    {
+      "pdf_page": 319,
+      "latin_letters": 79,
+      "greek_letters": 1019,
+      "ascii_word_tokens": 24,
+      "keep_as_english": false
+    },
+    {
+      "pdf_page": 320,
+      "latin_letters": 1353,
+      "greek_letters": 4,
+      "ascii_word_tokens": 334,
+      "keep_as_english": true
+    },
+    {
+      "pdf_page": 321,
+      "latin_letters": 12,
+      "greek_letters": 916,
+      "ascii_word_tokens": 4,
+      "keep_as_english": false
+    },
+    {
+      "pdf_page": 322,
+      "latin_letters": 1286,
+      "greek_letters": 3,
+      "ascii_word_tokens": 333,
+      "keep_as_english": true
+    },
+    {
+      "pdf_page": 323,
+      "latin_letters": 15,
+      "greek_letters": 937,
+      "ascii_word_tokens": 5,
+      "keep_as_english": false
+    },
+    {
+      "pdf_page": 324,
+      "latin_letters": 1241,
+      "greek_letters": 0,
+      "ascii_word_tokens": 313,
+      "keep_as_english": true
+    },
+    {
+      "pdf_page": 325,
+      "latin_letters": 21,
+      "greek_letters": 1038,
+      "ascii_word_tokens": 8,
+      "keep_as_english": false
+    },
+    {
+      "pdf_page": 326,
+      "latin_letters": 1010,
+      "greek_letters": 5,
+      "ascii_word_tokens": 243,
+      "keep_as_english": true
+    },
+    {
+      "pdf_page": 327,
+      "latin_letters": 22,
+      "greek_letters": 957,
+      "ascii_word_tokens": 5,
+      "keep_as_english": false
+    },
+    {
+      "pdf_page": 328,
+      "latin_letters": 1260,
+      "greek_letters": 2,
+      "ascii_word_tokens": 317,
+      "keep_as_english": true
+    },
+    {
+      "pdf_page": 329,
+      "latin_letters": 12,
+      "greek_letters": 978,
+      "ascii_word_tokens": 4,
+      "keep_as_english": false
+    },
+    {
+      "pdf_page": 330,
+      "latin_letters": 1202,
+      "greek_letters": 9,
+      "ascii_word_tokens": 295,
+      "keep_as_english": true
+    },
+    {
+      "pdf_page": 331,
+      "latin_letters": 28,
+      "greek_letters": 948,
+      "ascii_word_tokens": 8,
+      "keep_as_english": false
+    },
+    {
+      "pdf_page": 332,
+      "latin_letters": 1228,
+      "greek_letters": 6,
+      "ascii_word_tokens": 303,
+      "keep_as_english": true
+    },
+    {
+      "pdf_page": 333,
+      "latin_letters": 69,
+      "greek_letters": 917,
+      "ascii_word_tokens": 21,
+      "keep_as_english": false
+    },
+    {
+      "pdf_page": 334,
+      "latin_letters": 1302,
+      "greek_letters": 3,
+      "ascii_word_tokens": 309,
+      "keep_as_english": true
+    },
+    {
+      "pdf_page": 335,
+      "latin_letters": 59,
+      "greek_letters": 1030,
+      "ascii_word_tokens": 18,
+      "keep_as_english": false
+    },
+    {
+      "pdf_page": 336,
+      "latin_letters": 1286,
+      "greek_letters": 3,
+      "ascii_word_tokens": 313,
+      "keep_as_english": true
+    },
+    {
+      "pdf_page": 337,
+      "latin_letters": 13,
+      "greek_letters": 957,
+      "ascii_word_tokens": 4,
+      "keep_as_english": false
+    },
+    {
+      "pdf_page": 338,
+      "latin_letters": 1236,
+      "greek_letters": 9,
+      "ascii_word_tokens": 308,
+      "keep_as_english": true
+    },
+    {
+      "pdf_page": 339,
+      "latin_letters": 18,
+      "greek_letters": 991,
+      "ascii_word_tokens": 6,
+      "keep_as_english": false
+    },
+    {
+      "pdf_page": 340,
+      "latin_letters": 1227,
+      "greek_letters": 5,
+      "ascii_word_tokens": 294,
+      "keep_as_english": true
+    },
+    {
+      "pdf_page": 341,
+      "latin_letters": 35,
+      "greek_letters": 933,
+      "ascii_word_tokens": 11,
+      "keep_as_english": false
+    },
+    {
+      "pdf_page": 342,
+      "latin_letters": 1271,
+      "greek_letters": 4,
+      "ascii_word_tokens": 310,
+      "keep_as_english": true
+    },
+    {
+      "pdf_page": 343,
+      "latin_letters": 21,
+      "greek_letters": 721,
+      "ascii_word_tokens": 4,
+      "keep_as_english": false
+    },
+    {
+      "pdf_page": 344,
+      "latin_letters": 955,
+      "greek_letters": 3,
+      "ascii_word_tokens": 234,
+      "keep_as_english": true
+    },
+    {
+      "pdf_page": 345,
+      "latin_letters": 19,
+      "greek_letters": 786,
+      "ascii_word_tokens": 8,
+      "keep_as_english": false
+    },
+    {
+      "pdf_page": 346,
+      "latin_letters": 1067,
+      "greek_letters": 19,
+      "ascii_word_tokens": 267,
+      "keep_as_english": true
+    },
+    {
+      "pdf_page": 347,
+      "latin_letters": 79,
+      "greek_letters": 873,
+      "ascii_word_tokens": 19,
+      "keep_as_english": false
+    },
+    {
+      "pdf_page": 348,
+      "latin_letters": 1255,
+      "greek_letters": 8,
+      "ascii_word_tokens": 291,
+      "keep_as_english": true
+    },
+    {
+      "pdf_page": 349,
+      "latin_letters": 22,
+      "greek_letters": 972,
+      "ascii_word_tokens": 8,
+      "keep_as_english": false
+    },
+    {
+      "pdf_page": 350,
+      "latin_letters": 1341,
+      "greek_letters": 0,
+      "ascii_word_tokens": 330,
+      "keep_as_english": true
+    },
+    {
+      "pdf_page": 351,
+      "latin_letters": 26,
+      "greek_letters": 954,
+      "ascii_word_tokens": 6,
+      "keep_as_english": false
+    },
+    {
+      "pdf_page": 352,
+      "latin_letters": 1320,
+      "greek_letters": 0,
+      "ascii_word_tokens": 320,
+      "keep_as_english": true
+    },
+    {
+      "pdf_page": 353,
+      "latin_letters": 21,
+      "greek_letters": 900,
+      "ascii_word_tokens": 7,
+      "keep_as_english": false
+    },
+    {
+      "pdf_page": 354,
+      "latin_letters": 1187,
+      "greek_letters": 7,
+      "ascii_word_tokens": 293,
+      "keep_as_english": true
+    },
+    {
+      "pdf_page": 355,
+      "latin_letters": 487,
+      "greek_letters": 658,
+      "ascii_word_tokens": 94,
+      "keep_as_english": false
+    },
+    {
+      "pdf_page": 356,
+      "latin_letters": 1154,
+      "greek_letters": 15,
+      "ascii_word_tokens": 271,
+      "keep_as_english": true
+    },
+    {
+      "pdf_page": 357,
+      "latin_letters": 50,
+      "greek_letters": 984,
+      "ascii_word_tokens": 13,
+      "keep_as_english": false
+    },
+    {
+      "pdf_page": 358,
+      "latin_letters": 1199,
+      "greek_letters": 4,
+      "ascii_word_tokens": 274,
+      "keep_as_english": true
+    },
+    {
+      "pdf_page": 359,
+      "latin_letters": 44,
+      "greek_letters": 951,
+      "ascii_word_tokens": 12,
+      "keep_as_english": false
+    },
+    {
+      "pdf_page": 360,
+      "latin_letters": 1280,
+      "greek_letters": 0,
+      "ascii_word_tokens": 311,
+      "keep_as_english": true
+    },
+    {
+      "pdf_page": 361,
+      "latin_letters": 30,
+      "greek_letters": 997,
+      "ascii_word_tokens": 10,
+      "keep_as_english": false
+    },
+    {
+      "pdf_page": 362,
+      "latin_letters": 1276,
+      "greek_letters": 4,
+      "ascii_word_tokens": 301,
+      "keep_as_english": true
+    },
+    {
+      "pdf_page": 363,
+      "latin_letters": 41,
+      "greek_letters": 942,
+      "ascii_word_tokens": 11,
+      "keep_as_english": false
+    },
+    {
+      "pdf_page": 364,
+      "latin_letters": 1274,
+      "greek_letters": 0,
+      "ascii_word_tokens": 314,
+      "keep_as_english": true
+    },
+    {
+      "pdf_page": 365,
+      "latin_letters": 209,
+      "greek_letters": 857,
+      "ascii_word_tokens": 47,
+      "keep_as_english": false
+    },
+    {
+      "pdf_page": 366,
+      "latin_letters": 1267,
+      "greek_letters": 0,
+      "ascii_word_tokens": 282,
+      "keep_as_english": true
+    },
+    {
+      "pdf_page": 367,
+      "latin_letters": 16,
+      "greek_letters": 962,
+      "ascii_word_tokens": 5,
+      "keep_as_english": false
+    },
+    {
+      "pdf_page": 368,
+      "latin_letters": 1288,
+      "greek_letters": 0,
+      "ascii_word_tokens": 293,
+      "keep_as_english": true
+    },
+    {
+      "pdf_page": 369,
+      "latin_letters": 13,
+      "greek_letters": 938,
+      "ascii_word_tokens": 4,
+      "keep_as_english": false
+    },
+    {
+      "pdf_page": 370,
+      "latin_letters": 1297,
+      "greek_letters": 4,
+      "ascii_word_tokens": 310,
+      "keep_as_english": true
+    },
+    {
+      "pdf_page": 371,
+      "latin_letters": 26,
+      "greek_letters": 1013,
+      "ascii_word_tokens": 8,
+      "keep_as_english": false
+    },
+    {
+      "pdf_page": 372,
+      "latin_letters": 1334,
+      "greek_letters": 1,
+      "ascii_word_tokens": 323,
+      "keep_as_english": true
+    },
+    {
+      "pdf_page": 373,
+      "latin_letters": 115,
+      "greek_letters": 961,
+      "ascii_word_tokens": 31,
+      "keep_as_english": false
+    },
+    {
+      "pdf_page": 374,
+      "latin_letters": 1322,
+      "greek_letters": 5,
+      "ascii_word_tokens": 329,
+      "keep_as_english": true
+    },
+    {
+      "pdf_page": 375,
+      "latin_letters": 31,
+      "greek_letters": 1018,
+      "ascii_word_tokens": 7,
+      "keep_as_english": false
+    },
+    {
+      "pdf_page": 376,
+      "latin_letters": 1264,
+      "greek_letters": 1,
+      "ascii_word_tokens": 296,
+      "keep_as_english": true
+    },
+    {
+      "pdf_page": 377,
+      "latin_letters": 28,
+      "greek_letters": 1000,
+      "ascii_word_tokens": 7,
+      "keep_as_english": false
+    },
+    {
+      "pdf_page": 378,
+      "latin_letters": 1265,
+      "greek_letters": 5,
+      "ascii_word_tokens": 291,
+      "keep_as_english": true
+    },
+    {
+      "pdf_page": 379,
+      "latin_letters": 41,
+      "greek_letters": 929,
+      "ascii_word_tokens": 8,
+      "keep_as_english": false
+    },
+    {
+      "pdf_page": 380,
+      "latin_letters": 1256,
+      "greek_letters": 2,
+      "ascii_word_tokens": 308,
+      "keep_as_english": true
+    },
+    {
+      "pdf_page": 381,
+      "latin_letters": 31,
+      "greek_letters": 761,
+      "ascii_word_tokens": 8,
+      "keep_as_english": false
+    },
+    {
+      "pdf_page": 382,
+      "latin_letters": 886,
+      "greek_letters": 1,
+      "ascii_word_tokens": 212,
+      "keep_as_english": true
+    },
+    {
+      "pdf_page": 383,
+      "latin_letters": 8,
+      "greek_letters": 749,
+      "ascii_word_tokens": 3,
+      "keep_as_english": false
+    },
+    {
+      "pdf_page": 384,
+      "latin_letters": 1036,
+      "greek_letters": 23,
+      "ascii_word_tokens": 249,
+      "keep_as_english": true
+    },
+    {
+      "pdf_page": 385,
+      "latin_letters": 10,
+      "greek_letters": 929,
+      "ascii_word_tokens": 3,
+      "keep_as_english": false
+    },
+    {
+      "pdf_page": 386,
+      "latin_letters": 1261,
+      "greek_letters": 25,
+      "ascii_word_tokens": 311,
+      "keep_as_english": true
+    },
+    {
+      "pdf_page": 387,
+      "latin_letters": 16,
+      "greek_letters": 1010,
+      "ascii_word_tokens": 5,
+      "keep_as_english": false
+    },
+    {
+      "pdf_page": 388,
+      "latin_letters": 1325,
+      "greek_letters": 1,
+      "ascii_word_tokens": 336,
+      "keep_as_english": true
+    },
+    {
+      "pdf_page": 389,
+      "latin_letters": 43,
+      "greek_letters": 914,
+      "ascii_word_tokens": 11,
+      "keep_as_english": false
+    },
+    {
+      "pdf_page": 390,
+      "latin_letters": 1240,
+      "greek_letters": 0,
+      "ascii_word_tokens": 301,
+      "keep_as_english": true
+    },
+    {
+      "pdf_page": 391,
+      "latin_letters": 47,
+      "greek_letters": 1048,
+      "ascii_word_tokens": 15,
+      "keep_as_english": false
+    },
+    {
+      "pdf_page": 392,
+      "latin_letters": 1201,
+      "greek_letters": 0,
+      "ascii_word_tokens": 300,
+      "keep_as_english": true
+    },
+    {
+      "pdf_page": 393,
+      "latin_letters": 15,
+      "greek_letters": 1013,
+      "ascii_word_tokens": 4,
+      "keep_as_english": false
+    },
+    {
+      "pdf_page": 394,
+      "latin_letters": 1280,
+      "greek_letters": 2,
+      "ascii_word_tokens": 296,
+      "keep_as_english": true
+    },
+    {
+      "pdf_page": 395,
+      "latin_letters": 22,
+      "greek_letters": 1027,
+      "ascii_word_tokens": 6,
+      "keep_as_english": false
+    },
+    {
+      "pdf_page": 396,
+      "latin_letters": 1309,
+      "greek_letters": 1,
+      "ascii_word_tokens": 317,
+      "keep_as_english": true
+    },
+    {
+      "pdf_page": 397,
+      "latin_letters": 21,
+      "greek_letters": 979,
+      "ascii_word_tokens": 6,
+      "keep_as_english": false
+    },
+    {
+      "pdf_page": 398,
+      "latin_letters": 1316,
+      "greek_letters": 0,
+      "ascii_word_tokens": 327,
+      "keep_as_english": true
+    },
+    {
+      "pdf_page": 399,
+      "latin_letters": 104,
+      "greek_letters": 933,
+      "ascii_word_tokens": 20,
+      "keep_as_english": false
+    },
+    {
+      "pdf_page": 400,
+      "latin_letters": 1337,
+      "greek_letters": 0,
+      "ascii_word_tokens": 331,
+      "keep_as_english": true
+    },
+    {
+      "pdf_page": 401,
+      "latin_letters": 26,
+      "greek_letters": 584,
+      "ascii_word_tokens": 8,
+      "keep_as_english": false
+    },
+    {
+      "pdf_page": 402,
+      "latin_letters": 1297,
+      "greek_letters": 2,
+      "ascii_word_tokens": 329,
+      "keep_as_english": true
+    },
+    {
+      "pdf_page": 403,
+      "latin_letters": 107,
+      "greek_letters": 913,
+      "ascii_word_tokens": 23,
+      "keep_as_english": false
+    },
+    {
+      "pdf_page": 404,
+      "latin_letters": 1213,
+      "greek_letters": 0,
+      "ascii_word_tokens": 291,
+      "keep_as_english": true
+    },
+    {
+      "pdf_page": 405,
+      "latin_letters": 42,
+      "greek_letters": 1009,
+      "ascii_word_tokens": 10,
+      "keep_as_english": false
+    },
+    {
+      "pdf_page": 406,
+      "latin_letters": 1323,
+      "greek_letters": 0,
+      "ascii_word_tokens": 324,
+      "keep_as_english": true
+    },
+    {
+      "pdf_page": 407,
+      "latin_letters": 41,
+      "greek_letters": 989,
+      "ascii_word_tokens": 8,
+      "keep_as_english": false
+    },
+    {
+      "pdf_page": 408,
+      "latin_letters": 1234,
+      "greek_letters": 2,
+      "ascii_word_tokens": 305,
+      "keep_as_english": true
+    },
+    {
+      "pdf_page": 409,
+      "latin_letters": 24,
+      "greek_letters": 356,
+      "ascii_word_tokens": 6,
+      "keep_as_english": false
+    },
+    {
+      "pdf_page": 410,
+      "latin_letters": 487,
+      "greek_letters": 8,
+      "ascii_word_tokens": 115,
+      "keep_as_english": true
+    },
+    {
+      "pdf_page": 411,
+      "latin_letters": 12,
+      "greek_letters": 770,
+      "ascii_word_tokens": 5,
+      "keep_as_english": false
+    },
+    {
+      "pdf_page": 412,
+      "latin_letters": 1031,
+      "greek_letters": 0,
+      "ascii_word_tokens": 242,
+      "keep_as_english": true
+    },
+    {
+      "pdf_page": 413,
+      "latin_letters": 46,
+      "greek_letters": 932,
+      "ascii_word_tokens": 11,
+      "keep_as_english": false
+    },
+    {
+      "pdf_page": 414,
+      "latin_letters": 1292,
+      "greek_letters": 0,
+      "ascii_word_tokens": 318,
+      "keep_as_english": true
+    },
+    {
+      "pdf_page": 415,
+      "latin_letters": 44,
+      "greek_letters": 956,
+      "ascii_word_tokens": 10,
+      "keep_as_english": false
+    },
+    {
+      "pdf_page": 416,
+      "latin_letters": 1285,
+      "greek_letters": 2,
+      "ascii_word_tokens": 294,
+      "keep_as_english": true
+    },
+    {
+      "pdf_page": 417,
+      "latin_letters": 32,
+      "greek_letters": 966,
+      "ascii_word_tokens": 9,
+      "keep_as_english": false
+    },
+    {
+      "pdf_page": 418,
+      "latin_letters": 1319,
+      "greek_letters": 12,
+      "ascii_word_tokens": 309,
+      "keep_as_english": true
+    },
+    {
+      "pdf_page": 419,
+      "latin_letters": 99,
+      "greek_letters": 977,
+      "ascii_word_tokens": 22,
+      "keep_as_english": false
+    },
+    {
+      "pdf_page": 420,
+      "latin_letters": 1322,
+      "greek_letters": 0,
+      "ascii_word_tokens": 326,
+      "keep_as_english": true
+    },
+    {
+      "pdf_page": 421,
+      "latin_letters": 35,
+      "greek_letters": 980,
+      "ascii_word_tokens": 11,
+      "keep_as_english": false
+    },
+    {
+      "pdf_page": 422,
+      "latin_letters": 1234,
+      "greek_letters": 1,
+      "ascii_word_tokens": 294,
+      "keep_as_english": true
+    },
+    {
+      "pdf_page": 423,
+      "latin_letters": 23,
+      "greek_letters": 982,
+      "ascii_word_tokens": 7,
+      "keep_as_english": false
+    },
+    {
+      "pdf_page": 424,
+      "latin_letters": 1286,
+      "greek_letters": 0,
+      "ascii_word_tokens": 311,
+      "keep_as_english": true
+    },
+    {
+      "pdf_page": 425,
+      "latin_letters": 14,
+      "greek_letters": 893,
+      "ascii_word_tokens": 4,
+      "keep_as_english": false
+    },
+    {
+      "pdf_page": 426,
+      "latin_letters": 1215,
+      "greek_letters": 8,
+      "ascii_word_tokens": 286,
+      "keep_as_english": true
+    },
+    {
+      "pdf_page": 427,
+      "latin_letters": 44,
+      "greek_letters": 1043,
+      "ascii_word_tokens": 13,
+      "keep_as_english": false
+    },
+    {
+      "pdf_page": 428,
+      "latin_letters": 1341,
+      "greek_letters": 3,
+      "ascii_word_tokens": 321,
+      "keep_as_english": true
+    },
+    {
+      "pdf_page": 429,
+      "latin_letters": 19,
+      "greek_letters": 1015,
+      "ascii_word_tokens": 6,
+      "keep_as_english": false
+    },
+    {
+      "pdf_page": 430,
+      "latin_letters": 1320,
+      "greek_letters": 0,
+      "ascii_word_tokens": 333,
+      "keep_as_english": true
+    },
+    {
+      "pdf_page": 431,
+      "latin_letters": 22,
+      "greek_letters": 883,
+      "ascii_word_tokens": 6,
+      "keep_as_english": false
+    },
+    {
+      "pdf_page": 432,
+      "latin_letters": 1303,
+      "greek_letters": 0,
+      "ascii_word_tokens": 306,
+      "keep_as_english": true
+    },
+    {
+      "pdf_page": 433,
+      "latin_letters": 150,
+      "greek_letters": 799,
+      "ascii_word_tokens": 32,
+      "keep_as_english": false
+    },
+    {
+      "pdf_page": 434,
+      "latin_letters": 1141,
+      "greek_letters": 26,
+      "ascii_word_tokens": 280,
+      "keep_as_english": true
+    },
+    {
+      "pdf_page": 435,
+      "latin_letters": 15,
+      "greek_letters": 903,
+      "ascii_word_tokens": 5,
+      "keep_as_english": false
+    },
+    {
+      "pdf_page": 436,
+      "latin_letters": 1282,
+      "greek_letters": 4,
+      "ascii_word_tokens": 310,
+      "keep_as_english": true
+    },
+    {
+      "pdf_page": 437,
+      "latin_letters": 16,
+      "greek_letters": 960,
+      "ascii_word_tokens": 4,
+      "keep_as_english": false
+    },
+    {
+      "pdf_page": 438,
+      "latin_letters": 1232,
+      "greek_letters": 0,
+      "ascii_word_tokens": 272,
+      "keep_as_english": true
+    },
+    {
+      "pdf_page": 439,
+      "latin_letters": 9,
+      "greek_letters": 949,
+      "ascii_word_tokens": 3,
+      "keep_as_english": false
+    },
+    {
+      "pdf_page": 440,
+      "latin_letters": 1256,
+      "greek_letters": 3,
+      "ascii_word_tokens": 299,
+      "keep_as_english": true
+    },
+    {
+      "pdf_page": 441,
+      "latin_letters": 24,
+      "greek_letters": 960,
+      "ascii_word_tokens": 7,
+      "keep_as_english": false
+    },
+    {
+      "pdf_page": 442,
+      "latin_letters": 1290,
+      "greek_letters": 1,
+      "ascii_word_tokens": 295,
+      "keep_as_english": true
+    },
+    {
+      "pdf_page": 443,
+      "latin_letters": 17,
+      "greek_letters": 958,
+      "ascii_word_tokens": 6,
+      "keep_as_english": false
+    },
+    {
+      "pdf_page": 444,
+      "latin_letters": 1259,
+      "greek_letters": 2,
+      "ascii_word_tokens": 305,
+      "keep_as_english": true
+    },
+    {
+      "pdf_page": 445,
+      "latin_letters": 18,
+      "greek_letters": 952,
+      "ascii_word_tokens": 6,
+      "keep_as_english": false
+    },
+    {
+      "pdf_page": 446,
+      "latin_letters": 1263,
+      "greek_letters": 2,
+      "ascii_word_tokens": 300,
+      "keep_as_english": true
+    },
+    {
+      "pdf_page": 447,
+      "latin_letters": 15,
+      "greek_letters": 886,
+      "ascii_word_tokens": 4,
+      "keep_as_english": false
+    },
+    {
+      "pdf_page": 448,
+      "latin_letters": 1147,
+      "greek_letters": 1,
+      "ascii_word_tokens": 266,
+      "keep_as_english": true
+    },
+    {
+      "pdf_page": 449,
+      "latin_letters": 46,
+      "greek_letters": 926,
+      "ascii_word_tokens": 10,
+      "keep_as_english": false
+    },
+    {
+      "pdf_page": 450,
+      "latin_letters": 1192,
+      "greek_letters": 2,
+      "ascii_word_tokens": 279,
+      "keep_as_english": true
+    },
+    {
+      "pdf_page": 451,
+      "latin_letters": 10,
+      "greek_letters": 490,
+      "ascii_word_tokens": 3,
+      "keep_as_english": false
+    },
+    {
+      "pdf_page": 452,
+      "latin_letters": 746,
+      "greek_letters": 2,
+      "ascii_word_tokens": 167,
+      "keep_as_english": true
+    },
+    {
+      "pdf_page": 453,
+      "latin_letters": 0,
+      "greek_letters": 0,
+      "ascii_word_tokens": 0,
+      "keep_as_english": false
+    },
+    {
+      "pdf_page": 454,
+      "latin_letters": 74,
+      "greek_letters": 8,
+      "ascii_word_tokens": 26,
+      "keep_as_english": false
+    },
+    {
+      "pdf_page": 455,
+      "latin_letters": 77,
+      "greek_letters": 38,
+      "ascii_word_tokens": 27,
+      "keep_as_english": false
+    },
+    {
+      "pdf_page": 456,
+      "latin_letters": 118,
+      "greek_letters": 80,
+      "ascii_word_tokens": 43,
+      "keep_as_english": false
+    },
+    {
+      "pdf_page": 457,
+      "latin_letters": 157,
+      "greek_letters": 45,
+      "ascii_word_tokens": 54,
+      "keep_as_english": false
+    },
+    {
+      "pdf_page": 458,
+      "latin_letters": 68,
+      "greek_letters": 22,
+      "ascii_word_tokens": 21,
+      "keep_as_english": false
+    },
+    {
+      "pdf_page": 459,
+      "latin_letters": 64,
+      "greek_letters": 29,
+      "ascii_word_tokens": 23,
+      "keep_as_english": false
+    },
+    {
+      "pdf_page": 460,
+      "latin_letters": 143,
+      "greek_letters": 76,
+      "ascii_word_tokens": 48,
+      "keep_as_english": false
+    },
+    {
+      "pdf_page": 461,
+      "latin_letters": 149,
+      "greek_letters": 21,
+      "ascii_word_tokens": 35,
+      "keep_as_english": false
+    },
+    {
+      "pdf_page": 462,
+      "latin_letters": 185,
+      "greek_letters": 63,
+      "ascii_word_tokens": 54,
+      "keep_as_english": false
+    },
+    {
+      "pdf_page": 463,
+      "latin_letters": 169,
+      "greek_letters": 31,
+      "ascii_word_tokens": 57,
+      "keep_as_english": false
+    },
+    {
+      "pdf_page": 464,
+      "latin_letters": 83,
+      "greek_letters": 26,
+      "ascii_word_tokens": 21,
+      "keep_as_english": false
+    },
+    {
+      "pdf_page": 465,
+      "latin_letters": 54,
+      "greek_letters": 0,
+      "ascii_word_tokens": 10,
+      "keep_as_english": false
+    },
+    {
+      "pdf_page": 466,
+      "latin_letters": 475,
+      "greek_letters": 16,
+      "ascii_word_tokens": 104,
+      "keep_as_english": true
+    },
+    {
+      "pdf_page": 467,
+      "latin_letters": 883,
+      "greek_letters": 47,
+      "ascii_word_tokens": 184,
+      "keep_as_english": true
+    },
+    {
+      "pdf_page": 468,
+      "latin_letters": 743,
+      "greek_letters": 68,
+      "ascii_word_tokens": 169,
+      "keep_as_english": true
+    },
+    {
+      "pdf_page": 469,
+      "latin_letters": 1051,
+      "greek_letters": 26,
+      "ascii_word_tokens": 231,
+      "keep_as_english": true
+    },
+    {
+      "pdf_page": 470,
+      "latin_letters": 859,
+      "greek_letters": 35,
+      "ascii_word_tokens": 178,
+      "keep_as_english": true
+    },
+    {
+      "pdf_page": 471,
+      "latin_letters": 976,
+      "greek_letters": 40,
+      "ascii_word_tokens": 199,
+      "keep_as_english": true
+    },
+    {
+      "pdf_page": 472,
+      "latin_letters": 797,
+      "greek_letters": 38,
+      "ascii_word_tokens": 172,
+      "keep_as_english": true
+    },
+    {
+      "pdf_page": 473,
+      "latin_letters": 869,
+      "greek_letters": 37,
+      "ascii_word_tokens": 181,
+      "keep_as_english": true
+    },
+    {
+      "pdf_page": 474,
+      "latin_letters": 915,
+      "greek_letters": 49,
+      "ascii_word_tokens": 197,
+      "keep_as_english": true
+    },
+    {
+      "pdf_page": 475,
+      "latin_letters": 542,
+      "greek_letters": 7,
+      "ascii_word_tokens": 103,
+      "keep_as_english": true
+    },
+    {
+      "pdf_page": 476,
+      "latin_letters": 0,
+      "greek_letters": 0,
+      "ascii_word_tokens": 0,
+      "keep_as_english": false
+    },
+    {
+      "pdf_page": 477,
+      "latin_letters": 0,
+      "greek_letters": 0,
+      "ascii_word_tokens": 0,
+      "keep_as_english": false
+    },
+    {
+      "pdf_page": 478,
+      "latin_letters": 100,
+      "greek_letters": 10,
+      "ascii_word_tokens": 21,
+      "keep_as_english": false
+    },
+    {
+      "pdf_page": 479,
+      "latin_letters": 0,
+      "greek_letters": 0,
+      "ascii_word_tokens": 0,
+      "keep_as_english": false
+    }
+  ]
+}

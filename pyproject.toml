@@ -1,0 +1,29 @@
+[build-system]
+requires = ["setuptools>=75", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "odyssey-attributional-semantics"
+version = "0.1.0"
+description = "Source-aligned computational analysis of color, character, and attributional hypergraphs across public-domain English translations of Homer's Odyssey."
+readme = "README.md"
+requires-python = ">=3.12"
+authors = [{name = "Moses Boudourides"}, {name = "Manus AI"}]
+dependencies = [
+  "numpy==2.3.1",
+  "scipy==1.16.0",
+  "scikit-learn==1.7.1",
+  "matplotlib==3.10.3",
+  "networkx==3.5",
+]
+
+[project.optional-dependencies]
+dev = ["pytest==8.4.1"]
+
+[tool.setuptools]
+packages = ["odyssey_attr"]
+package-dir = {"" = "src"}
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-q"

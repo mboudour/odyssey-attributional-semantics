@@ -1,0 +1,81 @@
+{
+  "project_title": "Attributional Semantics in English Translations of Homer’s Odyssey: Color, Character, and Hypergraphs",
+  "translations": [
+    {
+      "id": "chapman_1616",
+      "translator": "George Chapman",
+      "year": 1616,
+      "form": "verse",
+      "prepared_text": "data/interim/seed_prepared_text/gutenberg_additions/Homer_Odyssey_Chapman_PG48895_books_1_24.txt",
+      "book_provenance": "data/interim/seed_prepared_text/gutenberg_additions/Homer_Odyssey_Chapman_PG48895_book_provenance.json",
+      "source_file": "data/raw/translations/Homer_Odyssey_Chapman_PG48895.epub",
+      "source_url": "https://www.gutenberg.org/ebooks/48895",
+      "rights": "Project Gutenberg public-domain release"
+    },
+    {
+      "id": "pope_1726",
+      "translator": "Alexander Pope",
+      "year": 1726,
+      "form": "verse",
+      "prepared_text": "data/interim/seed_prepared_text/gutenberg_additions/Homer_Odyssey_Pope_PG3160_books_1_24.txt",
+      "book_provenance": "data/interim/seed_prepared_text/gutenberg_additions/Homer_Odyssey_Pope_PG3160_book_provenance.json",
+      "source_file": "data/raw/translations/Homer_Odyssey_Pope_PG3160.epub",
+      "source_url": "https://www.gutenberg.org/ebooks/3160",
+      "rights": "Project Gutenberg public-domain release"
+    },
+    {
+      "id": "cowper_1791",
+      "translator": "William Cowper",
+      "year": 1791,
+      "form": "verse",
+      "prepared_text": "data/interim/seed_prepared_text/gutenberg_additions/Homer_Odyssey_Cowper_PG24269_books_1_24.txt",
+      "book_provenance": "data/interim/seed_prepared_text/gutenberg_additions/Homer_Odyssey_Cowper_PG24269_book_provenance.json",
+      "source_file": "data/raw/translations/Homer_Odyssey_Cowper_PG24269.epub",
+      "source_url": "https://www.gutenberg.org/ebooks/24269",
+      "rights": "Project Gutenberg public-domain release"
+    },
+    {
+      "id": "butcher_lang_1879",
+      "translator": "S. H. Butcher and Andrew Lang",
+      "year": 1879,
+      "form": "prose",
+      "prepared_text": "data/interim/seed_prepared_text/gutenberg_additions/Homer_Odyssey_Butcher_Lang_PG1728_books_1_24.txt",
+      "book_provenance": "data/interim/seed_prepared_text/gutenberg_additions/Homer_Odyssey_Butcher_Lang_PG1728_book_provenance.json",
+      "source_file": "data/raw/translations/Homer_Odyssey_Butcher_Lang_PG1728.epub",
+      "source_url": "https://www.gutenberg.org/ebooks/1728",
+      "rights": "Project Gutenberg public-domain release"
+    },
+    {
+      "id": "butler_1900",
+      "translator": "Samuel Butler",
+      "year": 1900,
+      "form": "prose",
+      "prepared_text": "data/interim/seed_prepared_text/butler_1900_raw_spine.txt",
+      "source_file": "data/raw/translations/Homer_Odyssey_Butler_1900_ProjectGutenberg.epub",
+      "source_url": "https://www.gutenberg.org/ebooks/1727",
+      "rights": "Project Gutenberg public-domain release"
+    },
+    {
+      "id": "murray_1919",
+      "translator": "A. T. Murray",
+      "year": 1919,
+      "form": "prose",
+      "prepared_text": "data/interim/seed_prepared_text/murray_1919_english_pages.txt",
+      "source_files": [
+        "data/raw/translations/Homer_Odyssey_Murray_1919_Vol1.pdf",
+        "data/raw/translations/Homer_Odyssey_Murray_1919_Vol2.pdf"
+      ],
+      "source_url": "https://archive.org/details/odysseywithengli01homeuoft",
+      "rights": "Public-domain 1919 Loeb edition; OCR-derived English-page text",
+      "quality_note": "OCR noise is explicitly measured and propagated through confidence scores."
+    }
+  ],
+  "audiovisual_extension": {
+    "id": "lodissea_1911",
+    "title": "L’Odissea",
+    "year": 1911,
+    "subtitle": "data/raw/audiovisual/public_subtitles/lodissea_1911_en.srt",
+    "rights": "Film public domain; English timed text CC BY-SA 4.0",
+    "role": "Exploratory screen-adaptation extension, excluded from translation trend models."
+  }
+}
