@@ -42,6 +42,14 @@ To run only the tests:
 make test
 ```
 
+To regenerate only the static, vector, interactive, and native XGI hypergraph visualizations:
+
+```bash
+make visualize
+```
+
+The visualization index is rendered at [`outputs/hypergraph_visualizations/README.md`](outputs/hypergraph_visualizations/README.md).
+
 Thread counts are capped by the `Makefile` to keep numerical work memory-bounded. The pipeline uses deterministic random seeds and writes SHA-256 metadata to `run_manifest.json`.
 
 ## Main outputs
@@ -52,6 +60,7 @@ Thread counts are capped by the `Makefile` to keep numerical work memory-bounded
 | `outputs/figures/` | Seven publication-oriented PNG figures |
 | `outputs/tables/` | Corpus, alignment, statistics, embedding, and hypergraph result tables |
 | `outputs/hypergraphs/` | JSON hypergraphs and GraphML target/attribute projections |
+| [`outputs/hypergraph_visualizations/`](outputs/hypergraph_visualizations/README.md) | Eighteen PNG figures, eighteen SVG figures, twelve standalone interactive HTML projections, and a documented XGI gallery |
 | `data/processed/attribution_events.csv` | Complete machine-readable attribution event table |
 | `data/processed/validation_sample.csv` | Stratified 360-event annotation sample |
 | `models/` | TF–IDF/SVD vocabulary, components, event vectors, centroids, and metadata |

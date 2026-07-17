@@ -1,8 +1,8 @@
 {
   "project_title": "Attributional Semantics in English Translations of Homer’s Odyssey: Color, Character, and Hypergraphs",
   "pipeline_version": "0.1.0",
-  "started_utc": "2026-07-17T12:54:16.730382+00:00",
-  "completed_utc": "2026-07-17T12:55:23.432732+00:00",
+  "started_utc": "2026-07-17T15:04:06.322503+00:00",
+  "completed_utc": "2026-07-17T15:05:15.880294+00:00",
   "random_seed": 20260717,
   "python": "3.12.3 (main, Mar 23 2026, 19:04:32) [GCC 13.3.0]",
   "platform": "Linux-6.1.102-x86_64-with-glibc2.39",
@@ -17,7 +17,7 @@
     "tabulate": "0.9.0",
     "pytest": "8.4.1"
   },
-  "git_commit": "03ee9fdad399719e7c150ecbac5c19c644f15ad8",
+  "git_commit": "5656141fe06202e7308103379a307f49af315c47",
   "counts": {
     "translations": 6,
     "books": 144,
@@ -32,13 +32,13 @@
   "files": [
     {
       "path": "Makefile",
-      "bytes": 713,
-      "sha256": "a749fc830e5f336235ecd8e7a0c83ec19bb385c827fb557a701bfa8330f5e925"
+      "bytes": 1178,
+      "sha256": "3eb6890d8767a757dd29a8943b7ce692e98ed4bb5dbe534cd8aab4e37ab341a6"
     },
     {
       "path": "README.md",
-      "bytes": 5663,
-      "sha256": "69d9b95a4abc9ac30a171d607baf3127f0a12432f4226a7a37090b3321f39b58"
+      "bytes": 6131,
+      "sha256": "73760a20c0c7a96502829c8a10a8e5035655015ea4cdff87d00f5d85f2139bf7"
     },
     {
       "path": "config/corpus.json",
@@ -286,6 +286,256 @@
       "sha256": "2bb36bcd9af238e1358bf528ab56afcb98c0cb00d6a3f77c9e8253110cbbcb0e"
     },
     {
+      "path": "outputs/hypergraph_visualizations/README.md",
+      "bytes": 4684,
+      "sha256": "b7e5e79853ca29da31feaa60598d728e72f1f90f92c75a7c262b330b0cd5fe8a"
+    },
+    {
+      "path": "outputs/hypergraph_visualizations/projection_interactive/butcher_lang_1879_attribute_projection.html",
+      "bytes": 826515,
+      "sha256": "273f8792f285639f9cdefc5f29e4ee9aa8bef2839ad5185ac4f200556a3eb449"
+    },
+    {
+      "path": "outputs/hypergraph_visualizations/projection_interactive/butcher_lang_1879_target_projection.html",
+      "bytes": 830040,
+      "sha256": "02df114fa2b13e8733efaf8ee67d4cc3dfa31e0c932578cef2fbfd1e9fd99d73"
+    },
+    {
+      "path": "outputs/hypergraph_visualizations/projection_interactive/butler_1900_attribute_projection.html",
+      "bytes": 826702,
+      "sha256": "de86d44c697c7d1dda38cf8b0a4cf723b78a8d65438594a14da7dd98cace6325"
+    },
+    {
+      "path": "outputs/hypergraph_visualizations/projection_interactive/butler_1900_target_projection.html",
+      "bytes": 830480,
+      "sha256": "4cf8afaface50e27bee3f555fc50e2d1f1144842702701496bb276a516272223"
+    },
+    {
+      "path": "outputs/hypergraph_visualizations/projection_interactive/chapman_1616_attribute_projection.html",
+      "bytes": 825491,
+      "sha256": "49656602efbc86ce93c8efb568fbe23acba19e06fef6cbaf8d8463e6d44f9bf5"
+    },
+    {
+      "path": "outputs/hypergraph_visualizations/projection_interactive/chapman_1616_target_projection.html",
+      "bytes": 828840,
+      "sha256": "8d1fd0ea13ad3861b71df7f5be7462612b4a5cc4354ccea5a83d150c3448a9c6"
+    },
+    {
+      "path": "outputs/hypergraph_visualizations/projection_interactive/cowper_1791_attribute_projection.html",
+      "bytes": 826896,
+      "sha256": "1a1ddfb716da83e95ba09f57df3803db5db007f295469ae79fde20ce77494621"
+    },
+    {
+      "path": "outputs/hypergraph_visualizations/projection_interactive/cowper_1791_target_projection.html",
+      "bytes": 831403,
+      "sha256": "c11df8070c420c761841f83333b62c87885ce34f0135f9457ceb32331a7d2844"
+    },
+    {
+      "path": "outputs/hypergraph_visualizations/projection_interactive/murray_1919_attribute_projection.html",
+      "bytes": 827176,
+      "sha256": "cee783af7559166d20778fc4c1cd6b5f1f4f47b7050bc8450703985058247a7c"
+    },
+    {
+      "path": "outputs/hypergraph_visualizations/projection_interactive/murray_1919_target_projection.html",
+      "bytes": 829928,
+      "sha256": "98709c77d5b0108e8b733fb225f671168d129c6efc306eb20dea0ceb5b3139ba"
+    },
+    {
+      "path": "outputs/hypergraph_visualizations/projection_interactive/pope_1726_attribute_projection.html",
+      "bytes": 826638,
+      "sha256": "105b52ded60b8a8355404c3aba89efe521d5df4c5bc24ce0b025a00ff6a1712b"
+    },
+    {
+      "path": "outputs/hypergraph_visualizations/projection_interactive/pope_1726_target_projection.html",
+      "bytes": 830364,
+      "sha256": "1a602f6998d5fc26a0707d8c1ce199c8b2d9e57ebf21a4f4ab2fbb71d68f6b37"
+    },
+    {
+      "path": "outputs/hypergraph_visualizations/projection_static/butcher_lang_1879_attribute_projection.png",
+      "bytes": 1722176,
+      "sha256": "cfe6c36a7b935f7bc596173af6a2fed2afb3fdec8254b719c8dc41dcb0cddf37"
+    },
+    {
+      "path": "outputs/hypergraph_visualizations/projection_static/butcher_lang_1879_attribute_projection.svg",
+      "bytes": 220449,
+      "sha256": "73681a2cb40224eb0bd2ceeaa9be8efaa8ebd32e5c280cb6afbc7309534bed3e"
+    },
+    {
+      "path": "outputs/hypergraph_visualizations/projection_static/butcher_lang_1879_target_projection.png",
+      "bytes": 1832534,
+      "sha256": "fbae179fce659c62b9802d63420f7ced01803a3865328ebb66d578321c9b1ff3"
+    },
+    {
+      "path": "outputs/hypergraph_visualizations/projection_static/butcher_lang_1879_target_projection.svg",
+      "bytes": 222625,
+      "sha256": "2856cad00baef6138ebbac5dd3a584df6b50c07509214db2569b97a589391573"
+    },
+    {
+      "path": "outputs/hypergraph_visualizations/projection_static/butler_1900_attribute_projection.png",
+      "bytes": 1390378,
+      "sha256": "a25cddbdb847c82bc1216955f31d560caf4cbab4ac1ed93663998d4c17018144"
+    },
+    {
+      "path": "outputs/hypergraph_visualizations/projection_static/butler_1900_attribute_projection.svg",
+      "bytes": 222019,
+      "sha256": "6751009ed66fc45350276ebaa6f096c5fafa993e7c3f002a2900e4265b50f08f"
+    },
+    {
+      "path": "outputs/hypergraph_visualizations/projection_static/butler_1900_target_projection.png",
+      "bytes": 1469433,
+      "sha256": "debdf1621c12b785131df539e32c54ac108616828fa8d373d2631fe1c4a8c73f"
+    },
+    {
+      "path": "outputs/hypergraph_visualizations/projection_static/butler_1900_target_projection.svg",
+      "bytes": 222913,
+      "sha256": "f693e8de2da6213c85c2f8e228c737318d9b7a8eadff42a7a26add05c79a5d39"
+    },
+    {
+      "path": "outputs/hypergraph_visualizations/projection_static/chapman_1616_attribute_projection.png",
+      "bytes": 2073377,
+      "sha256": "094306a2130b897fe025909b9578ceb8f57a165fbf73ad07347a398f25ff9cfc"
+    },
+    {
+      "path": "outputs/hypergraph_visualizations/projection_static/chapman_1616_attribute_projection.svg",
+      "bytes": 219507,
+      "sha256": "a28f53d3f8fbbda4f9489a4a96fcf8ab5e0c18246cddc7d09476b532349a32a1"
+    },
+    {
+      "path": "outputs/hypergraph_visualizations/projection_static/chapman_1616_target_projection.png",
+      "bytes": 1768368,
+      "sha256": "cb12422bd52eaf5e0aaad9af63fedcb45007710c35bb64df9ce99139bc68b3df"
+    },
+    {
+      "path": "outputs/hypergraph_visualizations/projection_static/chapman_1616_target_projection.svg",
+      "bytes": 219735,
+      "sha256": "3e770284c0944542cb927f6e038e958e2239e1b1ef4ff368908a1f6b9b91e1c3"
+    },
+    {
+      "path": "outputs/hypergraph_visualizations/projection_static/cowper_1791_attribute_projection.png",
+      "bytes": 1910363,
+      "sha256": "9a037c1bcafd0d95b9d3eca165157f0fbdfc40b8ca8b3591a5f0bc85b7960604"
+    },
+    {
+      "path": "outputs/hypergraph_visualizations/projection_static/cowper_1791_attribute_projection.svg",
+      "bytes": 222719,
+      "sha256": "d90b8c64b722a75827600fe397bb2f0da3e200b261c0213f85ebbfa5aaf30209"
+    },
+    {
+      "path": "outputs/hypergraph_visualizations/projection_static/cowper_1791_target_projection.png",
+      "bytes": 1702990,
+      "sha256": "7c630ac9e87f323b0c143cd31f3f85cc7db4b7318f9998454b3bf3752deac0a3"
+    },
+    {
+      "path": "outputs/hypergraph_visualizations/projection_static/cowper_1791_target_projection.svg",
+      "bytes": 224814,
+      "sha256": "8e118a0c21dc23acf8f1523128bd93d5964d174b2c9e67e50d081178e831ed71"
+    },
+    {
+      "path": "outputs/hypergraph_visualizations/projection_static/murray_1919_attribute_projection.png",
+      "bytes": 1932009,
+      "sha256": "bb23384409f3464513f6da5845fa3607418e7a9f1ef9f065ad298694df823d52"
+    },
+    {
+      "path": "outputs/hypergraph_visualizations/projection_static/murray_1919_attribute_projection.svg",
+      "bytes": 222304,
+      "sha256": "d1594c5322611f88da82b7a065208e529b409aea02df36e445ffd31b91e851c4"
+    },
+    {
+      "path": "outputs/hypergraph_visualizations/projection_static/murray_1919_target_projection.png",
+      "bytes": 1518558,
+      "sha256": "36cfe9f3fbbc747a1b86b9849bd312a7b20f43f6bd466025178a56b98f9b927f"
+    },
+    {
+      "path": "outputs/hypergraph_visualizations/projection_static/murray_1919_target_projection.svg",
+      "bytes": 222660,
+      "sha256": "1412c1b6351c86255cc119706d6a8d63511c5166e19822f042cff736d20b0c47"
+    },
+    {
+      "path": "outputs/hypergraph_visualizations/projection_static/pope_1726_attribute_projection.png",
+      "bytes": 1998886,
+      "sha256": "b7afa7216956a879a606e31a39d0fe6b80c5fe54a523dfb7f705e7e7dc5924c6"
+    },
+    {
+      "path": "outputs/hypergraph_visualizations/projection_static/pope_1726_attribute_projection.svg",
+      "bytes": 221315,
+      "sha256": "ad286e4d8b14e0ef4f163f697618ec91deed053ac0d594e0a85c59e1b237f06e"
+    },
+    {
+      "path": "outputs/hypergraph_visualizations/projection_static/pope_1726_target_projection.png",
+      "bytes": 1644099,
+      "sha256": "c56fca17882567ff04130c22d6f64b8cd0f14b504c219892f595214a0045989b"
+    },
+    {
+      "path": "outputs/hypergraph_visualizations/projection_static/pope_1726_target_projection.svg",
+      "bytes": 222383,
+      "sha256": "8fb724ec47ad547032399a615f203a08a87a4410a2da8d9eb09afdf964fdd623"
+    },
+    {
+      "path": "outputs/hypergraph_visualizations/visualization_inventory.csv",
+      "bytes": 5451,
+      "sha256": "823a35595593a04ed0c561e8ea8a523c0823153d1320ca39d229bcbf84c0a2e2"
+    },
+    {
+      "path": "outputs/hypergraph_visualizations/xgi_native/butcher_lang_1879_xgi_hypergraph.png",
+      "bytes": 1016680,
+      "sha256": "49a43340b18508bff9fde70e711f347e4ca932b60ba9fee6813a555ef6c202c3"
+    },
+    {
+      "path": "outputs/hypergraph_visualizations/xgi_native/butcher_lang_1879_xgi_hypergraph.svg",
+      "bytes": 91913,
+      "sha256": "caf48372ff4cff483a5d70277955f7c77b88977ffa8d15e3f5ef72ab02479c07"
+    },
+    {
+      "path": "outputs/hypergraph_visualizations/xgi_native/butler_1900_xgi_hypergraph.png",
+      "bytes": 1037793,
+      "sha256": "92c0a464fc85af2522686f5e6e46b450bff6b49dd8493a3cca14b56c973226e2"
+    },
+    {
+      "path": "outputs/hypergraph_visualizations/xgi_native/butler_1900_xgi_hypergraph.svg",
+      "bytes": 87149,
+      "sha256": "fdeeaf7179b5bfab0aff4eef1b94784fa3e3a7ff1da7f6d6166167d306f95e90"
+    },
+    {
+      "path": "outputs/hypergraph_visualizations/xgi_native/chapman_1616_xgi_hypergraph.png",
+      "bytes": 1439983,
+      "sha256": "97f0a1bed331822c7add1c1362c4af833d87cc65f37ebae3e2439c047aab1bf7"
+    },
+    {
+      "path": "outputs/hypergraph_visualizations/xgi_native/chapman_1616_xgi_hypergraph.svg",
+      "bytes": 97420,
+      "sha256": "f266de447fa49cf70913fbdef1e3ae9d77d3dd7531d008973515a626768e4e07"
+    },
+    {
+      "path": "outputs/hypergraph_visualizations/xgi_native/cowper_1791_xgi_hypergraph.png",
+      "bytes": 1126298,
+      "sha256": "512f672d54f0f2731b30552208825ee4e7a8b53f99a343bd85abfa5af070b9f9"
+    },
+    {
+      "path": "outputs/hypergraph_visualizations/xgi_native/cowper_1791_xgi_hypergraph.svg",
+      "bytes": 89488,
+      "sha256": "af87b09af14799faa3fff2c6e6948e2bad9f8a4050add6b27c07bd8abeac16bb"
+    },
+    {
+      "path": "outputs/hypergraph_visualizations/xgi_native/murray_1919_xgi_hypergraph.png",
+      "bytes": 1035426,
+      "sha256": "e2cbba9878b49d52f9b88153f8b76c9655fb59bf630ecb2a45e8168180fba910"
+    },
+    {
+      "path": "outputs/hypergraph_visualizations/xgi_native/murray_1919_xgi_hypergraph.svg",
+      "bytes": 90546,
+      "sha256": "9881f2293ca2da23354416dfb905d899ca2109c36d764cc7078f56b15925bec6"
+    },
+    {
+      "path": "outputs/hypergraph_visualizations/xgi_native/pope_1726_xgi_hypergraph.png",
+      "bytes": 1415501,
+      "sha256": "7b67f7f76c48a87117cd9eb730e14f23bd52e9715e9aa179481bcc696630deb4"
+    },
+    {
+      "path": "outputs/hypergraph_visualizations/xgi_native/pope_1726_xgi_hypergraph.svg",
+      "bytes": 95333,
+      "sha256": "11742927d1b73e2796264a656046ef349db1ca0b8ca2e38a7dfbae26f61bdf62"
+    },
+    {
       "path": "outputs/hypergraphs/butcher_lang_1879_attribute_projection.graphml",
       "bytes": 469915,
       "sha256": "0b57c5c0b9e5e0be76c99101bbd67e60e074d5f030b549e37b664e1149ac1081"
@@ -472,13 +722,18 @@
     },
     {
       "path": "pyproject.toml",
-      "bytes": 821,
-      "sha256": "472c7657392ed58960f30b22c52c07a770df121b7d43a1ae832b88522998c31f"
+      "bytes": 856,
+      "sha256": "17d5c730e69319a18dfbc2f0152f484502e721dbeebb95260e224e9db4d1b49f"
     },
     {
       "path": "requirements-lock.txt",
-      "bytes": 140,
-      "sha256": "6dc0c5a12bbfcb4df32fa805fbc757d713e2cf95d1fe42bd22b871d19895b298"
+      "bytes": 165,
+      "sha256": "897bfea0e11a6f4df921dd2b8540d936dc95cd4e2e8a07acc45ce97fdd1786f4"
+    },
+    {
+      "path": "scripts/generate_hypergraph_visualizations.py",
+      "bytes": 25676,
+      "sha256": "64927423f6898b735d61564db5412848ebf9fe51ad2a4a3c7a465dd786ea68d4"
     },
     {
       "path": "scripts/run_pipeline.py",
@@ -489,6 +744,11 @@
       "path": "scripts/validate_release.py",
       "bytes": 5316,
       "sha256": "111374f641cb6f3964af8249b6c830e7751d7bb0f10b98ce02e4bb183fd14373"
+    },
+    {
+      "path": "scripts/validate_visualizations.py",
+      "bytes": 4048,
+      "sha256": "c92ed00becd9ff3cccb923bd13a544d57b72e79c9c091963cc912f7f9f167717"
     },
     {
       "path": "src/odyssey_attr/__init__.py",
