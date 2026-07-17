@@ -20,7 +20,7 @@ def _incidence(events: pd.DataFrame) -> dict[tuple[str, str], float]:
 
 
 def _weighted_jaccard(left: dict, right: dict) -> float:
-    keys = set(left) | set(right)
+    keys = sorted(set(left) | set(right))
     if not keys:
         return 1.0
     numerator = sum(min(left.get(key, 0.0), right.get(key, 0.0)) for key in keys)
@@ -29,7 +29,7 @@ def _weighted_jaccard(left: dict, right: dict) -> float:
 
 
 def _cosine(left: dict, right: dict) -> float:
-    keys = set(left) | set(right)
+    keys = sorted(set(left) | set(right))
     if not keys:
         return 1.0
     left_vector = np.asarray([left.get(key, 0.0) for key in keys], dtype=float)
@@ -39,7 +39,7 @@ def _cosine(left: dict, right: dict) -> float:
 
 
 def _edge_set_similarity(left: dict, right: dict) -> float:
-    targets = {key[0] for key in left} | {key[0] for key in right}
+    targets = sorted({key[0] for key in left} | {key[0] for key in right})
     values: list[float] = []
     for target in targets:
         left_attributes = {attribute for row_target, attribute in left if row_target == target}
@@ -77,7 +77,7 @@ def construct_hypergraphs(events: pd.DataFrame, output_dir: Path) -> tuple[pd.Da
         }
         (output_dir / f"{translation}_hypergraph.json").write_text(json.dumps(payload, ensure_ascii=False, indent=2), encoding="utf-8")
         possible = len(targets) * len(attributes)
-        weights = np.asarray(list(incidence.values()), dtype=float)
+        weights = np.asarray([incidence[key] for key in sorted(incidence)], dtype=float)
         probabilities = weights / weights.sum() if weights.sum() else weights
         entropy = float(-np.sum(probabilities * np.log2(probabilities))) if len(probabilities) else 0.0
         metrics.append(
@@ -166,7 +166,7 @@ def _write_projections(translation: str, incidence: dict[tuple[str, str], float]
     for left, right in itertools.combinations(sorted(target_to_attributes), 2):
         shared = set(target_to_attributes[left]) & set(target_to_attributes[right])
         if shared:
-            weight = sum(min(target_to_attributes[left][item], target_to_attributes[right][item]) for item in shared)
+            weight = sum(min(target_to_attributes[left][item], target_to_attributes[right][item]) for item in sorted(shared))
             target_graph.add_edge(left, right, weight=float(weight), shared_attribute_count=len(shared))
     nx.write_graphml(target_graph, output_dir / f"{translation}_target_projection.graphml")
 
@@ -176,6 +176,6 @@ def _write_projections(translation: str, incidence: dict[tuple[str, str], float]
     for left, right in itertools.combinations(sorted(attribute_to_targets), 2):
         shared = set(attribute_to_targets[left]) & set(attribute_to_targets[right])
         if shared:
-            weight = sum(min(attribute_to_targets[left][item], attribute_to_targets[right][item]) for item in shared)
+            weight = sum(min(attribute_to_targets[left][item], attribute_to_targets[right][item]) for item in sorted(shared))
             attribute_graph.add_edge(left, right, weight=float(weight), shared_target_count=len(shared))
     nx.write_graphml(attribute_graph, output_dir / f"{translation}_attribute_projection.graphml")
