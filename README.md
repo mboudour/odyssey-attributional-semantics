@@ -1,4 +1,6 @@
 # Attributional Semantics in English Translations of Homer’s *Odyssey*: Color, Character, and Hypergraphs
+Moses Boudourides<br>
+Project in Progress
 
 This repository provides a **rights-safe, reproducible computational research package** for comparing color-related and evaluative adjective–noun attributions across six public-domain English translations of Homer’s *Odyssey*. The pipeline combines rule-based attribution extraction, structurally aligned passage comparison, confidence-weighted statistics, memory-bounded contextual semantics, and weighted multilayer hypergraphs.
 
