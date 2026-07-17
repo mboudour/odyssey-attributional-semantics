@@ -13,6 +13,7 @@ private/
 data/private/
 data/restricted/
 outputs/logs/*.log
+outputs/hypergraph_visualization_preview/
 *.tmp
 *.swp
 *.bak

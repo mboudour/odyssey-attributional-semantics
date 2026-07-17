@@ -8,7 +8,7 @@ export OPENBLAS_NUM_THREADS := 2
 export MKL_NUM_THREADS := 2
 export NUMEXPR_NUM_THREADS := 2
 
-.PHONY: install test reproduce visualize validate validate-visualizations clean-derived
+.PHONY: install test reproduce preview-visualizations visualize validate validate-visualizations clean-derived
 
 install:
 	$(PIP) install -r requirements-lock.txt
@@ -22,8 +22,11 @@ reproduce: test
 	$(PYTHON) scripts/validate_release.py
 	$(PYTHON) scripts/validate_visualizations.py
 
+preview-visualizations:
+	$(PYTHON) scripts/generate_hypergraph_visualizations.py --mode preview
+
 visualize:
-	$(PYTHON) scripts/generate_hypergraph_visualizations.py
+	$(PYTHON) scripts/generate_hypergraph_visualizations.py --mode full
 	$(PYTHON) scripts/validate_visualizations.py
 
 validate:
@@ -34,5 +37,5 @@ validate-visualizations:
 	$(PYTHON) scripts/validate_visualizations.py
 
 clean-derived:
-	rm -rf data/processed models outputs/figures outputs/hypergraphs outputs/hypergraph_visualizations outputs/reports outputs/tables run_manifest.json
+	rm -rf data/processed models outputs/figures outputs/hypergraphs outputs/hypergraph_visualizations outputs/hypergraph_visualization_preview outputs/reports outputs/tables run_manifest.json
 	mkdir -p data/processed models outputs/figures outputs/hypergraphs outputs/hypergraph_visualizations outputs/reports outputs/tables outputs/logs

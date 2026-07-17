@@ -42,13 +42,19 @@ To run only the tests:
 make test
 ```
 
-To regenerate only the static, vector, interactive, and native XGI hypergraph visualizations:
+Visualization design is controlled by [`config/visualizations.json`](config/visualizations.json); routine changes do not require editing Python. Generate a one-translation review set before changing the complete gallery:
+
+```bash
+make preview-visualizations
+```
+
+After approving the preview, regenerate the complete static, vector, white-background PyVis, and native XGI gallery:
 
 ```bash
 make visualize
 ```
 
-The visualization index is rendered at [`outputs/hypergraph_visualizations/README.md`](outputs/hypergraph_visualizations/README.md).
+The gallery at [`outputs/hypergraph_visualizations/README.md`](outputs/hypergraph_visualizations/README.md) separates three deliverable types. The complete `*_projection.graphml` networks are labeled as **Gephi** downloads and must be downloaded before opening in Gephi. The standalone `projection_pyvis/*.html` files are explicitly labeled **PyVis** and should be downloaded before opening in a web browser. The `xgi_native/` directory contains XGI hull and bipartite-incidence figures. See [`docs/VISUALIZATION_CONFIGURATION.md`](docs/VISUALIZATION_CONFIGURATION.md) for every editable parameter and the per-translation override format.
 
 Thread counts are capped by the `Makefile` to keep numerical work memory-bounded. The pipeline uses deterministic random seeds and writes SHA-256 metadata to `run_manifest.json`.
 
@@ -59,8 +65,11 @@ Thread counts are capped by the `Makefile` to keep numerical work memory-bounded
 | `outputs/reports/analysis_report.md` | Integrated computational results report with embedded figures |
 | `outputs/figures/` | Seven publication-oriented PNG figures |
 | `outputs/tables/` | Corpus, alignment, statistics, embedding, and hypergraph result tables |
-| `outputs/hypergraphs/` | JSON hypergraphs and GraphML target/attribute projections |
-| [`outputs/hypergraph_visualizations/`](outputs/hypergraph_visualizations/README.md) | Eighteen PNG figures, eighteen SVG figures, twelve standalone interactive HTML projections, and a documented XGI gallery |
+| `outputs/hypergraphs/` | Complete JSON hypergraphs and **Gephi-compatible GraphML** target/attribute projections |
+| [`outputs/hypergraph_visualizations/projection_pyvis/`](outputs/hypergraph_visualizations/projection_pyvis/) | Twelve standalone, white-background **PyVis** interactive HTML projections |
+| [`outputs/hypergraph_visualizations/projection_static/`](outputs/hypergraph_visualizations/projection_static/) | Twelve configurable static projection figures in PNG and SVG |
+| [`outputs/hypergraph_visualizations/xgi_native/`](outputs/hypergraph_visualizations/xgi_native/) | Six configurable native XGI hull and bipartite-incidence figures in PNG and SVG |
+| [`config/visualizations.json`](config/visualizations.json) | User-editable colors, fonts, sizes, labels, layouts, selection limits, PyVis physics, and output formats |
 | `data/processed/attribution_events.csv` | Complete machine-readable attribution event table |
 | `data/processed/validation_sample.csv` | Stratified 360-event annotation sample |
 | `models/` | TF–IDF/SVD vocabulary, components, event vectors, centroids, and metadata |

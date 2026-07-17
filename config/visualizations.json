@@ -1,0 +1,166 @@
+{
+  "description": "User-editable controls for all projection and native XGI visualizations. Edit values here, then run 'make preview-visualizations' or 'make visualize'.",
+  "seed": 20260717,
+  "translations": ["all"],
+  "output_formats": {
+    "png": true,
+    "svg": true,
+    "interactive_html": true
+  },
+  "theme": {
+    "matplotlib_style": "default",
+    "figure_background": "#ffffff",
+    "panel_background": "#ffffff",
+    "text_color": "#111827",
+    "muted_text_color": "#475569",
+    "edge_color": "#64748b",
+    "border_color": "#334155",
+    "attribute_color": "#38bdf8",
+    "hyperedge_color": "#f59e0b",
+    "hyperedge_border_color": "#d97706",
+    "community_palette": [
+      "#38bdf8",
+      "#f59e0b",
+      "#34d399",
+      "#f472b6",
+      "#a78bfa",
+      "#fb7185",
+      "#22d3ee",
+      "#facc15",
+      "#4ade80",
+      "#c084fc"
+    ]
+  },
+  "typography": {
+    "font_family": "DejaVu Sans",
+    "title_size": 22,
+    "subtitle_size": 11,
+    "panel_title_size": 15,
+    "label_size": 8.2,
+    "legend_size": 9,
+    "note_size": 9,
+    "interactive_title_size": 25,
+    "interactive_text_size": 13
+  },
+  "projection": {
+    "selection": {
+      "top_nodes": 70,
+      "top_edges": 700
+    },
+    "layout": {
+      "algorithm": "spring",
+      "iterations": 220,
+      "k_scale": 1.5,
+      "backbone_extra_edges_minimum": 80,
+      "backbone_extra_edges_per_node": 3
+    },
+    "static_figure": {
+      "width_inches": 16,
+      "height_inches": 11,
+      "dpi": 220,
+      "tight_layout_rect": [0.035, 0.05, 0.985, 0.94]
+    },
+    "nodes": {
+      "size_minimum": 150,
+      "size_scale": 1250,
+      "size_exponent": 0.5,
+      "border_width": 0.8,
+      "opacity": 0.94
+    },
+    "edges": {
+      "width_minimum": 0.25,
+      "width_scale": 3.2,
+      "width_exponent": 0.65,
+      "opacity_minimum": 0.06,
+      "opacity_scale": 0.46,
+      "opacity_exponent": 0.55
+    },
+    "labels": {
+      "maximum_labels": 18,
+      "vertical_offset": 0.018,
+      "font_weight": "semibold",
+      "box_style": "round,pad=0.18",
+      "box_background": "#ffffff",
+      "box_border": "none",
+      "box_opacity": 0.82
+    },
+    "legend": {
+      "show": true,
+      "location": "lower left"
+    },
+    "interactive": {
+      "height": "900px",
+      "width": "100%",
+      "node_size_minimum": 8,
+      "node_size_scale": 42,
+      "node_border_width": 1,
+      "edge_width_minimum": 0.5,
+      "edge_width_scale": 7.5,
+      "edge_width_exponent": 0.65,
+      "edge_opacity": 0.32,
+      "label_size": 13,
+      "navigation_buttons": true,
+      "keyboard_controls": true,
+      "physics_enabled": true,
+      "physics_solver": "forceAtlas2Based",
+      "gravitational_constant": -70,
+      "central_gravity": 0.015,
+      "spring_length": 120,
+      "spring_constant": 0.055,
+      "damping": 0.45,
+      "avoid_overlap": 0.4,
+      "stabilization_iterations": 700,
+      "stabilization_update_interval": 50
+    }
+  },
+  "xgi": {
+    "selection": {
+      "top_hyperedges": 10,
+      "top_nodes": 34,
+      "minimum_hyperedge_size": 2
+    },
+    "figure": {
+      "width_inches": 20,
+      "height_inches": 11,
+      "dpi": 220,
+      "tight_layout_rect": [0.02, 0.05, 0.985, 0.91]
+    },
+    "native_layout": {
+      "algorithm": "spring",
+      "iterations": 260,
+      "k_scale": 1.35
+    },
+    "bipartite_layout": {
+      "algorithm": "spring",
+      "iterations": 320,
+      "k_scale": 1.55
+    },
+    "attribute_nodes": {
+      "size": 12,
+      "bipartite_size": 10,
+      "border_width": 0.8
+    },
+    "hyperedges": {
+      "hull": true,
+      "hull_opacity": 0.13,
+      "border_width": 0.8,
+      "bipartite_marker_size": 13,
+      "bipartite_marker_border_width": 0.8,
+      "incidence_line_width": 0.65
+    },
+    "labels": {
+      "maximum_attribute_labels": 16,
+      "attribute_label_size": 8.2,
+      "bipartite_attribute_label_size": 7.6,
+      "show_hyperedge_labels": true
+    }
+  },
+  "preview": {
+    "translation_id": "pope_1726",
+    "include_target_projection": true,
+    "include_attribute_projection": true,
+    "include_xgi": true,
+    "output_directory": "outputs/hypergraph_visualization_preview"
+  },
+  "translation_overrides": {}
+}
