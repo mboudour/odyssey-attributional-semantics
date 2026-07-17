@@ -1,0 +1,569 @@
+{
+  "project_title": "Attributional Semantics in English Translations of Homer’s Odyssey: Color, Character, and Hypergraphs",
+  "pipeline_version": "0.1.0",
+  "started_utc": "2026-07-17T12:45:39.941145+00:00",
+  "completed_utc": "2026-07-17T12:46:45.326330+00:00",
+  "random_seed": 20260717,
+  "python": "3.12.3 (main, Mar 23 2026, 19:04:32) [GCC 13.3.0]",
+  "platform": "Linux-6.1.102-x86_64-with-glibc2.39",
+  "packages": {
+    "numpy": "2.3.1",
+    "pandas": "2.3.1",
+    "scipy": "1.16.0",
+    "scikit-learn": "1.7.1",
+    "networkx": "3.5",
+    "matplotlib": "3.10.3",
+    "seaborn": "0.13.2",
+    "tabulate": "0.9.0",
+    "pytest": "8.4.1"
+  },
+  "git_commit": "4a8e944523cc08cad61f74ff1cd4c528ce463160",
+  "counts": {
+    "translations": 6,
+    "books": 144,
+    "matched_passage_anchors": 480,
+    "passage_records": 2880,
+    "corpus_words": 762798,
+    "attribution_events": 12176,
+    "targets": 96,
+    "attributes": 179,
+    "categories": 12
+  },
+  "files": [
+    {
+      "path": "Makefile",
+      "bytes": 713,
+      "sha256": "a749fc830e5f336235ecd8e7a0c83ec19bb385c827fb557a701bfa8330f5e925"
+    },
+    {
+      "path": "README.md",
+      "bytes": 5663,
+      "sha256": "69d9b95a4abc9ac30a171d607baf3127f0a12432f4226a7a37090b3321f39b58"
+    },
+    {
+      "path": "config/corpus.json",
+      "bytes": 4192,
+      "sha256": "2ef4aeaa115cc2e67e49d4c291366ea506a21939923dae1650ba01de8eca8bce"
+    },
+    {
+      "path": "config/entities.json",
+      "bytes": 3948,
+      "sha256": "442d55d6e808640451bd49f0e709dacfca8f0a8ae8c58e69190cf0a8c871c08e"
+    },
+    {
+      "path": "config/ontology.json",
+      "bytes": 4501,
+      "sha256": "9ae92302b3592f70b22e2069209cd1cbf557bf0d7d8ce5a96f55b680f649c000"
+    },
+    {
+      "path": "data/processed/alignment_anchors.csv",
+      "bytes": 24962,
+      "sha256": "dfc8fea4a96f11052845d6c9db035e052bd70e05fdb5501c432823187ff3d9fe"
+    },
+    {
+      "path": "data/processed/alignment_pairwise.csv",
+      "bytes": 478375,
+      "sha256": "18011f9589cdf3826c93a1cb4a57f0c62ec1ac988789e98e1c6ae199e2ad9b02"
+    },
+    {
+      "path": "data/processed/attribution_events.csv",
+      "bytes": 5263574,
+      "sha256": "717afadad8c14c97a025d20627dd5970acd2d5523e321a8a27f0aaf1af7354d5"
+    },
+    {
+      "path": "data/processed/attribution_events.jsonl",
+      "bytes": 9684290,
+      "sha256": "b37f84a11c760ad53fc4826834a20e6479bcef23ce06a2ca4f2f35dfb95ac11b"
+    },
+    {
+      "path": "data/processed/books.csv",
+      "bytes": 4251584,
+      "sha256": "df0697c5f7968e31f034f002b51359cbac080785c8257f10a093676485444fbf"
+    },
+    {
+      "path": "data/processed/passages.csv",
+      "bytes": 4456453,
+      "sha256": "0ba0d0fb6908f390a26fa24bdfdae5ddc96292d38694da63fd472bafe8432850"
+    },
+    {
+      "path": "data/processed/validation_sample.csv",
+      "bytes": 158337,
+      "sha256": "ff92bdd37458f952177dcbd3c38836f121582ed6c38df9341a4f44a92db3001b"
+    },
+    {
+      "path": "data/raw/audiovisual/Odyssey_Audiovisual_Text_Audit.md",
+      "bytes": 13519,
+      "sha256": "88b677747c4cc78982355b0717ae13ccf45d70c2295bf8f370154147e32a0499"
+    },
+    {
+      "path": "data/raw/audiovisual/README.md",
+      "bytes": 1798,
+      "sha256": "9c2f309b9327eddda295fb0d4448bbd4a922b02b3e7ba34de957cc8ac4438bf0"
+    },
+    {
+      "path": "data/raw/audiovisual/odyssey_av_text_audit.csv",
+      "bytes": 5062,
+      "sha256": "8a94240ac1ba5c6cde22e19f599ddab6c9ffe1ef89739feef75a809d8dbc7cd9"
+    },
+    {
+      "path": "data/raw/audiovisual/parse_public_srt.py",
+      "bytes": 4675,
+      "sha256": "1ac5f0e8a1dd7233295052810dd2d90c1bf5d78207cac9ba5a47b6a6fb80f3e0"
+    },
+    {
+      "path": "data/raw/audiovisual/prepared/lodissea_1911_en_cues.csv",
+      "bytes": 5492,
+      "sha256": "e32ccfc052dda8b77e60cab2fc1a9f8563481875dbe929f0502e3320c2b1e212"
+    },
+    {
+      "path": "data/raw/audiovisual/prepared/lodissea_1911_en_cues.jsonl",
+      "bytes": 16177,
+      "sha256": "6447e1bfe77de7b56001d44ed3349fe4994cfed201b22f44da824b0bf82ed185"
+    },
+    {
+      "path": "data/raw/audiovisual/prepared/lodissea_1911_en_metrics.json",
+      "bytes": 550,
+      "sha256": "fbcf50e6c84153c77c0944e61b7e98c20c06162b3a84dcd54ba047a6d660695a"
+    },
+    {
+      "path": "data/raw/audiovisual/prepared/lodissea_1911_en_plain.txt",
+      "bytes": 3759,
+      "sha256": "6f211b5fff1434af78f619d03edf4bb6af02bb64f7d0a0370e07ba6ae968b6a6"
+    },
+    {
+      "path": "data/raw/audiovisual/public_subtitles/lodissea_1911_en.srt",
+      "bytes": 5720,
+      "sha256": "82762b75ba2d4301d19798733cffc21784e620754235c292d3c985a470cb96f0"
+    },
+    {
+      "path": "data/raw/audiovisual/public_subtitles/lodissea_1911_en.vtt",
+      "bytes": 5380,
+      "sha256": "b4ef294786f5acb57d27f3f5b9e9d158c9b7c3f33342968dbb8a1fc14c0ed83e"
+    },
+    {
+      "path": "data/raw/audiovisual/research_notes.md",
+      "bytes": 6995,
+      "sha256": "dd9b845be16c954e2627bc12c3cb7d029d5a20cb66b8b9dad720c09d5e172241"
+    },
+    {
+      "path": "data/raw/audiovisual/validate_av_audit.py",
+      "bytes": 2134,
+      "sha256": "bb381cfe6457fe724dd9d87b3da4d9fae2768b1203656b0a9ad141973c494ec1"
+    },
+    {
+      "path": "data/raw/translations/Homer_Odyssey_Butcher_Lang_PG1728.epub",
+      "bytes": 695036,
+      "sha256": "5118acba84cf2fc0a9faa5a6506454b5ea5335e04e9750a01f1526182f0f88c9"
+    },
+    {
+      "path": "data/raw/translations/Homer_Odyssey_Butler_1900_ProjectGutenberg.epub",
+      "bytes": 445688,
+      "sha256": "369a410f24e6082adab70c6d9d9463e30f456361d86be6549c996de5bdfc75e4"
+    },
+    {
+      "path": "data/raw/translations/Homer_Odyssey_Chapman_PG48895.epub",
+      "bytes": 586427,
+      "sha256": "5b10eeb9b7410ae60e28fd9e2b7d2c24e39ee6805e1a66390100514a9b5ea09c"
+    },
+    {
+      "path": "data/raw/translations/Homer_Odyssey_Cowper_PG24269.epub",
+      "bytes": 506662,
+      "sha256": "5633c5f1427b451f376bdb4f32cac02a11e0695484f09ee447b66f9f424d1096"
+    },
+    {
+      "path": "data/raw/translations/Homer_Odyssey_Murray_1919_Vol1.pdf",
+      "bytes": 5715012,
+      "sha256": "0490773a3f17ffeedbc9f6c7835372b46d6f5ad751f29b36c2cae24333e41db8"
+    },
+    {
+      "path": "data/raw/translations/Homer_Odyssey_Murray_1919_Vol2.pdf",
+      "bytes": 5463504,
+      "sha256": "effcfafcd78c0c6de3b650135a6d8e33c8be2fcbfb42be1eb4a7f443de98f452"
+    },
+    {
+      "path": "data/raw/translations/Homer_Odyssey_Pope_PG3160.epub",
+      "bytes": 512232,
+      "sha256": "fcbb7773dcfaabd5c8825c9e93d3322dcda2853725a5b7f6d2700cd69bcb26f2"
+    },
+    {
+      "path": "data/raw_checksums.sha256",
+      "bytes": 5106,
+      "sha256": "9ea1b3edf4ead9e8e6257065f9fb37d3cd577d9da3787adc4be9fb38f8f59fad"
+    },
+    {
+      "path": "docs/Odyssey_Computational_Protocol_v2.md",
+      "bytes": 39024,
+      "sha256": "b6720dd349374b59066b4dc807096cdc217a1e63780043a8c92b41fa011a6e02"
+    },
+    {
+      "path": "docs/audit_corpus_v2.py",
+      "bytes": 6520,
+      "sha256": "dbeb8c3613e87032885573494e4c33362701b4d462419d190a601269c7c08533"
+    },
+    {
+      "path": "docs/corpus_decision_log.csv",
+      "bytes": 5218,
+      "sha256": "ced6e7d64f6f3bafd4981555be182490c95ad40f3fbdbc17be77a247da5a83cb"
+    },
+    {
+      "path": "docs/corpus_manifest.json",
+      "bytes": 24736,
+      "sha256": "c02f87cdbb86b47312646909fd4d557b8baff2caff4bc68bc633c638f89c1376"
+    },
+    {
+      "path": "docs/prepare_gutenberg_additions.py",
+      "bytes": 6028,
+      "sha256": "31f59eb663f6c3a8b856d4e890af4b2e04c99bc185d90cb800789fdf289b5286"
+    },
+    {
+      "path": "docs/prepare_retained_texts.py",
+      "bytes": 4816,
+      "sha256": "4ecb141dffa3522b705cc7b9d450d39e2dda308dd8f4e642353c1d371ef8beaf"
+    },
+    {
+      "path": "environment.freeze.txt",
+      "bytes": 367,
+      "sha256": "574e5dfd2e15dd4eaa01e296314c04b9a91e417e184ceb8bdf6c336ef88c282a"
+    },
+    {
+      "path": "models/embedding_metadata.json",
+      "bytes": 333,
+      "sha256": "cb1f011ef34c0a82f65915bf94ba703fa6c1b22482c4c4fff1df0b6c881f168a"
+    },
+    {
+      "path": "models/event_context_metadata.csv",
+      "bytes": 924920,
+      "sha256": "224f77556917fba562851867d75074f1de5116357de69f597f0811c7d307bf74"
+    },
+    {
+      "path": "models/event_context_svd.npz",
+      "bytes": 1461306,
+      "sha256": "dc9c29c7eabed12dd2333181f60684037f851c25ccfed4ed3f4c60781b8bcc02"
+    },
+    {
+      "path": "models/svd_components.npy",
+      "bytes": 1920128,
+      "sha256": "d82b6734e7f624547d66272cfd425436eea9219954e8bd510b8cce1de95accd3"
+    },
+    {
+      "path": "models/tfidf_vocabulary.json",
+      "bytes": 214985,
+      "sha256": "396a73c22faedb45dd18a5a2fc66363f31ed20ae1bb465a63e0427f761fa19c3"
+    },
+    {
+      "path": "outputs/figures/01_translation_event_rates.png",
+      "bytes": 172455,
+      "sha256": "ff382a687694a40c731352a901603e3bada7b20ab6352402e744365c7f3aef24"
+    },
+    {
+      "path": "outputs/figures/02_category_rate_heatmap.png",
+      "bytes": 181536,
+      "sha256": "e3711f0dc06acc0629a1d1470ad8327a2e62b3bbb4092cc18fd37d79879c23dd"
+    },
+    {
+      "path": "outputs/figures/03_category_divergence.png",
+      "bytes": 222469,
+      "sha256": "ee20076a5e71c05bf531c0ff56003ddc2e1fff4629a472226ff47624342ee717"
+    },
+    {
+      "path": "outputs/figures/04_alignment_confidence.png",
+      "bytes": 161535,
+      "sha256": "44372e6ec7b20df881b21341cf67257c0e9f09cd457214e3f04dffc903c2bff1"
+    },
+    {
+      "path": "outputs/figures/05_chronological_slopes.png",
+      "bytes": 142041,
+      "sha256": "5e9573a19e8f1013465fff4e4ae53637f41a5b4c8fe622c16d6d7ddcd95c378e"
+    },
+    {
+      "path": "outputs/figures/06_hypergraph_similarity.png",
+      "bytes": 214174,
+      "sha256": "45094a2fd49fad89136741b99e686680b237be09ede1bf5c12b70f183efbba81"
+    },
+    {
+      "path": "outputs/figures/07_top_target_rates.png",
+      "bytes": 170137,
+      "sha256": "2bb36bcd9af238e1358bf528ab56afcb98c0cb00d6a3f77c9e8253110cbbcb0e"
+    },
+    {
+      "path": "outputs/hypergraphs/butcher_lang_1879_attribute_projection.graphml",
+      "bytes": 469915,
+      "sha256": "0b57c5c0b9e5e0be76c99101bbd67e60e074d5f030b549e37b664e1149ac1081"
+    },
+    {
+      "path": "outputs/hypergraphs/butcher_lang_1879_hypergraph.json",
+      "bytes": 111627,
+      "sha256": "8bcc076d7d7fa7350e965c808e1a3871aa924b59c1f8352501c26816a1db1a95"
+    },
+    {
+      "path": "outputs/hypergraphs/butcher_lang_1879_target_projection.graphml",
+      "bytes": 390106,
+      "sha256": "4b98740e7db759a8f78fe5974642a1dd1f077175b78be07fc8e46241c9bff6bb"
+    },
+    {
+      "path": "outputs/hypergraphs/butler_1900_attribute_projection.graphml",
+      "bytes": 347428,
+      "sha256": "9921b47b1447ee170e1e860bc41722562d0ecd93396c108a09f2b98cbb60900b"
+    },
+    {
+      "path": "outputs/hypergraphs/butler_1900_hypergraph.json",
+      "bytes": 90852,
+      "sha256": "172abb88b17cfce6c8a9a812468d569e31a4a12e30f3677442265556ba14eb35"
+    },
+    {
+      "path": "outputs/hypergraphs/butler_1900_target_projection.graphml",
+      "bytes": 354015,
+      "sha256": "121c0d8f03d13f633862a2b536f98b144b0ac5687b9f65ea319655da95e5d9a9"
+    },
+    {
+      "path": "outputs/hypergraphs/chapman_1616_attribute_projection.graphml",
+      "bytes": 492516,
+      "sha256": "c262cb509d2f9f069d9ce965602646209e1c5eab07dc1bdb12bcb1c3fdde955d"
+    },
+    {
+      "path": "outputs/hypergraphs/chapman_1616_hypergraph.json",
+      "bytes": 122308,
+      "sha256": "df76c26b058beb6843f316071b7846a1d85fb78074824f595d6f256aba4c9963"
+    },
+    {
+      "path": "outputs/hypergraphs/chapman_1616_target_projection.graphml",
+      "bytes": 385693,
+      "sha256": "29e0c57b14acb8a53b77cc6bc9c646a312ec0c9089e4250232e95d6b529d9000"
+    },
+    {
+      "path": "outputs/hypergraphs/cowper_1791_attribute_projection.graphml",
+      "bytes": 583049,
+      "sha256": "6171880aa3f8a6db0e4bcbe04c1141057d4c0059d08a4eaa3fb7a4d930716eab"
+    },
+    {
+      "path": "outputs/hypergraphs/cowper_1791_hypergraph.json",
+      "bytes": 109972,
+      "sha256": "4faf7b2119cf649daacce8fc21c972daa15f7645b94efcab84d5c663e98a91cc"
+    },
+    {
+      "path": "outputs/hypergraphs/cowper_1791_target_projection.graphml",
+      "bytes": 290880,
+      "sha256": "1a4505ac2142153cc0cd065e3c9c6bfa36827eeb05b028755ec34727b08e97c6"
+    },
+    {
+      "path": "outputs/hypergraphs/murray_1919_attribute_projection.graphml",
+      "bytes": 490520,
+      "sha256": "dfc393432ccc7d8d72daa6292ecb61975fda80c5626bd55da49def7c9259554c"
+    },
+    {
+      "path": "outputs/hypergraphs/murray_1919_hypergraph.json",
+      "bytes": 114579,
+      "sha256": "7c97f892e064251be5d9de8a0d616afdbd2f56ee0deba58d1a17577fe260d7cd"
+    },
+    {
+      "path": "outputs/hypergraphs/murray_1919_target_projection.graphml",
+      "bytes": 381464,
+      "sha256": "3ed6fedde8f9c9d71e6191a026cca3f28d6fa11be148e398fb19551d2d8288fb"
+    },
+    {
+      "path": "outputs/hypergraphs/pope_1726_attribute_projection.graphml",
+      "bytes": 680549,
+      "sha256": "646c93ab31ddeb00f14b24ec44fef642b7783353f4a3a1a92c7792b6f18ce6be"
+    },
+    {
+      "path": "outputs/hypergraphs/pope_1726_hypergraph.json",
+      "bytes": 142004,
+      "sha256": "3a66e03ee9510d8d68867c9d865b9b1c4dea7b184ae8960fc20d235b05b6f562"
+    },
+    {
+      "path": "outputs/hypergraphs/pope_1726_target_projection.graphml",
+      "bytes": 357035,
+      "sha256": "1ff338f3d317aad8cca602135069c08a184c5c10ac43e28544ecbfd25e82f14a"
+    },
+    {
+      "path": "outputs/logs/.gitkeep",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "outputs/reports/analysis_report.md",
+      "bytes": 16679,
+      "sha256": "8a11f3f8926cc015708b3b021568a2ae360518aa6695a5b1cdff73f9a614d4d4"
+    },
+    {
+      "path": "outputs/reports/manual_validation_protocol.md",
+      "bytes": 880,
+      "sha256": "23d2c9c9a684e0e77087f644e4268ffa6844a8336fbb4688efd78eaaed79f4ac"
+    },
+    {
+      "path": "outputs/tables/alignment_anchors.csv",
+      "bytes": 24481,
+      "sha256": "c6d4e9bef5584403125100735aebe834f6c09435f0106d5defe8934fdcff617b"
+    },
+    {
+      "path": "outputs/tables/alignment_pairwise.csv",
+      "bytes": 471174,
+      "sha256": "549e3326f43992d1a79fccedf5c67c4add13f818a853db10385bc0e7abf39821"
+    },
+    {
+      "path": "outputs/tables/attribute_summary.csv",
+      "bytes": 63995,
+      "sha256": "b6cf4bdb52795c226496f21de8c9cd179cbcd9497bab027b7a8423aac412cdd4"
+    },
+    {
+      "path": "outputs/tables/book_segmentation_diagnostics.csv",
+      "bytes": 11907,
+      "sha256": "2495c9806e483d58fa8cc8ca514bd49b342087889c12fddb949f07bc591c5a25"
+    },
+    {
+      "path": "outputs/tables/bootstrap_chronology.csv",
+      "bytes": 1086,
+      "sha256": "6679ada11d03252028cd47ef2fb3fbf519f99b6519b586d93984d548915802a5"
+    },
+    {
+      "path": "outputs/tables/category_divergence.csv",
+      "bytes": 1288,
+      "sha256": "939ce96fbe76ed674c20c5d85068f5028246a80fb0a77e86a4c6aa0e8f668314"
+    },
+    {
+      "path": "outputs/tables/category_summary.csv",
+      "bytes": 6195,
+      "sha256": "22514f21fec7d3e76f9fe142fc1301ae62e8b41b93df2eccaa15bf5122e05dab"
+    },
+    {
+      "path": "outputs/tables/chronological_tests.csv",
+      "bytes": 1981,
+      "sha256": "8619a51e3c03d3fe8930770e03ae4506a24e29f4ee826a22c7ed4d6931f139cd"
+    },
+    {
+      "path": "outputs/tables/context_centroid_comparisons.csv",
+      "bytes": 186123,
+      "sha256": "8a5e83b933c82573377959b392e50bcafcca953bbd412c7d66f368af51727997"
+    },
+    {
+      "path": "outputs/tables/context_centroids.csv",
+      "bytes": 67398,
+      "sha256": "2bf235618d65a7a237df8f05249d46e4260013e5aa1f7ffa1557c45e31c5e692"
+    },
+    {
+      "path": "outputs/tables/hypergraph_metrics.csv",
+      "bytes": 722,
+      "sha256": "f56b5e10988445814563e624a0a89936296b1ee47856906bdc32b305d0356f74"
+    },
+    {
+      "path": "outputs/tables/hypergraph_null_tests.csv",
+      "bytes": 3739,
+      "sha256": "f60bdc0b96ee5e8e78cd94a7273da6e5da639602d8570e982adcb57bc4d3e083"
+    },
+    {
+      "path": "outputs/tables/hypergraph_similarity.csv",
+      "bytes": 1661,
+      "sha256": "f1c718e1ffda12883eae63595e7bc1e5816c4aa5a0dcf2cf5f91de25bdc284b7"
+    },
+    {
+      "path": "outputs/tables/lexical_distinctiveness.csv",
+      "bytes": 73714,
+      "sha256": "d230134b8f822bece2a9cdfaac9540e9fb690df9dbc3d85c4467a6001862823e"
+    },
+    {
+      "path": "outputs/tables/target_summary.csv",
+      "bytes": 38347,
+      "sha256": "84b66dca808daa016e40ce3028929715e5f07825c7e4974aa185123d6b2eaff2"
+    },
+    {
+      "path": "outputs/tables/translation_summary.csv",
+      "bytes": 942,
+      "sha256": "49439084420a4be63d23f00077835466a204ac3b4d003d9e6ea5c95bb5f80c36"
+    },
+    {
+      "path": "pyproject.toml",
+      "bytes": 821,
+      "sha256": "472c7657392ed58960f30b22c52c07a770df121b7d43a1ae832b88522998c31f"
+    },
+    {
+      "path": "requirements-lock.txt",
+      "bytes": 140,
+      "sha256": "6dc0c5a12bbfcb4df32fa805fbc757d713e2cf95d1fe42bd22b871d19895b298"
+    },
+    {
+      "path": "scripts/run_pipeline.py",
+      "bytes": 540,
+      "sha256": "2d031d4c70f8392e39734b47eb797b22f89bd7a73bd38ebd630d396ebbdee589"
+    },
+    {
+      "path": "scripts/validate_release.py",
+      "bytes": 5000,
+      "sha256": "67b6e913da0264101129a8a4d676b5c5a3a2a424086ee715dced9ad8c676e0a8"
+    },
+    {
+      "path": "src/odyssey_attr/__init__.py",
+      "bytes": 84,
+      "sha256": "4f6cfea30558e826e81d0a3e357e20272ba8cf2bbad9759244371ea12b00dc2f"
+    },
+    {
+      "path": "src/odyssey_attr/alignment.py",
+      "bytes": 3595,
+      "sha256": "296e8bfff8eefea5f6880b87133f4adfdf4a24e1450e5aa88e40889eddbc13dd"
+    },
+    {
+      "path": "src/odyssey_attr/analysis.py",
+      "bytes": 14477,
+      "sha256": "1c432b096a54b894c55468c2efbea342ba8e237bb6cb712abb709a48feaf490f"
+    },
+    {
+      "path": "src/odyssey_attr/corpus.py",
+      "bytes": 13395,
+      "sha256": "6779104e950d62b964c2df51d21fb756d48053b3832d8522ac7125d436b55190"
+    },
+    {
+      "path": "src/odyssey_attr/extract.py",
+      "bytes": 11963,
+      "sha256": "cf01cf53fce82ed46bd24913af23b4bcb9ba2bfd2de4194c6f11a09b0f6add8b"
+    },
+    {
+      "path": "src/odyssey_attr/hypergraph.py",
+      "bytes": 9182,
+      "sha256": "a544c352c3df60048c8d34b04f3164d5577ec4b9444066f79809fcb8b6d430e5"
+    },
+    {
+      "path": "src/odyssey_attr/pipeline.py",
+      "bytes": 9802,
+      "sha256": "38c5e7aa08f47246a60622e4f5026bd6b891db0b473928e21703d4ea0819d91f"
+    },
+    {
+      "path": "src/odyssey_attr/reporting.py",
+      "bytes": 12219,
+      "sha256": "5303330bce2e5d59f081faeee5131d5be927667cbcd743022e68096bbc1818cf"
+    },
+    {
+      "path": "src/odyssey_attributional_semantics.egg-info/PKG-INFO",
+      "bytes": 6310,
+      "sha256": "e1c3abf82590b70845ab4923a0527634eff5a0d4402ff7abca87af8fb8f50b10"
+    },
+    {
+      "path": "src/odyssey_attributional_semantics.egg-info/SOURCES.txt",
+      "bytes": 600,
+      "sha256": "5befdfb989e280fe5c4795f41947213f73c529a947c39f0ed64d9aa9467264de"
+    },
+    {
+      "path": "src/odyssey_attributional_semantics.egg-info/dependency_links.txt",
+      "bytes": 1,
+      "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b"
+    },
+    {
+      "path": "src/odyssey_attributional_semantics.egg-info/requires.txt",
+      "bytes": 147,
+      "sha256": "678e44ef0c89bc05245f58b4c32d9fa2122fb35e30f0e298495b3210557670c6"
+    },
+    {
+      "path": "src/odyssey_attributional_semantics.egg-info/top_level.txt",
+      "bytes": 13,
+      "sha256": "a385248983855a7be65d7b14bcae7c387bbeceeced4342f08a3e94576fa6ed88"
+    },
+    {
+      "path": "tests/test_pipeline.py",
+      "bytes": 2074,
+      "sha256": "638074b1bd856c1de9fcf0725d9f0b6fc9df450b8516e91ac811b24387c1d529"
+    },
+    {
+      "path": "tests/test_regressions.py",
+      "bytes": 2999,
+      "sha256": "6a0e2bb484f9de27efe2771a0e2c51809291512559333679c16f02fe5610769b"
+    }
+  ]
+}

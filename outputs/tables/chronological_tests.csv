@@ -1,0 +1,13 @@
+category,slope_events_per_10k_per_century,pearson_r_year,exact_permutation_p,n_translations,interpretation_boundary,holm_adjusted_p
+social_status,-1.3425362514972559,-0.8487842634422276,0.04022191400832178,6,descriptive chronology; translator and period are not causally separable,0.4826629680998613
+color_complex,0.8624925766197334,0.5239997915586642,0.26629680998613037,6,descriptive chronology; translator and period are not causally separable,1.0
+color_material,0.5840930071626524,0.5494451474100116,0.26907073509015256,6,descriptive chronology; translator and period are not causally separable,1.0
+moral_evaluation,-1.647826659571361,-0.4884317118620062,0.3356449375866852,6,descriptive chronology; translator and period are not causally separable,1.0
+appearance_age,1.4421351411336272,0.4465308347535624,0.3897364771151179,6,descriptive chronology; translator and period are not causally separable,1.0
+affect_state,-0.7589153100781192,-0.43186703205984356,0.39389736477115117,6,descriptive chronology; translator and period are not causally separable,1.0
+behavior_disposition,-1.1902706748739103,-0.3394806110357971,0.5478502080443828,6,descriptive chronology; translator and period are not causally separable,1.0
+cognitive_evaluation,0.9233899580381869,0.2790678896105556,0.5783633841886269,6,descriptive chronology; translator and period are not causally separable,1.0
+color_hue,0.548550251352557,0.23556967142717325,0.6380027739251041,6,descriptive chronology; translator and period are not causally separable,1.0
+luminosity,-0.44739069976640305,-0.22504656965535041,0.6532593619972261,6,descriptive chronology; translator and period are not causally separable,1.0
+scale_intensity,-0.627475991487769,-0.12352034542242571,0.782246879334258,6,descriptive chronology; translator and period are not causally separable,1.0
+agency_capacity,-0.0828424902610188,-0.1041901511148189,0.8682385575589459,6,descriptive chronology; translator and period are not causally separable,1.0

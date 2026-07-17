@@ -1,0 +1,145 @@
+translation_id,translator,year,form,book,word_count,segmentation_method,segmentation_confidence
+chapman_1616,George Chapman,1616,verse,1,6169,validated_explicit_book_markers,0.995
+chapman_1616,George Chapman,1616,verse,2,5030,validated_explicit_book_markers,0.995
+chapman_1616,George Chapman,1616,verse,3,5444,validated_explicit_book_markers,0.995
+chapman_1616,George Chapman,1616,verse,4,9298,validated_explicit_book_markers,0.995
+chapman_1616,George Chapman,1616,verse,5,5636,validated_explicit_book_markers,0.995
+chapman_1616,George Chapman,1616,verse,6,4619,validated_explicit_book_markers,0.995
+chapman_1616,George Chapman,1616,verse,7,4155,validated_explicit_book_markers,0.995
+chapman_1616,George Chapman,1616,verse,8,6822,validated_explicit_book_markers,0.995
+chapman_1616,George Chapman,1616,verse,9,6437,validated_explicit_book_markers,0.995
+chapman_1616,George Chapman,1616,verse,10,6219,validated_explicit_book_markers,0.995
+chapman_1616,George Chapman,1616,verse,11,6994,validated_explicit_book_markers,0.995
+chapman_1616,George Chapman,1616,verse,12,5964,validated_explicit_book_markers,0.995
+chapman_1616,George Chapman,1616,verse,13,5215,validated_explicit_book_markers,0.995
+chapman_1616,George Chapman,1616,verse,14,6213,validated_explicit_book_markers,0.995
+chapman_1616,George Chapman,1616,verse,15,5923,validated_explicit_book_markers,0.995
+chapman_1616,George Chapman,1616,verse,16,5262,validated_explicit_book_markers,0.995
+chapman_1616,George Chapman,1616,verse,17,6533,validated_explicit_book_markers,0.995
+chapman_1616,George Chapman,1616,verse,18,5028,validated_explicit_book_markers,0.995
+chapman_1616,George Chapman,1616,verse,19,6658,validated_explicit_book_markers,0.995
+chapman_1616,George Chapman,1616,verse,20,4738,validated_explicit_book_markers,0.995
+chapman_1616,George Chapman,1616,verse,21,4765,validated_explicit_book_markers,0.995
+chapman_1616,George Chapman,1616,verse,22,5192,validated_explicit_book_markers,0.995
+chapman_1616,George Chapman,1616,verse,23,4318,validated_explicit_book_markers,0.995
+chapman_1616,George Chapman,1616,verse,24,5729,validated_explicit_book_markers,0.995
+pope_1726,Alexander Pope,1726,verse,1,4254,validated_explicit_book_markers,0.995
+pope_1726,Alexander Pope,1726,verse,2,3915,validated_explicit_book_markers,0.995
+pope_1726,Alexander Pope,1726,verse,3,4923,validated_explicit_book_markers,0.995
+pope_1726,Alexander Pope,1726,verse,4,8287,validated_explicit_book_markers,0.995
+pope_1726,Alexander Pope,1726,verse,5,5063,validated_explicit_book_markers,0.995
+pope_1726,Alexander Pope,1726,verse,6,3132,validated_explicit_book_markers,0.995
+pope_1726,Alexander Pope,1726,verse,7,3430,validated_explicit_book_markers,0.995
+pope_1726,Alexander Pope,1726,verse,8,5029,validated_explicit_book_markers,0.995
+pope_1726,Alexander Pope,1726,verse,9,5279,validated_explicit_book_markers,0.995
+pope_1726,Alexander Pope,1726,verse,10,5493,validated_explicit_book_markers,0.995
+pope_1726,Alexander Pope,1726,verse,11,6367,validated_explicit_book_markers,0.995
+pope_1726,Alexander Pope,1726,verse,12,4418,validated_explicit_book_markers,0.995
+pope_1726,Alexander Pope,1726,verse,13,4066,validated_explicit_book_markers,0.995
+pope_1726,Alexander Pope,1726,verse,14,4739,validated_explicit_book_markers,0.995
+pope_1726,Alexander Pope,1726,verse,15,4620,validated_explicit_book_markers,0.995
+pope_1726,Alexander Pope,1726,verse,16,3958,validated_explicit_book_markers,0.995
+pope_1726,Alexander Pope,1726,verse,17,5322,validated_explicit_book_markers,0.995
+pope_1726,Alexander Pope,1726,verse,18,3703,validated_explicit_book_markers,0.995
+pope_1726,Alexander Pope,1726,verse,19,5274,validated_explicit_book_markers,0.995
+pope_1726,Alexander Pope,1726,verse,20,3546,validated_explicit_book_markers,0.995
+pope_1726,Alexander Pope,1726,verse,21,3843,validated_explicit_book_markers,0.995
+pope_1726,Alexander Pope,1726,verse,22,4219,validated_explicit_book_markers,0.995
+pope_1726,Alexander Pope,1726,verse,23,3214,validated_explicit_book_markers,0.995
+pope_1726,Alexander Pope,1726,verse,24,4969,validated_explicit_book_markers,0.995
+cowper_1791,William Cowper,1791,verse,1,4360,validated_explicit_book_markers,0.995
+cowper_1791,William Cowper,1791,verse,2,4183,validated_explicit_book_markers,0.995
+cowper_1791,William Cowper,1791,verse,3,4658,validated_explicit_book_markers,0.995
+cowper_1791,William Cowper,1791,verse,4,7907,validated_explicit_book_markers,0.995
+cowper_1791,William Cowper,1791,verse,5,4566,validated_explicit_book_markers,0.995
+cowper_1791,William Cowper,1791,verse,6,3162,validated_explicit_book_markers,0.995
+cowper_1791,William Cowper,1791,verse,7,3288,validated_explicit_book_markers,0.995
+cowper_1791,William Cowper,1791,verse,8,5629,validated_explicit_book_markers,0.995
+cowper_1791,William Cowper,1791,verse,9,5338,validated_explicit_book_markers,0.995
+cowper_1791,William Cowper,1791,verse,10,5439,validated_explicit_book_markers,0.995
+cowper_1791,William Cowper,1791,verse,11,6141,validated_explicit_book_markers,0.995
+cowper_1791,William Cowper,1791,verse,12,4136,validated_explicit_book_markers,0.995
+cowper_1791,William Cowper,1791,verse,13,4065,validated_explicit_book_markers,0.995
+cowper_1791,William Cowper,1791,verse,14,5131,validated_explicit_book_markers,0.995
+cowper_1791,William Cowper,1791,verse,15,5222,validated_explicit_book_markers,0.995
+cowper_1791,William Cowper,1791,verse,16,4247,validated_explicit_book_markers,0.995
+cowper_1791,William Cowper,1791,verse,17,5599,validated_explicit_book_markers,0.995
+cowper_1791,William Cowper,1791,verse,18,4110,validated_explicit_book_markers,0.995
+cowper_1791,William Cowper,1791,verse,19,5911,validated_explicit_book_markers,0.995
+cowper_1791,William Cowper,1791,verse,20,3657,validated_explicit_book_markers,0.995
+cowper_1791,William Cowper,1791,verse,21,4197,validated_explicit_book_markers,0.995
+cowper_1791,William Cowper,1791,verse,22,4538,validated_explicit_book_markers,0.995
+cowper_1791,William Cowper,1791,verse,23,3479,validated_explicit_book_markers,0.995
+cowper_1791,William Cowper,1791,verse,24,4820,validated_explicit_book_markers,0.995
+butcher_lang_1879,S. H. Butcher and Andrew Lang,1879,prose,1,5004,validated_explicit_book_markers,0.995
+butcher_lang_1879,S. H. Butcher and Andrew Lang,1879,prose,2,4967,validated_explicit_book_markers,0.995
+butcher_lang_1879,S. H. Butcher and Andrew Lang,1879,prose,3,5619,validated_explicit_book_markers,0.995
+butcher_lang_1879,S. H. Butcher and Andrew Lang,1879,prose,4,9518,validated_explicit_book_markers,0.995
+butcher_lang_1879,S. H. Butcher and Andrew Lang,1879,prose,5,5639,validated_explicit_book_markers,0.995
+butcher_lang_1879,S. H. Butcher and Andrew Lang,1879,prose,6,3731,validated_explicit_book_markers,0.995
+butcher_lang_1879,S. H. Butcher and Andrew Lang,1879,prose,7,3804,validated_explicit_book_markers,0.995
+butcher_lang_1879,S. H. Butcher and Andrew Lang,1879,prose,8,6476,validated_explicit_book_markers,0.995
+butcher_lang_1879,S. H. Butcher and Andrew Lang,1879,prose,9,6476,validated_explicit_book_markers,0.995
+butcher_lang_1879,S. H. Butcher and Andrew Lang,1879,prose,10,6584,validated_explicit_book_markers,0.995
+butcher_lang_1879,S. H. Butcher and Andrew Lang,1879,prose,11,7054,validated_explicit_book_markers,0.995
+butcher_lang_1879,S. H. Butcher and Andrew Lang,1879,prose,12,5057,validated_explicit_book_markers,0.995
+butcher_lang_1879,S. H. Butcher and Andrew Lang,1879,prose,13,4936,validated_explicit_book_markers,0.995
+butcher_lang_1879,S. H. Butcher and Andrew Lang,1879,prose,14,6140,validated_explicit_book_markers,0.995
+butcher_lang_1879,S. H. Butcher and Andrew Lang,1879,prose,15,6139,validated_explicit_book_markers,0.995
+butcher_lang_1879,S. H. Butcher and Andrew Lang,1879,prose,16,5426,validated_explicit_book_markers,0.995
+butcher_lang_1879,S. H. Butcher and Andrew Lang,1879,prose,17,6783,validated_explicit_book_markers,0.995
+butcher_lang_1879,S. H. Butcher and Andrew Lang,1879,prose,18,4771,validated_explicit_book_markers,0.995
+butcher_lang_1879,S. H. Butcher and Andrew Lang,1879,prose,19,6818,validated_explicit_book_markers,0.995
+butcher_lang_1879,S. H. Butcher and Andrew Lang,1879,prose,20,4441,validated_explicit_book_markers,0.995
+butcher_lang_1879,S. H. Butcher and Andrew Lang,1879,prose,21,4972,validated_explicit_book_markers,0.995
+butcher_lang_1879,S. H. Butcher and Andrew Lang,1879,prose,22,5470,validated_explicit_book_markers,0.995
+butcher_lang_1879,S. H. Butcher and Andrew Lang,1879,prose,23,4119,validated_explicit_book_markers,0.995
+butcher_lang_1879,S. H. Butcher and Andrew Lang,1879,prose,24,6167,validated_explicit_book_markers,0.995
+butler_1900,Samuel Butler,1900,prose,1,4141,body_book_headings,0.98
+butler_1900,Samuel Butler,1900,prose,2,4236,body_book_headings,0.98
+butler_1900,Samuel Butler,1900,prose,3,4730,body_book_headings,0.98
+butler_1900,Samuel Butler,1900,prose,4,8094,body_book_headings,0.98
+butler_1900,Samuel Butler,1900,prose,5,4705,body_book_headings,0.98
+butler_1900,Samuel Butler,1900,prose,6,3457,body_book_headings,0.98
+butler_1900,Samuel Butler,1900,prose,7,3371,body_book_headings,0.98
+butler_1900,Samuel Butler,1900,prose,8,5620,body_book_headings,0.98
+butler_1900,Samuel Butler,1900,prose,9,5831,body_book_headings,0.98
+butler_1900,Samuel Butler,1900,prose,10,5712,body_book_headings,0.98
+butler_1900,Samuel Butler,1900,prose,11,6050,body_book_headings,0.98
+butler_1900,Samuel Butler,1900,prose,12,4617,body_book_headings,0.98
+butler_1900,Samuel Butler,1900,prose,13,4215,body_book_headings,0.98
+butler_1900,Samuel Butler,1900,prose,14,5402,body_book_headings,0.98
+butler_1900,Samuel Butler,1900,prose,15,5429,body_book_headings,0.98
+butler_1900,Samuel Butler,1900,prose,16,4564,body_book_headings,0.98
+butler_1900,Samuel Butler,1900,prose,17,5876,body_book_headings,0.98
+butler_1900,Samuel Butler,1900,prose,18,4179,body_book_headings,0.98
+butler_1900,Samuel Butler,1900,prose,19,6039,body_book_headings,0.98
+butler_1900,Samuel Butler,1900,prose,20,3856,body_book_headings,0.98
+butler_1900,Samuel Butler,1900,prose,21,4270,body_book_headings,0.98
+butler_1900,Samuel Butler,1900,prose,22,4572,body_book_headings,0.98
+butler_1900,Samuel Butler,1900,prose,23,3715,body_book_headings,0.98
+butler_1900,Samuel Butler,1900,prose,24,14131,body_book_headings,0.98
+murray_1919,A. T. Murray,1919,prose,1,4966,ocr_heading_anchor,0.92
+murray_1919,A. T. Murray,1919,prose,2,4880,ocr_heading_anchor,0.92
+murray_1919,A. T. Murray,1919,prose,3,5520,ocr_gap_proportional_split,0.72
+murray_1919,A. T. Murray,1919,prose,4,9372,ocr_heading_anchor,0.92
+murray_1919,A. T. Murray,1919,prose,5,5552,ocr_gap_proportional_split,0.72
+murray_1919,A. T. Murray,1919,prose,6,3676,ocr_heading_anchor,0.92
+murray_1919,A. T. Murray,1919,prose,7,3752,ocr_heading_anchor,0.92
+murray_1919,A. T. Murray,1919,prose,8,6390,ocr_heading_anchor,0.92
+murray_1919,A. T. Murray,1919,prose,9,6391,ocr_gap_proportional_split,0.72
+murray_1919,A. T. Murray,1919,prose,10,6350,ocr_heading_anchor,0.92
+murray_1919,A. T. Murray,1919,prose,11,6803,ocr_gap_proportional_split,0.72
+murray_1919,A. T. Murray,1919,prose,12,6639,ocr_heading_anchor,0.92
+murray_1919,A. T. Murray,1919,prose,13,4737,ocr_heading_anchor,0.92
+murray_1919,A. T. Murray,1919,prose,14,6020,ocr_heading_anchor,0.92
+murray_1919,A. T. Murray,1919,prose,15,5983,ocr_heading_anchor,0.92
+murray_1919,A. T. Murray,1919,prose,16,5199,ocr_heading_anchor,0.92
+murray_1919,A. T. Murray,1919,prose,17,6559,ocr_heading_anchor,0.92
+murray_1919,A. T. Murray,1919,prose,18,4736,ocr_heading_anchor,0.92
+murray_1919,A. T. Murray,1919,prose,19,6741,ocr_heading_anchor,0.92
+murray_1919,A. T. Murray,1919,prose,20,4297,ocr_heading_anchor,0.92
+murray_1919,A. T. Murray,1919,prose,21,4733,ocr_heading_anchor,0.92
+murray_1919,A. T. Murray,1919,prose,22,5537,ocr_heading_anchor,0.92
+murray_1919,A. T. Murray,1919,prose,23,4074,ocr_heading_anchor,0.92
+murray_1919,A. T. Murray,1919,prose,24,7761,ocr_heading_anchor,0.92

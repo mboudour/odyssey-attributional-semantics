@@ -1,0 +1,5155 @@
+{
+  "translation_id": "butcher_lang_1879",
+  "representation": "target-as-hyperedge over attribute vertices",
+  "vertices": [
+    "able",
+    "afraid",
+    "aged",
+    "ancient",
+    "angry",
+    "ashen",
+    "base",
+    "beautiful",
+    "bitter",
+    "black",
+    "blameless",
+    "blue",
+    "bold",
+    "boundless",
+    "brave",
+    "brazen",
+    "bright",
+    "bronze",
+    "brown",
+    "captain",
+    "comely",
+    "crafty",
+    "cruel",
+    "cunning",
+    "dark",
+    "dark-haired",
+    "dauntless",
+    "deep",
+    "dim",
+    "distressed",
+    "divine",
+    "endless",
+    "enduring",
+    "evil",
+    "fair",
+    "fair-haired",
+    "faithful",
+    "fearful",
+    "feeble",
+    "fierce",
+    "foolish",
+    "free",
+    "friendly",
+    "gentle",
+    "glad",
+    "gleaming",
+    "glowing",
+    "godlike",
+    "gold",
+    "golden",
+    "good",
+    "gray",
+    "gray-eyed",
+    "great",
+    "greedy",
+    "green",
+    "guileful",
+    "guiltless",
+    "happy",
+    "helpless",
+    "high",
+    "holy",
+    "honest",
+    "hospitable",
+    "huge",
+    "impious",
+    "insolent",
+    "joyful",
+    "just",
+    "keen",
+    "kind",
+    "kingly",
+    "lawless",
+    "little",
+    "long",
+    "lordly",
+    "lovely",
+    "low",
+    "loyal",
+    "mighty",
+    "murky",
+    "narrow",
+    "noble",
+    "old",
+    "patient",
+    "peaceful",
+    "princely",
+    "prudent",
+    "purple",
+    "raging",
+    "reckless",
+    "red",
+    "righteous",
+    "rosy",
+    "rosy-fingered",
+    "royal",
+    "ruddy",
+    "sacred",
+    "sad",
+    "savage",
+    "senseless",
+    "shameless",
+    "shining",
+    "shrewd",
+    "silver",
+    "small",
+    "sorrowful",
+    "splendid",
+    "steadfast",
+    "strong",
+    "subtle",
+    "tall",
+    "tireless",
+    "trusty",
+    "unjust",
+    "valiant",
+    "vast",
+    "vermilion",
+    "violent",
+    "violet",
+    "wanton",
+    "warlike",
+    "weary",
+    "white",
+    "wide",
+    "wine-dark",
+    "wise",
+    "woeful",
+    "wrathful",
+    "yellow",
+    "young"
+  ],
+  "hyperedges": {
+    "ACHAEANS": [
+      {
+        "attribute": "free",
+        "category": "social_status",
+        "weight": 0.7363
+      },
+      {
+        "attribute": "good",
+        "category": "moral_evaluation",
+        "weight": 0.8358
+      },
+      {
+        "attribute": "great",
+        "category": "scale_intensity",
+        "weight": 2.5791
+      },
+      {
+        "attribute": "high",
+        "category": "scale_intensity",
+        "weight": 0.9552
+      },
+      {
+        "attribute": "just",
+        "category": "moral_evaluation",
+        "weight": 0.4925
+      },
+      {
+        "attribute": "long",
+        "category": "scale_intensity",
+        "weight": 2.7701
+      },
+      {
+        "attribute": "wise",
+        "category": "cognitive_evaluation",
+        "weight": 0.4179
+      },
+      {
+        "attribute": "young",
+        "category": "appearance_age",
+        "weight": 0.42985
+      }
+    ],
+    "ACHILLES": [
+      {
+        "attribute": "deep",
+        "category": "scale_intensity",
+        "weight": 0.8597
+      },
+      {
+        "attribute": "fierce",
+        "category": "behavior_disposition",
+        "weight": 0.5771
+      },
+      {
+        "attribute": "godlike",
+        "category": "moral_evaluation",
+        "weight": 0.8597
+      },
+      {
+        "attribute": "great",
+        "category": "scale_intensity",
+        "weight": 1.5323
+      },
+      {
+        "attribute": "happy",
+        "category": "affect_state",
+        "weight": 0.8597
+      },
+      {
+        "attribute": "high",
+        "category": "scale_intensity",
+        "weight": 0.8597
+      },
+      {
+        "attribute": "noble",
+        "category": "moral_evaluation",
+        "weight": 2.5791
+      },
+      {
+        "attribute": "white",
+        "category": "color_hue",
+        "weight": 1.9104
+      },
+      {
+        "attribute": "wise",
+        "category": "cognitive_evaluation",
+        "weight": 0.5771
+      }
+    ],
+    "AEGISTHUS": [
+      {
+        "attribute": "crafty",
+        "category": "cognitive_evaluation",
+        "weight": 1.8149
+      },
+      {
+        "attribute": "cunning",
+        "category": "cognitive_evaluation",
+        "weight": 0.7363
+      },
+      {
+        "attribute": "evil",
+        "category": "moral_evaluation",
+        "weight": 0.7363
+      },
+      {
+        "attribute": "gold",
+        "category": "color_material",
+        "weight": 1.1542
+      },
+      {
+        "attribute": "good",
+        "category": "moral_evaluation",
+        "weight": 0.3761
+      },
+      {
+        "attribute": "great",
+        "category": "scale_intensity",
+        "weight": 0.5771
+      },
+      {
+        "attribute": "guileful",
+        "category": "cognitive_evaluation",
+        "weight": 2.5791
+      },
+      {
+        "attribute": "noble",
+        "category": "moral_evaluation",
+        "weight": 0.8597
+      }
+    ],
+    "AGAMEMNON": [
+      {
+        "attribute": "boundless",
+        "category": "scale_intensity",
+        "weight": 0.8358
+      },
+      {
+        "attribute": "fair",
+        "category": "appearance_age",
+        "weight": 1.7194
+      },
+      {
+        "attribute": "gentle",
+        "category": "moral_evaluation",
+        "weight": 0.5771
+      },
+      {
+        "attribute": "gold",
+        "category": "color_material",
+        "weight": 0.5771
+      },
+      {
+        "attribute": "long",
+        "category": "scale_intensity",
+        "weight": 0.4179
+      },
+      {
+        "attribute": "purple",
+        "category": "color_hue",
+        "weight": 0.5771
+      },
+      {
+        "attribute": "small",
+        "category": "appearance_age",
+        "weight": 0.5771
+      },
+      {
+        "attribute": "sorrowful",
+        "category": "affect_state",
+        "weight": 0.7522
+      },
+      {
+        "attribute": "wide",
+        "category": "scale_intensity",
+        "weight": 0.7522
+      }
+    ],
+    "AJAX": [
+      {
+        "attribute": "angry",
+        "category": "affect_state",
+        "weight": 0.8865
+      },
+      {
+        "attribute": "noble",
+        "category": "moral_evaluation",
+        "weight": 2.6626
+      },
+      {
+        "attribute": "valiant",
+        "category": "agency_capacity",
+        "weight": 0.8597
+      }
+    ],
+    "ALCINOUS": [
+      {
+        "attribute": "aged",
+        "category": "appearance_age",
+        "weight": 0.5771
+      },
+      {
+        "attribute": "bronze",
+        "category": "color_material",
+        "weight": 1.1542
+      },
+      {
+        "attribute": "cunning",
+        "category": "cognitive_evaluation",
+        "weight": 0.5771
+      },
+      {
+        "attribute": "deep",
+        "category": "scale_intensity",
+        "weight": 0.7522
+      },
+      {
+        "attribute": "evil",
+        "category": "moral_evaluation",
+        "weight": 0.5771
+      },
+      {
+        "attribute": "fair",
+        "category": "appearance_age",
+        "weight": 1.8905
+      },
+      {
+        "attribute": "free",
+        "category": "social_status",
+        "weight": 0.8865
+      },
+      {
+        "attribute": "godlike",
+        "category": "moral_evaluation",
+        "weight": 1.596
+      },
+      {
+        "attribute": "golden",
+        "category": "color_material",
+        "weight": 1.1542
+      },
+      {
+        "attribute": "good",
+        "category": "moral_evaluation",
+        "weight": 3.4507
+      },
+      {
+        "attribute": "great",
+        "category": "scale_intensity",
+        "weight": 3.1562
+      },
+      {
+        "attribute": "high",
+        "category": "scale_intensity",
+        "weight": 2.0139
+      },
+      {
+        "attribute": "mighty",
+        "category": "scale_intensity",
+        "weight": 10.3203
+      },
+      {
+        "attribute": "noble",
+        "category": "moral_evaluation",
+        "weight": 2.392
+      },
+      {
+        "attribute": "purple",
+        "category": "color_hue",
+        "weight": 0.5771
+      },
+      {
+        "attribute": "shining",
+        "category": "luminosity",
+        "weight": 0.5771
+      },
+      {
+        "attribute": "silver",
+        "category": "color_material",
+        "weight": 2.3084
+      },
+      {
+        "attribute": "strong",
+        "category": "agency_capacity",
+        "weight": 0.5771
+      },
+      {
+        "attribute": "tall",
+        "category": "appearance_age",
+        "weight": 0.5771
+      },
+      {
+        "attribute": "wise",
+        "category": "cognitive_evaluation",
+        "weight": 2.6746
+      }
+    ],
+    "ANGER": [
+      {
+        "attribute": "crafty",
+        "category": "cognitive_evaluation",
+        "weight": 0.9552
+      },
+      {
+        "attribute": "cruel",
+        "category": "moral_evaluation",
+        "weight": 1.8149
+      },
+      {
+        "attribute": "dark",
+        "category": "color_hue",
+        "weight": 0.8597
+      },
+      {
+        "attribute": "evil",
+        "category": "moral_evaluation",
+        "weight": 2.4278
+      },
+      {
+        "attribute": "old",
+        "category": "appearance_age",
+        "weight": 0.8358
+      },
+      {
+        "attribute": "strong",
+        "category": "agency_capacity",
+        "weight": 0.9552
+      }
+    ],
+    "ANTINOUS": [
+      {
+        "attribute": "base",
+        "category": "moral_evaluation",
+        "weight": 0.5771
+      },
+      {
+        "attribute": "bitter",
+        "category": "affect_state",
+        "weight": 1.8417
+      },
+      {
+        "attribute": "black",
+        "category": "color_hue",
+        "weight": 0.8865
+      },
+      {
+        "attribute": "evil",
+        "category": "moral_evaluation",
+        "weight": 1.1542
+      },
+      {
+        "attribute": "fair",
+        "category": "appearance_age",
+        "weight": 2.75165
+      },
+      {
+        "attribute": "foolish",
+        "category": "cognitive_evaluation",
+        "weight": 0.5771
+      },
+      {
+        "attribute": "free",
+        "category": "social_status",
+        "weight": 1.7313
+      },
+      {
+        "attribute": "godlike",
+        "category": "moral_evaluation",
+        "weight": 0.9552
+      },
+      {
+        "attribute": "gold",
+        "category": "color_material",
+        "weight": 0.5771
+      },
+      {
+        "attribute": "golden",
+        "category": "color_material",
+        "weight": 0.5771
+      },
+      {
+        "attribute": "good",
+        "category": "moral_evaluation",
+        "weight": 0.5771
+      },
+      {
+        "attribute": "great",
+        "category": "scale_intensity",
+        "weight": 1.7313
+      },
+      {
+        "attribute": "just",
+        "category": "moral_evaluation",
+        "weight": 0.44325
+      },
+      {
+        "attribute": "mighty",
+        "category": "scale_intensity",
+        "weight": 0.9552
+      },
+      {
+        "attribute": "noble",
+        "category": "moral_evaluation",
+        "weight": 0.5771
+      },
+      {
+        "attribute": "white",
+        "category": "color_hue",
+        "weight": 0.5771
+      },
+      {
+        "attribute": "wise",
+        "category": "cognitive_evaluation",
+        "weight": 0.8358
+      }
+    ],
+    "ARETE": [
+      {
+        "attribute": "ancient",
+        "category": "appearance_age",
+        "weight": 0.5771
+      },
+      {
+        "attribute": "fair",
+        "category": "appearance_age",
+        "weight": 0.5771
+      },
+      {
+        "attribute": "happy",
+        "category": "affect_state",
+        "weight": 0.5771
+      },
+      {
+        "attribute": "purple",
+        "category": "color_hue",
+        "weight": 0.5771
+      },
+      {
+        "attribute": "strong",
+        "category": "agency_capacity",
+        "weight": 0.5771
+      },
+      {
+        "attribute": "white",
+        "category": "color_hue",
+        "weight": 2.6467
+      }
+    ],
+    "ATHENA": [
+      {
+        "attribute": "black",
+        "category": "color_hue",
+        "weight": 0.5771
+      },
+      {
+        "attribute": "brave",
+        "category": "agency_capacity",
+        "weight": 0.5771
+      },
+      {
+        "attribute": "bright",
+        "category": "luminosity",
+        "weight": 0.5771
+      },
+      {
+        "attribute": "bronze",
+        "category": "color_material",
+        "weight": 1.1542
+      },
+      {
+        "attribute": "cunning",
+        "category": "cognitive_evaluation",
+        "weight": 0.5771
+      },
+      {
+        "attribute": "dark",
+        "category": "color_hue",
+        "weight": 0.5771
+      },
+      {
+        "attribute": "deep",
+        "category": "scale_intensity",
+        "weight": 0.7522
+      },
+      {
+        "attribute": "divine",
+        "category": "moral_evaluation",
+        "weight": 0.5771
+      },
+      {
+        "attribute": "fair",
+        "category": "appearance_age",
+        "weight": 5.2775
+      },
+      {
+        "attribute": "glad",
+        "category": "affect_state",
+        "weight": 0.8865
+      },
+      {
+        "attribute": "godlike",
+        "category": "moral_evaluation",
+        "weight": 1.7313
+      },
+      {
+        "attribute": "gold",
+        "category": "color_material",
+        "weight": 2.1094
+      },
+      {
+        "attribute": "golden",
+        "category": "color_material",
+        "weight": 1.3134
+      },
+      {
+        "attribute": "good",
+        "category": "moral_evaluation",
+        "weight": 2.0407
+      },
+      {
+        "attribute": "gray-eyed",
+        "category": "color_complex",
+        "weight": 44.0355
+      },
+      {
+        "attribute": "great",
+        "category": "scale_intensity",
+        "weight": 4.9551
+      },
+      {
+        "attribute": "high",
+        "category": "scale_intensity",
+        "weight": 1.7313
+      },
+      {
+        "attribute": "holy",
+        "category": "moral_evaluation",
+        "weight": 0.5771
+      },
+      {
+        "attribute": "long",
+        "category": "scale_intensity",
+        "weight": 0.86565
+      },
+      {
+        "attribute": "lovely",
+        "category": "appearance_age",
+        "weight": 0.5771
+      },
+      {
+        "attribute": "mighty",
+        "category": "scale_intensity",
+        "weight": 1.1542
+      },
+      {
+        "attribute": "old",
+        "category": "appearance_age",
+        "weight": 2.7163
+      },
+      {
+        "attribute": "sacred",
+        "category": "moral_evaluation",
+        "weight": 0.9552
+      },
+      {
+        "attribute": "shining",
+        "category": "luminosity",
+        "weight": 0.5771
+      },
+      {
+        "attribute": "strong",
+        "category": "agency_capacity",
+        "weight": 1.7313
+      },
+      {
+        "attribute": "tall",
+        "category": "appearance_age",
+        "weight": 0.5771
+      },
+      {
+        "attribute": "weary",
+        "category": "affect_state",
+        "weight": 0.5771
+      },
+      {
+        "attribute": "wide",
+        "category": "scale_intensity",
+        "weight": 0.5771
+      },
+      {
+        "attribute": "wise",
+        "category": "cognitive_evaluation",
+        "weight": 0.5771
+      },
+      {
+        "attribute": "wrathful",
+        "category": "affect_state",
+        "weight": 0.8865
+      },
+      {
+        "attribute": "yellow",
+        "category": "color_hue",
+        "weight": 0.5771
+      },
+      {
+        "attribute": "young",
+        "category": "appearance_age",
+        "weight": 0.5771
+      }
+    ],
+    "BLOOD": [
+      {
+        "attribute": "black",
+        "category": "color_hue",
+        "weight": 4.776
+      },
+      {
+        "attribute": "dark",
+        "category": "color_hue",
+        "weight": 4.2984
+      },
+      {
+        "attribute": "gentle",
+        "category": "moral_evaluation",
+        "weight": 0.9552
+      },
+      {
+        "attribute": "great",
+        "category": "scale_intensity",
+        "weight": 0.9552
+      },
+      {
+        "attribute": "noble",
+        "category": "moral_evaluation",
+        "weight": 0.8358
+      },
+      {
+        "attribute": "red",
+        "category": "color_hue",
+        "weight": 0.9552
+      }
+    ],
+    "BOW": [
+      {
+        "attribute": "bronze",
+        "category": "color_material",
+        "weight": 0.8597
+      },
+      {
+        "attribute": "fair",
+        "category": "appearance_age",
+        "weight": 1.9104
+      },
+      {
+        "attribute": "great",
+        "category": "scale_intensity",
+        "weight": 6.376
+      },
+      {
+        "attribute": "long",
+        "category": "scale_intensity",
+        "weight": 0.4776
+      },
+      {
+        "attribute": "old",
+        "category": "appearance_age",
+        "weight": 0.8358
+      },
+      {
+        "attribute": "shrewd",
+        "category": "cognitive_evaluation",
+        "weight": 0.9552
+      },
+      {
+        "attribute": "silver",
+        "category": "color_material",
+        "weight": 2.14925
+      },
+      {
+        "attribute": "strong",
+        "category": "agency_capacity",
+        "weight": 0.9552
+      }
+    ],
+    "CALYPSO": [
+      {
+        "attribute": "bronze",
+        "category": "color_material",
+        "weight": 0.5771
+      },
+      {
+        "attribute": "crafty",
+        "category": "cognitive_evaluation",
+        "weight": 0.8597
+      },
+      {
+        "attribute": "fair",
+        "category": "appearance_age",
+        "weight": 5.0387
+      },
+      {
+        "attribute": "tall",
+        "category": "appearance_age",
+        "weight": 0.9552
+      },
+      {
+        "attribute": "wide",
+        "category": "scale_intensity",
+        "weight": 0.8597
+      }
+    ],
+    "CIRCE": [
+      {
+        "attribute": "able",
+        "category": "agency_capacity",
+        "weight": 0.28855
+      },
+      {
+        "attribute": "beautiful",
+        "category": "appearance_age",
+        "weight": 0.9552
+      },
+      {
+        "attribute": "brazen",
+        "category": "color_material",
+        "weight": 0.5771
+      },
+      {
+        "attribute": "deep",
+        "category": "scale_intensity",
+        "weight": 0.8865
+      },
+      {
+        "attribute": "evil",
+        "category": "moral_evaluation",
+        "weight": 0.5771
+      },
+      {
+        "attribute": "fair",
+        "category": "appearance_age",
+        "weight": 0.9552
+      },
+      {
+        "attribute": "free",
+        "category": "social_status",
+        "weight": 1.1542
+      },
+      {
+        "attribute": "gentle",
+        "category": "moral_evaluation",
+        "weight": 0.985
+      },
+      {
+        "attribute": "golden",
+        "category": "color_material",
+        "weight": 1.1542
+      },
+      {
+        "attribute": "great",
+        "category": "scale_intensity",
+        "weight": 1.1542
+      },
+      {
+        "attribute": "guileful",
+        "category": "cognitive_evaluation",
+        "weight": 0.9552
+      },
+      {
+        "attribute": "high",
+        "category": "scale_intensity",
+        "weight": 0.5771
+      },
+      {
+        "attribute": "little",
+        "category": "scale_intensity",
+        "weight": 0.5771
+      },
+      {
+        "attribute": "long",
+        "category": "scale_intensity",
+        "weight": 1.7313
+      },
+      {
+        "attribute": "mighty",
+        "category": "scale_intensity",
+        "weight": 0.5771
+      },
+      {
+        "attribute": "old",
+        "category": "appearance_age",
+        "weight": 0.5771
+      },
+      {
+        "attribute": "sacred",
+        "category": "moral_evaluation",
+        "weight": 1.6915
+      },
+      {
+        "attribute": "strong",
+        "category": "agency_capacity",
+        "weight": 0.5771
+      },
+      {
+        "attribute": "weary",
+        "category": "affect_state",
+        "weight": 0.28855
+      }
+    ],
+    "CLYTEMNESTRA": [
+      {
+        "attribute": "crafty",
+        "category": "cognitive_evaluation",
+        "weight": 0.9552
+      },
+      {
+        "attribute": "fair",
+        "category": "appearance_age",
+        "weight": 0.9552
+      },
+      {
+        "attribute": "good",
+        "category": "moral_evaluation",
+        "weight": 0.8358
+      }
+    ],
+    "CYCLOPES": [
+      {
+        "attribute": "great",
+        "category": "scale_intensity",
+        "weight": 0.9552
+      },
+      {
+        "attribute": "lawless",
+        "category": "moral_evaluation",
+        "weight": 0.8358
+      },
+      {
+        "attribute": "mighty",
+        "category": "scale_intensity",
+        "weight": 0.7363
+      },
+      {
+        "attribute": "savage",
+        "category": "behavior_disposition",
+        "weight": 0.9552
+      }
+    ],
+    "DAWN": [
+      {
+        "attribute": "bright",
+        "category": "luminosity",
+        "weight": 8.5013
+      },
+      {
+        "attribute": "fair",
+        "category": "appearance_age",
+        "weight": 4.9312
+      },
+      {
+        "attribute": "golden",
+        "category": "color_material",
+        "weight": 8.5968
+      },
+      {
+        "attribute": "long",
+        "category": "scale_intensity",
+        "weight": 2.5552
+      },
+      {
+        "attribute": "rosy",
+        "category": "color_complex",
+        "weight": 0.8358
+      },
+      {
+        "attribute": "rosy-fingered",
+        "category": "color_complex",
+        "weight": 11.94
+      },
+      {
+        "attribute": "young",
+        "category": "appearance_age",
+        "weight": 0.9552
+      }
+    ],
+    "DEATH": [
+      {
+        "attribute": "black",
+        "category": "color_hue",
+        "weight": 2.7701
+      },
+      {
+        "attribute": "evil",
+        "category": "moral_evaluation",
+        "weight": 2.4557
+      },
+      {
+        "attribute": "lordly",
+        "category": "social_status",
+        "weight": 0.44325
+      },
+      {
+        "attribute": "low",
+        "category": "scale_intensity",
+        "weight": 3.8208
+      },
+      {
+        "attribute": "mighty",
+        "category": "scale_intensity",
+        "weight": 2.4716
+      },
+      {
+        "attribute": "noble",
+        "category": "moral_evaluation",
+        "weight": 0.42985
+      },
+      {
+        "attribute": "old",
+        "category": "appearance_age",
+        "weight": 0.9552
+      },
+      {
+        "attribute": "senseless",
+        "category": "cognitive_evaluation",
+        "weight": 0.7522
+      },
+      {
+        "attribute": "wise",
+        "category": "cognitive_evaluation",
+        "weight": 1.6955
+      }
+    ],
+    "DEMODOCUS": [
+      {
+        "attribute": "divine",
+        "category": "moral_evaluation",
+        "weight": 2.4875
+      },
+      {
+        "attribute": "glad",
+        "category": "affect_state",
+        "weight": 0.8865
+      },
+      {
+        "attribute": "good",
+        "category": "moral_evaluation",
+        "weight": 0.5771
+      },
+      {
+        "attribute": "great",
+        "category": "scale_intensity",
+        "weight": 0.5771
+      },
+      {
+        "attribute": "little",
+        "category": "scale_intensity",
+        "weight": 0.5771
+      },
+      {
+        "attribute": "noble",
+        "category": "moral_evaluation",
+        "weight": 0.86565
+      },
+      {
+        "attribute": "tall",
+        "category": "appearance_age",
+        "weight": 0.5771
+      }
+    ],
+    "EARTH": [
+      {
+        "attribute": "black",
+        "category": "color_hue",
+        "weight": 0.9552
+      },
+      {
+        "attribute": "boundless",
+        "category": "scale_intensity",
+        "weight": 0.8597
+      },
+      {
+        "attribute": "bronze",
+        "category": "color_material",
+        "weight": 0.7363
+      },
+      {
+        "attribute": "dark",
+        "category": "color_hue",
+        "weight": 1.7074
+      },
+      {
+        "attribute": "deep",
+        "category": "scale_intensity",
+        "weight": 2.4716
+      },
+      {
+        "attribute": "fair",
+        "category": "appearance_age",
+        "weight": 4.5212
+      },
+      {
+        "attribute": "glad",
+        "category": "affect_state",
+        "weight": 0.985
+      },
+      {
+        "attribute": "good",
+        "category": "moral_evaluation",
+        "weight": 0.8358
+      },
+      {
+        "attribute": "great",
+        "category": "scale_intensity",
+        "weight": 2.7969
+      },
+      {
+        "attribute": "long",
+        "category": "scale_intensity",
+        "weight": 0.8358
+      },
+      {
+        "attribute": "mighty",
+        "category": "scale_intensity",
+        "weight": 0.4179
+      },
+      {
+        "attribute": "purple",
+        "category": "color_hue",
+        "weight": 0.8358
+      },
+      {
+        "attribute": "sacred",
+        "category": "moral_evaluation",
+        "weight": 0.4179
+      },
+      {
+        "attribute": "tall",
+        "category": "appearance_age",
+        "weight": 0.8597
+      },
+      {
+        "attribute": "wide",
+        "category": "scale_intensity",
+        "weight": 5.1849
+      },
+      {
+        "attribute": "wise",
+        "category": "cognitive_evaluation",
+        "weight": 1.3134
+      }
+    ],
+    "EUMAEUS": [
+      {
+        "attribute": "beautiful",
+        "category": "appearance_age",
+        "weight": 0.5771
+      },
+      {
+        "attribute": "fair",
+        "category": "appearance_age",
+        "weight": 0.8865
+      },
+      {
+        "attribute": "godlike",
+        "category": "moral_evaluation",
+        "weight": 0.5771
+      },
+      {
+        "attribute": "golden",
+        "category": "color_material",
+        "weight": 0.5771
+      },
+      {
+        "attribute": "good",
+        "category": "moral_evaluation",
+        "weight": 0.5771
+      },
+      {
+        "attribute": "great",
+        "category": "scale_intensity",
+        "weight": 2.2984
+      },
+      {
+        "attribute": "wide",
+        "category": "scale_intensity",
+        "weight": 0.5771
+      },
+      {
+        "attribute": "wise",
+        "category": "cognitive_evaluation",
+        "weight": 0.5771
+      }
+    ],
+    "EURYCLEIA": [
+      {
+        "attribute": "bronze",
+        "category": "color_material",
+        "weight": 0.5771
+      },
+      {
+        "attribute": "fair",
+        "category": "appearance_age",
+        "weight": 0.86565
+      },
+      {
+        "attribute": "good",
+        "category": "moral_evaluation",
+        "weight": 11.2475
+      },
+      {
+        "attribute": "great",
+        "category": "scale_intensity",
+        "weight": 0.5771
+      },
+      {
+        "attribute": "guiltless",
+        "category": "moral_evaluation",
+        "weight": 0.5771
+      },
+      {
+        "attribute": "old",
+        "category": "appearance_age",
+        "weight": 0.8358
+      },
+      {
+        "attribute": "prudent",
+        "category": "cognitive_evaluation",
+        "weight": 0.9552
+      },
+      {
+        "attribute": "trusty",
+        "category": "moral_evaluation",
+        "weight": 0.8597
+      },
+      {
+        "attribute": "wide",
+        "category": "scale_intensity",
+        "weight": 0.5771
+      },
+      {
+        "attribute": "wise",
+        "category": "cognitive_evaluation",
+        "weight": 2.7701
+      }
+    ],
+    "EURYMACHUS": [
+      {
+        "attribute": "fair",
+        "category": "appearance_age",
+        "weight": 0.44325
+      },
+      {
+        "attribute": "godlike",
+        "category": "moral_evaluation",
+        "weight": 1.8149
+      },
+      {
+        "attribute": "golden",
+        "category": "color_material",
+        "weight": 0.7363
+      },
+      {
+        "attribute": "good",
+        "category": "moral_evaluation",
+        "weight": 0.28855
+      },
+      {
+        "attribute": "lordly",
+        "category": "social_status",
+        "weight": 0.8865
+      }
+    ],
+    "FATE": [
+      {
+        "attribute": "bitter",
+        "category": "affect_state",
+        "weight": 2.3084
+      },
+      {
+        "attribute": "black",
+        "category": "color_hue",
+        "weight": 6.63875
+      },
+      {
+        "attribute": "evil",
+        "category": "moral_evaluation",
+        "weight": 8.3103
+      },
+      {
+        "attribute": "happy",
+        "category": "affect_state",
+        "weight": 0.8597
+      },
+      {
+        "attribute": "holy",
+        "category": "moral_evaluation",
+        "weight": 0.8358
+      }
+    ],
+    "FIRE": [
+      {
+        "attribute": "bright",
+        "category": "luminosity",
+        "weight": 0.9552
+      },
+      {
+        "attribute": "fierce",
+        "category": "behavior_disposition",
+        "weight": 0.8597
+      },
+      {
+        "attribute": "great",
+        "category": "scale_intensity",
+        "weight": 7.3551
+      },
+      {
+        "attribute": "green",
+        "category": "color_hue",
+        "weight": 0.7522
+      },
+      {
+        "attribute": "just",
+        "category": "moral_evaluation",
+        "weight": 0.9552
+      },
+      {
+        "attribute": "mighty",
+        "category": "scale_intensity",
+        "weight": 0.7363
+      },
+      {
+        "attribute": "purple",
+        "category": "color_hue",
+        "weight": 0.7522
+      },
+      {
+        "attribute": "shining",
+        "category": "luminosity",
+        "weight": 0.7363
+      }
+    ],
+    "GENERIC_CAVE": [
+      {
+        "attribute": "deep",
+        "category": "scale_intensity",
+        "weight": 0.7701
+      },
+      {
+        "attribute": "dim",
+        "category": "luminosity",
+        "weight": 0.8557
+      },
+      {
+        "attribute": "fair",
+        "category": "appearance_age",
+        "weight": 0.8856
+      },
+      {
+        "attribute": "great",
+        "category": "scale_intensity",
+        "weight": 0.7701
+      },
+      {
+        "attribute": "little",
+        "category": "scale_intensity",
+        "weight": 0.8557
+      },
+      {
+        "attribute": "old",
+        "category": "appearance_age",
+        "weight": 0.7363
+      },
+      {
+        "attribute": "sacred",
+        "category": "moral_evaluation",
+        "weight": 1.4726
+      }
+    ],
+    "GENERIC_CITY": [
+      {
+        "attribute": "deep",
+        "category": "scale_intensity",
+        "weight": 0.7701
+      },
+      {
+        "attribute": "great",
+        "category": "scale_intensity",
+        "weight": 0.7701
+      },
+      {
+        "attribute": "high",
+        "category": "scale_intensity",
+        "weight": 0.7363
+      },
+      {
+        "attribute": "long",
+        "category": "scale_intensity",
+        "weight": 0.36815
+      },
+      {
+        "attribute": "mighty",
+        "category": "scale_intensity",
+        "weight": 0.8557
+      },
+      {
+        "attribute": "old",
+        "category": "appearance_age",
+        "weight": 1.6557
+      },
+      {
+        "attribute": "wide",
+        "category": "scale_intensity",
+        "weight": 1.7114
+      }
+    ],
+    "GENERIC_DAUGHTER": [
+      {
+        "attribute": "cruel",
+        "category": "moral_evaluation",
+        "weight": 0.8557
+      },
+      {
+        "attribute": "fair",
+        "category": "appearance_age",
+        "weight": 3.3671
+      },
+      {
+        "attribute": "good",
+        "category": "moral_evaluation",
+        "weight": 0.8557
+      },
+      {
+        "attribute": "great",
+        "category": "scale_intensity",
+        "weight": 0.6368
+      },
+      {
+        "attribute": "mighty",
+        "category": "scale_intensity",
+        "weight": 1.2736
+      },
+      {
+        "attribute": "noble",
+        "category": "moral_evaluation",
+        "weight": 1.6258
+      },
+      {
+        "attribute": "wise",
+        "category": "cognitive_evaluation",
+        "weight": 0.8557
+      }
+    ],
+    "GENERIC_FATHER": [
+      {
+        "attribute": "ancient",
+        "category": "appearance_age",
+        "weight": 0.8557
+      },
+      {
+        "attribute": "bronze",
+        "category": "color_material",
+        "weight": 0.7363
+      },
+      {
+        "attribute": "evil",
+        "category": "moral_evaluation",
+        "weight": 0.8856
+      },
+      {
+        "attribute": "glad",
+        "category": "affect_state",
+        "weight": 0.8557
+      },
+      {
+        "attribute": "gleaming",
+        "category": "luminosity",
+        "weight": 0.7363
+      },
+      {
+        "attribute": "godlike",
+        "category": "moral_evaluation",
+        "weight": 0.8557
+      },
+      {
+        "attribute": "gold",
+        "category": "color_material",
+        "weight": 0.7363
+      },
+      {
+        "attribute": "good",
+        "category": "moral_evaluation",
+        "weight": 3.61975
+      },
+      {
+        "attribute": "gray-eyed",
+        "category": "color_complex",
+        "weight": 0.8557
+      },
+      {
+        "attribute": "great",
+        "category": "scale_intensity",
+        "weight": 0.6627
+      },
+      {
+        "attribute": "high",
+        "category": "scale_intensity",
+        "weight": 0.8557
+      },
+      {
+        "attribute": "long",
+        "category": "scale_intensity",
+        "weight": 0.8856
+      },
+      {
+        "attribute": "noble",
+        "category": "moral_evaluation",
+        "weight": 4.0217
+      },
+      {
+        "attribute": "purple",
+        "category": "color_hue",
+        "weight": 0.7701
+      },
+      {
+        "attribute": "wise",
+        "category": "cognitive_evaluation",
+        "weight": 0.7701
+      }
+    ],
+    "GENERIC_FRIEND": [
+      {
+        "attribute": "comely",
+        "category": "appearance_age",
+        "weight": 1.6219
+      },
+      {
+        "attribute": "faithful",
+        "category": "moral_evaluation",
+        "weight": 0.42785
+      },
+      {
+        "attribute": "great",
+        "category": "scale_intensity",
+        "weight": 0.36815
+      },
+      {
+        "attribute": "tall",
+        "category": "appearance_age",
+        "weight": 0.8856
+      }
+    ],
+    "GENERIC_GOD": [
+      {
+        "attribute": "angry",
+        "category": "affect_state",
+        "weight": 1.28355
+      },
+      {
+        "attribute": "dark",
+        "category": "color_hue",
+        "weight": 0.6368
+      },
+      {
+        "attribute": "dark-haired",
+        "category": "color_complex",
+        "weight": 0.8557
+      },
+      {
+        "attribute": "evil",
+        "category": "moral_evaluation",
+        "weight": 1.7413
+      },
+      {
+        "attribute": "great",
+        "category": "scale_intensity",
+        "weight": 0.6368
+      },
+      {
+        "attribute": "holy",
+        "category": "moral_evaluation",
+        "weight": 0.797
+      },
+      {
+        "attribute": "hospitable",
+        "category": "behavior_disposition",
+        "weight": 3.184
+      },
+      {
+        "attribute": "strong",
+        "category": "agency_capacity",
+        "weight": 1.9104
+      },
+      {
+        "attribute": "wise",
+        "category": "cognitive_evaluation",
+        "weight": 0.8557
+      }
+    ],
+    "GENERIC_GODDESS": [
+      {
+        "attribute": "fair",
+        "category": "appearance_age",
+        "weight": 22.57725
+      },
+      {
+        "attribute": "glad",
+        "category": "affect_state",
+        "weight": 0.8856
+      },
+      {
+        "attribute": "gray-eyed",
+        "category": "color_complex",
+        "weight": 1.5402
+      },
+      {
+        "attribute": "great",
+        "category": "scale_intensity",
+        "weight": 0.7363
+      },
+      {
+        "attribute": "high",
+        "category": "scale_intensity",
+        "weight": 2.5671
+      },
+      {
+        "attribute": "keen",
+        "category": "cognitive_evaluation",
+        "weight": 0.3184
+      },
+      {
+        "attribute": "mighty",
+        "category": "scale_intensity",
+        "weight": 2.0617
+      },
+      {
+        "attribute": "white",
+        "category": "color_hue",
+        "weight": 0.7363
+      },
+      {
+        "attribute": "wise",
+        "category": "cognitive_evaluation",
+        "weight": 0.4428
+      }
+    ],
+    "GENERIC_GUEST": [
+      {
+        "attribute": "beautiful",
+        "category": "appearance_age",
+        "weight": 0.6368
+      },
+      {
+        "attribute": "glad",
+        "category": "affect_state",
+        "weight": 0.7701
+      },
+      {
+        "attribute": "great",
+        "category": "scale_intensity",
+        "weight": 0.8856
+      },
+      {
+        "attribute": "impious",
+        "category": "moral_evaluation",
+        "weight": 0.8856
+      },
+      {
+        "attribute": "wise",
+        "category": "cognitive_evaluation",
+        "weight": 0.42785
+      }
+    ],
+    "GENERIC_HERO": [
+      {
+        "attribute": "great",
+        "category": "scale_intensity",
+        "weight": 0.6368
+      },
+      {
+        "attribute": "strong",
+        "category": "agency_capacity",
+        "weight": 0.7363
+      }
+    ],
+    "GENERIC_HOST": [
+      {
+        "attribute": "glad",
+        "category": "affect_state",
+        "weight": 0.797
+      },
+      {
+        "attribute": "high",
+        "category": "scale_intensity",
+        "weight": 0.7363
+      },
+      {
+        "attribute": "holy",
+        "category": "moral_evaluation",
+        "weight": 0.8557
+      }
+    ],
+    "GENERIC_ISLAND": [
+      {
+        "attribute": "bronze",
+        "category": "color_material",
+        "weight": 0.8856
+      },
+      {
+        "attribute": "fair",
+        "category": "appearance_age",
+        "weight": 0.7701
+      },
+      {
+        "attribute": "strong",
+        "category": "agency_capacity",
+        "weight": 0.6368
+      }
+    ],
+    "GENERIC_KING": [
+      {
+        "attribute": "blameless",
+        "category": "moral_evaluation",
+        "weight": 0.8557
+      },
+      {
+        "attribute": "divine",
+        "category": "moral_evaluation",
+        "weight": 1.5402
+      },
+      {
+        "attribute": "gentle",
+        "category": "moral_evaluation",
+        "weight": 0.797
+      },
+      {
+        "attribute": "kind",
+        "category": "moral_evaluation",
+        "weight": 0.8856
+      },
+      {
+        "attribute": "mighty",
+        "category": "scale_intensity",
+        "weight": 0.7701
+      },
+      {
+        "attribute": "rosy-fingered",
+        "category": "color_complex",
+        "weight": 0.7701
+      }
+    ],
+    "GENERIC_MAN": [
+      {
+        "attribute": "able",
+        "category": "agency_capacity",
+        "weight": 0.8856
+      },
+      {
+        "attribute": "afraid",
+        "category": "affect_state",
+        "weight": 0.797
+      },
+      {
+        "attribute": "angry",
+        "category": "affect_state",
+        "weight": 0.8557
+      },
+      {
+        "attribute": "blameless",
+        "category": "moral_evaluation",
+        "weight": 0.8557
+      },
+      {
+        "attribute": "brave",
+        "category": "agency_capacity",
+        "weight": 2.4815
+      },
+      {
+        "attribute": "cruel",
+        "category": "moral_evaluation",
+        "weight": 0.8557
+      },
+      {
+        "attribute": "dauntless",
+        "category": "agency_capacity",
+        "weight": 0.38505
+      },
+      {
+        "attribute": "evil",
+        "category": "moral_evaluation",
+        "weight": 2.3054
+      },
+      {
+        "attribute": "fair",
+        "category": "appearance_age",
+        "weight": 0.7363
+      },
+      {
+        "attribute": "foolish",
+        "category": "cognitive_evaluation",
+        "weight": 0.6368
+      },
+      {
+        "attribute": "glad",
+        "category": "affect_state",
+        "weight": 0.7701
+      },
+      {
+        "attribute": "godlike",
+        "category": "moral_evaluation",
+        "weight": 1.5402
+      },
+      {
+        "attribute": "gold",
+        "category": "color_material",
+        "weight": 1.2736
+      },
+      {
+        "attribute": "good",
+        "category": "moral_evaluation",
+        "weight": 4.5521
+      },
+      {
+        "attribute": "great",
+        "category": "scale_intensity",
+        "weight": 2.9452
+      },
+      {
+        "attribute": "helpless",
+        "category": "agency_capacity",
+        "weight": 0.8856
+      },
+      {
+        "attribute": "insolent",
+        "category": "behavior_disposition",
+        "weight": 0.8856
+      },
+      {
+        "attribute": "kind",
+        "category": "moral_evaluation",
+        "weight": 0.8856
+      },
+      {
+        "attribute": "kingly",
+        "category": "social_status",
+        "weight": 0.8557
+      },
+      {
+        "attribute": "lawless",
+        "category": "moral_evaluation",
+        "weight": 0.4428
+      },
+      {
+        "attribute": "long",
+        "category": "scale_intensity",
+        "weight": 0.797
+      },
+      {
+        "attribute": "loyal",
+        "category": "moral_evaluation",
+        "weight": 0.6368
+      },
+      {
+        "attribute": "mighty",
+        "category": "scale_intensity",
+        "weight": 3.51725
+      },
+      {
+        "attribute": "noble",
+        "category": "moral_evaluation",
+        "weight": 1.06465
+      },
+      {
+        "attribute": "old",
+        "category": "appearance_age",
+        "weight": 40.4991
+      },
+      {
+        "attribute": "prudent",
+        "category": "cognitive_evaluation",
+        "weight": 0.8557
+      },
+      {
+        "attribute": "righteous",
+        "category": "moral_evaluation",
+        "weight": 0.7701
+      },
+      {
+        "attribute": "subtle",
+        "category": "cognitive_evaluation",
+        "weight": 0.7363
+      },
+      {
+        "attribute": "tall",
+        "category": "appearance_age",
+        "weight": 0.8557
+      },
+      {
+        "attribute": "valiant",
+        "category": "agency_capacity",
+        "weight": 2.2587
+      },
+      {
+        "attribute": "white",
+        "category": "color_hue",
+        "weight": 1.4338
+      },
+      {
+        "attribute": "wise",
+        "category": "cognitive_evaluation",
+        "weight": 3.4228
+      },
+      {
+        "attribute": "young",
+        "category": "appearance_age",
+        "weight": 4.963
+      }
+    ],
+    "GENERIC_MONSTER": [
+      {
+        "attribute": "lawless",
+        "category": "moral_evaluation",
+        "weight": 0.7701
+      }
+    ],
+    "GENERIC_MOTHER": [
+      {
+        "attribute": "fair",
+        "category": "appearance_age",
+        "weight": 0.7363
+      },
+      {
+        "attribute": "glad",
+        "category": "affect_state",
+        "weight": 0.797
+      },
+      {
+        "attribute": "good",
+        "category": "moral_evaluation",
+        "weight": 0.8557
+      },
+      {
+        "attribute": "kind",
+        "category": "moral_evaluation",
+        "weight": 0.7701
+      },
+      {
+        "attribute": "wise",
+        "category": "cognitive_evaluation",
+        "weight": 1.4726
+      }
+    ],
+    "GENERIC_MOUNTAIN": [
+      {
+        "attribute": "great",
+        "category": "scale_intensity",
+        "weight": 3.46545
+      },
+      {
+        "attribute": "high",
+        "category": "scale_intensity",
+        "weight": 0.8557
+      }
+    ],
+    "GENERIC_QUEEN": [
+      {
+        "attribute": "afraid",
+        "category": "affect_state",
+        "weight": 0.797
+      },
+      {
+        "attribute": "evil",
+        "category": "moral_evaluation",
+        "weight": 0.8856
+      },
+      {
+        "attribute": "noble",
+        "category": "moral_evaluation",
+        "weight": 0.7701
+      },
+      {
+        "attribute": "wise",
+        "category": "cognitive_evaluation",
+        "weight": 0.7701
+      }
+    ],
+    "GENERIC_RIVER": [
+      {
+        "attribute": "beautiful",
+        "category": "appearance_age",
+        "weight": 0.8557
+      },
+      {
+        "attribute": "divine",
+        "category": "moral_evaluation",
+        "weight": 0.7363
+      },
+      {
+        "attribute": "fair",
+        "category": "appearance_age",
+        "weight": 0.8557
+      }
+    ],
+    "GENERIC_SHORE": [
+      {
+        "attribute": "evil",
+        "category": "moral_evaluation",
+        "weight": 0.7363
+      },
+      {
+        "attribute": "high",
+        "category": "scale_intensity",
+        "weight": 1.7114
+      },
+      {
+        "attribute": "long",
+        "category": "scale_intensity",
+        "weight": 0.6368
+      }
+    ],
+    "GENERIC_SON": [
+      {
+        "attribute": "evil",
+        "category": "moral_evaluation",
+        "weight": 0.8557
+      },
+      {
+        "attribute": "fair",
+        "category": "appearance_age",
+        "weight": 1.9741
+      },
+      {
+        "attribute": "high",
+        "category": "scale_intensity",
+        "weight": 0.8557
+      },
+      {
+        "attribute": "just",
+        "category": "moral_evaluation",
+        "weight": 0.7363
+      },
+      {
+        "attribute": "long",
+        "category": "scale_intensity",
+        "weight": 0.7363
+      },
+      {
+        "attribute": "lordly",
+        "category": "social_status",
+        "weight": 0.8557
+      },
+      {
+        "attribute": "mighty",
+        "category": "scale_intensity",
+        "weight": 0.7701
+      },
+      {
+        "attribute": "noble",
+        "category": "moral_evaluation",
+        "weight": 3.0466
+      },
+      {
+        "attribute": "strong",
+        "category": "agency_capacity",
+        "weight": 2.2427
+      },
+      {
+        "attribute": "tireless",
+        "category": "agency_capacity",
+        "weight": 0.7701
+      },
+      {
+        "attribute": "trusty",
+        "category": "moral_evaluation",
+        "weight": 0.8557
+      },
+      {
+        "attribute": "valiant",
+        "category": "agency_capacity",
+        "weight": 0.7363
+      },
+      {
+        "attribute": "warlike",
+        "category": "behavior_disposition",
+        "weight": 0.8557
+      },
+      {
+        "attribute": "wise",
+        "category": "cognitive_evaluation",
+        "weight": 4.3581
+      }
+    ],
+    "GENERIC_STRANGER": [
+      {
+        "attribute": "able",
+        "category": "agency_capacity",
+        "weight": 0.8856
+      },
+      {
+        "attribute": "bold",
+        "category": "behavior_disposition",
+        "weight": 1.6219
+      },
+      {
+        "attribute": "captain",
+        "category": "social_status",
+        "weight": 0.7363
+      },
+      {
+        "attribute": "feeble",
+        "category": "agency_capacity",
+        "weight": 0.7363
+      },
+      {
+        "attribute": "foolish",
+        "category": "cognitive_evaluation",
+        "weight": 0.8557
+      },
+      {
+        "attribute": "glad",
+        "category": "affect_state",
+        "weight": 0.8856
+      },
+      {
+        "attribute": "gold",
+        "category": "color_material",
+        "weight": 0.8856
+      },
+      {
+        "attribute": "long",
+        "category": "scale_intensity",
+        "weight": 2.1293
+      },
+      {
+        "attribute": "tall",
+        "category": "appearance_age",
+        "weight": 0.7701
+      }
+    ],
+    "GENERIC_WARRIOR": [
+      {
+        "attribute": "good",
+        "category": "moral_evaluation",
+        "weight": 0.8557
+      },
+      {
+        "attribute": "great",
+        "category": "scale_intensity",
+        "weight": 0.8557
+      }
+    ],
+    "GENERIC_WIFE": [
+      {
+        "attribute": "aged",
+        "category": "appearance_age",
+        "weight": 0.7701
+      },
+      {
+        "attribute": "comely",
+        "category": "appearance_age",
+        "weight": 0.7701
+      },
+      {
+        "attribute": "godlike",
+        "category": "moral_evaluation",
+        "weight": 1.7114
+      },
+      {
+        "attribute": "good",
+        "category": "moral_evaluation",
+        "weight": 1.19795
+      },
+      {
+        "attribute": "kind",
+        "category": "moral_evaluation",
+        "weight": 0.7363
+      },
+      {
+        "attribute": "noble",
+        "category": "moral_evaluation",
+        "weight": 1.7413
+      },
+      {
+        "attribute": "old",
+        "category": "appearance_age",
+        "weight": 3.4228
+      },
+      {
+        "attribute": "prudent",
+        "category": "cognitive_evaluation",
+        "weight": 0.8856
+      }
+    ],
+    "GENERIC_WOMAN": [
+      {
+        "attribute": "aged",
+        "category": "appearance_age",
+        "weight": 0.7701
+      },
+      {
+        "attribute": "ancient",
+        "category": "appearance_age",
+        "weight": 2.5671
+      },
+      {
+        "attribute": "bright",
+        "category": "luminosity",
+        "weight": 0.8557
+      },
+      {
+        "attribute": "evil",
+        "category": "moral_evaluation",
+        "weight": 0.8557
+      },
+      {
+        "attribute": "fair",
+        "category": "appearance_age",
+        "weight": 2.2288
+      },
+      {
+        "attribute": "glad",
+        "category": "affect_state",
+        "weight": 0.8856
+      },
+      {
+        "attribute": "good",
+        "category": "moral_evaluation",
+        "weight": 0.8557
+      },
+      {
+        "attribute": "great",
+        "category": "scale_intensity",
+        "weight": 0.6627
+      },
+      {
+        "attribute": "old",
+        "category": "appearance_age",
+        "weight": 7.4824
+      },
+      {
+        "attribute": "shameless",
+        "category": "moral_evaluation",
+        "weight": 1.7114
+      },
+      {
+        "attribute": "tall",
+        "category": "appearance_age",
+        "weight": 1.3731
+      },
+      {
+        "attribute": "wise",
+        "category": "cognitive_evaluation",
+        "weight": 0.8557
+      }
+    ],
+    "GODS": [
+      {
+        "attribute": "cruel",
+        "category": "moral_evaluation",
+        "weight": 0.8358
+      },
+      {
+        "attribute": "evil",
+        "category": "moral_evaluation",
+        "weight": 1.8208
+      },
+      {
+        "attribute": "fair",
+        "category": "appearance_age",
+        "weight": 0.9552
+      },
+      {
+        "attribute": "glad",
+        "category": "affect_state",
+        "weight": 0.985
+      },
+      {
+        "attribute": "good",
+        "category": "moral_evaluation",
+        "weight": 0.8358
+      },
+      {
+        "attribute": "great",
+        "category": "scale_intensity",
+        "weight": 2.6805
+      },
+      {
+        "attribute": "holy",
+        "category": "moral_evaluation",
+        "weight": 4.4895
+      },
+      {
+        "attribute": "kind",
+        "category": "moral_evaluation",
+        "weight": 0.9552
+      },
+      {
+        "attribute": "royal",
+        "category": "social_status",
+        "weight": 0.9552
+      },
+      {
+        "attribute": "splendid",
+        "category": "luminosity",
+        "weight": 0.9552
+      },
+      {
+        "attribute": "wise",
+        "category": "cognitive_evaluation",
+        "weight": 0.36815
+      }
+    ],
+    "HELEN": [
+      {
+        "attribute": "beautiful",
+        "category": "appearance_age",
+        "weight": 0.8597
+      },
+      {
+        "attribute": "fair",
+        "category": "appearance_age",
+        "weight": 2.8258
+      },
+      {
+        "attribute": "fair-haired",
+        "category": "color_complex",
+        "weight": 0.9552
+      },
+      {
+        "attribute": "glad",
+        "category": "affect_state",
+        "weight": 0.5771
+      },
+      {
+        "attribute": "golden",
+        "category": "color_material",
+        "weight": 1.4129
+      },
+      {
+        "attribute": "high",
+        "category": "scale_intensity",
+        "weight": 0.8597
+      },
+      {
+        "attribute": "long",
+        "category": "scale_intensity",
+        "weight": 1.8149
+      },
+      {
+        "attribute": "lovely",
+        "category": "appearance_age",
+        "weight": 1.3134
+      },
+      {
+        "attribute": "purple",
+        "category": "color_hue",
+        "weight": 0.5771
+      },
+      {
+        "attribute": "silver",
+        "category": "color_material",
+        "weight": 1.7313
+      }
+    ],
+    "HERMES": [
+      {
+        "attribute": "bright",
+        "category": "luminosity",
+        "weight": 0.5771
+      },
+      {
+        "attribute": "cunning",
+        "category": "cognitive_evaluation",
+        "weight": 0.5771
+      },
+      {
+        "attribute": "fair",
+        "category": "appearance_age",
+        "weight": 1.4368
+      },
+      {
+        "attribute": "golden",
+        "category": "color_material",
+        "weight": 3.6974
+      },
+      {
+        "attribute": "great",
+        "category": "scale_intensity",
+        "weight": 0.9552
+      },
+      {
+        "attribute": "high",
+        "category": "scale_intensity",
+        "weight": 0.7363
+      },
+      {
+        "attribute": "keen",
+        "category": "cognitive_evaluation",
+        "weight": 1.7194
+      },
+      {
+        "attribute": "lordly",
+        "category": "social_status",
+        "weight": 0.5771
+      },
+      {
+        "attribute": "lovely",
+        "category": "appearance_age",
+        "weight": 0.5771
+      },
+      {
+        "attribute": "ruddy",
+        "category": "color_hue",
+        "weight": 0.5771
+      },
+      {
+        "attribute": "shining",
+        "category": "luminosity",
+        "weight": 0.5771
+      },
+      {
+        "attribute": "strong",
+        "category": "agency_capacity",
+        "weight": 0.9552
+      },
+      {
+        "attribute": "white",
+        "category": "color_hue",
+        "weight": 0.5771
+      },
+      {
+        "attribute": "wise",
+        "category": "cognitive_evaluation",
+        "weight": 0.5771
+      }
+    ],
+    "HOME": [
+      {
+        "attribute": "brave",
+        "category": "agency_capacity",
+        "weight": 0.4179
+      },
+      {
+        "attribute": "bronze",
+        "category": "color_material",
+        "weight": 1.6716
+      },
+      {
+        "attribute": "deep",
+        "category": "scale_intensity",
+        "weight": 0.7522
+      },
+      {
+        "attribute": "evil",
+        "category": "moral_evaluation",
+        "weight": 0.8358
+      },
+      {
+        "attribute": "godlike",
+        "category": "moral_evaluation",
+        "weight": 0.8358
+      },
+      {
+        "attribute": "gold",
+        "category": "color_material",
+        "weight": 1.5721
+      },
+      {
+        "attribute": "good",
+        "category": "moral_evaluation",
+        "weight": 0.8865
+      },
+      {
+        "attribute": "great",
+        "category": "scale_intensity",
+        "weight": 1.791
+      },
+      {
+        "attribute": "high",
+        "category": "scale_intensity",
+        "weight": 3.8208
+      },
+      {
+        "attribute": "long",
+        "category": "scale_intensity",
+        "weight": 3.84765
+      },
+      {
+        "attribute": "lordly",
+        "category": "social_status",
+        "weight": 0.9552
+      },
+      {
+        "attribute": "noble",
+        "category": "moral_evaluation",
+        "weight": 1.7194
+      },
+      {
+        "attribute": "old",
+        "category": "appearance_age",
+        "weight": 3.4109
+      },
+      {
+        "attribute": "silver",
+        "category": "color_material",
+        "weight": 0.9552
+      },
+      {
+        "attribute": "vast",
+        "category": "scale_intensity",
+        "weight": 0.8358
+      },
+      {
+        "attribute": "weary",
+        "category": "affect_state",
+        "weight": 0.4925
+      }
+    ],
+    "ITHACA": [
+      {
+        "attribute": "bronze",
+        "category": "color_material",
+        "weight": 0.8358
+      },
+      {
+        "attribute": "dark",
+        "category": "color_hue",
+        "weight": 0.4179
+      },
+      {
+        "attribute": "evil",
+        "category": "moral_evaluation",
+        "weight": 1.6716
+      },
+      {
+        "attribute": "little",
+        "category": "scale_intensity",
+        "weight": 0.8358
+      },
+      {
+        "attribute": "long",
+        "category": "scale_intensity",
+        "weight": 1.5721
+      },
+      {
+        "attribute": "noble",
+        "category": "moral_evaluation",
+        "weight": 0.8597
+      },
+      {
+        "attribute": "old",
+        "category": "appearance_age",
+        "weight": 1.6955
+      },
+      {
+        "attribute": "splendid",
+        "category": "luminosity",
+        "weight": 0.8358
+      },
+      {
+        "attribute": "wide",
+        "category": "scale_intensity",
+        "weight": 0.44325
+      },
+      {
+        "attribute": "young",
+        "category": "appearance_age",
+        "weight": 0.7522
+      }
+    ],
+    "JOURNEY": [
+      {
+        "attribute": "evil",
+        "category": "moral_evaluation",
+        "weight": 2.7024
+      },
+      {
+        "attribute": "glad",
+        "category": "affect_state",
+        "weight": 0.9552
+      },
+      {
+        "attribute": "gold",
+        "category": "color_material",
+        "weight": 0.8597
+      },
+      {
+        "attribute": "good",
+        "category": "moral_evaluation",
+        "weight": 1.791
+      },
+      {
+        "attribute": "high",
+        "category": "scale_intensity",
+        "weight": 1.9104
+      },
+      {
+        "attribute": "long",
+        "category": "scale_intensity",
+        "weight": 4.98635
+      },
+      {
+        "attribute": "old",
+        "category": "appearance_age",
+        "weight": 1.7223
+      }
+    ],
+    "LAERTES": [
+      {
+        "attribute": "bitter",
+        "category": "affect_state",
+        "weight": 0.5771
+      },
+      {
+        "attribute": "brown",
+        "category": "color_hue",
+        "weight": 0.5771
+      },
+      {
+        "attribute": "dark",
+        "category": "color_hue",
+        "weight": 0.5771
+      },
+      {
+        "attribute": "fair",
+        "category": "appearance_age",
+        "weight": 0.5771
+      },
+      {
+        "attribute": "fierce",
+        "category": "behavior_disposition",
+        "weight": 0.5771
+      },
+      {
+        "attribute": "glad",
+        "category": "affect_state",
+        "weight": 0.985
+      },
+      {
+        "attribute": "good",
+        "category": "moral_evaluation",
+        "weight": 1.7313
+      },
+      {
+        "attribute": "gray",
+        "category": "color_hue",
+        "weight": 0.5771
+      },
+      {
+        "attribute": "high",
+        "category": "scale_intensity",
+        "weight": 1.5323
+      },
+      {
+        "attribute": "old",
+        "category": "appearance_age",
+        "weight": 5.0666
+      },
+      {
+        "attribute": "sorrowful",
+        "category": "affect_state",
+        "weight": 0.5771
+      },
+      {
+        "attribute": "white",
+        "category": "color_hue",
+        "weight": 0.5771
+      },
+      {
+        "attribute": "wise",
+        "category": "cognitive_evaluation",
+        "weight": 0.9552
+      },
+      {
+        "attribute": "young",
+        "category": "appearance_age",
+        "weight": 0.8865
+      }
+    ],
+    "MELANTHIUS": [
+      {
+        "attribute": "good",
+        "category": "moral_evaluation",
+        "weight": 1.4368
+      },
+      {
+        "attribute": "great",
+        "category": "scale_intensity",
+        "weight": 0.5771
+      },
+      {
+        "attribute": "wise",
+        "category": "cognitive_evaluation",
+        "weight": 0.28855
+      }
+    ],
+    "MELANTHO": [
+      {
+        "attribute": "fair",
+        "category": "appearance_age",
+        "weight": 0.9552
+      }
+    ],
+    "MENELAUS": [
+      {
+        "attribute": "divine",
+        "category": "moral_evaluation",
+        "weight": 0.5771
+      },
+      {
+        "attribute": "fair",
+        "category": "appearance_age",
+        "weight": 9.4286
+      },
+      {
+        "attribute": "gentle",
+        "category": "moral_evaluation",
+        "weight": 0.5771
+      },
+      {
+        "attribute": "godlike",
+        "category": "moral_evaluation",
+        "weight": 1.8149
+      },
+      {
+        "attribute": "gold",
+        "category": "color_material",
+        "weight": 0.8597
+      },
+      {
+        "attribute": "golden",
+        "category": "color_material",
+        "weight": 0.5771
+      },
+      {
+        "attribute": "good",
+        "category": "moral_evaluation",
+        "weight": 2.8855
+      },
+      {
+        "attribute": "high",
+        "category": "scale_intensity",
+        "weight": 0.5771
+      },
+      {
+        "attribute": "low",
+        "category": "scale_intensity",
+        "weight": 0.5771
+      },
+      {
+        "attribute": "rosy-fingered",
+        "category": "color_complex",
+        "weight": 0.8597
+      },
+      {
+        "attribute": "silver",
+        "category": "color_material",
+        "weight": 1.1542
+      },
+      {
+        "attribute": "strong",
+        "category": "agency_capacity",
+        "weight": 0.5771
+      }
+    ],
+    "MIND": [
+      {
+        "attribute": "able",
+        "category": "agency_capacity",
+        "weight": 0.985
+      },
+      {
+        "attribute": "afraid",
+        "category": "affect_state",
+        "weight": 0.985
+      },
+      {
+        "attribute": "angry",
+        "category": "affect_state",
+        "weight": 2.6746
+      },
+      {
+        "attribute": "black",
+        "category": "color_hue",
+        "weight": 0.9552
+      },
+      {
+        "attribute": "blameless",
+        "category": "moral_evaluation",
+        "weight": 0.8597
+      },
+      {
+        "attribute": "brave",
+        "category": "agency_capacity",
+        "weight": 3.6298
+      },
+      {
+        "attribute": "bronze",
+        "category": "color_material",
+        "weight": 2.6775
+      },
+      {
+        "attribute": "crafty",
+        "category": "cognitive_evaluation",
+        "weight": 0.9552
+      },
+      {
+        "attribute": "deep",
+        "category": "scale_intensity",
+        "weight": 6.9044
+      },
+      {
+        "attribute": "evil",
+        "category": "moral_evaluation",
+        "weight": 8.4674
+      },
+      {
+        "attribute": "fair",
+        "category": "appearance_age",
+        "weight": 0.985
+      },
+      {
+        "attribute": "friendly",
+        "category": "behavior_disposition",
+        "weight": 0.8597
+      },
+      {
+        "attribute": "gentle",
+        "category": "moral_evaluation",
+        "weight": 0.8597
+      },
+      {
+        "attribute": "glad",
+        "category": "affect_state",
+        "weight": 7.3996
+      },
+      {
+        "attribute": "godlike",
+        "category": "moral_evaluation",
+        "weight": 0.8597
+      },
+      {
+        "attribute": "good",
+        "category": "moral_evaluation",
+        "weight": 1.9402
+      },
+      {
+        "attribute": "great",
+        "category": "scale_intensity",
+        "weight": 7.32665
+      },
+      {
+        "attribute": "guileful",
+        "category": "cognitive_evaluation",
+        "weight": 0.9552
+      },
+      {
+        "attribute": "high",
+        "category": "scale_intensity",
+        "weight": 7.9999
+      },
+      {
+        "attribute": "hospitable",
+        "category": "behavior_disposition",
+        "weight": 1.7194
+      },
+      {
+        "attribute": "joyful",
+        "category": "affect_state",
+        "weight": 0.8597
+      },
+      {
+        "attribute": "lawless",
+        "category": "moral_evaluation",
+        "weight": 0.8597
+      },
+      {
+        "attribute": "long",
+        "category": "scale_intensity",
+        "weight": 1.27905
+      },
+      {
+        "attribute": "lordly",
+        "category": "social_status",
+        "weight": 7.9282
+      },
+      {
+        "attribute": "noble",
+        "category": "moral_evaluation",
+        "weight": 1.6228
+      },
+      {
+        "attribute": "old",
+        "category": "appearance_age",
+        "weight": 2.0805
+      },
+      {
+        "attribute": "patient",
+        "category": "affect_state",
+        "weight": 1.6915
+      },
+      {
+        "attribute": "prudent",
+        "category": "cognitive_evaluation",
+        "weight": 0.9552
+      },
+      {
+        "attribute": "righteous",
+        "category": "moral_evaluation",
+        "weight": 0.8597
+      },
+      {
+        "attribute": "sad",
+        "category": "affect_state",
+        "weight": 1.8149
+      },
+      {
+        "attribute": "small",
+        "category": "appearance_age",
+        "weight": 0.4925
+      },
+      {
+        "attribute": "sorrowful",
+        "category": "affect_state",
+        "weight": 1.8417
+      },
+      {
+        "attribute": "steadfast",
+        "category": "behavior_disposition",
+        "weight": 6.67845
+      },
+      {
+        "attribute": "tall",
+        "category": "appearance_age",
+        "weight": 0.8358
+      },
+      {
+        "attribute": "wanton",
+        "category": "behavior_disposition",
+        "weight": 0.9552
+      },
+      {
+        "attribute": "white",
+        "category": "color_hue",
+        "weight": 0.9552
+      },
+      {
+        "attribute": "wise",
+        "category": "cognitive_evaluation",
+        "weight": 7.4535
+      }
+    ],
+    "MOON": [
+      {
+        "attribute": "old",
+        "category": "appearance_age",
+        "weight": 1.7194
+      }
+    ],
+    "MORTALS": [
+      {
+        "attribute": "beautiful",
+        "category": "appearance_age",
+        "weight": 0.8358
+      },
+      {
+        "attribute": "bronze",
+        "category": "color_material",
+        "weight": 0.9552
+      },
+      {
+        "attribute": "crafty",
+        "category": "cognitive_evaluation",
+        "weight": 1.6955
+      },
+      {
+        "attribute": "deep",
+        "category": "scale_intensity",
+        "weight": 1.7194
+      },
+      {
+        "attribute": "endless",
+        "category": "scale_intensity",
+        "weight": 0.8358
+      },
+      {
+        "attribute": "evil",
+        "category": "moral_evaluation",
+        "weight": 2.5432
+      },
+      {
+        "attribute": "fair",
+        "category": "appearance_age",
+        "weight": 1.5721
+      },
+      {
+        "attribute": "feeble",
+        "category": "agency_capacity",
+        "weight": 0.7363
+      },
+      {
+        "attribute": "fierce",
+        "category": "behavior_disposition",
+        "weight": 0.8597
+      },
+      {
+        "attribute": "glad",
+        "category": "affect_state",
+        "weight": 4.6944
+      },
+      {
+        "attribute": "godlike",
+        "category": "moral_evaluation",
+        "weight": 0.9552
+      },
+      {
+        "attribute": "good",
+        "category": "moral_evaluation",
+        "weight": 5.8387
+      },
+      {
+        "attribute": "great",
+        "category": "scale_intensity",
+        "weight": 1.9482
+      },
+      {
+        "attribute": "greedy",
+        "category": "behavior_disposition",
+        "weight": 0.9552
+      },
+      {
+        "attribute": "high",
+        "category": "scale_intensity",
+        "weight": 1.791
+      },
+      {
+        "attribute": "hospitable",
+        "category": "behavior_disposition",
+        "weight": 0.9552
+      },
+      {
+        "attribute": "lordly",
+        "category": "social_status",
+        "weight": 0.8597
+      },
+      {
+        "attribute": "mighty",
+        "category": "scale_intensity",
+        "weight": 4.3661
+      },
+      {
+        "attribute": "noble",
+        "category": "moral_evaluation",
+        "weight": 1.7462
+      },
+      {
+        "attribute": "old",
+        "category": "appearance_age",
+        "weight": 4.2993
+      },
+      {
+        "attribute": "righteous",
+        "category": "moral_evaluation",
+        "weight": 0.9552
+      },
+      {
+        "attribute": "strong",
+        "category": "agency_capacity",
+        "weight": 0.985
+      },
+      {
+        "attribute": "trusty",
+        "category": "moral_evaluation",
+        "weight": 0.8597
+      },
+      {
+        "attribute": "valiant",
+        "category": "agency_capacity",
+        "weight": 1.8149
+      },
+      {
+        "attribute": "violent",
+        "category": "behavior_disposition",
+        "weight": 0.9552
+      },
+      {
+        "attribute": "wanton",
+        "category": "behavior_disposition",
+        "weight": 0.4179
+      },
+      {
+        "attribute": "white",
+        "category": "color_hue",
+        "weight": 0.8597
+      },
+      {
+        "attribute": "wide",
+        "category": "scale_intensity",
+        "weight": 3.83265
+      },
+      {
+        "attribute": "wise",
+        "category": "cognitive_evaluation",
+        "weight": 0.4776
+      },
+      {
+        "attribute": "young",
+        "category": "appearance_age",
+        "weight": 14.74
+      }
+    ],
+    "NAUSICAA": [
+      {
+        "attribute": "golden",
+        "category": "color_material",
+        "weight": 0.5771
+      },
+      {
+        "attribute": "shining",
+        "category": "luminosity",
+        "weight": 0.5771
+      },
+      {
+        "attribute": "white",
+        "category": "color_hue",
+        "weight": 3.1641
+      }
+    ],
+    "NESTOR": [
+      {
+        "attribute": "ancient",
+        "category": "appearance_age",
+        "weight": 0.8597
+      },
+      {
+        "attribute": "gentle",
+        "category": "moral_evaluation",
+        "weight": 0.985
+      },
+      {
+        "attribute": "godlike",
+        "category": "moral_evaluation",
+        "weight": 0.42985
+      },
+      {
+        "attribute": "gold",
+        "category": "color_material",
+        "weight": 0.7363
+      },
+      {
+        "attribute": "good",
+        "category": "moral_evaluation",
+        "weight": 1.1542
+      },
+      {
+        "attribute": "high",
+        "category": "scale_intensity",
+        "weight": 0.5771
+      },
+      {
+        "attribute": "just",
+        "category": "moral_evaluation",
+        "weight": 0.5771
+      },
+      {
+        "attribute": "long",
+        "category": "scale_intensity",
+        "weight": 0.5771
+      },
+      {
+        "attribute": "old",
+        "category": "appearance_age",
+        "weight": 3.3472
+      },
+      {
+        "attribute": "princely",
+        "category": "social_status",
+        "weight": 0.8358
+      },
+      {
+        "attribute": "rosy-fingered",
+        "category": "color_complex",
+        "weight": 0.8597
+      },
+      {
+        "attribute": "small",
+        "category": "appearance_age",
+        "weight": 0.5771
+      },
+      {
+        "attribute": "splendid",
+        "category": "luminosity",
+        "weight": 1.7194
+      },
+      {
+        "attribute": "white",
+        "category": "color_hue",
+        "weight": 0.5771
+      },
+      {
+        "attribute": "wise",
+        "category": "cognitive_evaluation",
+        "weight": 2.77205
+      }
+    ],
+    "NIGHT": [
+      {
+        "attribute": "bitter",
+        "category": "affect_state",
+        "weight": 0.8358
+      },
+      {
+        "attribute": "black",
+        "category": "color_hue",
+        "weight": 2.7701
+      },
+      {
+        "attribute": "dark",
+        "category": "color_hue",
+        "weight": 3.179
+      },
+      {
+        "attribute": "great",
+        "category": "scale_intensity",
+        "weight": 0.985
+      },
+      {
+        "attribute": "long",
+        "category": "scale_intensity",
+        "weight": 0.7363
+      }
+    ],
+    "ODYSSEUS": [
+      {
+        "attribute": "angry",
+        "category": "affect_state",
+        "weight": 0.4776
+      },
+      {
+        "attribute": "ashen",
+        "category": "color_complex",
+        "weight": 0.5771
+      },
+      {
+        "attribute": "base",
+        "category": "moral_evaluation",
+        "weight": 0.7363
+      },
+      {
+        "attribute": "bitter",
+        "category": "affect_state",
+        "weight": 1.7313
+      },
+      {
+        "attribute": "black",
+        "category": "color_hue",
+        "weight": 0.5771
+      },
+      {
+        "attribute": "bright",
+        "category": "luminosity",
+        "weight": 0.5771
+      },
+      {
+        "attribute": "bronze",
+        "category": "color_material",
+        "weight": 5.1581
+      },
+      {
+        "attribute": "comely",
+        "category": "appearance_age",
+        "weight": 0.5771
+      },
+      {
+        "attribute": "crafty",
+        "category": "cognitive_evaluation",
+        "weight": 3.4865
+      },
+      {
+        "attribute": "cruel",
+        "category": "moral_evaluation",
+        "weight": 0.5771
+      },
+      {
+        "attribute": "dark",
+        "category": "color_hue",
+        "weight": 0.5771
+      },
+      {
+        "attribute": "deep",
+        "category": "scale_intensity",
+        "weight": 1.7462
+      },
+      {
+        "attribute": "divine",
+        "category": "moral_evaluation",
+        "weight": 23.1281
+      },
+      {
+        "attribute": "enduring",
+        "category": "agency_capacity",
+        "weight": 0.28855
+      },
+      {
+        "attribute": "evil",
+        "category": "moral_evaluation",
+        "weight": 5.4765
+      },
+      {
+        "attribute": "fair",
+        "category": "appearance_age",
+        "weight": 8.0893
+      },
+      {
+        "attribute": "foolish",
+        "category": "cognitive_evaluation",
+        "weight": 0.5771
+      },
+      {
+        "attribute": "gentle",
+        "category": "moral_evaluation",
+        "weight": 2.3501
+      },
+      {
+        "attribute": "glad",
+        "category": "affect_state",
+        "weight": 10.2301
+      },
+      {
+        "attribute": "glowing",
+        "category": "luminosity",
+        "weight": 0.8358
+      },
+      {
+        "attribute": "godlike",
+        "category": "moral_evaluation",
+        "weight": 9.8506
+      },
+      {
+        "attribute": "gold",
+        "category": "color_material",
+        "weight": 2.8258
+      },
+      {
+        "attribute": "golden",
+        "category": "color_material",
+        "weight": 1.1542
+      },
+      {
+        "attribute": "good",
+        "category": "moral_evaluation",
+        "weight": 9.9241
+      },
+      {
+        "attribute": "gray",
+        "category": "color_hue",
+        "weight": 0.5771
+      },
+      {
+        "attribute": "gray-eyed",
+        "category": "color_complex",
+        "weight": 0.44325
+      },
+      {
+        "attribute": "great",
+        "category": "scale_intensity",
+        "weight": 19.7687
+      },
+      {
+        "attribute": "guileful",
+        "category": "cognitive_evaluation",
+        "weight": 0.8597
+      },
+      {
+        "attribute": "guiltless",
+        "category": "moral_evaluation",
+        "weight": 0.5771
+      },
+      {
+        "attribute": "happy",
+        "category": "affect_state",
+        "weight": 0.8597
+      },
+      {
+        "attribute": "high",
+        "category": "scale_intensity",
+        "weight": 2.8855
+      },
+      {
+        "attribute": "just",
+        "category": "moral_evaluation",
+        "weight": 0.5771
+      },
+      {
+        "attribute": "little",
+        "category": "scale_intensity",
+        "weight": 0.5771
+      },
+      {
+        "attribute": "long",
+        "category": "scale_intensity",
+        "weight": 12.8165
+      },
+      {
+        "attribute": "lovely",
+        "category": "appearance_age",
+        "weight": 1.4129
+      },
+      {
+        "attribute": "low",
+        "category": "scale_intensity",
+        "weight": 0.5771
+      },
+      {
+        "attribute": "mighty",
+        "category": "scale_intensity",
+        "weight": 4.0397
+      },
+      {
+        "attribute": "noble",
+        "category": "moral_evaluation",
+        "weight": 11.0923
+      },
+      {
+        "attribute": "old",
+        "category": "appearance_age",
+        "weight": 4.0397
+      },
+      {
+        "attribute": "patient",
+        "category": "affect_state",
+        "weight": 1.7194
+      },
+      {
+        "attribute": "purple",
+        "category": "color_hue",
+        "weight": 1.1542
+      },
+      {
+        "attribute": "rosy-fingered",
+        "category": "color_complex",
+        "weight": 0.8597
+      },
+      {
+        "attribute": "shining",
+        "category": "luminosity",
+        "weight": 6.6068
+      },
+      {
+        "attribute": "small",
+        "category": "appearance_age",
+        "weight": 0.5771
+      },
+      {
+        "attribute": "splendid",
+        "category": "luminosity",
+        "weight": 0.5771
+      },
+      {
+        "attribute": "steadfast",
+        "category": "behavior_disposition",
+        "weight": 37.06185
+      },
+      {
+        "attribute": "strong",
+        "category": "agency_capacity",
+        "weight": 3.8964
+      },
+      {
+        "attribute": "tall",
+        "category": "appearance_age",
+        "weight": 0.5771
+      },
+      {
+        "attribute": "unjust",
+        "category": "moral_evaluation",
+        "weight": 0.5771
+      },
+      {
+        "attribute": "weary",
+        "category": "affect_state",
+        "weight": 0.4925
+      },
+      {
+        "attribute": "white",
+        "category": "color_hue",
+        "weight": 4.6168
+      },
+      {
+        "attribute": "wide",
+        "category": "scale_intensity",
+        "weight": 4.0397
+      },
+      {
+        "attribute": "wise",
+        "category": "cognitive_evaluation",
+        "weight": 18.02355
+      },
+      {
+        "attribute": "woeful",
+        "category": "affect_state",
+        "weight": 0.5771
+      },
+      {
+        "attribute": "young",
+        "category": "appearance_age",
+        "weight": 1.1542
+      }
+    ],
+    "ORESTES": [
+      {
+        "attribute": "evil",
+        "category": "moral_evaluation",
+        "weight": 0.5771
+      },
+      {
+        "attribute": "wide",
+        "category": "scale_intensity",
+        "weight": 0.8597
+      }
+    ],
+    "PALACE": [
+      {
+        "attribute": "brazen",
+        "category": "color_material",
+        "weight": 0.7363
+      },
+      {
+        "attribute": "cunning",
+        "category": "cognitive_evaluation",
+        "weight": 0.9552
+      },
+      {
+        "attribute": "divine",
+        "category": "moral_evaluation",
+        "weight": 0.7363
+      },
+      {
+        "attribute": "evil",
+        "category": "moral_evaluation",
+        "weight": 1.9402
+      },
+      {
+        "attribute": "fair",
+        "category": "appearance_age",
+        "weight": 12.0444
+      },
+      {
+        "attribute": "gold",
+        "category": "color_material",
+        "weight": 0.8358
+      },
+      {
+        "attribute": "golden",
+        "category": "color_material",
+        "weight": 0.7522
+      },
+      {
+        "attribute": "good",
+        "category": "moral_evaluation",
+        "weight": 3.7312
+      },
+      {
+        "attribute": "great",
+        "category": "scale_intensity",
+        "weight": 8.2137
+      },
+      {
+        "attribute": "high",
+        "category": "scale_intensity",
+        "weight": 6.4018
+      },
+      {
+        "attribute": "huge",
+        "category": "scale_intensity",
+        "weight": 0.8865
+      },
+      {
+        "attribute": "keen",
+        "category": "cognitive_evaluation",
+        "weight": 0.8358
+      },
+      {
+        "attribute": "kingly",
+        "category": "social_status",
+        "weight": 0.36815
+      },
+      {
+        "attribute": "little",
+        "category": "scale_intensity",
+        "weight": 0.985
+      },
+      {
+        "attribute": "long",
+        "category": "scale_intensity",
+        "weight": 2.5074
+      },
+      {
+        "attribute": "murky",
+        "category": "luminosity",
+        "weight": 0.9552
+      },
+      {
+        "attribute": "noble",
+        "category": "moral_evaluation",
+        "weight": 0.8597
+      },
+      {
+        "attribute": "old",
+        "category": "appearance_age",
+        "weight": 3.3451
+      },
+      {
+        "attribute": "raging",
+        "category": "affect_state",
+        "weight": 0.9552
+      },
+      {
+        "attribute": "shining",
+        "category": "luminosity",
+        "weight": 0.8358
+      },
+      {
+        "attribute": "tall",
+        "category": "appearance_age",
+        "weight": 0.8865
+      },
+      {
+        "attribute": "wanton",
+        "category": "behavior_disposition",
+        "weight": 1.4726
+      },
+      {
+        "attribute": "wide",
+        "category": "scale_intensity",
+        "weight": 1.8447
+      },
+      {
+        "attribute": "wise",
+        "category": "cognitive_evaluation",
+        "weight": 2.6467
+      },
+      {
+        "attribute": "yellow",
+        "category": "color_hue",
+        "weight": 0.8358
+      },
+      {
+        "attribute": "young",
+        "category": "appearance_age",
+        "weight": 0.8358
+      }
+    ],
+    "PENELOPE": [
+      {
+        "attribute": "ancient",
+        "category": "appearance_age",
+        "weight": 0.5771
+      },
+      {
+        "attribute": "beautiful",
+        "category": "appearance_age",
+        "weight": 0.5771
+      },
+      {
+        "attribute": "boundless",
+        "category": "scale_intensity",
+        "weight": 0.5771
+      },
+      {
+        "attribute": "dim",
+        "category": "luminosity",
+        "weight": 1.1542
+      },
+      {
+        "attribute": "evil",
+        "category": "moral_evaluation",
+        "weight": 1.1542
+      },
+      {
+        "attribute": "fair",
+        "category": "appearance_age",
+        "weight": 1.4129
+      },
+      {
+        "attribute": "glad",
+        "category": "affect_state",
+        "weight": 0.7363
+      },
+      {
+        "attribute": "golden",
+        "category": "color_material",
+        "weight": 1.4129
+      },
+      {
+        "attribute": "good",
+        "category": "moral_evaluation",
+        "weight": 1.6467
+      },
+      {
+        "attribute": "high",
+        "category": "scale_intensity",
+        "weight": 1.7313
+      },
+      {
+        "attribute": "little",
+        "category": "scale_intensity",
+        "weight": 0.8865
+      },
+      {
+        "attribute": "long",
+        "category": "scale_intensity",
+        "weight": 1.0547
+      },
+      {
+        "attribute": "prudent",
+        "category": "cognitive_evaluation",
+        "weight": 0.8597
+      },
+      {
+        "attribute": "reckless",
+        "category": "behavior_disposition",
+        "weight": 0.5771
+      },
+      {
+        "attribute": "shining",
+        "category": "luminosity",
+        "weight": 0.5771
+      },
+      {
+        "attribute": "steadfast",
+        "category": "behavior_disposition",
+        "weight": 0.5771
+      },
+      {
+        "attribute": "white",
+        "category": "color_hue",
+        "weight": 0.5771
+      },
+      {
+        "attribute": "wise",
+        "category": "cognitive_evaluation",
+        "weight": 44.17835
+      }
+    ],
+    "PHAEACIANS": [
+      {
+        "attribute": "godlike",
+        "category": "moral_evaluation",
+        "weight": 0.9552
+      },
+      {
+        "attribute": "gold",
+        "category": "color_material",
+        "weight": 0.9552
+      },
+      {
+        "attribute": "good",
+        "category": "moral_evaluation",
+        "weight": 0.985
+      },
+      {
+        "attribute": "long",
+        "category": "scale_intensity",
+        "weight": 1.6716
+      },
+      {
+        "attribute": "lordly",
+        "category": "social_status",
+        "weight": 0.9552
+      },
+      {
+        "attribute": "noble",
+        "category": "moral_evaluation",
+        "weight": 3.6019
+      },
+      {
+        "attribute": "old",
+        "category": "appearance_age",
+        "weight": 0.7522
+      },
+      {
+        "attribute": "wise",
+        "category": "cognitive_evaluation",
+        "weight": 0.8865
+      }
+    ],
+    "POLYPHEMUS": [
+      {
+        "attribute": "distressed",
+        "category": "affect_state",
+        "weight": 0.9552
+      },
+      {
+        "attribute": "godlike",
+        "category": "moral_evaluation",
+        "weight": 0.9552
+      },
+      {
+        "attribute": "strong",
+        "category": "agency_capacity",
+        "weight": 1.9104
+      }
+    ],
+    "POSEIDON": [
+      {
+        "attribute": "able",
+        "category": "agency_capacity",
+        "weight": 0.28855
+      },
+      {
+        "attribute": "cunning",
+        "category": "cognitive_evaluation",
+        "weight": 0.5771
+      },
+      {
+        "attribute": "fair",
+        "category": "appearance_age",
+        "weight": 1.1542
+      },
+      {
+        "attribute": "godlike",
+        "category": "moral_evaluation",
+        "weight": 0.5771
+      },
+      {
+        "attribute": "good",
+        "category": "moral_evaluation",
+        "weight": 1.1542
+      },
+      {
+        "attribute": "great",
+        "category": "scale_intensity",
+        "weight": 1.4368
+      },
+      {
+        "attribute": "lovely",
+        "category": "appearance_age",
+        "weight": 0.5771
+      },
+      {
+        "attribute": "mighty",
+        "category": "scale_intensity",
+        "weight": 0.5771
+      },
+      {
+        "attribute": "old",
+        "category": "appearance_age",
+        "weight": 0.5771
+      },
+      {
+        "attribute": "strong",
+        "category": "agency_capacity",
+        "weight": 1.1542
+      },
+      {
+        "attribute": "wise",
+        "category": "cognitive_evaluation",
+        "weight": 0.86565
+      }
+    ],
+    "SEA": [
+      {
+        "attribute": "ancient",
+        "category": "appearance_age",
+        "weight": 7.4506
+      },
+      {
+        "attribute": "bitter",
+        "category": "affect_state",
+        "weight": 1.7074
+      },
+      {
+        "attribute": "black",
+        "category": "color_hue",
+        "weight": 6.2505
+      },
+      {
+        "attribute": "blue",
+        "category": "color_hue",
+        "weight": 1.4726
+      },
+      {
+        "attribute": "brazen",
+        "category": "color_material",
+        "weight": 0.8865
+      },
+      {
+        "attribute": "bright",
+        "category": "luminosity",
+        "weight": 2.7014
+      },
+      {
+        "attribute": "cunning",
+        "category": "cognitive_evaluation",
+        "weight": 0.985
+      },
+      {
+        "attribute": "dark",
+        "category": "color_hue",
+        "weight": 5.3213
+      },
+      {
+        "attribute": "deep",
+        "category": "scale_intensity",
+        "weight": 63.66565
+      },
+      {
+        "attribute": "distressed",
+        "category": "affect_state",
+        "weight": 0.7363
+      },
+      {
+        "attribute": "endless",
+        "category": "scale_intensity",
+        "weight": 0.9552
+      },
+      {
+        "attribute": "evil",
+        "category": "moral_evaluation",
+        "weight": 6.5909
+      },
+      {
+        "attribute": "fair",
+        "category": "appearance_age",
+        "weight": 7.9044
+      },
+      {
+        "attribute": "free",
+        "category": "social_status",
+        "weight": 0.7363
+      },
+      {
+        "attribute": "glad",
+        "category": "affect_state",
+        "weight": 0.985
+      },
+      {
+        "attribute": "good",
+        "category": "moral_evaluation",
+        "weight": 0.9552
+      },
+      {
+        "attribute": "gray",
+        "category": "color_hue",
+        "weight": 12.7999
+      },
+      {
+        "attribute": "great",
+        "category": "scale_intensity",
+        "weight": 25.7269
+      },
+      {
+        "attribute": "high",
+        "category": "scale_intensity",
+        "weight": 0.8865
+      },
+      {
+        "attribute": "huge",
+        "category": "scale_intensity",
+        "weight": 0.8358
+      },
+      {
+        "attribute": "long",
+        "category": "scale_intensity",
+        "weight": 6.24865
+      },
+      {
+        "attribute": "low",
+        "category": "scale_intensity",
+        "weight": 1.6955
+      },
+      {
+        "attribute": "mighty",
+        "category": "scale_intensity",
+        "weight": 3.7551
+      },
+      {
+        "attribute": "subtle",
+        "category": "cognitive_evaluation",
+        "weight": 0.8358
+      },
+      {
+        "attribute": "tall",
+        "category": "appearance_age",
+        "weight": 2.6566
+      },
+      {
+        "attribute": "vast",
+        "category": "scale_intensity",
+        "weight": 0.9552
+      },
+      {
+        "attribute": "violet",
+        "category": "color_hue",
+        "weight": 1.4726
+      },
+      {
+        "attribute": "white",
+        "category": "color_hue",
+        "weight": 0.8358
+      },
+      {
+        "attribute": "wide",
+        "category": "scale_intensity",
+        "weight": 6.3999
+      },
+      {
+        "attribute": "wine-dark",
+        "category": "color_complex",
+        "weight": 10.3164
+      },
+      {
+        "attribute": "wise",
+        "category": "cognitive_evaluation",
+        "weight": 0.44325
+      }
+    ],
+    "SHIELD": [
+      {
+        "attribute": "bright",
+        "category": "luminosity",
+        "weight": 0.7363
+      },
+      {
+        "attribute": "high",
+        "category": "scale_intensity",
+        "weight": 0.8597
+      },
+      {
+        "attribute": "mighty",
+        "category": "scale_intensity",
+        "weight": 0.7363
+      },
+      {
+        "attribute": "old",
+        "category": "appearance_age",
+        "weight": 0.7363
+      },
+      {
+        "attribute": "wide",
+        "category": "scale_intensity",
+        "weight": 0.9552
+      }
+    ],
+    "SHIP": [
+      {
+        "attribute": "black",
+        "category": "color_hue",
+        "weight": 35.4381
+      },
+      {
+        "attribute": "brazen",
+        "category": "color_material",
+        "weight": 0.9552
+      },
+      {
+        "attribute": "dark",
+        "category": "color_hue",
+        "weight": 12.528
+      },
+      {
+        "attribute": "deep",
+        "category": "scale_intensity",
+        "weight": 2.79395
+      },
+      {
+        "attribute": "evil",
+        "category": "moral_evaluation",
+        "weight": 0.8865
+      },
+      {
+        "attribute": "fair",
+        "category": "appearance_age",
+        "weight": 2.4716
+      },
+      {
+        "attribute": "good",
+        "category": "moral_evaluation",
+        "weight": 2.388
+      },
+      {
+        "attribute": "great",
+        "category": "scale_intensity",
+        "weight": 0.7363
+      },
+      {
+        "attribute": "high",
+        "category": "scale_intensity",
+        "weight": 1.596
+      },
+      {
+        "attribute": "long",
+        "category": "scale_intensity",
+        "weight": 1.4726
+      },
+      {
+        "attribute": "noble",
+        "category": "moral_evaluation",
+        "weight": 0.8597
+      },
+      {
+        "attribute": "purple",
+        "category": "color_hue",
+        "weight": 0.7363
+      },
+      {
+        "attribute": "rosy-fingered",
+        "category": "color_complex",
+        "weight": 0.8597
+      },
+      {
+        "attribute": "sacred",
+        "category": "moral_evaluation",
+        "weight": 0.8865
+      },
+      {
+        "attribute": "shining",
+        "category": "luminosity",
+        "weight": 0.7363
+      },
+      {
+        "attribute": "sorrowful",
+        "category": "affect_state",
+        "weight": 0.9552
+      },
+      {
+        "attribute": "vermilion",
+        "category": "color_hue",
+        "weight": 0.36815
+      },
+      {
+        "attribute": "white",
+        "category": "color_hue",
+        "weight": 1.4726
+      },
+      {
+        "attribute": "wide",
+        "category": "scale_intensity",
+        "weight": 0.8597
+      },
+      {
+        "attribute": "young",
+        "category": "appearance_age",
+        "weight": 0.8865
+      }
+    ],
+    "SKY": [
+      {
+        "attribute": "brazen",
+        "category": "color_material",
+        "weight": 0.9552
+      },
+      {
+        "attribute": "dark",
+        "category": "color_hue",
+        "weight": 1.791
+      },
+      {
+        "attribute": "evil",
+        "category": "moral_evaluation",
+        "weight": 0.8358
+      },
+      {
+        "attribute": "good",
+        "category": "moral_evaluation",
+        "weight": 0.7363
+      },
+      {
+        "attribute": "high",
+        "category": "scale_intensity",
+        "weight": 0.9552
+      },
+      {
+        "attribute": "long",
+        "category": "scale_intensity",
+        "weight": 0.8358
+      },
+      {
+        "attribute": "wide",
+        "category": "scale_intensity",
+        "weight": 17.81465
+      }
+    ],
+    "SORROW": [
+      {
+        "attribute": "bitter",
+        "category": "affect_state",
+        "weight": 0.9552
+      },
+      {
+        "attribute": "black",
+        "category": "color_hue",
+        "weight": 0.8597
+      },
+      {
+        "attribute": "glad",
+        "category": "affect_state",
+        "weight": 0.8865
+      },
+      {
+        "attribute": "good",
+        "category": "moral_evaluation",
+        "weight": 1.8417
+      },
+      {
+        "attribute": "great",
+        "category": "scale_intensity",
+        "weight": 5.87455
+      },
+      {
+        "attribute": "guileful",
+        "category": "cognitive_evaluation",
+        "weight": 0.8358
+      },
+      {
+        "attribute": "helpless",
+        "category": "agency_capacity",
+        "weight": 0.985
+      },
+      {
+        "attribute": "keen",
+        "category": "cognitive_evaluation",
+        "weight": 0.9552
+      },
+      {
+        "attribute": "little",
+        "category": "scale_intensity",
+        "weight": 0.9552
+      },
+      {
+        "attribute": "long",
+        "category": "scale_intensity",
+        "weight": 2.6507
+      },
+      {
+        "attribute": "low",
+        "category": "scale_intensity",
+        "weight": 0.8597
+      },
+      {
+        "attribute": "mighty",
+        "category": "scale_intensity",
+        "weight": 2.7701
+      },
+      {
+        "attribute": "noble",
+        "category": "moral_evaluation",
+        "weight": 0.8865
+      },
+      {
+        "attribute": "woeful",
+        "category": "affect_state",
+        "weight": 0.4776
+      }
+    ],
+    "SPEAR": [
+      {
+        "attribute": "ashen",
+        "category": "color_complex",
+        "weight": 2.7701
+      },
+      {
+        "attribute": "bright",
+        "category": "luminosity",
+        "weight": 0.9552
+      },
+      {
+        "attribute": "bronze",
+        "category": "color_material",
+        "weight": 9.0585
+      },
+      {
+        "attribute": "good",
+        "category": "moral_evaluation",
+        "weight": 0.9552
+      },
+      {
+        "attribute": "long",
+        "category": "scale_intensity",
+        "weight": 5.2537
+      },
+      {
+        "attribute": "mighty",
+        "category": "scale_intensity",
+        "weight": 3.7253
+      },
+      {
+        "attribute": "white",
+        "category": "color_hue",
+        "weight": 0.8358
+      },
+      {
+        "attribute": "wise",
+        "category": "cognitive_evaluation",
+        "weight": 0.4925
+      }
+    ],
+    "SPEECH": [
+      {
+        "attribute": "angry",
+        "category": "affect_state",
+        "weight": 2.8297
+      },
+      {
+        "attribute": "bitter",
+        "category": "affect_state",
+        "weight": 1.7194
+      },
+      {
+        "attribute": "bold",
+        "category": "behavior_disposition",
+        "weight": 0.8865
+      },
+      {
+        "attribute": "bronze",
+        "category": "color_material",
+        "weight": 0.8597
+      },
+      {
+        "attribute": "crafty",
+        "category": "cognitive_evaluation",
+        "weight": 1.8208
+      },
+      {
+        "attribute": "cunning",
+        "category": "cognitive_evaluation",
+        "weight": 0.9552
+      },
+      {
+        "attribute": "dark",
+        "category": "color_hue",
+        "weight": 1.773
+      },
+      {
+        "attribute": "evil",
+        "category": "moral_evaluation",
+        "weight": 5.8122
+      },
+      {
+        "attribute": "fair",
+        "category": "appearance_age",
+        "weight": 1.38505
+      },
+      {
+        "attribute": "fierce",
+        "category": "behavior_disposition",
+        "weight": 0.9552
+      },
+      {
+        "attribute": "gentle",
+        "category": "moral_evaluation",
+        "weight": 4.1223
+      },
+      {
+        "attribute": "good",
+        "category": "moral_evaluation",
+        "weight": 0.7363
+      },
+      {
+        "attribute": "long",
+        "category": "scale_intensity",
+        "weight": 1.6387
+      },
+      {
+        "attribute": "noble",
+        "category": "moral_evaluation",
+        "weight": 0.44325
+      },
+      {
+        "attribute": "old",
+        "category": "appearance_age",
+        "weight": 1.8149
+      },
+      {
+        "attribute": "righteous",
+        "category": "moral_evaluation",
+        "weight": 1.7194
+      },
+      {
+        "attribute": "savage",
+        "category": "behavior_disposition",
+        "weight": 0.8597
+      },
+      {
+        "attribute": "silver",
+        "category": "color_material",
+        "weight": 0.9552
+      },
+      {
+        "attribute": "wide",
+        "category": "scale_intensity",
+        "weight": 0.44325
+      },
+      {
+        "attribute": "wise",
+        "category": "cognitive_evaluation",
+        "weight": 1.16615
+      }
+    ],
+    "STORM": [
+      {
+        "attribute": "angry",
+        "category": "affect_state",
+        "weight": 0.8597
+      },
+      {
+        "attribute": "dark",
+        "category": "color_hue",
+        "weight": 0.7522
+      },
+      {
+        "attribute": "deep",
+        "category": "scale_intensity",
+        "weight": 0.8597
+      },
+      {
+        "attribute": "fair",
+        "category": "appearance_age",
+        "weight": 6.372
+      },
+      {
+        "attribute": "gentle",
+        "category": "moral_evaluation",
+        "weight": 1.9104
+      },
+      {
+        "attribute": "great",
+        "category": "scale_intensity",
+        "weight": 3.2477
+      },
+      {
+        "attribute": "strong",
+        "category": "agency_capacity",
+        "weight": 1.8149
+      }
+    ],
+    "SUITORS": [
+      {
+        "attribute": "bitter",
+        "category": "affect_state",
+        "weight": 0.7522
+      },
+      {
+        "attribute": "cruel",
+        "category": "moral_evaluation",
+        "weight": 0.7363
+      },
+      {
+        "attribute": "evil",
+        "category": "moral_evaluation",
+        "weight": 4.6805
+      },
+      {
+        "attribute": "friendly",
+        "category": "behavior_disposition",
+        "weight": 0.8358
+      },
+      {
+        "attribute": "godlike",
+        "category": "moral_evaluation",
+        "weight": 0.9552
+      },
+      {
+        "attribute": "gray",
+        "category": "color_hue",
+        "weight": 1.9104
+      },
+      {
+        "attribute": "great",
+        "category": "scale_intensity",
+        "weight": 0.9552
+      },
+      {
+        "attribute": "just",
+        "category": "moral_evaluation",
+        "weight": 0.4925
+      },
+      {
+        "attribute": "little",
+        "category": "scale_intensity",
+        "weight": 0.9552
+      },
+      {
+        "attribute": "long",
+        "category": "scale_intensity",
+        "weight": 0.36815
+      },
+      {
+        "attribute": "lordly",
+        "category": "social_status",
+        "weight": 13.3729
+      },
+      {
+        "attribute": "lovely",
+        "category": "appearance_age",
+        "weight": 0.9552
+      },
+      {
+        "attribute": "noble",
+        "category": "moral_evaluation",
+        "weight": 2.6746
+      },
+      {
+        "attribute": "princely",
+        "category": "social_status",
+        "weight": 2.8656
+      },
+      {
+        "attribute": "reckless",
+        "category": "behavior_disposition",
+        "weight": 0.9552
+      },
+      {
+        "attribute": "righteous",
+        "category": "moral_evaluation",
+        "weight": 0.985
+      },
+      {
+        "attribute": "senseless",
+        "category": "cognitive_evaluation",
+        "weight": 0.4776
+      },
+      {
+        "attribute": "shameless",
+        "category": "moral_evaluation",
+        "weight": 5.7312
+      },
+      {
+        "attribute": "steadfast",
+        "category": "behavior_disposition",
+        "weight": 0.9552
+      },
+      {
+        "attribute": "unjust",
+        "category": "moral_evaluation",
+        "weight": 0.985
+      },
+      {
+        "attribute": "wanton",
+        "category": "behavior_disposition",
+        "weight": 0.8597
+      },
+      {
+        "attribute": "wise",
+        "category": "cognitive_evaluation",
+        "weight": 0.9701
+      }
+    ],
+    "SUN": [
+      {
+        "attribute": "brave",
+        "category": "agency_capacity",
+        "weight": 2.5512
+      },
+      {
+        "attribute": "bright",
+        "category": "luminosity",
+        "weight": 1.8149
+      },
+      {
+        "attribute": "fair",
+        "category": "appearance_age",
+        "weight": 0.985
+      },
+      {
+        "attribute": "good",
+        "category": "moral_evaluation",
+        "weight": 0.8358
+      },
+      {
+        "attribute": "just",
+        "category": "moral_evaluation",
+        "weight": 0.985
+      },
+      {
+        "attribute": "noble",
+        "category": "moral_evaluation",
+        "weight": 0.8358
+      },
+      {
+        "attribute": "shining",
+        "category": "luminosity",
+        "weight": 1.4328
+      }
+    ],
+    "SWORD": [
+      {
+        "attribute": "blameless",
+        "category": "moral_evaluation",
+        "weight": 0.42985
+      },
+      {
+        "attribute": "bronze",
+        "category": "color_material",
+        "weight": 0.7363
+      },
+      {
+        "attribute": "deep",
+        "category": "scale_intensity",
+        "weight": 0.7522
+      },
+      {
+        "attribute": "fair",
+        "category": "appearance_age",
+        "weight": 1.8208
+      },
+      {
+        "attribute": "great",
+        "category": "scale_intensity",
+        "weight": 0.8597
+      },
+      {
+        "attribute": "long",
+        "category": "scale_intensity",
+        "weight": 0.8597
+      },
+      {
+        "attribute": "purple",
+        "category": "color_hue",
+        "weight": 0.8358
+      },
+      {
+        "attribute": "silver",
+        "category": "color_material",
+        "weight": 2.8656
+      },
+      {
+        "attribute": "strong",
+        "category": "agency_capacity",
+        "weight": 1.4726
+      }
+    ],
+    "TEIRESIAS": [
+      {
+        "attribute": "black",
+        "category": "color_hue",
+        "weight": 1.4129
+      },
+      {
+        "attribute": "golden",
+        "category": "color_material",
+        "weight": 0.7522
+      }
+    ],
+    "TELEMACHUS": [
+      {
+        "attribute": "able",
+        "category": "agency_capacity",
+        "weight": 0.44325
+      },
+      {
+        "attribute": "bronze",
+        "category": "color_material",
+        "weight": 0.5771
+      },
+      {
+        "attribute": "divine",
+        "category": "moral_evaluation",
+        "weight": 0.7522
+      },
+      {
+        "attribute": "evil",
+        "category": "moral_evaluation",
+        "weight": 0.86565
+      },
+      {
+        "attribute": "fair",
+        "category": "appearance_age",
+        "weight": 5.35305
+      },
+      {
+        "attribute": "fearful",
+        "category": "affect_state",
+        "weight": 0.4925
+      },
+      {
+        "attribute": "glad",
+        "category": "affect_state",
+        "weight": 0.985
+      },
+      {
+        "attribute": "godlike",
+        "category": "moral_evaluation",
+        "weight": 6.977
+      },
+      {
+        "attribute": "good",
+        "category": "moral_evaluation",
+        "weight": 1.1542
+      },
+      {
+        "attribute": "great",
+        "category": "scale_intensity",
+        "weight": 1.5323
+      },
+      {
+        "attribute": "happy",
+        "category": "affect_state",
+        "weight": 0.8865
+      },
+      {
+        "attribute": "high",
+        "category": "scale_intensity",
+        "weight": 4.5312
+      },
+      {
+        "attribute": "just",
+        "category": "moral_evaluation",
+        "weight": 0.28855
+      },
+      {
+        "attribute": "little",
+        "category": "scale_intensity",
+        "weight": 2.1094
+      },
+      {
+        "attribute": "long",
+        "category": "scale_intensity",
+        "weight": 2.6865
+      },
+      {
+        "attribute": "mighty",
+        "category": "scale_intensity",
+        "weight": 5.6357
+      },
+      {
+        "attribute": "narrow",
+        "category": "scale_intensity",
+        "weight": 0.5771
+      },
+      {
+        "attribute": "old",
+        "category": "appearance_age",
+        "weight": 0.5771
+      },
+      {
+        "attribute": "rosy-fingered",
+        "category": "color_complex",
+        "weight": 1.7194
+      },
+      {
+        "attribute": "shameless",
+        "category": "moral_evaluation",
+        "weight": 0.8358
+      },
+      {
+        "attribute": "shining",
+        "category": "luminosity",
+        "weight": 0.86565
+      },
+      {
+        "attribute": "silver",
+        "category": "color_material",
+        "weight": 0.5771
+      },
+      {
+        "attribute": "strong",
+        "category": "agency_capacity",
+        "weight": 0.9552
+      },
+      {
+        "attribute": "valiant",
+        "category": "agency_capacity",
+        "weight": 0.8358
+      },
+      {
+        "attribute": "white",
+        "category": "color_hue",
+        "weight": 0.5771
+      },
+      {
+        "attribute": "wise",
+        "category": "cognitive_evaluation",
+        "weight": 46.28145
+      },
+      {
+        "attribute": "woeful",
+        "category": "affect_state",
+        "weight": 0.5771
+      }
+    ],
+    "TROJANS": [
+      {
+        "attribute": "bronze",
+        "category": "color_material",
+        "weight": 0.7363
+      },
+      {
+        "attribute": "good",
+        "category": "moral_evaluation",
+        "weight": 0.8865
+      }
+    ],
+    "TROY": [
+      {
+        "attribute": "evil",
+        "category": "moral_evaluation",
+        "weight": 2.8656
+      },
+      {
+        "attribute": "long",
+        "category": "scale_intensity",
+        "weight": 0.9552
+      },
+      {
+        "attribute": "sacred",
+        "category": "moral_evaluation",
+        "weight": 2.388
+      },
+      {
+        "attribute": "shining",
+        "category": "luminosity",
+        "weight": 0.9552
+      },
+      {
+        "attribute": "wide",
+        "category": "scale_intensity",
+        "weight": 2.5791
+      }
+    ],
+    "WAR": [
+      {
+        "attribute": "bold",
+        "category": "behavior_disposition",
+        "weight": 0.8597
+      },
+      {
+        "attribute": "bronze",
+        "category": "color_material",
+        "weight": 0.9552
+      },
+      {
+        "attribute": "evil",
+        "category": "moral_evaluation",
+        "weight": 2.8656
+      },
+      {
+        "attribute": "fair",
+        "category": "appearance_age",
+        "weight": 1.8149
+      },
+      {
+        "attribute": "gray-eyed",
+        "category": "color_complex",
+        "weight": 0.8597
+      },
+      {
+        "attribute": "great",
+        "category": "scale_intensity",
+        "weight": 1.8149
+      },
+      {
+        "attribute": "steadfast",
+        "category": "behavior_disposition",
+        "weight": 0.9552
+      },
+      {
+        "attribute": "strong",
+        "category": "agency_capacity",
+        "weight": 1.9104
+      },
+      {
+        "attribute": "valiant",
+        "category": "agency_capacity",
+        "weight": 0.4776
+      }
+    ],
+    "WINE": [
+      {
+        "attribute": "dark",
+        "category": "color_hue",
+        "weight": 11.1759
+      },
+      {
+        "attribute": "divine",
+        "category": "moral_evaluation",
+        "weight": 0.8358
+      },
+      {
+        "attribute": "glad",
+        "category": "affect_state",
+        "weight": 0.8865
+      },
+      {
+        "attribute": "golden",
+        "category": "color_material",
+        "weight": 3.1641
+      },
+      {
+        "attribute": "great",
+        "category": "scale_intensity",
+        "weight": 1.6716
+      },
+      {
+        "attribute": "long",
+        "category": "scale_intensity",
+        "weight": 0.7522
+      },
+      {
+        "attribute": "old",
+        "category": "appearance_age",
+        "weight": 0.7363
+      },
+      {
+        "attribute": "peaceful",
+        "category": "behavior_disposition",
+        "weight": 0.4179
+      },
+      {
+        "attribute": "red",
+        "category": "color_hue",
+        "weight": 8.5013
+      },
+      {
+        "attribute": "silver",
+        "category": "color_material",
+        "weight": 1.6915
+      },
+      {
+        "attribute": "yellow",
+        "category": "color_hue",
+        "weight": 0.9552
+      }
+    ],
+    "ZEUS": [
+      {
+        "attribute": "ancient",
+        "category": "appearance_age",
+        "weight": 0.5771
+      },
+      {
+        "attribute": "angry",
+        "category": "affect_state",
+        "weight": 0.8865
+      },
+      {
+        "attribute": "ashen",
+        "category": "color_complex",
+        "weight": 0.5771
+      },
+      {
+        "attribute": "beautiful",
+        "category": "appearance_age",
+        "weight": 0.5771
+      },
+      {
+        "attribute": "bitter",
+        "category": "affect_state",
+        "weight": 0.5771
+      },
+      {
+        "attribute": "bright",
+        "category": "luminosity",
+        "weight": 0.5771
+      },
+      {
+        "attribute": "bronze",
+        "category": "color_material",
+        "weight": 1.7313
+      },
+      {
+        "attribute": "cruel",
+        "category": "moral_evaluation",
+        "weight": 0.8358
+      },
+      {
+        "attribute": "cunning",
+        "category": "cognitive_evaluation",
+        "weight": 0.5771
+      },
+      {
+        "attribute": "divine",
+        "category": "moral_evaluation",
+        "weight": 0.5771
+      },
+      {
+        "attribute": "evil",
+        "category": "moral_evaluation",
+        "weight": 6.29825
+      },
+      {
+        "attribute": "fair",
+        "category": "appearance_age",
+        "weight": 6.6068
+      },
+      {
+        "attribute": "free",
+        "category": "social_status",
+        "weight": 1.44275
+      },
+      {
+        "attribute": "glad",
+        "category": "affect_state",
+        "weight": 1.773
+      },
+      {
+        "attribute": "godlike",
+        "category": "moral_evaluation",
+        "weight": 0.5771
+      },
+      {
+        "attribute": "gold",
+        "category": "color_material",
+        "weight": 1.1542
+      },
+      {
+        "attribute": "golden",
+        "category": "color_material",
+        "weight": 2.1651
+      },
+      {
+        "attribute": "good",
+        "category": "moral_evaluation",
+        "weight": 7.5779
+      },
+      {
+        "attribute": "gray-eyed",
+        "category": "color_complex",
+        "weight": 0.8597
+      },
+      {
+        "attribute": "great",
+        "category": "scale_intensity",
+        "weight": 10.9132
+      },
+      {
+        "attribute": "high",
+        "category": "scale_intensity",
+        "weight": 3.6616
+      },
+      {
+        "attribute": "honest",
+        "category": "moral_evaluation",
+        "weight": 0.28855
+      },
+      {
+        "attribute": "hospitable",
+        "category": "behavior_disposition",
+        "weight": 0.8865
+      },
+      {
+        "attribute": "huge",
+        "category": "scale_intensity",
+        "weight": 0.5771
+      },
+      {
+        "attribute": "little",
+        "category": "scale_intensity",
+        "weight": 2.10935
+      },
+      {
+        "attribute": "long",
+        "category": "scale_intensity",
+        "weight": 4.24365
+      },
+      {
+        "attribute": "mighty",
+        "category": "scale_intensity",
+        "weight": 7.3511
+      },
+      {
+        "attribute": "noble",
+        "category": "moral_evaluation",
+        "weight": 0.28855
+      },
+      {
+        "attribute": "old",
+        "category": "appearance_age",
+        "weight": 2.59695
+      },
+      {
+        "attribute": "sacred",
+        "category": "moral_evaluation",
+        "weight": 1.1542
+      },
+      {
+        "attribute": "shining",
+        "category": "luminosity",
+        "weight": 0.5771
+      },
+      {
+        "attribute": "silver",
+        "category": "color_material",
+        "weight": 1.1542
+      },
+      {
+        "attribute": "strong",
+        "category": "agency_capacity",
+        "weight": 1.7313
+      },
+      {
+        "attribute": "tall",
+        "category": "appearance_age",
+        "weight": 1.1542
+      },
+      {
+        "attribute": "warlike",
+        "category": "behavior_disposition",
+        "weight": 0.5771
+      },
+      {
+        "attribute": "white",
+        "category": "color_hue",
+        "weight": 1.1542
+      },
+      {
+        "attribute": "wise",
+        "category": "cognitive_evaluation",
+        "weight": 2.77405
+      },
+      {
+        "attribute": "young",
+        "category": "appearance_age",
+        "weight": 0.5771
+      }
+    ]
+  },
+  "incidence_weight": "sum of event extraction confidences; negated events multiplied by 0.5"
+}
