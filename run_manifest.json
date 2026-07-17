@@ -1,8 +1,8 @@
 {
   "project_title": "Attributional Semantics in English Translations of Homer’s Odyssey: Color, Character, and Hypergraphs",
   "pipeline_version": "0.1.0",
-  "started_utc": "2026-07-17T12:45:39.941145+00:00",
-  "completed_utc": "2026-07-17T12:46:45.326330+00:00",
+  "started_utc": "2026-07-17T12:54:16.730382+00:00",
+  "completed_utc": "2026-07-17T12:55:23.432732+00:00",
   "random_seed": 20260717,
   "python": "3.12.3 (main, Mar 23 2026, 19:04:32) [GCC 13.3.0]",
   "platform": "Linux-6.1.102-x86_64-with-glibc2.39",
@@ -17,7 +17,7 @@
     "tabulate": "0.9.0",
     "pytest": "8.4.1"
   },
-  "git_commit": "4a8e944523cc08cad61f74ff1cd4c528ce463160",
+  "git_commit": "03ee9fdad399719e7c150ecbac5c19c644f15ad8",
   "counts": {
     "translations": 6,
     "books": 144,
@@ -453,7 +453,7 @@
     {
       "path": "outputs/tables/hypergraph_similarity.csv",
       "bytes": 1661,
-      "sha256": "f1c718e1ffda12883eae63595e7bc1e5816c4aa5a0dcf2cf5f91de25bdc284b7"
+      "sha256": "e49a6b0bafd0116c70f3a7b7e3ba2117479a0eee9a7dabfaf6c4b628194ae911"
     },
     {
       "path": "outputs/tables/lexical_distinctiveness.csv",
@@ -487,8 +487,8 @@
     },
     {
       "path": "scripts/validate_release.py",
-      "bytes": 5000,
-      "sha256": "67b6e913da0264101129a8a4d676b5c5a3a2a424086ee715dced9ad8c676e0a8"
+      "bytes": 5316,
+      "sha256": "111374f641cb6f3964af8249b6c830e7751d7bb0f10b98ce02e4bb183fd14373"
     },
     {
       "path": "src/odyssey_attr/__init__.py",
@@ -517,8 +517,8 @@
     },
     {
       "path": "src/odyssey_attr/hypergraph.py",
-      "bytes": 9182,
-      "sha256": "a544c352c3df60048c8d34b04f3164d5577ec4b9444066f79809fcb8b6d430e5"
+      "bytes": 9243,
+      "sha256": "1a4a2c044c5b7d78a687c9fb7497e0e1ad7cdf0117a0bc69a34a69d015419cac"
     },
     {
       "path": "src/odyssey_attr/pipeline.py",
