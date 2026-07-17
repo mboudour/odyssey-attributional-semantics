@@ -116,28 +116,45 @@ def _slice_by_word_counts(text: str, counts: list[int]) -> list[str]:
 
 
 def segment_gutenberg(entry: dict, root: Path) -> list[BookText]:
+    """Segment validated Project Gutenberg derivatives by explicit book markers.
+
+    The preparation step writes ``<<<BOOK_XX>>>`` boundaries into every retained
+    derivative.  These character-level anchors are authoritative; provenance
+    token counts were produced by a different tokenizer and are diagnostics,
+    not slicing coordinates.
+    """
     source_path = root / entry["prepared_text"]
     provenance_path = root / entry["book_provenance"]
     raw = normalize_text(source_path.read_text(encoding="utf-8"))
     provenance = load_json(provenance_path)
-    counts = [int(item["word_tokens"]) for item in provenance]
-    if len(counts) != 24:
+    if len(provenance) != 24:
         raise ValueError(f"{entry['id']} provenance does not contain 24 books")
-    chunks = _slice_by_word_counts(raw, counts)
-    return [
-        BookText(
-            translation_id=entry["id"],
-            translator=entry["translator"],
-            year=int(entry["year"]),
-            form=entry["form"],
-            book=index,
-            text=chunk,
-            word_count=len(words(chunk)),
-            segmentation_method="validated_epub_spine_word_counts",
-            segmentation_confidence=0.99,
+
+    markers = list(re.finditer(r"(?m)^<<<BOOK_(\d{2})>>>\s*$", raw))
+    observed = [int(match.group(1)) for match in markers]
+    if observed != list(range(1, 25)):
+        raise ValueError(f"{entry['id']} prepared text has invalid book markers: {observed}")
+
+    books: list[BookText] = []
+    for offset, marker in enumerate(markers):
+        end = markers[offset + 1].start() if offset < 23 else len(raw)
+        chunk = raw[marker.end() : end].strip()
+        if len(words(chunk)) < 500:
+            raise ValueError(f"{entry['id']} book {offset + 1} is implausibly short")
+        books.append(
+            BookText(
+                translation_id=entry["id"],
+                translator=entry["translator"],
+                year=int(entry["year"]),
+                form=entry["form"],
+                book=offset + 1,
+                text=chunk,
+                word_count=len(words(chunk)),
+                segmentation_method="validated_explicit_book_markers",
+                segmentation_confidence=0.995,
+            )
         )
-        for index, chunk in enumerate(chunks, start=1)
-    ]
+    return books
 
 
 def segment_butler(entry: dict, root: Path) -> list[BookText]:

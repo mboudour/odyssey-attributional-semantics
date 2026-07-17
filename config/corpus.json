@@ -10,6 +10,7 @@
       "book_provenance": "data/interim/seed_prepared_text/gutenberg_additions/Homer_Odyssey_Chapman_PG48895_book_provenance.json",
       "source_file": "data/raw/translations/Homer_Odyssey_Chapman_PG48895.epub",
       "source_url": "https://www.gutenberg.org/ebooks/48895",
+      "rights_status": "public_domain_us",
       "rights": "Project Gutenberg public-domain release"
     },
     {
@@ -21,6 +22,7 @@
       "book_provenance": "data/interim/seed_prepared_text/gutenberg_additions/Homer_Odyssey_Pope_PG3160_book_provenance.json",
       "source_file": "data/raw/translations/Homer_Odyssey_Pope_PG3160.epub",
       "source_url": "https://www.gutenberg.org/ebooks/3160",
+      "rights_status": "public_domain_us",
       "rights": "Project Gutenberg public-domain release"
     },
     {
@@ -32,6 +34,7 @@
       "book_provenance": "data/interim/seed_prepared_text/gutenberg_additions/Homer_Odyssey_Cowper_PG24269_book_provenance.json",
       "source_file": "data/raw/translations/Homer_Odyssey_Cowper_PG24269.epub",
       "source_url": "https://www.gutenberg.org/ebooks/24269",
+      "rights_status": "public_domain_us",
       "rights": "Project Gutenberg public-domain release"
     },
     {
@@ -43,6 +46,7 @@
       "book_provenance": "data/interim/seed_prepared_text/gutenberg_additions/Homer_Odyssey_Butcher_Lang_PG1728_book_provenance.json",
       "source_file": "data/raw/translations/Homer_Odyssey_Butcher_Lang_PG1728.epub",
       "source_url": "https://www.gutenberg.org/ebooks/1728",
+      "rights_status": "public_domain_us",
       "rights": "Project Gutenberg public-domain release"
     },
     {
@@ -53,6 +57,7 @@
       "prepared_text": "data/interim/seed_prepared_text/butler_1900_raw_spine.txt",
       "source_file": "data/raw/translations/Homer_Odyssey_Butler_1900_ProjectGutenberg.epub",
       "source_url": "https://www.gutenberg.org/ebooks/1727",
+      "rights_status": "public_domain_us",
       "rights": "Project Gutenberg public-domain release"
     },
     {
@@ -66,6 +71,7 @@
         "data/raw/translations/Homer_Odyssey_Murray_1919_Vol2.pdf"
       ],
       "source_url": "https://archive.org/details/odysseywithengli01homeuoft",
+      "rights_status": "public_domain_us",
       "rights": "Public-domain 1919 Loeb edition; OCR-derived English-page text",
       "quality_note": "OCR noise is explicitly measured and propagated through confidence scores."
     }
@@ -75,6 +81,7 @@
     "title": "L’Odissea",
     "year": 1911,
     "subtitle": "data/raw/audiovisual/public_subtitles/lodissea_1911_en.srt",
+    "rights_status": "public_domain_film_cc_by_sa_subtitles",
     "rights": "Film public domain; English timed text CC BY-SA 4.0",
     "role": "Exploratory screen-adaptation extension, excluded from translation trend models."
   }

@@ -13,7 +13,7 @@ def test_corpus_registry_contains_six_rights_safe_translations() -> None:
     registry = json.loads((ROOT / "config" / "corpus.json").read_text(encoding="utf-8"))
     assert len(registry["translations"]) == 6
     assert all(item["rights_status"] == "public_domain_us" for item in registry["translations"])
-    assert {item["translation_id"] for item in registry["translations"]} == {
+    assert {item["id"] for item in registry["translations"]} == {
         "chapman_1616",
         "pope_1726",
         "cowper_1791",
@@ -48,10 +48,9 @@ def test_common_passage_grid_and_event_schema() -> None:
     assert all(0 < event.extraction_confidence <= 1 for event in events)
     assert all(event.target and event.attribute and event.category for event in events)
     assert {event.relation for event in events} <= {
-        "predicate_copular",
-        "attributive_pre_nominal",
-        "attributive_post_nominal",
-        "appositive_epithet",
-        "pronoun_copular",
-        "inverse_copular",
+        "prepositive_modifier",
+        "copular_predicate",
+        "postpositive_apposition",
+        "local_apposition",
+        "pronoun_carryover",
     }
