@@ -1,6 +1,10 @@
 # Attributional Semantics in English Translations of Homer’s *Odyssey*: Color, Character, and Hypergraphs
-Moses Boudourides<br>
-Project in Progress
+
+## **Moses Boudourides**
+
+## *Project in Progress*
+
+---
 
 This repository provides a **rights-safe, reproducible computational research package** for comparing color-related and evaluative adjective–noun attributions across six public-domain English translations of Homer’s *Odyssey*. The pipeline uses poem-only prepared text, native Book I–XXIV comparison anchors, rule-based attribution extraction, confidence-weighted statistics, memory-bounded contextual semantics, and weighted multilayer hypergraphs.
 
@@ -17,7 +21,7 @@ The distributable corpus contains six complete English translations whose source
 | `butler_1900` | Samuel Butler | 1900 | Prose | Public domain in the United States |
 | `murray_1919` | A. T. Murray | 1919 | Prose | Public domain in the United States |
 
-The project intends to extend its audiovisual component to include a transcript of Christopher Nolan’s The Odyssey if an official transcript becomes publicly available under terms that permit scholarly reuse and repository distribution. Until then, the documented audiovisual component consists of the English subtitle files for L’Odissea (1911), distributed under CC BY-SA 4.0, which serve as an auditable placeholder. This material is retained as a placeholder and is not pooled with the six-translation estimands in the main pipeline.
+The project intends to extend its audiovisual component to include a transcript of Christopher Nolan’s 2026 film "The Odyssey" if an official transcript becomes publicly available under terms that permit scholarly reuse and repository distribution. Until then, the documented audiovisual component consists of the English subtitle files for L’Odissea (1911), distributed under CC BY-SA 4.0, which serve as an auditable placeholder and, thus, it is not pooled with the six-translation estimands in the main pipeline.
 
 ## Methods
 
@@ -97,3 +101,9 @@ The authoritative registry in `config/corpus.json`, the decision log in `docs/co
 ## Repository status
 
 The project is designed for a private GitHub repository named `odyssey-attributional-semantics`. Authentication secrets must never be stored in source files, command history, documentation, archives, or chat transcripts.
+
+## Copyright
+
+© 2026 Moses Boudourides. All rights reserved.
+
+This repository and its contents are made available for academic peer review purposes only. No part of this work may be reproduced, distributed, or used in any form without the express written permission of the authors.
