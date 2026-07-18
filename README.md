@@ -1,5 +1,7 @@
 # Attributional Semantics in English Translations of Homer’s *Odyssey*: Color, Character, and Hypergraphs
 
+**Manuscript:** [Read or download the PDF](Manuscript/manuscript.pdf)
+
 ## **Moses Boudourides**
 
 ## *Project in Progress*
